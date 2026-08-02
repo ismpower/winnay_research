@@ -1,0 +1,361 @@
+./corrected_comprehensive_parser.py-443-                    if purity < 100:
+./corrected_comprehensive_parser.py-444-                        composition['Impurities'] = 100.0 - purity
+./corrected_comprehensive_parser.py:445:                    quality_flags.append(f"purity_adjusted_{purity}%")
+./corrected_comprehensive_parser.py-446-                else:
+./corrected_comprehensive_parser.py-447-                    composition = {'Al': base_al, 'O': base_o}
+--
+./enhanced_e3_parser.py-334-                if purity < 100:
+./enhanced_e3_parser.py-335-                    composition['Impurities'] = 100.0 - purity
+./enhanced_e3_parser.py:336:                quality_flags.append(f"purity_adjusted_{purity}%")
+./enhanced_e3_parser.py-337-            else:
+./enhanced_e3_parser.py-338-                composition = {'Al': base_al, 'O': base_o}
+--
+./comprehensive_e3_parser.py-482-                    if purity < 100:
+./comprehensive_e3_parser.py-483-                        composition['Impurities'] = 100.0 - purity
+./comprehensive_e3_parser.py:484:                    quality_flags.append(f"purity_adjusted_{purity}%")
+./comprehensive_e3_parser.py-485-                else:
+./comprehensive_e3_parser.py-486-                    composition = {'Al': base_al, 'O': base_o}
+--
+./E3_Project/e3_engine/corrected_e3_parser.py-443-                    if purity < 100:
+./E3_Project/e3_engine/corrected_e3_parser.py-444-                        composition['Impurities'] = 100.0 - purity
+./E3_Project/e3_engine/corrected_e3_parser.py:445:                    quality_flags.append(f"purity_adjusted_{purity}%")
+./E3_Project/e3_engine/corrected_e3_parser.py-446-                else:
+./E3_Project/e3_engine/corrected_e3_parser.py-447-                    composition = {'Al': base_al, 'O': base_o}
+--
+./E3_Project/e3_engine/final_enhanced_parser_2.py-334-                if purity < 100:
+./E3_Project/e3_engine/final_enhanced_parser_2.py-335-                    composition['Impurities'] = 100.0 - purity
+./E3_Project/e3_engine/final_enhanced_parser_2.py:336:                quality_flags.append(f"purity_adjusted_{purity}%")
+./E3_Project/e3_engine/final_enhanced_parser_2.py-337-            else:
+./E3_Project/e3_engine/final_enhanced_parser_2.py-338-                composition = {'Al': base_al, 'O': base_o}
+--
+./E3_Project/e3_engine/comprehensive_e3_parser.py-482-                    if purity < 100:
+./E3_Project/e3_engine/comprehensive_e3_parser.py-483-                        composition['Impurities'] = 100.0 - purity
+./E3_Project/e3_engine/comprehensive_e3_parser.py:484:                    quality_flags.append(f"purity_adjusted_{purity}%")
+./E3_Project/e3_engine/comprehensive_e3_parser.py-485-                else:
+./E3_Project/e3_engine/comprehensive_e3_parser.py-486-                    composition = {'Al': base_al, 'O': base_o}
+--
+./E3_CURRENT_PRODUCTION/e3_engine/corrected_e3_parser.py-443-                    if purity < 100:
+./E3_CURRENT_PRODUCTION/e3_engine/corrected_e3_parser.py-444-                        composition['Impurities'] = 100.0 - purity
+./E3_CURRENT_PRODUCTION/e3_engine/corrected_e3_parser.py:445:                    quality_flags.append(f"purity_adjusted_{purity}%")
+./E3_CURRENT_PRODUCTION/e3_engine/corrected_e3_parser.py-446-                else:
+./E3_CURRENT_PRODUCTION/e3_engine/corrected_e3_parser.py-447-                    composition = {'Al': base_al, 'O': base_o}
+--
+./E3_CURRENT_PRODUCTION/e3_engine/final_enhanced_parser_2.py-334-                if purity < 100:
+./E3_CURRENT_PRODUCTION/e3_engine/final_enhanced_parser_2.py-335-                    composition['Impurities'] = 100.0 - purity
+./E3_CURRENT_PRODUCTION/e3_engine/final_enhanced_parser_2.py:336:                quality_flags.append(f"purity_adjusted_{purity}%")
+./E3_CURRENT_PRODUCTION/e3_engine/final_enhanced_parser_2.py-337-            else:
+./E3_CURRENT_PRODUCTION/e3_engine/final_enhanced_parser_2.py-338-                composition = {'Al': base_al, 'O': base_o}
+--
+./E3_CURRENT_PRODUCTION/e3_engine/comprehensive_e3_parser.py-482-                    if purity < 100:
+./E3_CURRENT_PRODUCTION/e3_engine/comprehensive_e3_parser.py-483-                        composition['Impurities'] = 100.0 - purity
+./E3_CURRENT_PRODUCTION/e3_engine/comprehensive_e3_parser.py:484:                    quality_flags.append(f"purity_adjusted_{purity}%")
+./E3_CURRENT_PRODUCTION/e3_engine/comprehensive_e3_parser.py-485-                else:
+./E3_CURRENT_PRODUCTION/e3_engine/comprehensive_e3_parser.py-486-                    composition = {'Al': base_al, 'O': base_o}
+--
+./CLEAN_WORKSPACE/e3_engine/e3_engine/corrected_e3_parser.py-443-                    if purity < 100:
+./CLEAN_WORKSPACE/e3_engine/e3_engine/corrected_e3_parser.py-444-                        composition['Impurities'] = 100.0 - purity
+./CLEAN_WORKSPACE/e3_engine/e3_engine/corrected_e3_parser.py:445:                    quality_flags.append(f"purity_adjusted_{purity}%")
+./CLEAN_WORKSPACE/e3_engine/e3_engine/corrected_e3_parser.py-446-                else:
+./CLEAN_WORKSPACE/e3_engine/e3_engine/corrected_e3_parser.py-447-                    composition = {'Al': base_al, 'O': base_o}
+--
+./CLEAN_WORKSPACE/e3_engine/e3_engine/final_enhanced_parser_2.py-334-                if purity < 100:
+./CLEAN_WORKSPACE/e3_engine/e3_engine/final_enhanced_parser_2.py-335-                    composition['Impurities'] = 100.0 - purity
+./CLEAN_WORKSPACE/e3_engine/e3_engine/final_enhanced_parser_2.py:336:                quality_flags.append(f"purity_adjusted_{purity}%")
+./CLEAN_WORKSPACE/e3_engine/e3_engine/final_enhanced_parser_2.py-337-            else:
+./CLEAN_WORKSPACE/e3_engine/e3_engine/final_enhanced_parser_2.py-338-                composition = {'Al': base_al, 'O': base_o}
+--
+./CLEAN_WORKSPACE/e3_engine/e3_engine/comprehensive_e3_parser.py-482-                    if purity < 100:
+./CLEAN_WORKSPACE/e3_engine/e3_engine/comprehensive_e3_parser.py-483-                        composition['Impurities'] = 100.0 - purity
+./CLEAN_WORKSPACE/e3_engine/e3_engine/comprehensive_e3_parser.py:484:                    quality_flags.append(f"purity_adjusted_{purity}%")
+./CLEAN_WORKSPACE/e3_engine/e3_engine/comprehensive_e3_parser.py-485-                else:
+./CLEAN_WORKSPACE/e3_engine/e3_engine/comprehensive_e3_parser.py-486-                    composition = {'Al': base_al, 'O': base_o}
+--
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Analysis.py-20-# Entropy-modified Bekenstein-Hawking entropy (introducing correction post-equilibrium)
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Analysis.py-21-f_S_mod = 1.16549612154152e-23  # Previously determined scaling entropy correction
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Analysis.py:22:S_BH_modified_values = f_S_mod + S_BH_standard_values  # Adjusted values
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Analysis.py-23-
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Analysis.py-24-# Compute percentage difference at different points
+--
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_Model.py-14-r_s_eq = sp.Eq(r_s, (2 * G * M) / c**2)
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_Model.py-15-
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_Model.py:16:# Bekenstein-Hawking entropy equation for a black hole (corrected formula)
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_Model.py-17-S_BH_eq = sp.Eq(S_BH, (k_B * 4 * pi * sp.Pow(r_s, 2)) / (hbar * G / c**3))
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_Model.py-18-
+--
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py-13-L_H_standard = 1.12357230604549e+33 / (np.pi * M_solar**2)
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py-14-
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py:15:# Entropy-Modified Model with Post-Equilibrium Scaling
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py-16-f_S_mod_base = 1.16549612154152e-23
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py-17-alpha = np.ones_like(M_solar)
+--
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py-28-# Plot Temperature Comparison
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py-29-axs[0].loglog(M_solar, T_H_standard, label='Standard Model', color='blue')
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py:30:axs[0].loglog(M_solar, T_H_modified, '--', label='Entropy-Modified Model (Scaling Applied Post-Equilibrium)', color='cyan')
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py-31-axs[0].axvline(M_eq, linestyle='dotted', color='black', label='Equilibrium Threshold')
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py-32-axs[0].set_xlabel("Black Hole Mass (Solar Masses)")
+--
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py-38-# Plot Luminosity Comparison
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py-39-axs[1].loglog(M_solar, L_H_standard, label='Standard Model', color='red')
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py:40:axs[1].loglog(M_solar, L_H_modified, '--', label='Entropy-Modified Model (Scaling Applied Post-Equilibrium)', color='salmon')
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py-41-axs[1].axvline(M_eq, linestyle='dotted', color='black', label='Equilibrium Threshold')
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py-42-axs[1].set_xlabel("Black Hole Mass (Solar Masses)")
+--
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Fix.py-19-# **New Entropy-Driven Temperature Equation**
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Fix.py-20-# Instead of modifying temperature separately, derive it as a function of entropy
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Fix.py:21:T_H_eq = sp.Eq(T_H, (hbar * c**3) / (8 * pi * G * M) * (S_BH / k_B))  # Adjusted scaling
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Fix.py-22-
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Fix.py-23-# Hawking radiation luminosity equation
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Fix.py:24:L_H_eq = sp.Eq(L_H, (hbar * c**6) / (15360 * pi * G**2 * M**2) * (S_BH / k_B))  # Adjusted scaling
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Fix.py-25-
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Fix.py-26-# Define new entropy function f_S dynamically
+--
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Post Equilibrium.py-13-L_H_standard = 1.12357230604549e+33 / (np.pi * M_solar**2)
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Post Equilibrium.py-14-
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Post Equilibrium.py:15:# Entropy-Modified Model with Post-Equilibrium Scaling
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Post Equilibrium.py-16-f_S_mod_base = 1.16549612154152e-23
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Post Equilibrium.py-17-alpha = np.ones_like(M_solar)
+--
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Post Equilibrium.py-28-# Plot Temperature Comparison
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Post Equilibrium.py-29-axs[0].loglog(M_solar, T_H_standard, label='Standard Model', color='blue')
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Post Equilibrium.py:30:axs[0].loglog(M_solar, T_H_modified, '--', label='Entropy-Modified Model (Scaling Applied Post-Equilibrium)', color='cyan')
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Post Equilibrium.py-31-axs[0].axvline(M_eq, linestyle='dotted', color='black', label='Equilibrium Threshold')
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Post Equilibrium.py-32-axs[0].set_xlabel("Black Hole Mass (Solar Masses)")
+--
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Post Equilibrium.py-38-# Plot Luminosity Comparison
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Post Equilibrium.py-39-axs[1].loglog(M_solar, L_H_standard, label='Standard Model', color='red')
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Post Equilibrium.py:40:axs[1].loglog(M_solar, L_H_modified, '--', label='Entropy-Modified Model (Scaling Applied Post-Equilibrium)', color='salmon')
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Post Equilibrium.py-41-axs[1].axvline(M_eq, linestyle='dotted', color='black', label='Equilibrium Threshold')
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Post Equilibrium.py-42-axs[1].set_xlabel("Black Hole Mass (Solar Masses)")
+--
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Temperature Fix.py-19-# **New Entropy-Driven Temperature Equation**
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Temperature Fix.py-20-# Instead of modifying temperature separately, derive it as a function of entropy
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Temperature Fix.py:21:T_H_eq = sp.Eq(T_H, (hbar * c**3) / (8 * pi * G * M) * (S_BH / k_B))  # Adjusted scaling
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Temperature Fix.py-22-
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Temperature Fix.py-23-# Hawking radiation luminosity equation
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Temperature Fix.py:24:L_H_eq = sp.Eq(L_H, (hbar * c**6) / (15360 * pi * G**2 * M**2) * (S_BH / k_B))  # Adjusted scaling
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Temperature Fix.py-25-
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Temperature Fix.py-26-# Define new entropy function f_S dynamically
+--
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Blackhole Model.py-14-r_s_eq = sp.Eq(r_s, (2 * G * M) / c**2)
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Blackhole Model.py-15-
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Blackhole Model.py:16:# Bekenstein-Hawking entropy equation for a black hole (corrected formula)
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Blackhole Model.py-17-S_BH_eq = sp.Eq(S_BH, (k_B * 4 * pi * sp.Pow(r_s, 2)) / (hbar * G / c**3))
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Blackhole Model.py-18-
+--
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Analysis.py-20-# Entropy-modified Bekenstein-Hawking entropy (introducing correction post-equilibrium)
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Analysis.py-21-f_S_mod = 1.16549612154152e-23  # Previously determined scaling entropy correction
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Analysis.py:22:S_BH_modified_values = f_S_mod + S_BH_standard_values  # Adjusted values
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Analysis.py-23-
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Scaling Analysis.py-24-# Compute percentage difference at different points
+--
+./CLEAN_WORKSPACE/E3_project_rev1/e3_engine/e3_engine/corrected_e3_parser.py-443-                    if purity < 100:
+./CLEAN_WORKSPACE/E3_project_rev1/e3_engine/e3_engine/corrected_e3_parser.py-444-                        composition['Impurities'] = 100.0 - purity
+./CLEAN_WORKSPACE/E3_project_rev1/e3_engine/e3_engine/corrected_e3_parser.py:445:                    quality_flags.append(f"purity_adjusted_{purity}%")
+./CLEAN_WORKSPACE/E3_project_rev1/e3_engine/e3_engine/corrected_e3_parser.py-446-                else:
+./CLEAN_WORKSPACE/E3_project_rev1/e3_engine/e3_engine/corrected_e3_parser.py-447-                    composition = {'Al': base_al, 'O': base_o}
+--
+./CLEAN_WORKSPACE/E3_project_rev1/e3_engine/e3_engine/final_enhanced_parser_2.py-334-                if purity < 100:
+./CLEAN_WORKSPACE/E3_project_rev1/e3_engine/e3_engine/final_enhanced_parser_2.py-335-                    composition['Impurities'] = 100.0 - purity
+./CLEAN_WORKSPACE/E3_project_rev1/e3_engine/e3_engine/final_enhanced_parser_2.py:336:                quality_flags.append(f"purity_adjusted_{purity}%")
+./CLEAN_WORKSPACE/E3_project_rev1/e3_engine/e3_engine/final_enhanced_parser_2.py-337-            else:
+./CLEAN_WORKSPACE/E3_project_rev1/e3_engine/e3_engine/final_enhanced_parser_2.py-338-                composition = {'Al': base_al, 'O': base_o}
+--
+./CLEAN_WORKSPACE/E3_project_rev1/e3_engine/e3_engine/comprehensive_e3_parser.py-482-                    if purity < 100:
+./CLEAN_WORKSPACE/E3_project_rev1/e3_engine/e3_engine/comprehensive_e3_parser.py-483-                        composition['Impurities'] = 100.0 - purity
+./CLEAN_WORKSPACE/E3_project_rev1/e3_engine/e3_engine/comprehensive_e3_parser.py:484:                    quality_flags.append(f"purity_adjusted_{purity}%")
+./CLEAN_WORKSPACE/E3_project_rev1/e3_engine/e3_engine/comprehensive_e3_parser.py-485-                else:
+./CLEAN_WORKSPACE/E3_project_rev1/e3_engine/e3_engine/comprehensive_e3_parser.py-486-                    composition = {'Al': base_al, 'O': base_o}
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-13-L_H_standard = 1.12357230604549e+33 / (np.pi * M_solar**2)
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-14-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py:15:# Entropy-Modified Model with Post-Equilibrium Scaling
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-16-f_S_mod_base = 1.16549612154152e-23
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-17-alpha = np.ones_like(M_solar)
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-28-# Plot Temperature Comparison
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-29-axs[0].loglog(M_solar, T_H_standard, label='Standard Model', color='blue')
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py:30:axs[0].loglog(M_solar, T_H_modified, '--', label='Entropy-Modified Model (Scaling Applied Post-Equilibrium)', color='cyan')
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-31-axs[0].axvline(M_eq, linestyle='dotted', color='black', label='Equilibrium Threshold')
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-32-axs[0].set_xlabel("Black Hole Mass (Solar Masses)")
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-38-# Plot Luminosity Comparison
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-39-axs[1].loglog(M_solar, L_H_standard, label='Standard Model', color='red')
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py:40:axs[1].loglog(M_solar, L_H_modified, '--', label='Entropy-Modified Model (Scaling Applied Post-Equilibrium)', color='salmon')
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-41-axs[1].axvline(M_eq, linestyle='dotted', color='black', label='Equilibrium Threshold')
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-42-axs[1].set_xlabel("Black Hole Mass (Solar Masses)")
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Temperature Fix.py-19-# **New Entropy-Driven Temperature Equation**
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Temperature Fix.py-20-# Instead of modifying temperature separately, derive it as a function of entropy
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Temperature Fix.py:21:T_H_eq = sp.Eq(T_H, (hbar * c**3) / (8 * pi * G * M) * (S_BH / k_B))  # Adjusted scaling
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Temperature Fix.py-22-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Temperature Fix.py-23-# Hawking radiation luminosity equation
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Temperature Fix.py:24:L_H_eq = sp.Eq(L_H, (hbar * c**6) / (15360 * pi * G**2 * M**2) * (S_BH / k_B))  # Adjusted scaling
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Temperature Fix.py-25-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Temperature Fix.py-26-# Define new entropy function f_S dynamically
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Blackhole Model.py-14-r_s_eq = sp.Eq(r_s, (2 * G * M) / c**2)
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Blackhole Model.py-15-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Blackhole Model.py:16:# Bekenstein-Hawking entropy equation for a black hole (corrected formula)
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Blackhole Model.py-17-S_BH_eq = sp.Eq(S_BH, (k_B * 4 * pi * sp.Pow(r_s, 2)) / (hbar * G / c**3))
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Blackhole Model.py-18-
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Analysis.py-20-# Entropy-modified Bekenstein-Hawking entropy (introducing correction post-equilibrium)
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Analysis.py-21-f_S_mod = 1.16549612154152e-23  # Previously determined scaling entropy correction
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Analysis.py:22:S_BH_modified_values = f_S_mod + S_BH_standard_values  # Adjusted values
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Analysis.py-23-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Scaling Analysis.py-24-# Compute percentage difference at different points
+--
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Post Equilibrium.py-13-L_H_standard = 1.12357230604549e+33 / (np.pi * M_solar**2)
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Post Equilibrium.py-14-
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Post Equilibrium.py:15:# Entropy-Modified Model with Post-Equilibrium Scaling
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Post Equilibrium.py-16-f_S_mod_base = 1.16549612154152e-23
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Post Equilibrium.py-17-alpha = np.ones_like(M_solar)
+--
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Post Equilibrium.py-28-# Plot Temperature Comparison
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Post Equilibrium.py-29-axs[0].loglog(M_solar, T_H_standard, label='Standard Model', color='blue')
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Post Equilibrium.py:30:axs[0].loglog(M_solar, T_H_modified, '--', label='Entropy-Modified Model (Scaling Applied Post-Equilibrium)', color='cyan')
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Post Equilibrium.py-31-axs[0].axvline(M_eq, linestyle='dotted', color='black', label='Equilibrium Threshold')
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Post Equilibrium.py-32-axs[0].set_xlabel("Black Hole Mass (Solar Masses)")
+--
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Post Equilibrium.py-38-# Plot Luminosity Comparison
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Post Equilibrium.py-39-axs[1].loglog(M_solar, L_H_standard, label='Standard Model', color='red')
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Post Equilibrium.py:40:axs[1].loglog(M_solar, L_H_modified, '--', label='Entropy-Modified Model (Scaling Applied Post-Equilibrium)', color='salmon')
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Post Equilibrium.py-41-axs[1].axvline(M_eq, linestyle='dotted', color='black', label='Equilibrium Threshold')
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Post Equilibrium.py-42-axs[1].set_xlabel("Black Hole Mass (Solar Masses)")
+--
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Temperature Fix.py-19-# **New Entropy-Driven Temperature Equation**
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Temperature Fix.py-20-# Instead of modifying temperature separately, derive it as a function of entropy
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Temperature Fix.py:21:T_H_eq = sp.Eq(T_H, (hbar * c**3) / (8 * pi * G * M) * (S_BH / k_B))  # Adjusted scaling
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Temperature Fix.py-22-
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Temperature Fix.py-23-# Hawking radiation luminosity equation
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Temperature Fix.py:24:L_H_eq = sp.Eq(L_H, (hbar * c**6) / (15360 * pi * G**2 * M**2) * (S_BH / k_B))  # Adjusted scaling
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Temperature Fix.py-25-
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Temperature Fix.py-26-# Define new entropy function f_S dynamically
+--
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Blackhole Model.py-14-r_s_eq = sp.Eq(r_s, (2 * G * M) / c**2)
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Blackhole Model.py-15-
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Blackhole Model.py:16:# Bekenstein-Hawking entropy equation for a black hole (corrected formula)
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Blackhole Model.py-17-S_BH_eq = sp.Eq(S_BH, (k_B * 4 * pi * sp.Pow(r_s, 2)) / (hbar * G / c**3))
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Blackhole Model.py-18-
+--
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Analysis.py-20-# Entropy-modified Bekenstein-Hawking entropy (introducing correction post-equilibrium)
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Analysis.py-21-f_S_mod = 1.16549612154152e-23  # Previously determined scaling entropy correction
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Analysis.py:22:S_BH_modified_values = f_S_mod + S_BH_standard_values  # Adjusted values
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Analysis.py-23-
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Scaling Analysis.py-24-# Compute percentage difference at different points
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-13-L_H_standard = 1.12357230604549e+33 / (np.pi * M_solar**2)
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-14-
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py:15:# Entropy-Modified Model with Post-Equilibrium Scaling
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-16-f_S_mod_base = 1.16549612154152e-23
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-17-alpha = np.ones_like(M_solar)
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-28-# Plot Temperature Comparison
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-29-axs[0].loglog(M_solar, T_H_standard, label='Standard Model', color='blue')
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py:30:axs[0].loglog(M_solar, T_H_modified, '--', label='Entropy-Modified Model (Scaling Applied Post-Equilibrium)', color='cyan')
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-31-axs[0].axvline(M_eq, linestyle='dotted', color='black', label='Equilibrium Threshold')
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-32-axs[0].set_xlabel("Black Hole Mass (Solar Masses)")
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-38-# Plot Luminosity Comparison
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-39-axs[1].loglog(M_solar, L_H_standard, label='Standard Model', color='red')
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py:40:axs[1].loglog(M_solar, L_H_modified, '--', label='Entropy-Modified Model (Scaling Applied Post-Equilibrium)', color='salmon')
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-41-axs[1].axvline(M_eq, linestyle='dotted', color='black', label='Equilibrium Threshold')
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-42-axs[1].set_xlabel("Black Hole Mass (Solar Masses)")
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Temperature Fix.py-19-# **New Entropy-Driven Temperature Equation**
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Temperature Fix.py-20-# Instead of modifying temperature separately, derive it as a function of entropy
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Temperature Fix.py:21:T_H_eq = sp.Eq(T_H, (hbar * c**3) / (8 * pi * G * M) * (S_BH / k_B))  # Adjusted scaling
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Temperature Fix.py-22-
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Temperature Fix.py-23-# Hawking radiation luminosity equation
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Temperature Fix.py:24:L_H_eq = sp.Eq(L_H, (hbar * c**6) / (15360 * pi * G**2 * M**2) * (S_BH / k_B))  # Adjusted scaling
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Temperature Fix.py-25-
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Temperature Fix.py-26-# Define new entropy function f_S dynamically
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Blackhole Model.py-14-r_s_eq = sp.Eq(r_s, (2 * G * M) / c**2)
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Blackhole Model.py-15-
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Blackhole Model.py:16:# Bekenstein-Hawking entropy equation for a black hole (corrected formula)
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Blackhole Model.py-17-S_BH_eq = sp.Eq(S_BH, (k_B * 4 * pi * sp.Pow(r_s, 2)) / (hbar * G / c**3))
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Blackhole Model.py-18-
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Analysis.py-20-# Entropy-modified Bekenstein-Hawking entropy (introducing correction post-equilibrium)
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Analysis.py-21-f_S_mod = 1.16549612154152e-23  # Previously determined scaling entropy correction
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Analysis.py:22:S_BH_modified_values = f_S_mod + S_BH_standard_values  # Adjusted values
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Analysis.py-23-
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Scaling Analysis.py-24-# Compute percentage difference at different points
+--
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Post Equilibrium.py-13-L_H_standard = 1.12357230604549e+33 / (np.pi * M_solar**2)
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Post Equilibrium.py-14-
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Post Equilibrium.py:15:# Entropy-Modified Model with Post-Equilibrium Scaling
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Post Equilibrium.py-16-f_S_mod_base = 1.16549612154152e-23
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Post Equilibrium.py-17-alpha = np.ones_like(M_solar)
+--
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Post Equilibrium.py-28-# Plot Temperature Comparison
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Post Equilibrium.py-29-axs[0].loglog(M_solar, T_H_standard, label='Standard Model', color='blue')
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Post Equilibrium.py:30:axs[0].loglog(M_solar, T_H_modified, '--', label='Entropy-Modified Model (Scaling Applied Post-Equilibrium)', color='cyan')
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Post Equilibrium.py-31-axs[0].axvline(M_eq, linestyle='dotted', color='black', label='Equilibrium Threshold')
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Post Equilibrium.py-32-axs[0].set_xlabel("Black Hole Mass (Solar Masses)")
+--
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Post Equilibrium.py-38-# Plot Luminosity Comparison
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Post Equilibrium.py-39-axs[1].loglog(M_solar, L_H_standard, label='Standard Model', color='red')
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Post Equilibrium.py:40:axs[1].loglog(M_solar, L_H_modified, '--', label='Entropy-Modified Model (Scaling Applied Post-Equilibrium)', color='salmon')
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Post Equilibrium.py-41-axs[1].axvline(M_eq, linestyle='dotted', color='black', label='Equilibrium Threshold')
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Post Equilibrium.py-42-axs[1].set_xlabel("Black Hole Mass (Solar Masses)")
+--
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Temperature Fix.py-19-# **New Entropy-Driven Temperature Equation**
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Temperature Fix.py-20-# Instead of modifying temperature separately, derive it as a function of entropy
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Temperature Fix.py:21:T_H_eq = sp.Eq(T_H, (hbar * c**3) / (8 * pi * G * M) * (S_BH / k_B))  # Adjusted scaling
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Temperature Fix.py-22-
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Temperature Fix.py-23-# Hawking radiation luminosity equation
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Temperature Fix.py:24:L_H_eq = sp.Eq(L_H, (hbar * c**6) / (15360 * pi * G**2 * M**2) * (S_BH / k_B))  # Adjusted scaling
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Temperature Fix.py-25-
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Temperature Fix.py-26-# Define new entropy function f_S dynamically
+--
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Blackhole Model.py-14-r_s_eq = sp.Eq(r_s, (2 * G * M) / c**2)
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Blackhole Model.py-15-
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Blackhole Model.py:16:# Bekenstein-Hawking entropy equation for a black hole (corrected formula)
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Blackhole Model.py-17-S_BH_eq = sp.Eq(S_BH, (k_B * 4 * pi * sp.Pow(r_s, 2)) / (hbar * G / c**3))
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Blackhole Model.py-18-
+--
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Analysis.py-20-# Entropy-modified Bekenstein-Hawking entropy (introducing correction post-equilibrium)
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Analysis.py-21-f_S_mod = 1.16549612154152e-23  # Previously determined scaling entropy correction
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Analysis.py:22:S_BH_modified_values = f_S_mod + S_BH_standard_values  # Adjusted values
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Analysis.py-23-
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Scaling Analysis.py-24-# Compute percentage difference at different points
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-13-L_H_standard = 1.12357230604549e+33 / (np.pi * M_solar**2)
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-14-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py:15:# Entropy-Modified Model with Post-Equilibrium Scaling
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-16-f_S_mod_base = 1.16549612154152e-23
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-17-alpha = np.ones_like(M_solar)
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-28-# Plot Temperature Comparison
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-29-axs[0].loglog(M_solar, T_H_standard, label='Standard Model', color='blue')
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py:30:axs[0].loglog(M_solar, T_H_modified, '--', label='Entropy-Modified Model (Scaling Applied Post-Equilibrium)', color='cyan')
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-31-axs[0].axvline(M_eq, linestyle='dotted', color='black', label='Equilibrium Threshold')
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-32-axs[0].set_xlabel("Black Hole Mass (Solar Masses)")
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-38-# Plot Luminosity Comparison
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-39-axs[1].loglog(M_solar, L_H_standard, label='Standard Model', color='red')
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py:40:axs[1].loglog(M_solar, L_H_modified, '--', label='Entropy-Modified Model (Scaling Applied Post-Equilibrium)', color='salmon')
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-41-axs[1].axvline(M_eq, linestyle='dotted', color='black', label='Equilibrium Threshold')
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Post Equilibrium.py-42-axs[1].set_xlabel("Black Hole Mass (Solar Masses)")
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Temperature Fix.py-19-# **New Entropy-Driven Temperature Equation**
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Temperature Fix.py-20-# Instead of modifying temperature separately, derive it as a function of entropy
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Temperature Fix.py:21:T_H_eq = sp.Eq(T_H, (hbar * c**3) / (8 * pi * G * M) * (S_BH / k_B))  # Adjusted scaling
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Temperature Fix.py-22-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Temperature Fix.py-23-# Hawking radiation luminosity equation
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Temperature Fix.py:24:L_H_eq = sp.Eq(L_H, (hbar * c**6) / (15360 * pi * G**2 * M**2) * (S_BH / k_B))  # Adjusted scaling
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Temperature Fix.py-25-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Temperature Fix.py-26-# Define new entropy function f_S dynamically
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Blackhole Model.py-14-r_s_eq = sp.Eq(r_s, (2 * G * M) / c**2)
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Blackhole Model.py-15-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Blackhole Model.py:16:# Bekenstein-Hawking entropy equation for a black hole (corrected formula)
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Blackhole Model.py-17-S_BH_eq = sp.Eq(S_BH, (k_B * 4 * pi * sp.Pow(r_s, 2)) / (hbar * G / c**3))
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Blackhole Model.py-18-
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Analysis.py-20-# Entropy-modified Bekenstein-Hawking entropy (introducing correction post-equilibrium)
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Analysis.py-21-f_S_mod = 1.16549612154152e-23  # Previously determined scaling entropy correction
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Analysis.py:22:S_BH_modified_values = f_S_mod + S_BH_standard_values  # Adjusted values
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Analysis.py-23-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Scaling Analysis.py-24-# Compute percentage difference at different points

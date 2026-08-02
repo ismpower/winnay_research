@@ -1,0 +1,147 @@
+./bugged_snapshots.json-39268-      "M_solar = 1.98847e30",
+./bugged_snapshots.json-39269-      "mass_bh = 10 * M_solar",
+./bugged_snapshots.json:39270:      "r_s = 2 * G * mass_bh / c**2",
+./bugged_snapshots.json-39271-      "volume_bh = (4/3) * math.pi * r_s**3",
+./bugged_snapshots.json-39272-      "print(\"Chajar Constant (k \u2248 0.001005)\")",
+--
+./bugged_snapshots.json-39345-      "M_solar = 1.98847e30",
+./bugged_snapshots.json-39346-      "mass_bh = 10 * M_solar",
+./bugged_snapshots.json:39347:      "r_s = 2 * G * mass_bh / c**2",
+./bugged_snapshots.json-39348-      "volume_bh = (4/3) * math.pi * r_s**3",
+./bugged_snapshots.json-39349-      "surface_area_bh = 4 * math.pi * r_s**2",
+--
+./test_bruno_constant.py-38-    M_sun = 1.989e30  # kg
+./test_bruno_constant.py-39-    M_gw150914 = 62 * M_sun
+./test_bruno_constant.py:40:    R_schwarzschild = 2 * G * M_gw150914 / c**2
+./test_bruno_constant.py-41-    T_hawking = h_bar * c**3 / (8 * np.pi * G * M_gw150914 * k_B)
+./test_bruno_constant.py-42-    
+--
+./CLEAN_WORKSPACE/analysis_tools/test_bruno_constant.py-38-    M_sun = 1.989e30  # kg
+./CLEAN_WORKSPACE/analysis_tools/test_bruno_constant.py-39-    M_gw150914 = 62 * M_sun
+./CLEAN_WORKSPACE/analysis_tools/test_bruno_constant.py:40:    R_schwarzschild = 2 * G * M_gw150914 / c**2
+./CLEAN_WORKSPACE/analysis_tools/test_bruno_constant.py-41-    T_hawking = h_bar * c**3 / (8 * np.pi * G * M_gw150914 * k_B)
+./CLEAN_WORKSPACE/analysis_tools/test_bruno_constant.py-42-    
+--
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py-60-M_solar = 1.98847e30
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py-61-mass_bh = 10 * M_solar
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py:62:r_s = 2 * G * mass_bh / c**2
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py-63-volume_bh = (4/3) * math.pi * r_s**3
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py-64-
+--
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py-56-M_solar = 1.98847e30
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py-57-mass_bh = 10 * M_solar
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py:58:r_s = 2 * G * mass_bh / c**2
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py-59-volume_bh = (4/3) * math.pi * r_s**3
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py-60-surface_area_bh = 4 * math.pi * r_s**2
+--
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Fixed.py-19-
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Fixed.py-20-    # Schwarzschild radius for a non-rotating, non-charged case
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Fixed.py:21:    r_s = (2 * G * mass) / c**2
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Fixed.py-22-
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Fixed.py-23-    # Ensure that the term inside sqrt() does not become negative
+--
+./github_repos/Entropy-Collapse-Research/Scripts/Blackhole Entropy Fixed.py-19-
+./github_repos/Entropy-Collapse-Research/Scripts/Blackhole Entropy Fixed.py-20-    # Schwarzschild radius for a non-rotating, non-charged case
+./github_repos/Entropy-Collapse-Research/Scripts/Blackhole Entropy Fixed.py:21:    r_s = (2 * G * mass) / c**2
+./github_repos/Entropy-Collapse-Research/Scripts/Blackhole Entropy Fixed.py-22-
+./github_repos/Entropy-Collapse-Research/Scripts/Blackhole Entropy Fixed.py-23-    # Ensure that the term inside sqrt() does not become negative
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py-60-M_solar = 1.98847e30
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py-61-mass_bh = 10 * M_solar
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py:62:r_s = 2 * G * mass_bh / c**2
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py-63-volume_bh = (4/3) * math.pi * r_s**3
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py-64-
+--
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py-56-M_solar = 1.98847e30
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py-57-mass_bh = 10 * M_solar
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py:58:r_s = 2 * G * mass_bh / c**2
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py-59-volume_bh = (4/3) * math.pi * r_s**3
+./github_repos/Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py-60-surface_area_bh = 4 * math.pi * r_s**2
+--
+./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py-60-M_solar = 1.98847e30
+./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py-61-mass_bh = 10 * M_solar
+./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py:62:r_s = 2 * G * mass_bh / c**2
+./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py-63-volume_bh = (4/3) * math.pi * r_s**3
+./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py-64-
+--
+./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py-56-M_solar = 1.98847e30
+./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py-57-mass_bh = 10 * M_solar
+./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py:58:r_s = 2 * G * mass_bh / c**2
+./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py-59-volume_bh = (4/3) * math.pi * r_s**3
+./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py-60-surface_area_bh = 4 * math.pi * r_s**2
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Blackhole Entropy Fixed.py-19-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Blackhole Entropy Fixed.py-20-    # Schwarzschild radius for a non-rotating, non-charged case
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Blackhole Entropy Fixed.py:21:    r_s = (2 * G * mass) / c**2
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Blackhole Entropy Fixed.py-22-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Blackhole Entropy Fixed.py-23-    # Ensure that the term inside sqrt() does not become negative
+--
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Collapse Test 1.9.py-60-M_solar = 1.98847e30
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Collapse Test 1.9.py-61-mass_bh = 10 * M_solar
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Collapse Test 1.9.py:62:r_s = 2 * G * mass_bh / c**2
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Collapse Test 1.9.py-63-volume_bh = (4/3) * math.pi * r_s**3
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Collapse Test 1.9.py-64-
+--
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Collapse Test 2.1.py-56-M_solar = 1.98847e30
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Collapse Test 2.1.py-57-mass_bh = 10 * M_solar
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Collapse Test 2.1.py:58:r_s = 2 * G * mass_bh / c**2
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Collapse Test 2.1.py-59-volume_bh = (4/3) * math.pi * r_s**3
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Entropy Collapse Test 2.1.py-60-surface_area_bh = 4 * math.pi * r_s**2
+--
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Blackhole Entropy Fixed.py-19-
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Blackhole Entropy Fixed.py-20-    # Schwarzschild radius for a non-rotating, non-charged case
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Blackhole Entropy Fixed.py:21:    r_s = (2 * G * mass) / c**2
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Blackhole Entropy Fixed.py-22-
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Blackhole Entropy Fixed.py-23-    # Ensure that the term inside sqrt() does not become negative
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Entropy Collapse Test/Entropy Collapse Test 1.9.py-60-M_solar = 1.98847e30
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Entropy Collapse Test/Entropy Collapse Test 1.9.py-61-mass_bh = 10 * M_solar
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Entropy Collapse Test/Entropy Collapse Test 1.9.py:62:r_s = 2 * G * mass_bh / c**2
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Entropy Collapse Test/Entropy Collapse Test 1.9.py-63-volume_bh = (4/3) * math.pi * r_s**3
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Entropy Collapse Test/Entropy Collapse Test 1.9.py-64-
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Entropy Collapse Test/Entropy Collapse Test 2.1.py-56-M_solar = 1.98847e30
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Entropy Collapse Test/Entropy Collapse Test 2.1.py-57-mass_bh = 10 * M_solar
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Entropy Collapse Test/Entropy Collapse Test 2.1.py:58:r_s = 2 * G * mass_bh / c**2
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Entropy Collapse Test/Entropy Collapse Test 2.1.py-59-volume_bh = (4/3) * math.pi * r_s**3
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Entropy Collapse Test/Entropy Collapse Test 2.1.py-60-surface_area_bh = 4 * math.pi * r_s**2
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Collapse Test 1.9.py-60-M_solar = 1.98847e30
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Collapse Test 1.9.py-61-mass_bh = 10 * M_solar
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Collapse Test 1.9.py:62:r_s = 2 * G * mass_bh / c**2
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Collapse Test 1.9.py-63-volume_bh = (4/3) * math.pi * r_s**3
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Collapse Test 1.9.py-64-
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Collapse Test 2.1.py-56-M_solar = 1.98847e30
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Collapse Test 2.1.py-57-mass_bh = 10 * M_solar
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Collapse Test 2.1.py:58:r_s = 2 * G * mass_bh / c**2
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Collapse Test 2.1.py-59-volume_bh = (4/3) * math.pi * r_s**3
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Entropy Collapse Test 2.1.py-60-surface_area_bh = 4 * math.pi * r_s**2
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Blackhole Entropy Fixed.py-19-
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Blackhole Entropy Fixed.py-20-    # Schwarzschild radius for a non-rotating, non-charged case
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Blackhole Entropy Fixed.py:21:    r_s = (2 * G * mass) / c**2
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Blackhole Entropy Fixed.py-22-
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Blackhole Entropy Fixed.py-23-    # Ensure that the term inside sqrt() does not become negative
+--
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Collapse Test 1.9.py-60-M_solar = 1.98847e30
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Collapse Test 1.9.py-61-mass_bh = 10 * M_solar
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Collapse Test 1.9.py:62:r_s = 2 * G * mass_bh / c**2
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Collapse Test 1.9.py-63-volume_bh = (4/3) * math.pi * r_s**3
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Collapse Test 1.9.py-64-
+--
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Collapse Test 2.1.py-56-M_solar = 1.98847e30
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Collapse Test 2.1.py-57-mass_bh = 10 * M_solar
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Collapse Test 2.1.py:58:r_s = 2 * G * mass_bh / c**2
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Collapse Test 2.1.py-59-volume_bh = (4/3) * math.pi * r_s**3
+./Entropy-Collapse-Research/Scripts/Archive/Entropy Collapse Test 2.1.py-60-surface_area_bh = 4 * math.pi * r_s**2
+--
+./Entropy-Collapse-Research/Scripts/Archive/Blackhole Entropy Fixed.py-19-
+./Entropy-Collapse-Research/Scripts/Archive/Blackhole Entropy Fixed.py-20-    # Schwarzschild radius for a non-rotating, non-charged case
+./Entropy-Collapse-Research/Scripts/Archive/Blackhole Entropy Fixed.py:21:    r_s = (2 * G * mass) / c**2
+./Entropy-Collapse-Research/Scripts/Archive/Blackhole Entropy Fixed.py-22-
+./Entropy-Collapse-Research/Scripts/Archive/Blackhole Entropy Fixed.py-23-    # Ensure that the term inside sqrt() does not become negative
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Blackhole Entropy Fixed.py-19-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Blackhole Entropy Fixed.py-20-    # Schwarzschild radius for a non-rotating, non-charged case
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Blackhole Entropy Fixed.py:21:    r_s = (2 * G * mass) / c**2
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Blackhole Entropy Fixed.py-22-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Blackhole Entropy Fixed.py-23-    # Ensure that the term inside sqrt() does not become negative

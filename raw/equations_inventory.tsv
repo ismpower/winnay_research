@@ -1,0 +1,122 @@
+file	line	symbol	rhs
+./notebooks/archive/Historical_Entropy_Audit.ipynb	1425	c	299_792_458
+./notebooks/archive/Historical_Entropy_Audit.ipynb	1443	c	299_792_458
+./notebooks/archive/Historical_Entropy_Audit.ipynb	1458	c	299_792_458
+./notebooks/archive/Historical_Entropy_Audit.ipynb	1484	c	299_792_458
+./notebooks/archive/Historical_Entropy_Audit.ipynb	1747	c	filtered["Fluence (J/m²)"],
+./notebooks/archive/Historical_Entropy_Audit.ipynb	1790	c	df["log_fluence"], cmap="inferno",
+./notebooks/archive/Historical_Entropy_Audit.ipynb	1849	c	df["log_fluence"], cmap="inferno",
+./bruno-simulator-latest/bruno_sim_1_entropy_vs_radius.py	11	l_planck	(hbar * G / c**3)**0.5
+./bruno-simulator-latest/bruno_sim_1_entropy_vs_radius.py	58	kappa	S_volume / S_surface
+./bruno-simulator-latest/bruno_sim_1_entropy_vs_radius.py	66	kappa	xp.asnumpy(K_bruno)
+./notebooks/Bruno_timeline_analysis.ipynb	1440	c	299_792_458
+./notebooks/Bruno_timeline_analysis.ipynb	1458	c	299_792_458
+./notebooks/Bruno_timeline_analysis.ipynb	1473	c	299_792_458
+./notebooks/Bruno_timeline_analysis.ipynb	1499	c	299_792_458
+./notebooks/Bruno_timeline_analysis.ipynb	1762	c	filtered["Fluence (J/m²)"],
+./notebooks/Bruno_timeline_analysis.ipynb	1829	c	df["log_fluence"], cmap="inferno",
+./notebooks/Bruno_timeline_analysis.ipynb	1888	c	df["log_fluence"], cmap="inferno",
+./notebooks/Bruno_timeline_analysis.ipynb	2585	alpha	0.6,
+./notebooks/Bruno_timeline_analysis.ipynb	2586	c	colors[cls],
+./notebooks/Bruno_timeline_analysis.ipynb	2620	c	np.where(batse["duration_class"] == "short", "blue", "orange"),
+./notebooks/Bruno_timeline_analysis.ipynb	2621	alpha	0.6,
+./notebooks/Bruno_timeline_analysis.ipynb	2668	c	np.where(batse["duration_class"] == "short", "blue", "orange"),
+./notebooks/Bruno_timeline_analysis.ipynb	3260	c	np.log10(df["fluence_total_J_m2"].values),
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Comparison.py	5	M_sun	np.logspace(0, 8, 100)
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py	9	M_sun	np.logspace(0, 8, 100)
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py	17	alpha	np.ones_like(M_solar)
+./entropy-collapse-transient-engine.ipynb	35	l_planck	np.sqrt(hbar * G / c**3)
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py	23	t_planck	(h * c**5 / G)**0.5 / k_B
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py	58	r_s	2 * G * mass_bh / c**2
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Saturation_Horizon.py	18	t_planck	9.78 / (H0_planck / 100)
+./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py	25	l_planck	math.sqrt(h_bar * G / (c**3))
+./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py	26	t_planck	math.sqrt(h_bar * G / (c**5))
+./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py	27	t_planck	math.sqrt(h_bar * c**5 / (G * k_B**2))
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb	283	l_planck	math.sqrt(hbar * G / c**3)
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb	284	t_planck	math.sqrt(hbar * c**5 / G) / k_B
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb	497	kappa	3 / (R * T)
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.2.py	18	S_BH	(k_B * area * c**3) / (4 * G * hbar)
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.2.py	35	S_BH	black_hole_entropy(mass_ns)
+./bruno-simulator-latest/bruno-analysis/PSFVJA20-74/analyze_tokamak_data.ipynb	67	beta	pd.read_csv("beta_n_trace.csv")
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py	21	t_planck	(h * c**5 / G)**0.5 / k_B
+./notebooks/bruno_event_classifier.ipynb	118	sigma_SB	cross_section_cm2 * 1e-4
+./notebooks/bruno_event_classifier.ipynb	127	sigma_SB	cross_section_cm2 * 1e-4
+./bruno_sim_1_entropy_vs_radius.py	12	l_planck	np.sqrt(hbar * G / c**3)
+./bruno_sim_1_entropy_vs_radius.py	20	kappa	S_volume / S_surface
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb	224	l_planck	math.sqrt(hbar * G / c**3)
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb	225	t_planck	math.sqrt(hbar * c**5 / G) / k_B
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb	398	kappa	3 / (R * T)
+./bruno-fluence-app/analyze_supernova_data.py	92	alpha	0.5, s=1, color='green')
+./bruno-fluence-app/analyze_supernova_data.py	122	alpha	0.3, s=1, color='blue', label='Normal Events')
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Fixed.py	21	r_s	(2 * G * mass) / c**2
+./byu_unp_integration.py	199	eta	time_points
+./bruno-framework-clean/Scripts/Saturated_Bh_Entropy_Model.py	22	S_BH	hawking_entropy(A_values)
+./E3_DAVP_Pipeline/davp_pipeline.py	608	gamma	(e**2) / (4.0 * np.pi * epsilon_0 * a * k_B * temperature)
+./E3_DAVP_Pipeline/davp_pipeline.py	637	gamma	self._calculate_coulomb_coupling(local_temp, local_density)
+./2025.05.10/plot_bruno_sky_map.py	33	alpha	0.6, edgecolors='k', label='Supernovae')
+./E3_Project_REBUILT/E3_Engine/e3_byu_training.py	89	h	self.element_embedding(x.float())
+./E3_Project_REBUILT/E3_Engine/e3_byu_training.py	92	h	torch.relu(self.conv1(h, edge_index))
+./E3_Project_REBUILT/E3_Engine/e3_byu_training.py	93	h	torch.relu(self.conv2(h, edge_index))
+./E3_Project_REBUILT/E3_Engine/e3_byu_training.py	94	h	self.conv3(h, edge_index)
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/simulation/bruno_constant/bruno_sim_1_entropy_vs_radius.py	11	l_planck	np.sqrt(hbar * G / c**3)
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/simulation/bruno_constant/bruno_sim_1_entropy_vs_radius.py	19	kappa	S_volume / S_surface
+./E3_Project_REBUILT/E3_Engine/e3_byu_validation.py	375	alpha	0.7, label='E3 Predicted')
+./E3_DAVP_Pipeline/physics_mechanism_discovery.py	34	gamma	(self.e**2) / (4.0 * np.pi * self.epsilon_0 * a * self.k_B * temperature)
+./bruno-framework-clean/Scripts/Primordial_BH_Constraints.py	13	M_sun	np.logspace(0, 6, 100)
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb	239	l_planck	math.sqrt(hbar * G / c**3)
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb	240	t_planck	math.sqrt(hbar * c**5 / G) / k_B
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb	416	kappa	3 / (R * T)
+./e3_byu_validation.py	375	alpha	0.7, label='E3 Predicted')
+./scr/Cosmis Entropy Hubble Test.py	17	t_planck	1 / H0_planck
+./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md	84	l_planck	sqrt(ħ·G/c³) ≈ 1.616×10⁻³⁵ m
+./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md	85	t_planck	sqrt(ħ·c⁵/G)/k_B ≈ 1.417×10³² K
+./bruno-framework-clean/Entropy_Notebook/Entropy Simulation.ipynb	99	T_H	\frac{\hbar c^3}{8 \pi G k_B M}
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.7.py	22	t_planck	(h * c**5 / G)**0.5 / k_B
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Bruno Constant.py	22	t_planck	(h * c**5 / G)**0.5 / k_B
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.1.py	17	S_BH	(k_B * area * c**3) / (4 * G * hbar)
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.1.py	34	S_BH	black_hole_entropy(mass_ns)
+./e3_byu_training.py	89	h	self.element_embedding(x.float())
+./e3_byu_training.py	92	h	torch.relu(self.conv1(h, edge_index))
+./e3_byu_training.py	93	h	torch.relu(self.conv2(h, edge_index))
+./e3_byu_training.py	94	h	self.conv3(h, edge_index)
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.6.py	21	t_planck	(h * c**5 / G)**0.5 / k_B
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb	283	l_planck	math.sqrt(hbar * G / c**3)
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb	284	t_planck	math.sqrt(hbar * c**5 / G) / k_B
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb	497	kappa	3 / (R * T)
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb	553	r_s	2 * G * mass_ns / c**2
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb	594	r_s	2 * G * mass_ns / c**2
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb	1312	c	plt.contourf(
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb	1341	c	plt.contourf(
+./notebooks/Bruno_Visibility_Model.ipynb	1417	c	299_792_458
+./notebooks/Bruno_Visibility_Model.ipynb	1435	c	299_792_458
+./notebooks/Bruno_Visibility_Model.ipynb	1450	c	299_792_458
+./notebooks/Bruno_Visibility_Model.ipynb	1476	c	299_792_458
+./notebooks/Bruno_Visibility_Model.ipynb	1739	c	filtered["Fluence (J/m²)"],
+./notebooks/Bruno_Visibility_Model.ipynb	1782	c	df["log_fluence"], cmap="inferno",
+./notebooks/Bruno_Visibility_Model.ipynb	1841	c	df["log_fluence"], cmap="inferno",
+./bruno-framework-clean/Scripts/Saturation_Model_Vs_BH_Entropy.py	32	S_BH	S_bh_coeff * A / kB
+./byu_integration_fixed.py	155	eta	time_points
+./notebooks/Fluence_Model_Comparison.ipynb	2638	sigma_SB	cross_section_cm2 * 1e-4
+./notebooks/Fluence_Model_Comparison.ipynb	2695	sigma_SB	cross_section_cm2 * 1e-4
+./notebooks/Fluence_Model_Comparison.ipynb	2704	sigma_SB	cross_section_cm2 * 1e-4
+./notebooks/Fluence_Model_Comparison.ipynb	2762	sigma_SB	cross_section_cm2 * 1e-4
+./bruno-real-analyzer/data_corruption_detector.py	332	alpha	0.5, s=1, color='red')
+./bruno-real-analyzer/data_corruption_detector.py	344	alpha	0.3, s=1, color='red')
+./simple_bruno_test.py	22	l_planck	(h_bar * G / c**3)**0.5
+./simple_bruno_test.py	23	t_planck	(h_bar * c**5 / G)**0.5 / k_B
+./simple_bruno_test.py	41	r_s	2 * G * M_bh / c**2
+./simple_bruno_test.py	47	T_H	h_bar * c**3 / (8 * math.pi * G * M_bh * k_B)
+./davp_superconductor_generator_clean.py	515	c	float(lattice[2]) if len(lattice) > 2 else a
+./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py	21	t_planck	(h * c**5 / G)**0.5 / k_B
+./test_bruno_constant.py	21	l_planck	np.sqrt(h_bar * G / c**3)
+./test_bruno_constant.py	22	t_planck	np.sqrt(h_bar * c**5 / G) / k_B
+./test_bruno_constant.py	41	T_H	h_bar * c**3 / (8 * np.pi * G * M_gw150914 * k_B)
+./e3_validation_test.py	393	kappa	results["bruno_analysis"]
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Collapse Test 1.5.py	21	t_planck	(h * c**5 / G)**0.5 / k_B
+./bruno-framework-clean/Scripts/Cosmis_Entropy_Hubble_Test.py	17	t_planck	1 / H0_planck
+./github_repos/bruno-collapse-simulator/notebooks/e3_validation/calibration_bridge_gw170817.ipynb	175	alpha	peak_kilonova_temp / total_gw_fluence
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py	22	t_planck	(h * c**5 / G)**0.5 / k_B
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py	62	r_s	2 * G * mass_bh / c**2
+./2025.05.10/plot_bruno_sky_map_v2.py	40	c	is_positive.map({True: 'red', False: 'blue'}),
+./2025.05.10/plot_bruno_sky_map_v2.py	41	alpha	0.6, edgecolors='k', label='Supernovae')
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.8.py	22	t_planck	(h * c**5 / G)**0.5 / k_B

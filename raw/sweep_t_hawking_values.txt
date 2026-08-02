@@ -1,0 +1,99 @@
+./simple_bruno_test.py-45-    
+./simple_bruno_test.py-46-    # Hawking temperature  
+./simple_bruno_test.py:47:    T_hawking = h_bar * c**3 / (8 * math.pi * G * M_bh * k_B)
+./simple_bruno_test.py-48-    print(f"   Calculated Hawking temperature: {T_hawking:.2e} K")
+./simple_bruno_test.py-49-    print(f"   Claimed in documentation: 1.2e-8 K")
+--
+./test_bruno_constant.py-39-    M_gw150914 = 62 * M_sun
+./test_bruno_constant.py-40-    R_schwarzschild = 2 * G * M_gw150914 / c**2
+./test_bruno_constant.py:41:    T_hawking = h_bar * c**3 / (8 * np.pi * G * M_gw150914 * k_B)
+./test_bruno_constant.py-42-    
+./test_bruno_constant.py-43-    print(f"\n=== GW150914 VERIFICATION ===")
+--
+./CLEAN_WORKSPACE/analysis_tools/simple_bruno_test.py-45-    
+./CLEAN_WORKSPACE/analysis_tools/simple_bruno_test.py-46-    # Hawking temperature  
+./CLEAN_WORKSPACE/analysis_tools/simple_bruno_test.py:47:    T_hawking = h_bar * c**3 / (8 * math.pi * G * M_bh * k_B)
+./CLEAN_WORKSPACE/analysis_tools/simple_bruno_test.py-48-    print(f"   Calculated Hawking temperature: {T_hawking:.2e} K")
+./CLEAN_WORKSPACE/analysis_tools/simple_bruno_test.py-49-    print(f"   Claimed in documentation: 1.2e-8 K")
+--
+./CLEAN_WORKSPACE/analysis_tools/test_bruno_constant.py-39-    M_gw150914 = 62 * M_sun
+./CLEAN_WORKSPACE/analysis_tools/test_bruno_constant.py-40-    R_schwarzschild = 2 * G * M_gw150914 / c**2
+./CLEAN_WORKSPACE/analysis_tools/test_bruno_constant.py:41:    T_hawking = h_bar * c**3 / (8 * np.pi * G * M_gw150914 * k_B)
+./CLEAN_WORKSPACE/analysis_tools/test_bruno_constant.py-42-    
+./CLEAN_WORKSPACE/analysis_tools/test_bruno_constant.py-43-    print(f"\n=== GW150914 VERIFICATION ===")
+--
+./bruno-framework-clean/Entropy_Notebook/Entropy Simulation.ipynb-147-    "\n",
+./bruno-framework-clean/Entropy_Notebook/Entropy Simulation.ipynb-148-    "$$\n",
+./bruno-framework-clean/Entropy_Notebook/Entropy Simulation.ipynb:149:    "T_H = \\frac{\\hbar c^3}{8 \\pi G k_B M}\n",
+./bruno-framework-clean/Entropy_Notebook/Entropy Simulation.ipynb-150-    "$$\n",
+./bruno-framework-clean/Entropy_Notebook/Entropy Simulation.ipynb-151-    "\n",
+--
+./bruno-framework-clean/Scripts/Primordial_BH_Constraints.py-14-M_kg = M_solar * 1.98847e30  # Convert to kg
+./bruno-framework-clean/Scripts/Primordial_BH_Constraints.py-15-
+./bruno-framework-clean/Scripts/Primordial_BH_Constraints.py:16:# Standard Hawking Temperature (T_H = hbar * c^3 / (8 * pi * G * M))
+./bruno-framework-clean/Scripts/Primordial_BH_Constraints.py-17-T_H_standard = (hbar * c**3) / (8 * pi * G * M_kg)
+./bruno-framework-clean/Scripts/Primordial_BH_Constraints.py-18-
+--
+./notebooks/archive/Entropy Simulation.ipynb-147-    "\n",
+./notebooks/archive/Entropy Simulation.ipynb-148-    "$$\n",
+./notebooks/archive/Entropy Simulation.ipynb:149:    "T_H = \\frac{\\hbar c^3}{8 \\pi G k_B M}\n",
+./notebooks/archive/Entropy Simulation.ipynb-150-    "$$\n",
+./notebooks/archive/Entropy Simulation.ipynb-151-    "\n",
+--
+./github_repos/Entropy-Collapse-Research/Entropy Notebook/Entropy Simulation.ipynb-147-    "\n",
+./github_repos/Entropy-Collapse-Research/Entropy Notebook/Entropy Simulation.ipynb-148-    "$$\n",
+./github_repos/Entropy-Collapse-Research/Entropy Notebook/Entropy Simulation.ipynb:149:    "T_H = \\frac{\\hbar c^3}{8 \\pi G k_B M}\n",
+./github_repos/Entropy-Collapse-Research/Entropy Notebook/Entropy Simulation.ipynb-150-    "$$\n",
+./github_repos/Entropy-Collapse-Research/Entropy Notebook/Entropy Simulation.ipynb-151-    "\n",
+--
+./github_repos/Entropy-Collapse-Research/Scripts/Primordial BH Constraints.py-14-M_kg = M_solar * 1.98847e30  # Convert to kg
+./github_repos/Entropy-Collapse-Research/Scripts/Primordial BH Constraints.py-15-
+./github_repos/Entropy-Collapse-Research/Scripts/Primordial BH Constraints.py:16:# Standard Hawking Temperature (T_H = hbar * c^3 / (8 * pi * G * M))
+./github_repos/Entropy-Collapse-Research/Scripts/Primordial BH Constraints.py-17-T_H_standard = (hbar * c**3) / (8 * pi * G * M_kg)
+./github_repos/Entropy-Collapse-Research/Scripts/Primordial BH Constraints.py-18-
+./github_repos/bruno-collapse-simulator/notebooks/e3_validation/universality_test_gw150914.ipynb-210-    "final_mass_kg = 62 * solar_mass\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_validation/universality_test_gw150914.ipynb-211-    "\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_validation/universality_test_gw150914.ipynb:212:    "# The Hawking Temperature Formula: T_H = (hbar * c^3) / (8 * pi * G * M * k_B)\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_validation/universality_test_gw150914.ipynb-213-    "# Note: k is the Boltzmann constant, imported as 'k' from scipy.constants\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_validation/universality_test_gw150914.ipynb-214-    "hawking_temperature = (hbar * c**3) / (8 * np.pi * G * final_mass_kg * k)\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Primordial BH Constraints.py-14-M_kg = M_solar * 1.98847e30  # Convert to kg
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Primordial BH Constraints.py-15-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Primordial BH Constraints.py:16:# Standard Hawking Temperature (T_H = hbar * c^3 / (8 * pi * G * M))
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Primordial BH Constraints.py-17-T_H_standard = (hbar * c**3) / (8 * pi * G * M_kg)
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Primordial BH Constraints.py-18-
+--
+./bruno-simulator-RESTRUCTURED/notebooks/e3_validation/universality_test_gw150914.ipynb-210-    "final_mass_kg = 62 * solar_mass\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_validation/universality_test_gw150914.ipynb-211-    "\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_validation/universality_test_gw150914.ipynb:212:    "# The Hawking Temperature Formula: T_H = (hbar * c^3) / (8 * pi * G * M * k_B)\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_validation/universality_test_gw150914.ipynb-213-    "# Note: k is the Boltzmann constant, imported as 'k' from scipy.constants\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_validation/universality_test_gw150914.ipynb-214-    "hawking_temperature = (hbar * c**3) / (8 * np.pi * G * final_mass_kg * k)\n",
+--
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Primordial BH Constraints.py-14-M_kg = M_solar * 1.98847e30  # Convert to kg
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Primordial BH Constraints.py-15-
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Primordial BH Constraints.py:16:# Standard Hawking Temperature (T_H = hbar * c^3 / (8 * pi * G * M))
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Primordial BH Constraints.py-17-T_H_standard = (hbar * c**3) / (8 * pi * G * M_kg)
+./E3_Project_OLD_MESSY/archive/legacy_scripts/archive/Primordial BH Constraints.py-18-
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/Entropy Simulation.ipynb-147-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/Entropy Simulation.ipynb-148-    "$$\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/Entropy Simulation.ipynb:149:    "T_H = \\frac{\\hbar c^3}{8 \\pi G k_B M}\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/Entropy Simulation.ipynb-150-    "$$\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/Entropy Simulation.ipynb-151-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Primordial BH Constraints.py-14-M_kg = M_solar * 1.98847e30  # Convert to kg
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Primordial BH Constraints.py-15-
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Primordial BH Constraints.py:16:# Standard Hawking Temperature (T_H = hbar * c^3 / (8 * pi * G * M))
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Primordial BH Constraints.py-17-T_H_standard = (hbar * c**3) / (8 * pi * G * M_kg)
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Archive/Primordial BH Constraints.py-18-
+--
+./Entropy-Collapse-Research/Scripts/Archive/Primordial BH Constraints.py-14-M_kg = M_solar * 1.98847e30  # Convert to kg
+./Entropy-Collapse-Research/Scripts/Archive/Primordial BH Constraints.py-15-
+./Entropy-Collapse-Research/Scripts/Archive/Primordial BH Constraints.py:16:# Standard Hawking Temperature (T_H = hbar * c^3 / (8 * pi * G * M))
+./Entropy-Collapse-Research/Scripts/Archive/Primordial BH Constraints.py-17-T_H_standard = (hbar * c**3) / (8 * pi * G * M_kg)
+./Entropy-Collapse-Research/Scripts/Archive/Primordial BH Constraints.py-18-
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Primordial BH Constraints.py-14-M_kg = M_solar * 1.98847e30  # Convert to kg
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Primordial BH Constraints.py-15-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Primordial BH Constraints.py:16:# Standard Hawking Temperature (T_H = hbar * c^3 / (8 * pi * G * M))
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Primordial BH Constraints.py-17-T_H_standard = (hbar * c**3) / (8 * pi * G * M_kg)
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Primordial BH Constraints.py-18-

@@ -1,0 +1,152 @@
+file	line	literal	context
+./entropy-collapse-transient-engine.ipynb	32	1366.0	kappa = 1366.0        # K⁻¹
+./Bruno_model_sim_upd.tex	91	1366	\item $\kappa \approx 1366\, \text{K}^{-1}$ is the \textbf{Bruno Constant}
+./Bruno_model_sim_upd.tex	212	1366	\item $\kappa$ is the Bruno Constant $\sim 1366\,\text{K}^{-1}$
+./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py	21	1366.0	kappa_validated = 1366.0  # K⁻¹ (GW150914 black hole calibration)
+./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py	163	1366	print("✓ Bruno constant validated: κ = 1366 K⁻¹")
+./Bruno_model_sim_final.tex	101	1366	\item $\kappa \approx 1366\, \text{K}^{-1}$ is the \textbf{Bruno Constant}
+./Bruno_model_sim_final.tex	254	1366	\item $\kappa$ is the Bruno Constant $\sim 1366\,\text{K}^{-1}$
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb	14	1366	kappa = 1366  # Bruno Constant in K^-1
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb	63	1366	kappa = 1366  # K^-1
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb	80	1366	kappa = 1366  # Bruno Constant in K^-1
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb	152	1366	kappa = 1366  # K^-1
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb	213	1366	kappa = 1366
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb	233	1313	kappa = 1313        # Bruno Constant (1/K)
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb	310	1313	kappa = 1313        # Bruno constant
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb	525	1313	kappa = 1313               # Bruno constant (1/K)
+./COHERENT_E3_PROJECT_PLAN.md	10	1366	- **Inconsistent Bruno constant values**: κ = 1366 vs κ = 1340 ± 60
+./github_repos/bruno-collapse-simulator/README.md	108	1366	- **κ = 1366 K⁻¹** - GW150914 black hole calibration
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb	5	1366	kappa = 1366  # Bruno Constant in K^-1
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb	45	1366	kappa = 1366  # K^-1
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb	57	1366	kappa = 1366  # Bruno Constant in K^-1
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb	118	1366	kappa = 1366  # K^-1
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb	166	1366	kappa = 1366
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb	182	1313	kappa = 1313        # Bruno Constant (1/K)
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb	244	1313	kappa = 1313        # Bruno constant
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb	419	1313	kappa = 1313               # Bruno constant (1/K)
+./bruno-simulator-RESTRUCTURED/README.md	107	1366	- **κ = 1366 K⁻¹** - GW150914 black hole calibration
+./bruno-fluence-app/bruno_fluence_analyzer.py	29	1366.0	def __init__(self, bruno_constant: float = 1366.0):
+./bruno-fluence-app/bruno_fluence_analyzer.py	97	1366.0	analyzer = BrunoFluenceAnalyzer(bruno_constant=1366.0)
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/README.md	10	1366	**Key Achievement**: κ = 1366 K⁻¹ discovery through LIGO GW150914 calibration
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/README.md	39	1313	│   └── constant_value_evolution.md # From 1313 to 1366 K⁻¹
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/README.md	39	1366	│   └── constant_value_evolution.md # From 1313 to 1366 K⁻¹
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/README.md	102	1313	- **Bruno Constant**: Initial κ ≈ 1313 K⁻¹ theoretical value
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/README.md	107	1366	- **Calibration Breakthrough**: κ = 1366 K⁻¹ observational refinement
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/README.md	132	1313	- **Constants Refined**: κ value accuracy improvement (1313 → 1366 K⁻¹)
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/README.md	132	1366	- **Constants Refined**: κ value accuracy improvement (1313 → 1366 K⁻¹)
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	9	1366	This session represents the continuation of an extensive multi-phase research and development effort focused on the E3 Engine (Elemental Embedding Engine) and Bruno Framework. The primary objective was to systematically 
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	11	1366	**Key Achievement**: Successfully identified and corrected 12 files containing Bruno constant inconsistencies, ensuring uniform adoption of κ = 1366 K⁻¹ throughout the workspace.
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	46	1313	- **User Concern**: "woha. why 1313 k-2 ?! havent we confirmed the 1366 ???"
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	46	1366	- **User Concern**: "woha. why 1313 k-2 ?! havent we confirmed the 1366 ???"
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	51	1366	- **Comprehensive Analysis**: Created detailed analysis showing κ = 1366 K⁻¹ (GW150914) is correct
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	78	1366	1. `/workspaces/E3_Engine/E3_Project_REBUILT/TECHNICAL_README.md` - Line 29: κ = 1366 K⁻¹ ✅
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	79	1366	2. `/workspaces/E3_Engine/E3_CURRENT_PRODUCTION/README.md` - Line 29: κ = 1366 K⁻¹ ✅
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	80	1366	3. `/workspaces/E3_Engine/E3_Project/README.md` - Line 29: κ = 1366 K⁻¹ ✅
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	89	1366	**After**: `- **κ = 1366 K⁻¹** - GW150914 black hole calibration`
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	95	1366	**After**: `Analysis reveals an empirical scaling relationship characterized by the Bruno Constant (κ = 1366 K⁻¹)`
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	101	1366	**After**: `- **κ = 1366 K⁻¹** - GW150914 black hole calibration`
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	107	1366	**After**: `- **Bruno Constant (κ)**: Universal scaling relationship (κ = 1366 K⁻¹)`
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	117	1366	**Search Pattern 3**: `κ = 1366 K⁻¹`
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	168	1366	- `κ = 1366 K⁻¹` (GW150914 black hole calibration)
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	171	1366	The Bruno constant κ = 1366 K⁻¹ is derived from GW150914 gravitational wave event analysis:
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	174	1366	Solving for κ: κ = 3 / (R · T) = 3 / (1.83 × 10⁵ m × 1.2 × 10⁻⁸ K) ≈ 1366 K⁻¹
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	186	1366	1. **Bruno Constant** (κ = 1366 K⁻¹) → **E3 Engine Calculations** → **Materials Validation**
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	204	1366	- Comprehensive analysis of κ = 1366 K⁻¹ derivation
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	228	1313	1. **Initial Confusion**: "woha. why 1313 k-2 ?! havent we confirmed the 1366 ???"
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	228	1366	1. **Initial Confusion**: "woha. why 1313 k-2 ?! havent we confirmed the 1366 ???"
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	247	1366	3. **Consistency Checking**: Confirmed uniform adoption of κ = 1366 K⁻¹
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md	257	1366	- **40 Correct References**: κ = 1366 K⁻¹ consistently used across workspace
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb	10	1366	kappa = 1366  # Bruno Constant in K^-1
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb	54	1366	kappa = 1366  # K^-1
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb	68	1366	kappa = 1366  # Bruno Constant in K^-1
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb	130	1366	kappa = 1366  # K^-1
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb	179	1366	kappa = 1366
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb	197	1313	kappa = 1313        # Bruno Constant (1/K)
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb	260	1313	kappa = 1313        # Bruno constant
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb	438	1313	kappa = 1313               # Bruno constant (1/K)
+./CLEAN_WORKSPACE/ALL_PROBLEMATIC_REFERENCES.md	39	1366	1366 K⁻¹
+./CLEAN_WORKSPACE/ALL_PROBLEMATIC_REFERENCES.md	43	1366	- **κ = 1366 K⁻¹** is from validated GW150914 black hole calibration
+./CLEAN_WORKSPACE/ALL_PROBLEMATIC_REFERENCES.md	69	1366	- **κ = 1366 K⁻¹** (GW150914 calibration)
+./CLEAN_WORKSPACE/E3_project_rev1/README.md	29	1366	- **Bruno Constant (κ)**: **κ = 1366 K⁻¹** (GW150914 black hole calibration)
+./CLEAN_WORKSPACE/E3_project_rev1/README.md	54	1366	│   └── bruno_threshold.py         # Bruno constant calculations (κ=1366)
+./CLEAN_WORKSPACE/E3_project_rev1/README.md	107	1366	- **κ = 1366 K⁻¹**: GW150914 gravitational wave calibration
+./CLEAN_WORKSPACE/E3_project_rev1/README.md	127	1366	- **Bruno Constant Derivation**: κ = 1366 K⁻¹ from GW150914 calibration
+./CLEAN_WORKSPACE/E3_project_rev1/README.md	242	1366	- ✅ **Bruno Framework**: Validated κ = 1366 K⁻¹ across all materials
+./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md	7	1366	The **Bruno Collapse Framework** presents a revolutionary entropy-first approach to understanding gravitational phenomena, from laboratory physics to cosmic-scale events. Built around the **Bruno Constant (κ = 1366 K⁻¹)*
+./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md	13	1366	### **Bruno Constant: κ = 1366 K⁻¹**
+./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md	23	1366	κ = 3/(R·T) = 3/(1.83×10⁵ × 1.2×10⁻⁸) ≈ 1366 K⁻¹
+./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md	89	1313	κ = 3/(l_planck·T_planck) ≈ 1313 K⁻¹ (theoretical)
+./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md	95	1366	κ_observed = 1366 K⁻¹  # 4% higher than theoretical
+./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md	123	1366	- **GW150914**: Primary calibration source (κ = 1366 K⁻¹)
+./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md	231	1366	- **Observational Calibration**: LIGO GW150914 validated (κ = 1366 K⁻¹)
+./Bruno_Entropy_Project/scripts/nakazato_flux_integrator.py	8	1366	KAPPA = 1366  # Bruno Constant (K⁻¹)
+./E3_Project/README.md	29	1366	- **Bruno Constant (κ)**: Universal scaling relationship (κ = 1366 K⁻¹)
+./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md	8	1366	- **Thermodynamic κ**: 1366 K⁻¹ ✅ (Correct)
+./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md	12	1366	- **All repos**: κ = 1366 K⁻¹ (Corrected consistently)
+./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md	20	1366	**Correct**: Should be κ = 1366 K⁻¹ (GW150914 calibration)
+./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md	29	1366	**Issue**: Need to clarify which event provides the κ = 1366 K⁻¹ calibration
+./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md	43	1366	<span class="font-mono text-slate-900">1366 K⁻¹</span>
+./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md	58	1366	- Bruno constant: κ = 1366 K⁻¹ ✅
+./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md	63	1366	- Bruno constant: κ = 1366 K⁻¹ ✅
+./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md	83	1366	**Priority Fix**: Update website line 473 to show consistent κ = 1366 K⁻¹ value and remove erroneous s⁻¹ units.
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb	14	1366	kappa = 1366  # Bruno Constant in K^-1
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb	63	1366	kappa = 1366  # K^-1
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb	80	1366	kappa = 1366  # Bruno Constant in K^-1
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb	152	1366	kappa = 1366  # K^-1
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb	213	1366	kappa = 1366
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb	233	1313	kappa = 1313        # Bruno Constant (1/K)
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb	310	1313	kappa = 1313        # Bruno constant
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb	525	1313	kappa = 1313               # Bruno constant (1/K)
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb	121	1313	kappa = 1313  # 1/K
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb	183	1313	kappa = 1313
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb	235	1313	kappa = 1313
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb	286	1313	kappa = 1313             # Bruno constant
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb	393	1313	kappa = 1313
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb	477	1313	kappa = 1313
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb	865	1313	kappa = 1313
+./Bruno_model_sim_upd_cleaned.tex	99	1366	\item $\kappa \approx 1366\, \text{K}^{-1}$ is the \textbf{Bruno Constant}
+./Bruno_model_sim_upd_cleaned.tex	251	1366	\item $\kappa$ is the Bruno Constant $\sim 1366\,\text{K}^{-1}$
+./simple_bruno_test.py	32	1313	print(f"   Claimed in documentation: 1313 K⁻¹")
+./simple_bruno_test.py	33	1313	print(f"   ❌ MISMATCH: {abs(kappa_planck - 1313):.1f} K⁻¹ difference!")
+./simple_bruno_test.py	58	1366	print(f"   Claimed final κ: 1366 K⁻¹")
+./simple_bruno_test.py	176	1313	print(f"     - 1313 K⁻¹ (claimed Planck derivation)")
+./simple_bruno_test.py	177	1366	print(f"     - 1366 K⁻¹ (claimed GW150914 derivation)")
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/docs/theory/Bruno_model.tex	89	1366	\item $\kappa \approx 1366\, \text{K}^{-1}$ is the \textbf{Bruno Constant}
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/docs/theory/Bruno_model.tex	208	1366	\item $\kappa$ is the Bruno Constant $\sim 1366\,\text{K}^{-1}$
+./notebooks/BrunoGPT.ipynb	51	1366	"constant": "β_B = κ · T with κ ≈ 1366 K⁻¹",
+./CLEAN_WORKSPACE/validation_data/deep_correlation_analysis.py	19	1366.0	kappa_validated = 1366.0  # K⁻¹ (GW150914 black hole calibration)
+./CLEAN_WORKSPACE/validation_data/deep_correlation_analysis.py	181	1313	print("✓ Bruno threshold validation: κ = 1313 K⁻¹ functional")
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Final/Bruno_collapse_tracker.py	5	1366	kappa = 1366  # Bruno constant (from GW150914)
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/latex/Entropy_Collapse.tex	101	1366	\item $\kappa \approx 1366\, \text{K}^{-1}$ is the \textbf{Bruno Constant}
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/latex/Entropy_Collapse.tex	254	1366	\item $\kappa$ is the Bruno Constant $\sim 1366\,\text{K}^{-1}$
+./CLEAN_WORKSPACE/REPOSITORY_ANALYSIS_AND_CORRECTIONS.md	18	1366	- Should reference κ = 1366 K⁻¹ from GW150914 calibration
+./CLEAN_WORKSPACE/REPOSITORY_ANALYSIS_AND_CORRECTIONS.md	59	1366	- **Validated value**: κ = 1366 K⁻¹ (from GW150914 calibration)
+./CLEAN_WORKSPACE/REPOSITORY_ANALYSIS_AND_CORRECTIONS.md	85	1366	- Update Bruno constant to κ = 1366 K⁻¹
+./CLEAN_WORKSPACE/REPOSITORY_ANALYSIS_AND_CORRECTIONS.md	118	1366	1. **Bruno Constant**: Update all references to κ = 1366 K⁻¹
+./test_bruno_constant.py	33	1313	print(f"Claimed value in notes: 1313 K⁻¹")
+./test_bruno_constant.py	34	1313	print(f"Discrepancy: {abs(kappa_planck - 1313):.1f} K⁻¹")
+./test_bruno_constant.py	57	1366	print(f"Claimed in notes: 1366 K⁻¹")
+./test_bruno_constant.py	159	1313	print(f"1. Planck derivation gives κ = {kappa_planck:.1f} K⁻¹ (claimed: 1313)")
+./test_bruno_constant.py	160	1366	print(f"2. GW150914 derivation gives κ = {kappa_gw:.1f} K⁻¹ (claimed: 1366)")
+./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md	14	1366	Thermodynamic κ:     1366 K⁻¹
+./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md	27	1366	Solving for κ: κ = 3 / (R · T) = 3 / (1.83 × 10⁵ m × 1.2 × 10⁻⁸ K) ≈ 1366 K⁻¹
+./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md	32	1366.0	Bruno constant κ = 1366.0 K⁻¹
+./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md	33	1366	All calculations using κ = 1366 K⁻¹ work perfectly
+./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md	53	1366	- **GW150914 calculation**: κ = 1366 K⁻¹
+./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md	86	1366	κ = 1366 K⁻¹
+./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md	96	1313	κ = 1313 K⁻¹                        (Theoretical Planck value, superseded)
+./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md	110	1366	<span class="font-mono text-slate-900">1366 K⁻¹</span>
+./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md	116	1366	κ = 1366 K⁻¹ (GW150914 calibration)
+./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md	122	1366	- Standardize on `κ = 1366 K⁻¹` throughout
+./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md	130	1366	✅ **κ = 1366 K⁻¹** (GW150914 observational calibration)
+./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md	133	1366	**The website should be updated to remove the laboratory constant line and use κ = 1366 K⁻¹ consistently throughout.**
+./CLEAN_WORKSPACE/validation_data/BRUNO_E3_VALIDATION_REPORT.md	12	1366	- **κ = 1366 K⁻¹** confirmed across all materials (GW150914 calibration)
+./github_repos/bruno-collapse-simulator/notebooks/e3_validation/calibration_bridge_gw170817.ipynb	184	1366	kappa_theory = 1366  # K^-1
+./github_repos/bruno-collapse-simulator/notebooks/e3_validation/calibration_bridge_gw170817.ipynb	203	1366	β_B = 1366 × T
+./github_repos/bruno-collapse-simulator/notebooks/e3_validation/calibration_bridge_gw170817.ipynb	208	1366	The constants (1366 vs. 0.001) showed a fundamental mismatch, indicating the need for a physical transfer function to connect the two regimes.
+./github_repos/bruno-collapse-simulator/notebooks/e3_validation/calibration_bridge_gw170817.ipynb	259	1366	β_B = 1366 * (4.04e-39 * Total_GW_Fluence)
+./CLEAN_WORKSPACE/REPOSITORY_COHERENCE_SUMMARY.md	16	1366	- **Bruno Constant**: Fixed to κ = 1366 K⁻¹ (GW150914 calibration)
+./CLEAN_WORKSPACE/REPOSITORY_COHERENCE_SUMMARY.md	31	1366	- **Bruno Constant**: κ = 1366 K⁻¹ with proper GW150914 derivation
+./CLEAN_WORKSPACE/REPOSITORY_COHERENCE_SUMMARY.md	56	1366	1. **Bruno Constant**: κ = 1366 K⁻¹ (corrected from 1340 ± 60 × 10⁻⁶)
+./CLEAN_WORKSPACE/REPOSITORY_COHERENCE_SUMMARY.md	79	1366	- ✅ **Bruno Constant**: κ = 1366 K⁻¹ (GW150914 calibration)
+./CLEAN_WORKSPACE/REPOSITORY_COHERENCE_SUMMARY.md	123	1366	✅ **Corrected Bruno constant to κ = 1366 K⁻¹**

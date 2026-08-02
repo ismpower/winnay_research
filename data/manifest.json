@@ -1,0 +1,59 @@
+{
+  "corpus_root": "/home/winnay/Documents/Codex/E3_Engine",
+  "audited": "2026-08-02",
+  "size_bytes_approx": 44023414784,
+  "totals": {
+    "files": 308033,
+    "directories": 18575
+  },
+  "extensions_top": {
+    "json": 117604,
+    "dat": 45156,
+    "pyc": 44129,
+    "py": 43790,
+    "h": 27701,
+    "pyi": 3186,
+    "csv": 2044,
+    "ipynb": 368,
+    "md": 299,
+    "tex": 266
+  },
+  "excluded_as_noise": {
+    "E3_DAVP_Pipeline/davp_env": {
+      "py": 29117,
+      "pyc": 29115,
+      "h": 18474
+    },
+    "Bruno_Entropy_Project/bruno_env": {
+      "py": 13039,
+      "pyc": 14422,
+      "h": 9213
+    },
+    "Bruno_Entropy_Project/datasets": {
+      "json": 94443
+    },
+    "git_dirs": 16,
+    "zero_byte_files": 441
+  },
+  "third_party_share_of_py": "42156 / 43790 = 96%",
+  "authored_core_files": {
+    "total": 2408,
+    "py": 1631,
+    "ipynb": 263,
+    "md": 251,
+    "tex": 138
+  },
+  "unique_contents": {
+    "exact_bytes": 614,
+    "ignoring_line_endings": 572,
+    "crlf_lf_twins": 42
+  },
+  "classification": {
+    "canonical": 145,
+    "superseded": 69,
+    "orphan": 399,
+    "duplicate": 1622,
+    "empty": 173
+  },
+  "version_named_directories": 124
+}

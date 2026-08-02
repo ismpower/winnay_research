@@ -1,0 +1,287 @@
+{
+  "audit": "Bruno / E3 corpus",
+  "date": "2026-08-02",
+  "corpus_root": "/home/winnay/Documents/Codex/E3_Engine",
+  "method": "shell inventory -> grep sweeps -> mechanical extraction -> independent recomputation from stated formulas",
+  "reference_data": "CODATA 2018, IAU nominal solar mass, 2019 SI defined constants",
+
+  "blocking_issue": {
+    "id": "F0",
+    "severity": "blocking",
+    "title": "Governing equation is dimensionally inconsistent",
+    "equation": "beta_B = A/V = 3/R = kappa * T",
+    "left_hand_units": "m^-1",
+    "right_hand_units": "dimensionless (K^-1 * K)",
+    "consequence": "kappa's numerical value tracks the chosen length unit; no value is determinate",
+    "demonstration": {"R_in_centimetres": 164.6332, "R_in_metres": 16463.3245, "R_in_kilometres": 16463324.4619},
+    "evidence": "test_bruno_constant.py:115-139 already records this",
+    "status": "unresolved in corpus; prerequisite for every kappa question"
+  },
+
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "critical",
+      "title": "GW150914 'independent validation' contains no observational content",
+      "claim_in_corpus": "kappa = 3/(R_s * T_H) derived from LIGO GW150914 remnant, independent of theory",
+      "algebra": "R_s * T_H = (2GM/c^2)(hbar c^3/(8 pi G M k_B)) = hbar c/(4 pi k_B); mass cancels identically",
+      "numerical_check": {
+        "masses_tested_Msun": [1, 5, 62, 100, 1000000, 1000000000],
+        "kappa_returned": 16463.3245,
+        "note": "identical to 10 significant figures for every mass"
+      },
+      "relation_to_planck_route": "kappa_GW / kappa_Planck = 12*pi/3 = 4*pi = 12.5663706144 exactly",
+      "verdict": "not independent; cannot be, by construction",
+      "script": "scripts/verify2.py"
+    },
+    {
+      "id": "F2",
+      "severity": "critical",
+      "title": "kappa = 1366 is an artifact of a 12x Hawking-temperature error",
+      "recorded_T_H_K": 1.2e-08,
+      "correct_T_H_K": 9.951731982e-10,
+      "ratio": 12.06,
+      "formula": "T_H = hbar*c^3/(8*pi*G*M*k_B), M = 62 M_sun",
+      "kappa_using_recorded_T_H": 1366.1,
+      "kappa_using_correct_T_H": 16463.3,
+      "probable_origin": "T_H = 1.2e-8 K is the Hawking temperature of a 5.14 M_sun black hole, paired with a Schwarzschild radius computed for the 62 M_sun remnant",
+      "verdict": "does not survive correction",
+      "script": "scripts/verify.py"
+    },
+    {
+      "id": "F3",
+      "severity": "high",
+      "title": "kappa = 1313 is the only reproducible value",
+      "formula": "kappa = 3/(l_P * T_P), reduces to 3*k_B/(hbar*c)",
+      "independent_result": 1310.109734,
+      "recorded": 1313,
+      "relative_error": 0.0022,
+      "caveat": "reproducible within the framework's own terms only; still subject to F0",
+      "script": "scripts/verify.py"
+    },
+    {
+      "id": "F4",
+      "severity": "critical",
+      "title": "Production engine uses a placeholder constant",
+      "value": 1.23456789e-23,
+      "assignment": "self.bruno_constant = 1.23456789e-23",
+      "files": 32,
+      "unique_contents": 14,
+      "trees": ["E3_CURRENT_PRODUCTION/e3_engine", "CLEAN_WORKSPACE/e3_engine", "E3_Project/e3_engine"],
+      "serialized_into": ["e3_universal_thermal_model_v2_1.json:10", "e3_universal_thermal_model_v2_2.json:10"],
+      "note": "digit sequence 1-2-3-4-5-6-7-8-9; engine pipeline never used 1313 or 1366",
+      "verdict": "engine output cannot be evidence for any kappa value"
+    },
+    {
+      "id": "F5",
+      "severity": "high",
+      "title": "Authoritative document reaches the inverted conclusion",
+      "file": "CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md",
+      "asserts": "kappa = 1366 DEFINITIVE; remove 1313 as 'Theoretical Planck value, superseded'",
+      "stated_reason": "GW150914 route is 'MOST RELIABLE' because it uses 'direct observational data from LIGO'",
+      "why_wrong": ["GW route uses no observational data (F1)", "its value rests on a 12x error (F2)", "the dismissed route is the reproducible one (F3)"],
+      "recommendation": "retract, do not edit"
+    },
+    {
+      "id": "F6",
+      "severity": "medium",
+      "title": "Contradicting 'final' declaration in code",
+      "file": "github_repos/bruno-collapse-unified/bruno_core_unified/theory/bruno_threshold.py",
+      "code": "BRUNO_CONSTANT_KAPPA = 1340e-6  # K^-1 s^-1",
+      "comment": "Bruno Constant - Final experimentally validated value",
+      "copies": 1,
+      "of_total_copies": 23,
+      "conflict": "BRUNO_CONSTANT_FINAL_ANALYSIS.md calls this same value erroneous and orders it removed",
+      "units_problem": "s^-1 incompatible with beta_B = kappa*T",
+      "verdict": "not recomputable; no derivation or method anywhere in corpus"
+    },
+    {
+      "id": "F7",
+      "severity": "medium",
+      "title": "kappa = 0.001005 is a different physical quantity",
+      "context": "k_chajar = 0.001005  # Chajar Constant: entropy tangency threshold",
+      "usage": "T_tangent = T_planck * k_chajar",
+      "actual_nature": "dimensionless multiplier of Planck temperature, not a K^-1 constant",
+      "files": 6,
+      "verdict": "should never have been counted against 1313/1366"
+    },
+    {
+      "id": "F8",
+      "severity": "high",
+      "title": "Hollow tree",
+      "tree": "Entropy-Collapse-Research-main",
+      "py_files": 111,
+      "empty": 111,
+      "corpus_wide_zero_byte_files": 441,
+      "probable_cause": "failed clone or checkout without blobs",
+      "impact": "made 59 of 72 apparently-drifted directory pairs false positives",
+      "recommendation": "delete; nothing is lost"
+    },
+    {
+      "id": "F9",
+      "severity": "medium",
+      "title": "Three CODATA vintages coexist",
+      "literals": {
+        "l_P = 1.616255e-35": "CODATA 2018",
+        "m_P = 2.17651e-8": "CODATA 2010",
+        "T_P = 1.416808e32": "CODATA 2014"
+      },
+      "numerical_impact": "~2e-5, harmless",
+      "utility": "reliable lineage fingerprint; directory names are not"
+    },
+    {
+      "id": "F10",
+      "severity": "medium",
+      "title": "Planck temperature stored under a Planck-time name",
+      "file": "bruno-framework-clean/Scripts/Planck_Scale_Entropy.py:7",
+      "copies": 7,
+      "variable": "t_planck",
+      "holds": 1.416808e32,
+      "should_hold": 5.391246448e-44,
+      "error_if_used_as_time": "2.6e75",
+      "note": "sim_results/bruno_universe.py defines PLANCK_TIME correctly; both conventions coexist"
+    }
+  ],
+
+  "equation_modifications": [
+    {
+      "id": "M1",
+      "files": 7,
+      "code": "T_H_eq = sp.Eq(T_H, (hbar*c**3)/(8*pi*G*M) * (S_BH/k_B))",
+      "comment_in_source": "Adjusted scaling",
+      "standard_value": 9.951732e-10,
+      "as_written_value": 5.540158e+48,
+      "ratio": 5.567e+57,
+      "problem": "S_BH/k_B is the dimensionless entropy (~1e80); multiplying a temperature by it is not a scaling correction",
+      "verdict": "invalid"
+    },
+    {
+      "id": "M2",
+      "file": "Entropy Blackhole Model.py:16-17",
+      "code": "S_BH_eq = sp.Eq(S_BH, (k_B*4*pi*r_s**2)/(hbar*G/c**3))",
+      "comment_in_source": "Bekenstein-Hawking entropy equation for a black hole (corrected formula)",
+      "standard_value": 5.567029e+57,
+      "as_written_value": 2.226812e+58,
+      "ratio": 4.0,
+      "problem": "the /4 in A/4 was dropped; comment claims the opposite",
+      "verdict": "4x too high"
+    },
+    {
+      "id": "M3",
+      "file": "github_repos/Entropy-Collapse-Research/Scripts/Hawking Radiation Comparison.py",
+      "code": "T_H_standard = (hbar*c**3)/(8*pi*G*M)",
+      "problem": "k_B omitted; returns joules not kelvin",
+      "error_factor": 7.243e+22,
+      "additional": "same file sets c = 3.0e8 and adds f_S = 1.66345592659651e-36 to the result",
+      "verdict": "invalid"
+    },
+    {
+      "id": "M4",
+      "file": "github_repos/Entropy-Collapse-Research/Scripts/Gw150914 Entropy Test.py",
+      "code": "S = (4*pi*G*A)/(hbar*c*kB)",
+      "correct": "S = k_B*c**3*A/(4*G*hbar)",
+      "standard_value": 5.567029e+57,
+      "as_written_value": 8.095718e+50,
+      "ratio": 1.454e-07,
+      "note": "this is the script computing entropy for the event underpinning kappa = 1366",
+      "verdict": "invalid"
+    },
+    {
+      "id": "M5",
+      "files": 2,
+      "code": "f_S = 1.66345592659651e-36",
+      "comment_in_source": "Previously computed entropy contribution",
+      "problem": "added to both T_H and r_s, quantities of different dimensions; no derivation in corpus",
+      "verdict": "not recomputable"
+    },
+    {
+      "id": "M6",
+      "hits": 15,
+      "code": "quality_flags.append(f\"purity_adjusted_{purity}%\")",
+      "verdict": "benign string label, not an equation"
+    }
+  ],
+
+  "constants": {
+    "defined_exact_2019_SI": {
+      "c":    {"correct": 299792458.0,   "found": {"299792458": 57, "2.99792458e8": 6, "3.0e8": 40}, "worst_error": 0.000692},
+      "k_B":  {"correct": 1.380649e-23,  "found": {"1.380649e-23": 79, "1.381e-23": 1}, "worst_error": 0.000254},
+      "h":    {"correct": 6.62607015e-34,"found": {"6.62607015e-34": 19}, "worst_error": 0.0},
+      "hbar": {"correct": 1.054571818e-34, "found": {"1.054571817e-34": 45, "1.0545718e-34": 10}, "worst_error": 1e-09}
+    },
+    "measured": {
+      "G":     {"correct": 6.6743e-11,  "found": {"6.67430e-11": 87, "6.67e-11": 1}, "worst_error": 0.000644},
+      "M_sun": {"correct": 1.98847e30,  "found": {"1.98847e30": 18, "1.9885e30": 3, "1.989e30": 6}, "worst_error": 0.000267},
+      "m_p":   {"correct": 1.67262192369e-27, "found": {"1.67262192369e-27": 1, "1.6726219e-27": 2}},
+      "m_e":   {"correct": 9.1093837015e-31, "found": {"9.1093837015e-31": 2}},
+      "sigma_SB": {"correct": 5.670374419e-8, "found": {"5.670374419e-8": 11}}
+    },
+    "derived_recomputed": {
+      "l_P":  {"formula": "sqrt(hbar*G/c^3)",      "independent": 1.616255024e-35, "found": 1.616255e-35, "verdict": "match"},
+      "m_P":  {"formula": "sqrt(hbar*c/G)",         "independent": 2.176434343e-08, "found": 2.17651e-08,  "verdict": "stale (CODATA 2010)"},
+      "T_P":  {"formula": "sqrt(hbar*c^5/G)/k_B",   "independent": 1.416784162e+32, "found": 1.416808e+32, "verdict": "stale (CODATA 2014)"},
+      "t_P":  {"formula": "sqrt(hbar*G/c^5)",       "independent": 5.391246448e-44, "found": null,         "verdict": "name misused, see F10"},
+      "R_s":  {"formula": "2*G*M/c^2, M=62 M_sun",  "independent": 183107.0417,     "found": 183000.0,     "verdict": "match, -0.06%"},
+      "T_H":  {"formula": "hbar*c^3/(8*pi*G*M*k_B)","independent": 9.951731982e-10, "found": 1.2e-08,      "verdict": "MISMATCH +1106%"},
+      "S_BH": {"formula": "k_B*c^3*A/(4*G*hbar)",   "independent": 5.567028847e+57, "found": 7.009474411e+54, "verdict": "MISMATCH -99.87%"}
+    },
+    "kappa": {
+      "1313":          {"files": 19, "route": "3/(l_P*T_P) = 3*k_B/(hbar*c)", "independent": 1310.109734, "error": 0.0022, "verdict": "reproducible"},
+      "1366":          {"files": 22, "route": "3/(R_s*T_H) with erroneous T_H", "independent": 16463.32446, "error": -0.917, "verdict": "error artifact"},
+      "0.001005":      {"files": 6,  "verdict": "dimensionless multiplier, different quantity"},
+      "1340e-6":       {"files": 1,  "verdict": "units K^-1 s^-1, no derivation, unverifiable"},
+      "1.23456789e-23":{"files": 32, "verdict": "placeholder"},
+      "1.0e-23":       {"files": 1,  "verdict": "unrelated toy model"}
+    },
+    "mismatched_masses": {
+      "note": "the corpus pairs quantities computed for three different black holes",
+      "R_s_183000_m": "62 M_sun (correct)",
+      "T_H_1.2e-8_K": "5.14 M_sun",
+      "S_bh_7.0095e54": "2.20 M_sun"
+    }
+  },
+
+  "corpus_structure": {
+    "total_files": 308033,
+    "authored_core_files": 2408,
+    "unique_contents_exact": 614,
+    "unique_contents_ignoring_line_endings": 572,
+    "crlf_lf_twins": 42,
+    "classification": {"canonical": 145, "superseded": 69, "orphan": 399, "duplicate": 1622, "empty": 173},
+    "duplicate_share": 0.67,
+    "third_party_py_share": 0.96,
+    "version_named_directories": 124,
+    "filenames_with_divergent_content": 77,
+    "directory_pairs_over_60pct_overlap": 233,
+    "directory_pairs_disagreeing": 72,
+    "disagreements_caused_by_empty_files": 59,
+    "genuine_content_drift": 13
+  },
+
+  "recommendations": {
+    "blocked_on_F0": ["define kappa in any canonical module"],
+    "immediate": [
+      "delete Entropy-Collapse-Research-main (hollow, 111 empty .py)",
+      "delete davp_env and bruno_env virtualenvs (~40 GB); rebuild from requirements.txt",
+      "normalize line endings BEFORE deduplication, else 42 needless copies survive",
+      "remove all 32 bruno_constant = 1.23456789e-23 placeholder sites",
+      "retract CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md"
+    ],
+    "canonical_module": {
+      "path": "e3_core/constants.py",
+      "principle": "derive Planck units rather than hardcoding; eliminates F9 and F10 permanently",
+      "kappa": "deliberately absent until F0 is resolved"
+    }
+  },
+
+  "known_gaps": [
+    "43955 .dat and 1884 .csv files never swept",
+    "94443 dataset JSON excluded as bulk, but model parameters ARE serialized to JSON (see F4)",
+    "computed-not-assigned constants missed by regex extraction; needs AST parse",
+    "notebook stored cell outputs not parsed (263 .ipynb)",
+    "LaTeX equation bodies not swept, only assignments (47 unique .tex)",
+    "16 .git histories unexamined; git log -S 1366 would date the transition definitively",
+    "f_S = 1.66345592659651e-36 provenance absent",
+    "kappa_lab = 1340 +/- 60e-6 method not recorded anywhere in corpus"
+  ]
+}

@@ -1,0 +1,1216 @@
+./entropy-collapse-transient-engine.ipynb-71-    "\n",
+./entropy-collapse-transient-engine.ipynb-72-    "# Bruno constant\n",
+./entropy-collapse-transient-engine.ipynb:73:    "kappa = 1366.0        # K⁻¹\n",
+./entropy-collapse-transient-engine.ipynb-74-    "\n",
+./entropy-collapse-transient-engine.ipynb-75-    "# Planck length\n",
+--
+./entropy-collapse-transient-engine(1).ipynb-71-    "\n",
+./entropy-collapse-transient-engine(1).ipynb-72-    "# Bruno constant\n",
+./entropy-collapse-transient-engine(1).ipynb:73:    "kappa = 1366.0        # K⁻¹\n",
+./entropy-collapse-transient-engine(1).ipynb-74-    "\n",
+./entropy-collapse-transient-engine(1).ipynb-75-    "# Planck length\n",
+--
+./bruno-simulator-latest/nb01_toy_core.ipynb-71-    "\n",
+./bruno-simulator-latest/nb01_toy_core.ipynb-72-    "# Bruno constant\n",
+./bruno-simulator-latest/nb01_toy_core.ipynb:73:    "kappa = 1366.0        # K⁻¹\n",
+./bruno-simulator-latest/nb01_toy_core.ipynb-74-    "\n",
+./bruno-simulator-latest/nb01_toy_core.ipynb-75-    "# Planck length\n",
+--
+./bruno-simulator-latest/nb04_gw_corrmap.ipynb-51-     "output_type": "stream",
+./bruno-simulator-latest/nb04_gw_corrmap.ipynb-52-     "text": [
+./bruno-simulator-latest/nb04_gw_corrmap.ipynb:53:      "✅ β_B computed for both detectors using kappa = 0.001005\n",
+./bruno-simulator-latest/nb04_gw_corrmap.ipynb-54-      "🟠 H1 collapse points detected: 16378\n",
+./bruno-simulator-latest/nb04_gw_corrmap.ipynb-55-      "🔵 L1 collapse points detected: 16378\n"
+--
+./bruno-simulator-latest/nb04_gw_corrmap.ipynb-63-    "\n",
+./bruno-simulator-latest/nb04_gw_corrmap.ipynb-64-    "# 🧮 Define Bruno Constant (collapse threshold scale factor)\n",
+./bruno-simulator-latest/nb04_gw_corrmap.ipynb:65:    "kappa = 0.001005  # Entropy collapse threshold factor (dimensionless)\n",
+./bruno-simulator-latest/nb04_gw_corrmap.ipynb-66-    "\n",
+./bruno-simulator-latest/nb04_gw_corrmap.ipynb-67-    "# 🌡 Convert strain amplitude to pseudo-temperature T (entropy proxy)\n",
+--
+./bruno-simulator-latest/nb04_gw_corrmap.ipynb-489-    "\n",
+./bruno-simulator-latest/nb04_gw_corrmap.ipynb-490-    "# 📏 Bruno Constant (κ)\n",
+./bruno-simulator-latest/nb04_gw_corrmap.ipynb:491:    "kappa = 0.001005\n",
+./bruno-simulator-latest/nb04_gw_corrmap.ipynb-492-    "\n",
+./bruno-simulator-latest/nb04_gw_corrmap.ipynb-493-    "# 🌡️ Convert strain to entropy-proxy temperature (unit-scaled)\n",
+--
+./bruno-simulator-latest/nb05_GW_Batch_AutoRun.ipynb-751-    "\n",
+./bruno-simulator-latest/nb05_GW_Batch_AutoRun.ipynb-752-    "# Constants\n",
+./bruno-simulator-latest/nb05_GW_Batch_AutoRun.ipynb:753:    "kappa = 0.001005\n",
+./bruno-simulator-latest/nb05_GW_Batch_AutoRun.ipynb-754-    "data_dir = \"data/gw_fresh_run\"\n",
+./bruno-simulator-latest/nb05_GW_Batch_AutoRun.ipynb-755-    "plot_dir = \"results/plots\"\n",
+--
+./bruno-simulator-latest/nb05_GW_Batch_AutoRun.ipynb-886-    "\n",
+./bruno-simulator-latest/nb05_GW_Batch_AutoRun.ipynb-887-    "def compute_bruno_collapse_summary():\n",
+./bruno-simulator-latest/nb05_GW_Batch_AutoRun.ipynb:888:    "    kappa = 0.001005\n",
+./bruno-simulator-latest/nb05_GW_Batch_AutoRun.ipynb-889-    "    entries = []\n",
+./bruno-simulator-latest/nb05_GW_Batch_AutoRun.ipynb-890-    "\n",
+--
+./bruno-simulator-latest/bruno-analysis/plasma_data_parser.py-4-# === CONFIG ===
+./bruno-simulator-latest/bruno-analysis/plasma_data_parser.py-5-filename = 'your_file.csv'  # Replace with your downloaded data filename
+./bruno-simulator-latest/bruno-analysis/plasma_data_parser.py:6:kappa = 0.001005  # Bruno Constant scalar
+./bruno-simulator-latest/bruno-analysis/plasma_data_parser.py-7-
+./bruno-simulator-latest/bruno-analysis/plasma_data_parser.py-8-# === LOAD DATA ===
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-33-   "source": [
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-34-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:35:    "kappa = 1366  # Bruno Constant in K^-1"
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-36-   ]
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-37-  },
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-158-    "# Recompute β_B = κ · T and compare to 3/R for GW150914\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-159-    "R_gw150914 = 1.83e5  # m\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:160:    "kappa = 1366  # K^-1\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-161-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-162-    "temperatures = [1e9, 1e10]\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-199-   "source": [
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-200-    "# Define κ again for clarity\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:201:    "kappa = 1366  # Bruno Constant in K^-1"
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-202-   ]
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-203-  },
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-405-   "source": [
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-406-    "# Bruno Constant\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:407:    "kappa = 1366  # K^-1"
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-408-   ]
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-409-  },
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-634-   "source": [
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-635-    "# Compute Bruno constant β_B = κ·T and compare to 3/R_s\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:636:    "kappa = 1366\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-637-    "beta_B_TOV = kappa * T_core_TOV\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-638-    "threshold_TOV = 3 / R_s_TOV\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-670-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-671-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:672:    "kappa = 1313        # Bruno Constant (1/K)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-673-    "V = 1.0             # Arbitrary volume (m³)"
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-674-   ]
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-868-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-869-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:870:    "kappa = 1313        # Bruno constant\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-871-    "V = 1.0             # Volume in m³"
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-872-   ]
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1411-    "results = []\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1412-    "for name, M, T, R in systems:\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:1413:    "    kappa = 3 / (R * T)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1414-    "    compactness = M / R\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1415-    "    results.append((name, M, R, T, kappa, compactness))"
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1487-   "source": [
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1488-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:1489:    "kappa = 1313               # Bruno constant (1/K)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1490-    "T_CMB = 2.725              # CMB average temperature in Kelvin\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1491-    "beta_B_CMB = kappa * T_CMB"
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-19-   "source": [
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-20-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:21:    "kappa = 1366  # Bruno Constant in K^-1"
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-22-   ]
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-23-  },
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-137-    "# Recompute β_B = κ · T and compare to 3/R for GW150914\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-138-    "R_gw150914 = 1.83e5  # m\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:139:    "kappa = 1366  # K^-1"
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-140-   ]
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-141-  },
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-188-   "source": [
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-189-    "# Define κ again for clarity\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:190:    "kappa = 1366  # Bruno Constant in K^-1"
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-191-   ]
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-192-  },
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-356-   "source": [
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-357-    "# Bruno Constant\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:358:    "kappa = 1366  # K^-1"
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-359-   ]
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-360-  },
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-525-   "source": [
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-526-    "# Compute Bruno constant β_B = κ·T and compare to 3/R_s\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:527:    "kappa = 1366\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-528-    "beta_B_TOV = kappa * T_core_TOV\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-529-    "threshold_TOV = 3 / R_s_TOV\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-573-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-574-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:575:    "kappa = 1313        # Bruno Constant (1/K)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-576-    "V = 1.0             # Arbitrary volume (m³)"
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-577-   ]
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-742-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-743-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:744:    "kappa = 1313        # Bruno constant\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-745-    "V = 1.0             # Volume in m³"
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-746-   ]
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1152-    "results = []\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1153-    "for name, M, T, R in systems:\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:1154:    "    kappa = 3 / (R * T)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1155-    "    compactness = M / R\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1156-    "    results.append((name, M, R, T, kappa, compactness))"
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1217-   "source": [
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1218-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:1219:    "kappa = 1313               # Bruno constant (1/K)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1220-    "T_CMB = 2.725              # CMB average temperature in Kelvin\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1221-    "beta_B_CMB = kappa * T_CMB"
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-35-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-36-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:37:    "kappa = 1366  # Bruno Constant in K^-1\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-38-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-39-    "# Test Cases: Name, Radius (m), Temperature (K)\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-93-    "# Recompute β_B = κ · T and compare to 3/R for GW150914\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-94-    "R_gw150914 = 1.83e5  # m\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:95:    "kappa = 1366  # K^-1\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-96-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-97-    "temperatures = [1e9, 1e10]\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-119-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-120-    "# Define κ again for clarity\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:121:    "kappa = 1366  # Bruno Constant in K^-1\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-122-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-123-    "# Collapse transition stages: Name, Temperature (K), Radius (m)\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-209-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-210-    "# Bruno Constant\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:211:    "kappa = 1366  # K^-1\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-212-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-213-    "# Compute beta_B and threshold\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-288-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-289-    "# Compute Bruno constant β_B = κ·T and compare to 3/R_s\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:290:    "kappa = 1366\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-291-    "beta_B_TOV = kappa * T_core_TOV\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-292-    "threshold_TOV = 3 / R_s_TOV\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-317-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-318-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:319:    "kappa = 1313        # Bruno Constant (1/K)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-320-    "V = 1.0             # Arbitrary volume (m³)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-321-    "\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-412-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-413-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:414:    "kappa = 1313        # Bruno constant\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-415-    "V = 1.0             # Volume in m³\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-416-    "\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-635-    "results = []\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-636-    "for name, M, T, R in systems:\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:637:    "    kappa = 3 / (R * T)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-638-    "    compactness = M / R\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-639-    "    results.append((name, M, R, T, kappa, compactness))\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-672-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-673-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:674:    "kappa = 1313               # Bruno constant (1/K)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-675-    "T_CMB = 2.725              # CMB average temperature in Kelvin\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-676-    "beta_B_CMB = kappa * T_CMB\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-191-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-192-    "# Bruno constant\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:193:    "kappa = 1313  # 1/K\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-194-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-195-    "# Neutron star core temperature range (in Kelvin)\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-271-    "N = 500\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-272-    "r = np.linspace(0, 1, N)\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:273:    "kappa = 1313\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-274-    "n = 2.5\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-275-    "\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-334-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-335-    "# Simulation parameters\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:336:    "kappa = 1313\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-337-    "a = 7.5657e-16\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-338-    "n_steps = S_all.shape[0]\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-394-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-395-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:396:    "kappa = 1313             # Bruno constant\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-397-    "a = 7.5657e-16           # Radiation constant\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-398-    "D = 1e-5                 # Entropy diffusion coefficient\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-519-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-520-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:521:    "kappa = 1313\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-522-    "a = 7.5657e-16\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-523-    "\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-621-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-622-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:623:    "kappa = 1313\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-624-    "a = 7.5657e-16\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-625-    "n_steps = 100\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1088-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1089-    "# Constants\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:1090:    "kappa = 1313\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1091-    "a = 7.5657e-16\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1092-    "\n",
+--
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1738-    "\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1739-    "# Example: Predict energy for SN-like condition\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:1740:    "example_kappa = 1000\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1741-    "example_T = 5e12\n",
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1742-    "Ej, Eerg = collapse_energy_map(example_kappa, example_T)\n",
+--
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-35-    "\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-36-    "# Constants\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:37:    "kappa = 1366  # Bruno Constant in K^-1\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-38-    "\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-39-    "# Test Cases: Name, Radius (m), Temperature (K)\n",
+--
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-93-    "# Recompute β_B = κ · T and compare to 3/R for GW150914\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-94-    "R_gw150914 = 1.83e5  # m\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:95:    "kappa = 1366  # K^-1\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-96-    "\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-97-    "temperatures = [1e9, 1e10]\n",
+--
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-119-    "\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-120-    "# Define κ again for clarity\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:121:    "kappa = 1366  # Bruno Constant in K^-1\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-122-    "\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-123-    "# Collapse transition stages: Name, Temperature (K), Radius (m)\n",
+--
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-209-    "\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-210-    "# Bruno Constant\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:211:    "kappa = 1366  # K^-1\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-212-    "\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-213-    "# Compute beta_B and threshold\n",
+--
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-288-    "\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-289-    "# Compute Bruno constant β_B = κ·T and compare to 3/R_s\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:290:    "kappa = 1366\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-291-    "beta_B_TOV = kappa * T_core_TOV\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-292-    "threshold_TOV = 3 / R_s_TOV\n",
+--
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-317-    "# Constants\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-318-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:319:    "kappa = 1313        # Bruno Constant (1/K)\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-320-    "V = 1.0             # Arbitrary volume (m³)\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-321-    "\n",
+--
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-412-    "# Constants\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-413-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:414:    "kappa = 1313        # Bruno constant\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-415-    "V = 1.0             # Volume in m³\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-416-    "\n",
+--
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-635-    "results = []\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-636-    "for name, M, T, R in systems:\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:637:    "    kappa = 3 / (R * T)\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-638-    "    compactness = M / R\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-639-    "    results.append((name, M, R, T, kappa, compactness))\n",
+--
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-672-    "\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-673-    "# Constants\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:674:    "kappa = 1313               # Bruno constant (1/K)\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-675-    "T_CMB = 2.725              # CMB average temperature in Kelvin\n",
+./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-676-    "beta_B_CMB = kappa * T_CMB\n",
+--
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb01_toy_core.ipynb-71-    "\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb01_toy_core.ipynb-72-    "# Bruno constant\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb01_toy_core.ipynb:73:    "kappa = 1366.0        # K⁻¹\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb01_toy_core.ipynb-74-    "\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb01_toy_core.ipynb-75-    "# Planck length\n",
+--
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb-51-     "output_type": "stream",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb-52-     "text": [
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb:53:      "✅ β_B computed for both detectors using kappa = 0.001005\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb-54-      "🟠 H1 collapse points detected: 16378\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb-55-      "🔵 L1 collapse points detected: 16378\n"
+--
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb-63-    "\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb-64-    "# 🧮 Define Bruno Constant (collapse threshold scale factor)\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb:65:    "kappa = 0.001005  # Entropy collapse threshold factor (dimensionless)\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb-66-    "\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb-67-    "# 🌡 Convert strain amplitude to pseudo-temperature T (entropy proxy)\n",
+--
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb-489-    "\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb-490-    "# 📏 Bruno Constant (κ)\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb:491:    "kappa = 0.001005\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb-492-    "\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb-493-    "# 🌡️ Convert strain to entropy-proxy temperature (unit-scaled)\n",
+--
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-751-    "\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-752-    "# Constants\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb:753:    "kappa = 0.001005\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-754-    "data_dir = \"data/gw_fresh_run\"\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-755-    "plot_dir = \"results/plots\"\n",
+--
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-886-    "\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-887-    "def compute_bruno_collapse_summary():\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb:888:    "    kappa = 0.001005\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-889-    "    entries = []\n",
+./github_repos/bruno-collapse-simulator/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-890-    "\n",
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-19-   "source": [
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-20-    "# Constants\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:21:    "kappa = 1366  # Bruno Constant in K^-1"
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-22-   ]
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-23-  },
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-137-    "# Recompute β_B = κ · T and compare to 3/R for GW150914\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-138-    "R_gw150914 = 1.83e5  # m\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:139:    "kappa = 1366  # K^-1"
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-140-   ]
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-141-  },
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-188-   "source": [
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-189-    "# Define κ again for clarity\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:190:    "kappa = 1366  # Bruno Constant in K^-1"
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-191-   ]
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-192-  },
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-356-   "source": [
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-357-    "# Bruno Constant\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:358:    "kappa = 1366  # K^-1"
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-359-   ]
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-360-  },
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-525-   "source": [
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-526-    "# Compute Bruno constant β_B = κ·T and compare to 3/R_s\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:527:    "kappa = 1366\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-528-    "beta_B_TOV = kappa * T_core_TOV\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-529-    "threshold_TOV = 3 / R_s_TOV\n",
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-573-    "# Constants\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-574-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:575:    "kappa = 1313        # Bruno Constant (1/K)\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-576-    "V = 1.0             # Arbitrary volume (m³)"
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-577-   ]
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-742-    "# Constants\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-743-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:744:    "kappa = 1313        # Bruno constant\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-745-    "V = 1.0             # Volume in m³"
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-746-   ]
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1152-    "results = []\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1153-    "for name, M, T, R in systems:\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:1154:    "    kappa = 3 / (R * T)\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1155-    "    compactness = M / R\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1156-    "    results.append((name, M, R, T, kappa, compactness))"
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1217-   "source": [
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1218-    "# Constants\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:1219:    "kappa = 1313               # Bruno constant (1/K)\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1220-    "T_CMB = 2.725              # CMB average temperature in Kelvin\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1221-    "beta_B_CMB = kappa * T_CMB"
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-191-    "\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-192-    "# Bruno constant\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:193:    "kappa = 1313  # 1/K\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-194-    "\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-195-    "# Neutron star core temperature range (in Kelvin)\n",
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-271-    "N = 500\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-272-    "r = np.linspace(0, 1, N)\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:273:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-274-    "n = 2.5\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-275-    "\n",
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-334-    "\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-335-    "# Simulation parameters\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:336:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-337-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-338-    "n_steps = S_all.shape[0]\n",
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-394-    "\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-395-    "# Constants\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:396:    "kappa = 1313             # Bruno constant\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-397-    "a = 7.5657e-16           # Radiation constant\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-398-    "D = 1e-5                 # Entropy diffusion coefficient\n",
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-519-    "\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-520-    "# Constants\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:521:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-522-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-523-    "\n",
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-621-    "\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-622-    "# Constants\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:623:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-624-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-625-    "n_steps = 100\n",
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1088-    "\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1089-    "# Constants\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:1090:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1091-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1092-    "\n",
+--
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1738-    "\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1739-    "# Example: Predict energy for SN-like condition\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:1740:    "example_kappa = 1000\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1741-    "example_T = 5e12\n",
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1742-    "Ej, Eerg = collapse_energy_map(example_kappa, example_T)\n",
+--
+./E3_Project_Tokamak_Analysis/bruno-analysis/plasma_data_parser.py-4-# === CONFIG ===
+./E3_Project_Tokamak_Analysis/bruno-analysis/plasma_data_parser.py-5-filename = 'your_file.csv'  # Replace with your downloaded data filename
+./E3_Project_Tokamak_Analysis/bruno-analysis/plasma_data_parser.py:6:kappa = 0.001005  # Bruno Constant scalar
+./E3_Project_Tokamak_Analysis/bruno-analysis/plasma_data_parser.py-7-
+./E3_Project_Tokamak_Analysis/bruno-analysis/plasma_data_parser.py-8-# === LOAD DATA ===
+--
+./github_repos/bruno-collapse-simulator/bruno_framework/historical_scripts/core_development/Bruno_collapse_tracker.py-3-
+./github_repos/bruno-collapse-simulator/bruno_framework/historical_scripts/core_development/Bruno_collapse_tracker.py-4-# --- Constants ---
+./github_repos/bruno-collapse-simulator/bruno_framework/historical_scripts/core_development/Bruno_collapse_tracker.py:5:kappa = 1340e-6  # Bruno constant - Final validated value (1340 ± 60 × 10⁻⁶ K⁻¹s⁻¹)
+./github_repos/bruno-collapse-simulator/bruno_framework/historical_scripts/core_development/Bruno_collapse_tracker.py-6-collapse_threshold = lambda T: kappa * T
+./github_repos/bruno-collapse-simulator/bruno_framework/historical_scripts/core_development/Bruno_collapse_tracker.py-7-
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-19-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-20-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:21:    "kappa = 1366  # Bruno Constant in K^-1"
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-22-   ]
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-23-  },
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-137-    "# Recompute β_B = κ · T and compare to 3/R for GW150914\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-138-    "R_gw150914 = 1.83e5  # m\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:139:    "kappa = 1366  # K^-1"
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-140-   ]
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-141-  },
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-188-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-189-    "# Define κ again for clarity\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:190:    "kappa = 1366  # Bruno Constant in K^-1"
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-191-   ]
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-192-  },
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-356-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-357-    "# Bruno Constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:358:    "kappa = 1366  # K^-1"
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-359-   ]
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-360-  },
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-525-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-526-    "# Compute Bruno constant β_B = κ·T and compare to 3/R_s\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:527:    "kappa = 1366\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-528-    "beta_B_TOV = kappa * T_core_TOV\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-529-    "threshold_TOV = 3 / R_s_TOV\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-573-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-574-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:575:    "kappa = 1313        # Bruno Constant (1/K)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-576-    "V = 1.0             # Arbitrary volume (m³)"
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-577-   ]
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-742-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-743-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:744:    "kappa = 1313        # Bruno constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-745-    "V = 1.0             # Volume in m³"
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-746-   ]
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1152-    "results = []\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1153-    "for name, M, T, R in systems:\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:1154:    "    kappa = 3 / (R * T)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1155-    "    compactness = M / R\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1156-    "    results.append((name, M, R, T, kappa, compactness))"
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1217-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1218-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:1219:    "kappa = 1313               # Bruno constant (1/K)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1220-    "T_CMB = 2.725              # CMB average temperature in Kelvin\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1221-    "beta_B_CMB = kappa * T_CMB"
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-191-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-192-    "# Bruno constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:193:    "kappa = 1313  # 1/K\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-194-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-195-    "# Neutron star core temperature range (in Kelvin)\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-271-    "N = 500\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-272-    "r = np.linspace(0, 1, N)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:273:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-274-    "n = 2.5\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-275-    "\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-334-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-335-    "# Simulation parameters\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:336:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-337-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-338-    "n_steps = S_all.shape[0]\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-394-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-395-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:396:    "kappa = 1313             # Bruno constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-397-    "a = 7.5657e-16           # Radiation constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-398-    "D = 1e-5                 # Entropy diffusion coefficient\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-519-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-520-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:521:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-522-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-523-    "\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-621-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-622-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:623:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-624-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-625-    "n_steps = 100\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1088-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1089-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:1090:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1091-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1092-    "\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1738-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1739-    "# Example: Predict energy for SN-like condition\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:1740:    "example_kappa = 1000\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1741-    "example_T = 5e12\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1742-    "Ej, Eerg = collapse_energy_map(example_kappa, example_T)\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-19-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-20-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:21:    "kappa = 1366  # Bruno Constant in K^-1"
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-22-   ]
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-23-  },
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-137-    "# Recompute β_B = κ · T and compare to 3/R for GW150914\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-138-    "R_gw150914 = 1.83e5  # m\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:139:    "kappa = 1366  # K^-1"
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-140-   ]
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-141-  },
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-188-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-189-    "# Define κ again for clarity\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:190:    "kappa = 1366  # Bruno Constant in K^-1"
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-191-   ]
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-192-  },
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-356-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-357-    "# Bruno Constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:358:    "kappa = 1366  # K^-1"
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-359-   ]
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-360-  },
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-525-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-526-    "# Compute Bruno constant β_B = κ·T and compare to 3/R_s\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:527:    "kappa = 1366\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-528-    "beta_B_TOV = kappa * T_core_TOV\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-529-    "threshold_TOV = 3 / R_s_TOV\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-573-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-574-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:575:    "kappa = 1313        # Bruno Constant (1/K)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-576-    "V = 1.0             # Arbitrary volume (m³)"
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-577-   ]
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-742-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-743-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:744:    "kappa = 1313        # Bruno constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-745-    "V = 1.0             # Volume in m³"
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-746-   ]
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1152-    "results = []\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1153-    "for name, M, T, R in systems:\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:1154:    "    kappa = 3 / (R * T)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1155-    "    compactness = M / R\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1156-    "    results.append((name, M, R, T, kappa, compactness))"
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1217-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1218-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:1219:    "kappa = 1313               # Bruno constant (1/K)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1220-    "T_CMB = 2.725              # CMB average temperature in Kelvin\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1221-    "beta_B_CMB = kappa * T_CMB"
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-191-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-192-    "# Bruno constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:193:    "kappa = 1313  # 1/K\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-194-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-195-    "# Neutron star core temperature range (in Kelvin)\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-271-    "N = 500\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-272-    "r = np.linspace(0, 1, N)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:273:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-274-    "n = 2.5\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-275-    "\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-334-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-335-    "# Simulation parameters\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:336:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-337-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-338-    "n_steps = S_all.shape[0]\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-394-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-395-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:396:    "kappa = 1313             # Bruno constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-397-    "a = 7.5657e-16           # Radiation constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-398-    "D = 1e-5                 # Entropy diffusion coefficient\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-519-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-520-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:521:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-522-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-523-    "\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-621-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-622-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:623:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-624-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-625-    "n_steps = 100\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1088-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1089-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:1090:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1091-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1092-    "\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1738-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1739-    "# Example: Predict energy for SN-like condition\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:1740:    "example_kappa = 1000\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1741-    "example_T = 5e12\n",
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/notebooks/simulation/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1742-    "Ej, Eerg = collapse_energy_map(example_kappa, example_T)\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Final/Bruno_collapse_tracker.py-3-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Final/Bruno_collapse_tracker.py-4-# --- Constants ---
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Final/Bruno_collapse_tracker.py:5:kappa = 1366  # Bruno constant (from GW150914)
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Final/Bruno_collapse_tracker.py-6-collapse_threshold = lambda T: kappa * T
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Final/Bruno_collapse_tracker.py-7-
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-33-   "source": [
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-34-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:35:    "kappa = 1366  # Bruno Constant in K^-1"
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-36-   ]
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-37-  },
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-158-    "# Recompute β_B = κ · T and compare to 3/R for GW150914\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-159-    "R_gw150914 = 1.83e5  # m\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:160:    "kappa = 1366  # K^-1\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-161-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-162-    "temperatures = [1e9, 1e10]\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-199-   "source": [
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-200-    "# Define κ again for clarity\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:201:    "kappa = 1366  # Bruno Constant in K^-1"
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-202-   ]
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-203-  },
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-405-   "source": [
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-406-    "# Bruno Constant\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:407:    "kappa = 1366  # K^-1"
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-408-   ]
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-409-  },
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-634-   "source": [
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-635-    "# Compute Bruno constant β_B = κ·T and compare to 3/R_s\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:636:    "kappa = 1366\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-637-    "beta_B_TOV = kappa * T_core_TOV\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-638-    "threshold_TOV = 3 / R_s_TOV\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-670-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-671-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:672:    "kappa = 1313        # Bruno Constant (1/K)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-673-    "V = 1.0             # Arbitrary volume (m³)"
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-674-   ]
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-868-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-869-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:870:    "kappa = 1313        # Bruno constant\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-871-    "V = 1.0             # Volume in m³"
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-872-   ]
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1411-    "results = []\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1412-    "for name, M, T, R in systems:\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:1413:    "    kappa = 3 / (R * T)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1414-    "    compactness = M / R\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1415-    "    results.append((name, M, R, T, kappa, compactness))"
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1487-   "source": [
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1488-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:1489:    "kappa = 1313               # Bruno constant (1/K)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1490-    "T_CMB = 2.725              # CMB average temperature in Kelvin\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1491-    "beta_B_CMB = kappa * T_CMB"
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-19-   "source": [
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-20-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:21:    "kappa = 1366  # Bruno Constant in K^-1"
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-22-   ]
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-23-  },
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-137-    "# Recompute β_B = κ · T and compare to 3/R for GW150914\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-138-    "R_gw150914 = 1.83e5  # m\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:139:    "kappa = 1366  # K^-1"
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-140-   ]
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-141-  },
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-188-   "source": [
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-189-    "# Define κ again for clarity\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:190:    "kappa = 1366  # Bruno Constant in K^-1"
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-191-   ]
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-192-  },
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-356-   "source": [
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-357-    "# Bruno Constant\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:358:    "kappa = 1366  # K^-1"
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-359-   ]
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-360-  },
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-525-   "source": [
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-526-    "# Compute Bruno constant β_B = κ·T and compare to 3/R_s\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:527:    "kappa = 1366\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-528-    "beta_B_TOV = kappa * T_core_TOV\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-529-    "threshold_TOV = 3 / R_s_TOV\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-573-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-574-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:575:    "kappa = 1313        # Bruno Constant (1/K)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-576-    "V = 1.0             # Arbitrary volume (m³)"
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-577-   ]
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-742-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-743-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:744:    "kappa = 1313        # Bruno constant\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-745-    "V = 1.0             # Volume in m³"
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-746-   ]
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1152-    "results = []\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1153-    "for name, M, T, R in systems:\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:1154:    "    kappa = 3 / (R * T)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1155-    "    compactness = M / R\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1156-    "    results.append((name, M, R, T, kappa, compactness))"
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1217-   "source": [
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1218-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:1219:    "kappa = 1313               # Bruno constant (1/K)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1220-    "T_CMB = 2.725              # CMB average temperature in Kelvin\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1221-    "beta_B_CMB = kappa * T_CMB"
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-35-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-36-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:37:    "kappa = 1366  # Bruno Constant in K^-1\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-38-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-39-    "# Test Cases: Name, Radius (m), Temperature (K)\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-93-    "# Recompute β_B = κ · T and compare to 3/R for GW150914\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-94-    "R_gw150914 = 1.83e5  # m\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:95:    "kappa = 1366  # K^-1\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-96-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-97-    "temperatures = [1e9, 1e10]\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-119-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-120-    "# Define κ again for clarity\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:121:    "kappa = 1366  # Bruno Constant in K^-1\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-122-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-123-    "# Collapse transition stages: Name, Temperature (K), Radius (m)\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-209-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-210-    "# Bruno Constant\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:211:    "kappa = 1366  # K^-1\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-212-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-213-    "# Compute beta_B and threshold\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-288-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-289-    "# Compute Bruno constant β_B = κ·T and compare to 3/R_s\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:290:    "kappa = 1366\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-291-    "beta_B_TOV = kappa * T_core_TOV\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-292-    "threshold_TOV = 3 / R_s_TOV\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-317-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-318-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:319:    "kappa = 1313        # Bruno Constant (1/K)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-320-    "V = 1.0             # Arbitrary volume (m³)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-321-    "\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-412-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-413-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:414:    "kappa = 1313        # Bruno constant\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-415-    "V = 1.0             # Volume in m³\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-416-    "\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-635-    "results = []\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-636-    "for name, M, T, R in systems:\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:637:    "    kappa = 3 / (R * T)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-638-    "    compactness = M / R\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-639-    "    results.append((name, M, R, T, kappa, compactness))\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-672-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-673-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:674:    "kappa = 1313               # Bruno constant (1/K)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-675-    "T_CMB = 2.725              # CMB average temperature in Kelvin\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-676-    "beta_B_CMB = kappa * T_CMB\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-191-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-192-    "# Bruno constant\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:193:    "kappa = 1313  # 1/K\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-194-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-195-    "# Neutron star core temperature range (in Kelvin)\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-271-    "N = 500\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-272-    "r = np.linspace(0, 1, N)\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:273:    "kappa = 1313\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-274-    "n = 2.5\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-275-    "\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-334-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-335-    "# Simulation parameters\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:336:    "kappa = 1313\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-337-    "a = 7.5657e-16\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-338-    "n_steps = S_all.shape[0]\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-394-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-395-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:396:    "kappa = 1313             # Bruno constant\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-397-    "a = 7.5657e-16           # Radiation constant\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-398-    "D = 1e-5                 # Entropy diffusion coefficient\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-519-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-520-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:521:    "kappa = 1313\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-522-    "a = 7.5657e-16\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-523-    "\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-621-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-622-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:623:    "kappa = 1313\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-624-    "a = 7.5657e-16\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-625-    "n_steps = 100\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1088-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1089-    "# Constants\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:1090:    "kappa = 1313\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1091-    "a = 7.5657e-16\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1092-    "\n",
+--
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1738-    "\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1739-    "# Example: Predict energy for SN-like condition\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:1740:    "example_kappa = 1000\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1741-    "example_T = 5e12\n",
+./E3_Project_OLD_MESSY/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1742-    "Ej, Eerg = collapse_energy_map(example_kappa, example_T)\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Final/Bruno_collapse_tracker.py-3-
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Final/Bruno_collapse_tracker.py-4-# --- Constants ---
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Final/Bruno_collapse_tracker.py:5:kappa = 1366  # Bruno constant (from GW150914)
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Final/Bruno_collapse_tracker.py-6-collapse_threshold = lambda T: kappa * T
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Final/Bruno_collapse_tracker.py-7-
+--
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb01_toy_core.ipynb-71-    "\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb01_toy_core.ipynb-72-    "# Bruno constant\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb01_toy_core.ipynb:73:    "kappa = 1366.0        # K⁻¹\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb01_toy_core.ipynb-74-    "\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb01_toy_core.ipynb-75-    "# Planck length\n",
+--
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb04_gw_corrmap.ipynb-51-     "output_type": "stream",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb04_gw_corrmap.ipynb-52-     "text": [
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb04_gw_corrmap.ipynb:53:      "✅ β_B computed for both detectors using kappa = 0.001005\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb04_gw_corrmap.ipynb-54-      "🟠 H1 collapse points detected: 16378\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb04_gw_corrmap.ipynb-55-      "🔵 L1 collapse points detected: 16378\n"
+--
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb04_gw_corrmap.ipynb-63-    "\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb04_gw_corrmap.ipynb-64-    "# 🧮 Define Bruno Constant (collapse threshold scale factor)\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb04_gw_corrmap.ipynb:65:    "kappa = 0.001005  # Entropy collapse threshold factor (dimensionless)\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb04_gw_corrmap.ipynb-66-    "\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb04_gw_corrmap.ipynb-67-    "# 🌡 Convert strain amplitude to pseudo-temperature T (entropy proxy)\n",
+--
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb04_gw_corrmap.ipynb-489-    "\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb04_gw_corrmap.ipynb-490-    "# 📏 Bruno Constant (κ)\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb04_gw_corrmap.ipynb:491:    "kappa = 0.001005\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb04_gw_corrmap.ipynb-492-    "\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb04_gw_corrmap.ipynb-493-    "# 🌡️ Convert strain to entropy-proxy temperature (unit-scaled)\n",
+--
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-751-    "\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-752-    "# Constants\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb:753:    "kappa = 0.001005\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-754-    "data_dir = \"data/gw_fresh_run\"\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-755-    "plot_dir = \"results/plots\"\n",
+--
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-886-    "\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-887-    "def compute_bruno_collapse_summary():\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb:888:    "    kappa = 0.001005\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-889-    "    entries = []\n",
+./bruno-simulator-RESTRUCTURED/notebooks/e3_core/nb05_GW_Batch_AutoRun.ipynb-890-    "\n",
+--
+./E3_Project_OLD_MESSY/archive/legacy_scripts/final/Bruno_collapse_tracker.py-3-
+./E3_Project_OLD_MESSY/archive/legacy_scripts/final/Bruno_collapse_tracker.py-4-# --- Constants ---
+./E3_Project_OLD_MESSY/archive/legacy_scripts/final/Bruno_collapse_tracker.py:5:kappa = 1366  # Bruno constant (from GW150914)
+./E3_Project_OLD_MESSY/archive/legacy_scripts/final/Bruno_collapse_tracker.py-6-collapse_threshold = lambda T: kappa * T
+./E3_Project_OLD_MESSY/archive/legacy_scripts/final/Bruno_collapse_tracker.py-7-
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-33-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-34-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:35:    "kappa = 1366  # Bruno Constant in K^-1"
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-36-   ]
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-37-  },
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-158-    "# Recompute β_B = κ · T and compare to 3/R for GW150914\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-159-    "R_gw150914 = 1.83e5  # m\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:160:    "kappa = 1366  # K^-1\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-161-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-162-    "temperatures = [1e9, 1e10]\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-199-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-200-    "# Define κ again for clarity\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:201:    "kappa = 1366  # Bruno Constant in K^-1"
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-202-   ]
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-203-  },
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-405-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-406-    "# Bruno Constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:407:    "kappa = 1366  # K^-1"
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-408-   ]
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-409-  },
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-634-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-635-    "# Compute Bruno constant β_B = κ·T and compare to 3/R_s\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:636:    "kappa = 1366\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-637-    "beta_B_TOV = kappa * T_core_TOV\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-638-    "threshold_TOV = 3 / R_s_TOV\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-670-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-671-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:672:    "kappa = 1313        # Bruno Constant (1/K)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-673-    "V = 1.0             # Arbitrary volume (m³)"
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-674-   ]
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-868-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-869-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:870:    "kappa = 1313        # Bruno constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-871-    "V = 1.0             # Volume in m³"
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-872-   ]
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1411-    "results = []\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1412-    "for name, M, T, R in systems:\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:1413:    "    kappa = 3 / (R * T)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1414-    "    compactness = M / R\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1415-    "    results.append((name, M, R, T, kappa, compactness))"
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1487-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1488-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb:1489:    "kappa = 1313               # Bruno constant (1/K)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1490-    "T_CMB = 2.725              # CMB average temperature in Kelvin\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb-1491-    "beta_B_CMB = kappa * T_CMB"
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-19-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-20-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:21:    "kappa = 1366  # Bruno Constant in K^-1"
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-22-   ]
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-23-  },
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-137-    "# Recompute β_B = κ · T and compare to 3/R for GW150914\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-138-    "R_gw150914 = 1.83e5  # m\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:139:    "kappa = 1366  # K^-1"
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-140-   ]
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-141-  },
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-188-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-189-    "# Define κ again for clarity\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:190:    "kappa = 1366  # Bruno Constant in K^-1"
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-191-   ]
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-192-  },
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-356-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-357-    "# Bruno Constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:358:    "kappa = 1366  # K^-1"
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-359-   ]
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-360-  },
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-525-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-526-    "# Compute Bruno constant β_B = κ·T and compare to 3/R_s\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:527:    "kappa = 1366\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-528-    "beta_B_TOV = kappa * T_core_TOV\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-529-    "threshold_TOV = 3 / R_s_TOV\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-573-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-574-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:575:    "kappa = 1313        # Bruno Constant (1/K)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-576-    "V = 1.0             # Arbitrary volume (m³)"
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-577-   ]
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-742-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-743-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:744:    "kappa = 1313        # Bruno constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-745-    "V = 1.0             # Volume in m³"
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-746-   ]
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1152-    "results = []\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1153-    "for name, M, T, R in systems:\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:1154:    "    kappa = 3 / (R * T)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1155-    "    compactness = M / R\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1156-    "    results.append((name, M, R, T, kappa, compactness))"
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1217-   "source": [
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1218-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb:1219:    "kappa = 1313               # Bruno constant (1/K)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1220-    "T_CMB = 2.725              # CMB average temperature in Kelvin\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb-1221-    "beta_B_CMB = kappa * T_CMB"
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-35-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-36-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:37:    "kappa = 1366  # Bruno Constant in K^-1\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-38-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-39-    "# Test Cases: Name, Radius (m), Temperature (K)\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-93-    "# Recompute β_B = κ · T and compare to 3/R for GW150914\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-94-    "R_gw150914 = 1.83e5  # m\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:95:    "kappa = 1366  # K^-1\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-96-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-97-    "temperatures = [1e9, 1e10]\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-119-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-120-    "# Define κ again for clarity\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:121:    "kappa = 1366  # Bruno Constant in K^-1\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-122-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-123-    "# Collapse transition stages: Name, Temperature (K), Radius (m)\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-209-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-210-    "# Bruno Constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:211:    "kappa = 1366  # K^-1\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-212-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-213-    "# Compute beta_B and threshold\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-288-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-289-    "# Compute Bruno constant β_B = κ·T and compare to 3/R_s\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:290:    "kappa = 1366\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-291-    "beta_B_TOV = kappa * T_core_TOV\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-292-    "threshold_TOV = 3 / R_s_TOV\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-317-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-318-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:319:    "kappa = 1313        # Bruno Constant (1/K)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-320-    "V = 1.0             # Arbitrary volume (m³)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-321-    "\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-412-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-413-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:414:    "kappa = 1313        # Bruno constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-415-    "V = 1.0             # Volume in m³\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-416-    "\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-635-    "results = []\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-636-    "for name, M, T, R in systems:\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:637:    "    kappa = 3 / (R * T)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-638-    "    compactness = M / R\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-639-    "    results.append((name, M, R, T, kappa, compactness))\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-672-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-673-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb:674:    "kappa = 1313               # Bruno constant (1/K)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-675-    "T_CMB = 2.725              # CMB average temperature in Kelvin\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb-676-    "beta_B_CMB = kappa * T_CMB\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-191-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-192-    "# Bruno constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:193:    "kappa = 1313  # 1/K\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-194-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-195-    "# Neutron star core temperature range (in Kelvin)\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-271-    "N = 500\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-272-    "r = np.linspace(0, 1, N)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:273:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-274-    "n = 2.5\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-275-    "\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-334-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-335-    "# Simulation parameters\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:336:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-337-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-338-    "n_steps = S_all.shape[0]\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-394-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-395-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:396:    "kappa = 1313             # Bruno constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-397-    "a = 7.5657e-16           # Radiation constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-398-    "D = 1e-5                 # Entropy diffusion coefficient\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-519-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-520-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:521:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-522-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-523-    "\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-621-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-622-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:623:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-624-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-625-    "n_steps = 100\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1088-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1089-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:1090:    "kappa = 1313\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1091-    "a = 7.5657e-16\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1092-    "\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1738-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1739-    "# Example: Predict energy for SN-like condition\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb:1740:    "example_kappa = 1000\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1741-    "example_T = 5e12\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb-1742-    "Ej, Eerg = collapse_energy_map(example_kappa, example_T)\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-35-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-36-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:37:    "kappa = 1366  # Bruno Constant in K^-1\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-38-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-39-    "# Test Cases: Name, Radius (m), Temperature (K)\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-93-    "# Recompute β_B = κ · T and compare to 3/R for GW150914\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-94-    "R_gw150914 = 1.83e5  # m\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:95:    "kappa = 1366  # K^-1\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-96-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-97-    "temperatures = [1e9, 1e10]\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-119-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-120-    "# Define κ again for clarity\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:121:    "kappa = 1366  # Bruno Constant in K^-1\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-122-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-123-    "# Collapse transition stages: Name, Temperature (K), Radius (m)\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-209-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-210-    "# Bruno Constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:211:    "kappa = 1366  # K^-1\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-212-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-213-    "# Compute beta_B and threshold\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-288-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-289-    "# Compute Bruno constant β_B = κ·T and compare to 3/R_s\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:290:    "kappa = 1366\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-291-    "beta_B_TOV = kappa * T_core_TOV\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-292-    "threshold_TOV = 3 / R_s_TOV\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-317-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-318-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:319:    "kappa = 1313        # Bruno Constant (1/K)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-320-    "V = 1.0             # Arbitrary volume (m³)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-321-    "\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-412-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-413-    "a_rad = 7.5657e-16  # Radiation constant (J·m⁻³·K⁻⁴)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:414:    "kappa = 1313        # Bruno constant\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-415-    "V = 1.0             # Volume in m³\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-416-    "\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-635-    "results = []\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-636-    "for name, M, T, R in systems:\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:637:    "    kappa = 3 / (R * T)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-638-    "    compactness = M / R\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-639-    "    results.append((name, M, R, T, kappa, compactness))\n",
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-672-    "\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-673-    "# Constants\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb:674:    "kappa = 1313               # Bruno constant (1/K)\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-675-    "T_CMB = 2.725              # CMB average temperature in Kelvin\n",
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb-676-    "beta_B_CMB = kappa * T_CMB\n",
+--
+./bruno-simulator-RESTRUCTURED/bruno_framework/historical_scripts/core_development/Bruno_collapse_tracker.py-3-
+./bruno-simulator-RESTRUCTURED/bruno_framework/historical_scripts/core_development/Bruno_collapse_tracker.py-4-# --- Constants ---
+./bruno-simulator-RESTRUCTURED/bruno_framework/historical_scripts/core_development/Bruno_collapse_tracker.py:5:kappa = 1366  # Bruno constant (from GW150914)
+./bruno-simulator-RESTRUCTURED/bruno_framework/historical_scripts/core_development/Bruno_collapse_tracker.py-6-collapse_threshold = lambda T: kappa * T
+./bruno-simulator-RESTRUCTURED/bruno_framework/historical_scripts/core_development/Bruno_collapse_tracker.py-7-
+--
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Final/Bruno_collapse_tracker.py-3-
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Final/Bruno_collapse_tracker.py-4-# --- Constants ---
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Final/Bruno_collapse_tracker.py:5:kappa = 1366  # Bruno constant (from GW150914)
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Final/Bruno_collapse_tracker.py-6-collapse_threshold = lambda T: kappa * T
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/legacy_import/Final/Bruno_collapse_tracker.py-7-
+./Entropy-Collapse-Research/Scripts/Final/Bruno_collapse_tracker.py-3-
+./Entropy-Collapse-Research/Scripts/Final/Bruno_collapse_tracker.py-4-# --- Constants ---
+./Entropy-Collapse-Research/Scripts/Final/Bruno_collapse_tracker.py:5:kappa = 1366  # Bruno constant (from GW150914)
+./Entropy-Collapse-Research/Scripts/Final/Bruno_collapse_tracker.py-6-collapse_threshold = lambda T: kappa * T
+./Entropy-Collapse-Research/Scripts/Final/Bruno_collapse_tracker.py-7-

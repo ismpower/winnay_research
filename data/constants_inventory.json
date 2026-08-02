@@ -1,0 +1,4825 @@
+[
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_Model.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_Model.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_Model.py",
+    "line": "6",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_Model.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./notebooks/archive/Historical_Entropy_Audit.ipynb",
+    "line": "2134",
+    "symbol": "Z_TO_MPC",
+    "literal": "3.26e6",
+    "expr": "3.26e6"
+  },
+  {
+    "file": "./notebooks/archive/Historical_Entropy_Audit.ipynb",
+    "line": "2135",
+    "symbol": "MPC_TO_M",
+    "literal": "3.086e22",
+    "expr": "3.086e22"
+  },
+  {
+    "file": "./notebooks/archive/Historical_Entropy_Audit.ipynb",
+    "line": "2136",
+    "symbol": "E_TOTAL",
+    "literal": "2e51",
+    "expr": "2e51"
+  },
+  {
+    "file": "./notebooks/archive/Historical_Entropy_Audit.ipynb",
+    "line": "2138",
+    "symbol": "FLUENCE_THRESHOLD",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./bruno-simulator-latest/bruno_sim_1_entropy_vs_radius.py",
+    "line": "5",
+    "symbol": "hbar",
+    "literal": "1.0545718e-34",
+    "expr": "1.0545718e-34"
+  },
+  {
+    "file": "./bruno-simulator-latest/bruno_sim_1_entropy_vs_radius.py",
+    "line": "6",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-simulator-latest/bruno_sim_1_entropy_vs_radius.py",
+    "line": "7",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-simulator-latest/bruno_sim_1_entropy_vs_radius.py",
+    "line": "8",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/matching/match_grb_neutrino_events.py",
+    "line": "14",
+    "symbol": "TIME_WINDOW",
+    "literal": "86400",
+    "expr": "86400"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Simulatation_Scripts/bruno_collapse_map.py",
+    "line": "8",
+    "symbol": "M_sun",
+    "literal": "1.9885e30",
+    "expr": "1.9885e30"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Simulatation_Scripts/bruno_collapse_map.py",
+    "line": "9",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Modified_Entropy_Test.py",
+    "line": "6",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Modified_Entropy_Test.py",
+    "line": "7",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Modified_Entropy_Test.py",
+    "line": "8",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Modified_Entropy_Test.py",
+    "line": "9",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.4.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.4.py",
+    "line": "8",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.4.py",
+    "line": "9",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.4.py",
+    "line": "10",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.4.py",
+    "line": "11",
+    "symbol": "sigma_SB",
+    "literal": "5.670374419e-8",
+    "expr": "5.670374419e-8"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Standard_Blackhole_QM.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Standard_Blackhole_QM.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Standard_Blackhole_QM.py",
+    "line": "6",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Standard_Blackhole_QM.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Planck_Scale_Entropy.py",
+    "line": "7",
+    "symbol": "t_planck",
+    "literal": "1.416808e32",
+    "expr": "1.416808e32"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/quantum_mechanics/Quantum_Lock_Entropy.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/quantum_mechanics/Quantum_Lock_Entropy.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/quantum_mechanics/Quantum_Lock_Entropy.py",
+    "line": "6",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/quantum_mechanics/Quantum_Lock_Entropy.py",
+    "line": "7",
+    "symbol": "l_planck",
+    "literal": "1.616255e-35",
+    "expr": "1.616255e-35"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/quantum_mechanics/Quantum_Lock_Entropy.py",
+    "line": "8",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Observation.py",
+    "line": "13",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Observation.py",
+    "line": "14",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Observation.py",
+    "line": "15",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Observation.py",
+    "line": "16",
+    "symbol": "l_planck",
+    "literal": "1.616255e-35",
+    "expr": "1.616255e-35"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Adjustment.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Adjustment.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Adjustment.py",
+    "line": "6",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Adjustment.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_Obs.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_Obs.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_Obs.py",
+    "line": "6",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_Obs.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "2173",
+    "symbol": "Z_TO_MPC",
+    "literal": "3.26e6",
+    "expr": "3.26e6"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "2174",
+    "symbol": "MPC_TO_M",
+    "literal": "3.086e22",
+    "expr": "3.086e22"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "2175",
+    "symbol": "E_TOTAL",
+    "literal": "2e51",
+    "expr": "2e51"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "2177",
+    "symbol": "FLUENCE_THRESHOLD",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "2607",
+    "symbol": "E_TOTAL_JOULES",
+    "literal": "1e44",
+    "expr": "1e44"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "2608",
+    "symbol": "FLUENCE_THRESHOLD",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "2639",
+    "symbol": "E_TOTAL_JOULES",
+    "literal": "1e44",
+    "expr": "1e44"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "2640",
+    "symbol": "FLUENCE_THRESHOLD",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "2642",
+    "symbol": "MPC_TO_M",
+    "literal": "3.086e22",
+    "expr": "3.086e22"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "2669",
+    "symbol": "alpha",
+    "literal": "0.6",
+    "expr": "0.6"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "3264",
+    "symbol": "alpha",
+    "literal": "0.8",
+    "expr": "0.8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod_3.1.py",
+    "line": "10",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Gravity_Eq.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Gravity_Eq.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Gravity_Eq.py",
+    "line": "6",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Gravity_Eq.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py",
+    "line": "5",
+    "symbol": "H0",
+    "literal": "2.2e-18",
+    "expr": "2.2e-18"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Equations.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Equations.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Equations.py",
+    "line": "6",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Equations.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./entropy-collapse-transient-engine.ipynb",
+    "line": "26",
+    "symbol": "hbar",
+    "literal": "1.0545718e-34",
+    "expr": "1.0545718e-34"
+  },
+  {
+    "file": "./entropy-collapse-transient-engine.ipynb",
+    "line": "27",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./entropy-collapse-transient-engine.ipynb",
+    "line": "28",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./entropy-collapse-transient-engine.ipynb",
+    "line": "29",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./entropy-collapse-transient-engine.ipynb",
+    "line": "32",
+    "symbol": "kappa",
+    "literal": "1366.0",
+    "expr": "1366.0"
+  },
+  {
+    "file": "./entropy-collapse-transient-engine.ipynb",
+    "line": "44",
+    "symbol": "R0",
+    "literal": "1e7",
+    "expr": "1e7"
+  },
+  {
+    "file": "./entropy-collapse-transient-engine.ipynb",
+    "line": "45",
+    "symbol": "T0",
+    "literal": "1e10",
+    "expr": "1e10"
+  },
+  {
+    "file": "./debugged_parser.py",
+    "line": "256",
+    "symbol": "c",
+    "literal": "100.0",
+    "expr": "composition = {'C': 100.0}"
+  },
+  {
+    "file": "./final_enhanced_parser.py",
+    "line": "278",
+    "symbol": "c",
+    "literal": "100.0",
+    "expr": "composition = {'C': 100.0}"
+  },
+  {
+    "file": "./final_enhanced_parser.py",
+    "line": "282",
+    "symbol": "c",
+    "literal": "33.3",
+    "expr": "composition = {'B': 33.3, 'C': 33.3, 'N': 33.3}"
+  },
+  {
+    "file": "./final_enhanced_parser.py",
+    "line": "808",
+    "symbol": "T",
+    "literal": "300",
+    "expr": "300"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py",
+    "line": "12",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py",
+    "line": "13",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py",
+    "line": "14",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py",
+    "line": "15",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py",
+    "line": "16",
+    "symbol": "sigma_SB",
+    "literal": "5.670374419e-8",
+    "expr": "5.670374419e-8"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py",
+    "line": "50",
+    "symbol": "S_BH",
+    "literal": "7.009474410896821e54",
+    "expr": "7.009474410896821e54"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py",
+    "line": "56",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./E3_Project/e3_engine/e3_inference_validator.py",
+    "line": "60",
+    "symbol": "h",
+    "literal": "11.11",
+    "expr": "composition={\"H\": 11.11, \"O\": 88.89},  # Mass percentages"
+  },
+  {
+    "file": "./E3_Project/e3_engine/e3_inference_validator.py",
+    "line": "81",
+    "symbol": "c",
+    "literal": "100.0",
+    "expr": "composition={\"C\": 100.0},"
+  },
+  {
+    "file": "./E3_Project/e3_engine/e3_inference_validator.py",
+    "line": "114",
+    "symbol": "h",
+    "literal": "100.0",
+    "expr": "composition={\"H\": 100.0},"
+  },
+  {
+    "file": "./E3_Project/e3_engine/e3_inference_validator.py",
+    "line": "185",
+    "symbol": "h",
+    "literal": "0.18",
+    "expr": "'H': 0.18,   # Hydrogen gas"
+  },
+  {
+    "file": "./E3_Project/e3_engine/e3_inference_validator.py",
+    "line": "188",
+    "symbol": "c",
+    "literal": "150",
+    "expr": "'C': 150,    # Carbon (graphite)"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.3.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.3.py",
+    "line": "8",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.3.py",
+    "line": "9",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.3.py",
+    "line": "10",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.3.py",
+    "line": "11",
+    "symbol": "sigma_SB",
+    "literal": "5.670374419e-8",
+    "expr": "5.670374419e-8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod_2.py",
+    "line": "46",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./scr/Entropy Temp Testing Mod 2.py",
+    "line": "46",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./scr/Entropy Temp Testing Mod 3.py",
+    "line": "10",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py",
+    "line": "12",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py",
+    "line": "13",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py",
+    "line": "14",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py",
+    "line": "15",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py",
+    "line": "16",
+    "symbol": "m_e",
+    "literal": "9.1093837015e-31",
+    "expr": "9.1093837015e-31"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py",
+    "line": "17",
+    "symbol": "m_p",
+    "literal": "1.67262192369e-27",
+    "expr": "1.67262192369e-27"
+  },
+  {
+    "file": "./Bruno_Entropy_Project/scripts/estimate_fluence_from_magnitude.py",
+    "line": "12",
+    "symbol": "ESTIMATED_SN_ENERGY_JOULES",
+    "literal": "1e44",
+    "expr": "1e44"
+  },
+  {
+    "file": "./notebooks/pre-collapse fluence curve using SN1987A/SN1987.ipynb",
+    "line": "15",
+    "symbol": "ERG_TO_JOULE",
+    "literal": "1e-7",
+    "expr": "1e-7"
+  },
+  {
+    "file": "./notebooks/pre-collapse fluence curve using SN1987A/SN1987.ipynb",
+    "line": "16",
+    "symbol": "DISTANCE_MPC_SN1987A",
+    "literal": "0.0514",
+    "expr": "0.0514"
+  },
+  {
+    "file": "./github_repos/bruno-collapse-simulator/bruno_framework/historical_scripts/core_development/Bruno_collapse_tracker.py",
+    "line": "5",
+    "symbol": "kappa",
+    "literal": "1340e-6",
+    "expr": "1340e-6"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "14",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "63",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "80",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "152",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "175",
+    "symbol": "c",
+    "literal": "3e8",
+    "expr": "3e8"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "199",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "202",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "203",
+    "symbol": "c",
+    "literal": "3e8",
+    "expr": "3e8"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "213",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "233",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "234",
+    "symbol": "V",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "277",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "278",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "279",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "280",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "291",
+    "symbol": "T_H_GW150914",
+    "literal": "1.2e-8",
+    "expr": "1.2e-8"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "292",
+    "symbol": "R_GW150914",
+    "literal": "1.83e5",
+    "expr": "1.83e5"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "310",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "311",
+    "symbol": "V",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "481",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "482",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "483",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "525",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "526",
+    "symbol": "T_CMB",
+    "literal": "2.725",
+    "expr": "2.725"
+  },
+  {
+    "file": "./scr/Entropy Temp Testing Mod 4.0.py",
+    "line": "10",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.2.py",
+    "line": "7",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.2.py",
+    "line": "8",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.2.py",
+    "line": "9",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.2.py",
+    "line": "10",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.2.py",
+    "line": "13",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.2.py",
+    "line": "25",
+    "symbol": "m_p",
+    "literal": "1.6726219e-27",
+    "expr": "1.6726219e-27"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Correlation_Test_1.1.py",
+    "line": "7",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Correlation_Test_1.1.py",
+    "line": "8",
+    "symbol": "hbar",
+    "literal": "1.0545718e-34",
+    "expr": "1.0545718e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Correlation_Test_1.1.py",
+    "line": "9",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py",
+    "line": "10",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py",
+    "line": "11",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py",
+    "line": "12",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py",
+    "line": "13",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py",
+    "line": "14",
+    "symbol": "sigma_SB",
+    "literal": "5.670374419e-8",
+    "expr": "5.670374419e-8"
+  },
+  {
+    "file": "./large_superconductor_generator.py",
+    "line": "40",
+    "symbol": "h",
+    "literal": "1.008",
+    "expr": "'H': 1.008, 'He': 4.003, 'Li': 6.94, 'Be': 9.012, 'B': 10.81,"
+  },
+  {
+    "file": "./large_superconductor_generator.py",
+    "line": "41",
+    "symbol": "c",
+    "literal": "12.01",
+    "expr": "'C': 12.01, 'N': 14.01, 'O': 16.00, 'F': 19.00, 'Ne': 20.18,"
+  },
+  {
+    "file": "./large_superconductor_generator.py",
+    "line": "576",
+    "symbol": "h",
+    "literal": "1",
+    "expr": "'H': 1, 'He': 2, 'Li': 3, 'Be': 4, 'B': 5, 'C': 6, 'N': 7, 'O': 8, 'F': 9, 'Ne': 10,"
+  },
+  {
+    "file": "./large_superconductor_generator.py",
+    "line": "576",
+    "symbol": "c",
+    "literal": "6",
+    "expr": "'H': 1, 'He': 2, 'Li': 3, 'Be': 4, 'B': 5, 'C': 6, 'N': 7, 'O': 8, 'F': 9, 'Ne': 10,"
+  },
+  {
+    "file": "./large_superconductor_generator.py",
+    "line": "592",
+    "symbol": "h",
+    "literal": "1.008",
+    "expr": "'H': 1.008, 'He': 4.003, 'Li': 6.94, 'Be': 9.012, 'B': 10.81, 'C': 12.01, 'N': 14.01, 'O': 16.00,"
+  },
+  {
+    "file": "./large_superconductor_generator.py",
+    "line": "592",
+    "symbol": "c",
+    "literal": "12.01",
+    "expr": "'H': 1.008, 'He': 4.003, 'Li': 6.94, 'Be': 9.012, 'B': 10.81, 'C': 12.01, 'N': 14.01, 'O': 16.00,"
+  },
+  {
+    "file": "./large_superconductor_generator.py",
+    "line": "636",
+    "symbol": "h",
+    "literal": "2.20",
+    "expr": "'H': 2.20, 'He': 0.00, 'Li': 0.98, 'Be': 1.57, 'B': 2.04, 'C': 2.55, 'N': 3.04, 'O': 3.44,"
+  },
+  {
+    "file": "./large_superconductor_generator.py",
+    "line": "636",
+    "symbol": "c",
+    "literal": "2.55",
+    "expr": "'H': 2.20, 'He': 0.00, 'Li': 0.98, 'Be': 1.57, 'B': 2.04, 'C': 2.55, 'N': 3.04, 'O': 3.44,"
+  },
+  {
+    "file": "./large_superconductor_generator.py",
+    "line": "660",
+    "symbol": "h",
+    "literal": "0.0",
+    "expr": "'H': 0.0, 'He': 0.0, 'Li': 1.0, 'Be': 0.8, 'B': 0.3, 'C': 0.0, 'N': 0.0, 'O': 0.0,"
+  },
+  {
+    "file": "./large_superconductor_generator.py",
+    "line": "660",
+    "symbol": "c",
+    "literal": "0.0",
+    "expr": "'H': 0.0, 'He': 0.0, 'Li': 1.0, 'Be': 0.8, 'B': 0.3, 'C': 0.0, 'N': 0.0, 'O': 0.0,"
+  },
+  {
+    "file": "./superconductor_data_importer.py",
+    "line": "48",
+    "symbol": "h",
+    "literal": "1",
+    "expr": "'H': 1, 'He': 2, 'Li': 3, 'Be': 4, 'B': 5, 'C': 6, 'N': 7, 'O': 8, 'F': 9, 'Ne': 10,"
+  },
+  {
+    "file": "./superconductor_data_importer.py",
+    "line": "48",
+    "symbol": "c",
+    "literal": "6",
+    "expr": "'H': 1, 'He': 2, 'Li': 3, 'Be': 4, 'B': 5, 'C': 6, 'N': 7, 'O': 8, 'F': 9, 'Ne': 10,"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod_4.0.py",
+    "line": "10",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./sim_results/bruno_entropy_reverse_fit.py",
+    "line": "13",
+    "symbol": "GRID_SIZE",
+    "literal": "256",
+    "expr": "256"
+  },
+  {
+    "file": "./sim_results/bruno_entropy_reverse_fit.py",
+    "line": "14",
+    "symbol": "STEPS",
+    "literal": "300",
+    "expr": "300"
+  },
+  {
+    "file": "./sim_results/bruno_entropy_reverse_fit.py",
+    "line": "15",
+    "symbol": "BRUNO_K",
+    "literal": "0.001005",
+    "expr": "0.001005"
+  },
+  {
+    "file": "./notebooks/bruno_event_classifier.ipynb",
+    "line": "114",
+    "symbol": "NA",
+    "literal": "6.022e23",
+    "expr": "6.022e23"
+  },
+  {
+    "file": "./notebooks/bruno_event_classifier.ipynb",
+    "line": "123",
+    "symbol": "NA",
+    "literal": "6.022e23",
+    "expr": "6.022e23"
+  },
+  {
+    "file": "./E3_Project/e3_engine/debugged_parser.py",
+    "line": "256",
+    "symbol": "c",
+    "literal": "100.0",
+    "expr": "composition = {'C': 100.0}"
+  },
+  {
+    "file": "./bruno_sim_1_entropy_vs_radius.py",
+    "line": "6",
+    "symbol": "hbar",
+    "literal": "1.0545718e-34",
+    "expr": "1.0545718e-34"
+  },
+  {
+    "file": "./bruno_sim_1_entropy_vs_radius.py",
+    "line": "7",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno_sim_1_entropy_vs_radius.py",
+    "line": "8",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno_sim_1_entropy_vs_radius.py",
+    "line": "9",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "5",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "45",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "57",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "118",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "138",
+    "symbol": "c",
+    "literal": "3e8",
+    "expr": "3e8"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "156",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "158",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "159",
+    "symbol": "c",
+    "literal": "3e8",
+    "expr": "3e8"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "166",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "182",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "183",
+    "symbol": "V",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "219",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "220",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "221",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "222",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "230",
+    "symbol": "T_H_GW150914",
+    "literal": "1.2e-8",
+    "expr": "1.2e-8"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "231",
+    "symbol": "R_GW150914",
+    "literal": "1.83e5",
+    "expr": "1.83e5"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "244",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "245",
+    "symbol": "V",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "384",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "385",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "386",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "419",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "420",
+    "symbol": "T_CMB",
+    "literal": "2.725",
+    "expr": "2.725"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Correlation_Test.py",
+    "line": "7",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Correlation_Test.py",
+    "line": "8",
+    "symbol": "hbar",
+    "literal": "1.0545718e-34",
+    "expr": "1.0545718e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Correlation_Test.py",
+    "line": "9",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./E3_Project/e3_engine/final_enhanced_parcer.py",
+    "line": "278",
+    "symbol": "c",
+    "literal": "100.0",
+    "expr": "composition = {'C': 100.0}"
+  },
+  {
+    "file": "./E3_Project/e3_engine/final_enhanced_parcer.py",
+    "line": "282",
+    "symbol": "c",
+    "literal": "33.3",
+    "expr": "composition = {'B': 33.3, 'C': 33.3, 'N': 33.3}"
+  },
+  {
+    "file": "./E3_Project/e3_engine/final_enhanced_parcer.py",
+    "line": "808",
+    "symbol": "T",
+    "literal": "300",
+    "expr": "300"
+  },
+  {
+    "file": "./large_superconductor_dataset_generator.py",
+    "line": "10",
+    "symbol": "h",
+    "literal": "1",
+    "expr": "'H': 1, 'He': 2, 'Li': 3, 'Be': 4, 'B': 5, 'C': 6, 'N': 7, 'O': 8,"
+  },
+  {
+    "file": "./large_superconductor_dataset_generator.py",
+    "line": "10",
+    "symbol": "c",
+    "literal": "6",
+    "expr": "'H': 1, 'He': 2, 'Li': 3, 'Be': 4, 'B': 5, 'C': 6, 'N': 7, 'O': 8,"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Epoch_Analysis.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Epoch_Analysis.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Epoch_Analysis.py",
+    "line": "6",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Epoch_Analysis.py",
+    "line": "14",
+    "symbol": "h",
+    "literal": "1e-14",
+    "expr": "\"Early Universe\": {\"rho\": 1e-18, \"P\": 1e-15, \"H\": 1e-14},  # Radiation-dominated"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Epoch_Analysis.py",
+    "line": "15",
+    "symbol": "h",
+    "literal": "2.0e-18",
+    "expr": "\"Matter-Dominated Era\": {\"rho\": 2.775e-27 * 0.3, \"P\": 1e-12, \"H\": 2.0e-18},"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Epoch_Analysis.py",
+    "line": "16",
+    "symbol": "h",
+    "literal": "6.7e-18",
+    "expr": "\"Late-Time Acceleration\": {\"rho\": 2.775e-27 * 0.3, \"P\": 5e-10, \"H\": 6.7e-18}  # Dark energy era"
+  },
+  {
+    "file": "./github_repos/bruno-collapse-unified/bruno_core_unified/theory/bruno_threshold.py",
+    "line": "17",
+    "symbol": "BRUNO_CONSTANT_KAPPA",
+    "literal": "1340e-6",
+    "expr": "1340e-6"
+  },
+  {
+    "file": "./scr/Entropy Temp Testing Mod 1.py",
+    "line": "42",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./notebooks/simulation/bruno_core_collapse_simulation.ipynb",
+    "line": "15",
+    "symbol": "GRID_SIZE",
+    "literal": "128",
+    "expr": "128"
+  },
+  {
+    "file": "./notebooks/simulation/bruno_core_collapse_simulation.ipynb",
+    "line": "16",
+    "symbol": "INITIAL_ENTROPY",
+    "literal": "0.1",
+    "expr": "0.1"
+  },
+  {
+    "file": "./notebooks/simulation/bruno_core_collapse_simulation.ipynb",
+    "line": "17",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "0.001005",
+    "expr": "0.001005"
+  },
+  {
+    "file": "./notebooks/simulation/bruno_core_collapse_simulation.ipynb",
+    "line": "18",
+    "symbol": "EXPANSION_FACTOR",
+    "literal": "1.05",
+    "expr": "1.05"
+  },
+  {
+    "file": "./notebooks/simulation/bruno_core_collapse_simulation.ipynb",
+    "line": "19",
+    "symbol": "CONTRACTION_FACTOR",
+    "literal": "0.90",
+    "expr": "0.90"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Second_Equation_Test.py",
+    "line": "5",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Second_Equation_Test.py",
+    "line": "6",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Second_Equation_Test.py",
+    "line": "7",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Second_Equation_Test.py",
+    "line": "8",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Second_Equation_Test.py",
+    "line": "12",
+    "symbol": "M_sun",
+    "literal": "1.989e30",
+    "expr": "1.989e30"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Fixed.py",
+    "line": "15",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Fixed.py",
+    "line": "16",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Fixed.py",
+    "line": "17",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Fixed.py",
+    "line": "18",
+    "symbol": "l_planck",
+    "literal": "1.616255e-35",
+    "expr": "1.616255e-35"
+  },
+  {
+    "file": "./byu_unp_integration.py",
+    "line": "193",
+    "symbol": "A0",
+    "literal": "-4.377e-2",
+    "expr": "-4.377e-2"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Saturated_Bh_Entropy_Model.py",
+    "line": "10",
+    "symbol": "alpha",
+    "literal": "0.05",
+    "expr": "0.05"
+  },
+  {
+    "file": "./E3_DAVP_Pipeline/davp_pipeline.py",
+    "line": "537",
+    "symbol": "h",
+    "literal": "0",
+    "expr": "'H': 0, 'He': 1, 'Li': 2, 'Be': 3, 'B': 4, 'C': 5, 'N': 6, 'O': 7,"
+  },
+  {
+    "file": "./E3_DAVP_Pipeline/davp_pipeline.py",
+    "line": "537",
+    "symbol": "c",
+    "literal": "5",
+    "expr": "'H': 0, 'He': 1, 'Li': 2, 'Be': 3, 'B': 4, 'C': 5, 'N': 6, 'O': 7,"
+  },
+  {
+    "file": "./E3_DAVP_Pipeline/davp_pipeline.py",
+    "line": "580",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./E3_DAVP_Pipeline/davp_pipeline.py",
+    "line": "598",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./E3_DAVP_Pipeline/davp_pipeline.py",
+    "line": "1492",
+    "symbol": "h",
+    "literal": "1",
+    "expr": "'H': 1, 'C': 6, 'N': 7, 'O': 8, 'F': 9, 'P': 15, 'S': 16, 'Cl': 17,"
+  },
+  {
+    "file": "./E3_DAVP_Pipeline/davp_pipeline.py",
+    "line": "1492",
+    "symbol": "c",
+    "literal": "6",
+    "expr": "'H': 1, 'C': 6, 'N': 7, 'O': 8, 'F': 9, 'P': 15, 'S': 16, 'Cl': 17,"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Fix.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Fix.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Fix.py",
+    "line": "6",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Fix.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 1.1.py",
+    "line": "6",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 1.1.py",
+    "line": "7",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 1.1.py",
+    "line": "8",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Correlatio.py",
+    "line": "5",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./sim_results/bruno_simulate_entropy_timestamped.py",
+    "line": "11",
+    "symbol": "GRID_SIZE",
+    "literal": "128",
+    "expr": "128"
+  },
+  {
+    "file": "./sim_results/bruno_simulate_entropy_timestamped.py",
+    "line": "12",
+    "symbol": "INITIAL_ENTROPY",
+    "literal": "0.1",
+    "expr": "0.1"
+  },
+  {
+    "file": "./sim_results/bruno_simulate_entropy_timestamped.py",
+    "line": "13",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "0.001005",
+    "expr": "0.001005"
+  },
+  {
+    "file": "./sim_results/bruno_simulate_entropy_timestamped.py",
+    "line": "14",
+    "symbol": "EXPANSION_FACTOR",
+    "literal": "1.05",
+    "expr": "1.05"
+  },
+  {
+    "file": "./sim_results/bruno_simulate_entropy_timestamped.py",
+    "line": "15",
+    "symbol": "CONTRACTION_FACTOR",
+    "literal": "0.90",
+    "expr": "0.90"
+  },
+  {
+    "file": "./sim_results/bruno_simulate_entropy_timestamped.py",
+    "line": "16",
+    "symbol": "STEPS",
+    "literal": "30",
+    "expr": "30"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 1.0.py",
+    "line": "5",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 1.0.py",
+    "line": "6",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 1.0.py",
+    "line": "7",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./sim_results/bruno_universe.py",
+    "line": "10",
+    "symbol": "VOXEL_SIZE_M",
+    "literal": "1e-18",
+    "expr": "1e-18"
+  },
+  {
+    "file": "./sim_results/bruno_universe.py",
+    "line": "11",
+    "symbol": "GRID_SIZE",
+    "literal": "256",
+    "expr": "256"
+  },
+  {
+    "file": "./sim_results/bruno_universe.py",
+    "line": "14",
+    "symbol": "INITIAL_ENTROPY",
+    "literal": "0.9",
+    "expr": "0.9"
+  },
+  {
+    "file": "./sim_results/bruno_universe.py",
+    "line": "15",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "0.001005",
+    "expr": "0.001005"
+  },
+  {
+    "file": "./sim_results/bruno_universe.py",
+    "line": "16",
+    "symbol": "PLANCK_TIME",
+    "literal": "5.39e-44",
+    "expr": "5.39e-44"
+  },
+  {
+    "file": "./sim_results/bruno_universe.py",
+    "line": "27",
+    "symbol": "Z_STRETCH_FACTOR",
+    "literal": "1.3",
+    "expr": "1.3"
+  },
+  {
+    "file": "./sim_results/bruno_universe.py",
+    "line": "42",
+    "symbol": "MAX_STEPS",
+    "literal": "300",
+    "expr": "300"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Transision.py",
+    "line": "6",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Transision.py",
+    "line": "7",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Transision.py",
+    "line": "8",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Transision.py",
+    "line": "9",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/simulation/bruno_constant/bruno_sim_1_entropy_vs_radius.py",
+    "line": "5",
+    "symbol": "hbar",
+    "literal": "1.0545718e-34",
+    "expr": "1.0545718e-34"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/simulation/bruno_constant/bruno_sim_1_entropy_vs_radius.py",
+    "line": "6",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/simulation/bruno_constant/bruno_sim_1_entropy_vs_radius.py",
+    "line": "7",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/simulation/bruno_constant/bruno_sim_1_entropy_vs_radius.py",
+    "line": "8",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Dark_Energy_Comparison.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Dark_Energy_Comparison.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Dark_Energy_Comparison.py",
+    "line": "6",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./sim_results/bruno_simulate_entropy_snap.py",
+    "line": "12",
+    "symbol": "GRID_SIZE",
+    "literal": "128",
+    "expr": "128"
+  },
+  {
+    "file": "./sim_results/bruno_simulate_entropy_snap.py",
+    "line": "13",
+    "symbol": "INITIAL_ENTROPY",
+    "literal": "0.1",
+    "expr": "0.1"
+  },
+  {
+    "file": "./sim_results/bruno_simulate_entropy_snap.py",
+    "line": "14",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "0.001005",
+    "expr": "0.001005"
+  },
+  {
+    "file": "./sim_results/bruno_simulate_entropy_snap.py",
+    "line": "15",
+    "symbol": "EXPANSION_FACTOR",
+    "literal": "1.05",
+    "expr": "1.05"
+  },
+  {
+    "file": "./sim_results/bruno_simulate_entropy_snap.py",
+    "line": "16",
+    "symbol": "CONTRACTION_FACTOR",
+    "literal": "0.90",
+    "expr": "0.90"
+  },
+  {
+    "file": "./bruno-simulator-latest/nb05_GW_Batch_AutoRun.ipynb",
+    "line": "62",
+    "symbol": "kappa",
+    "literal": "0.001005",
+    "expr": "0.001005"
+  },
+  {
+    "file": "./bruno-simulator-latest/nb05_GW_Batch_AutoRun.ipynb",
+    "line": "160",
+    "symbol": "kappa",
+    "literal": "0.001005",
+    "expr": "0.001005"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Primordial_BH_Constraints.py",
+    "line": "6",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Primordial_BH_Constraints.py",
+    "line": "7",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Primordial_BH_Constraints.py",
+    "line": "8",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Primordial_BH_Constraints.py",
+    "line": "9",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./github_repos/bruno-collapse-simulator/notebooks/e3_validation/universality_test_gw150914.ipynb",
+    "line": "107",
+    "symbol": "alpha",
+    "literal": "4.04e-39",
+    "expr": "4.04e-39"
+  },
+  {
+    "file": "./github_repos/bruno-collapse-simulator/notebooks/e3_validation/universality_test_gw150914.ipynb",
+    "line": "123",
+    "symbol": "M_sun",
+    "literal": "1.989e30",
+    "expr": "1.989e30"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Temp_Reversal.py",
+    "line": "6",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Temp_Reversal.py",
+    "line": "7",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Temp_Reversal.py",
+    "line": "8",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Temp_Reversal.py",
+    "line": "9",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Obervational_Dark_Matter.py",
+    "line": "5",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Obervational_Dark_Matter.py",
+    "line": "6",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Obervational_Dark_Matter.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Obervational_Dark_Matter.py",
+    "line": "8",
+    "symbol": "l_planck",
+    "literal": "1.616255e-35",
+    "expr": "1.616255e-35"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Obervational_Dark_Matter.py",
+    "line": "9",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Energy Template.py",
+    "line": "4",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Energy Template.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Energy Template.py",
+    "line": "6",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "10",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "54",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "68",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "130",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "150",
+    "symbol": "c",
+    "literal": "3e8",
+    "expr": "3e8"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "169",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "171",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "172",
+    "symbol": "c",
+    "literal": "3e8",
+    "expr": "3e8"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "179",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "197",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "198",
+    "symbol": "V",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "234",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "235",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "236",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "237",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "245",
+    "symbol": "T_H_GW150914",
+    "literal": "1.2e-8",
+    "expr": "1.2e-8"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "246",
+    "symbol": "R_GW150914",
+    "literal": "1.83e5",
+    "expr": "1.83e5"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "260",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "261",
+    "symbol": "V",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "402",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "403",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "404",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "438",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "439",
+    "symbol": "T_CMB",
+    "literal": "2.725",
+    "expr": "2.725"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 2.1.py",
+    "line": "6",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 2.1.py",
+    "line": "7",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 2.1.py",
+    "line": "8",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 3.py",
+    "line": "6",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 3.py",
+    "line": "7",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 3.py",
+    "line": "8",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./scr/Modified Bh Equations.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./scr/Modified Bh Equations.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./scr/Modified Bh Equations.py",
+    "line": "6",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./scr/Modified Bh Equations.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_QM.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_QM.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_QM.py",
+    "line": "6",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_QM.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod_2.3.py",
+    "line": "47",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./scr/Entropy Temp Testing Mod 2.3.py",
+    "line": "47",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Evaporation_Comparison_1.1.py",
+    "line": "6",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Evaporation_Comparison_1.1.py",
+    "line": "7",
+    "symbol": "hbar",
+    "literal": "1.0545718e-34",
+    "expr": "1.0545718e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Evaporation_Comparison_1.1.py",
+    "line": "8",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Evaporation_Comparison_1.1.py",
+    "line": "36",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./bruno-framework-clean/pre_corruption_analyzer.py",
+    "line": "85",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/pre_corruption_analyzer.py",
+    "line": "86",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/pre_corruption_analyzer.py",
+    "line": "87",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Hubble_Constant_Check.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Hubble_Constant_Check.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Hubble_Constant_Check.py",
+    "line": "6",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Hubble_Constant_Check.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-new-dataset/grb_predictor.py",
+    "line": "13",
+    "symbol": "kappa",
+    "literal": "0.001005",
+    "expr": "0.001005"
+  },
+  {
+    "file": "./materials_project_superconductor_scraper.py",
+    "line": "461",
+    "symbol": "h",
+    "literal": "1",
+    "expr": "'H': 1, 'He': 2, 'Li': 3, 'Be': 4, 'B': 5, 'C': 6, 'N': 7, 'O': 8,"
+  },
+  {
+    "file": "./materials_project_superconductor_scraper.py",
+    "line": "461",
+    "symbol": "c",
+    "literal": "6",
+    "expr": "'H': 1, 'He': 2, 'Li': 3, 'Be': 4, 'B': 5, 'C': 6, 'N': 7, 'O': 8,"
+  },
+  {
+    "file": "./scr/Cosmis Entropy Hubble Test.py",
+    "line": "7",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./scr/Cosmis Entropy Hubble Test.py",
+    "line": "8",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./scr/Cosmis Entropy Hubble Test.py",
+    "line": "9",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./scr/Cosmis Entropy Hubble Test.py",
+    "line": "10",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-simulator-latest/nb03_eos_sim.ipynb",
+    "line": "29",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-simulator-latest/nb03_eos_sim.ipynb",
+    "line": "30",
+    "symbol": "c",
+    "literal": "2.99792458e8",
+    "expr": "2.99792458e8"
+  },
+  {
+    "file": "./bruno-simulator-latest/nb03_eos_sim.ipynb",
+    "line": "31",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-simulator-latest/nb03_eos_sim.ipynb",
+    "line": "32",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Expension_Analysis.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Expension_Analysis.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Expension_Analysis.py",
+    "line": "6",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Expension_Analysis.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Standard_Blackhole_Model.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Standard_Blackhole_Model.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Standard_Blackhole_Model.py",
+    "line": "6",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Standard_Blackhole_Model.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/cosmology/Cosmological_Entropy_Test.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/cosmology/Cosmological_Entropy_Test.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/cosmology/Cosmological_Entropy_Test.py",
+    "line": "6",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/cosmology/Cosmological_Entropy_Test.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./Bruno_Entropy_Project/scripts/nakazato_flux_integrator.py",
+    "line": "8",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./Bruno_Entropy_Project/scripts/nakazato_flux_integrator.py",
+    "line": "9",
+    "symbol": "T",
+    "literal": "800000",
+    "expr": "800000"
+  },
+  {
+    "file": "./Bruno_Entropy_Project/scripts/nakazato_flux_integrator.py",
+    "line": "11",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./notebooks/Betelgeuse_Entropy_audit/Betelgeuse_Entropy_audit.ipynb",
+    "line": "12",
+    "symbol": "ERG_TO_JOULE",
+    "literal": "1e-7",
+    "expr": "1e-7"
+  },
+  {
+    "file": "./notebooks/Betelgeuse_Entropy_audit/Betelgeuse_Entropy_audit.ipynb",
+    "line": "13",
+    "symbol": "DISTANCE_MPC_BETELGEUSE",
+    "literal": "0.0002",
+    "expr": "0.0002"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.7.py",
+    "line": "11",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.7.py",
+    "line": "12",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.7.py",
+    "line": "13",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.7.py",
+    "line": "14",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.7.py",
+    "line": "15",
+    "symbol": "sigma_SB",
+    "literal": "5.670374419e-8",
+    "expr": "5.670374419e-8"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Bruno Constant.py",
+    "line": "11",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Bruno Constant.py",
+    "line": "12",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Bruno Constant.py",
+    "line": "13",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Bruno Constant.py",
+    "line": "14",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Bruno Constant.py",
+    "line": "15",
+    "symbol": "sigma_SB",
+    "literal": "5.670374419e-8",
+    "expr": "5.670374419e-8"
+  },
+  {
+    "file": "./bruno-framework-clean/Entropy_Notebook/Emergent_Gravity_Toy_Model.ipynb",
+    "line": "5",
+    "symbol": "alpha",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./bruno-framework-clean/Entropy_Notebook/Emergent_Gravity_Toy_Model.ipynb",
+    "line": "52",
+    "symbol": "alpha",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./bruno-framework-clean/Entropy_Notebook/Emergent_Gravity_Toy_Model.ipynb",
+    "line": "53",
+    "symbol": "kappa",
+    "literal": "1.0e-23",
+    "expr": "1.0e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Entropy_Notebook/Emergent_Gravity_Toy_Model.ipynb",
+    "line": "100",
+    "symbol": "alpha",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./bruno-framework-clean/Entropy_Notebook/Emergent_Gravity_Toy_Model.ipynb",
+    "line": "156",
+    "symbol": "alpha",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.1.py",
+    "line": "6",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.1.py",
+    "line": "7",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.1.py",
+    "line": "8",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.1.py",
+    "line": "9",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.1.py",
+    "line": "12",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.1.py",
+    "line": "24",
+    "symbol": "m_p",
+    "literal": "1.6726219e-27",
+    "expr": "1.6726219e-27"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Hubble_Comparison.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Hubble_Comparison.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Hubble_Comparison.py",
+    "line": "6",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Hubble_Comparison.py",
+    "line": "7",
+    "symbol": "H0",
+    "literal": "2.2e-18",
+    "expr": "2.2e-18"
+  },
+  {
+    "file": "./scr/Entropy Temp Testing Mod 2.1.py",
+    "line": "47",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./real-astronomical-analyzer/clean_astronomical_analyzer.py",
+    "line": "19",
+    "symbol": "c",
+    "literal": "3e8",
+    "expr": "'c': 3e8,  # Speed of light (m/s)"
+  },
+  {
+    "file": "./real-astronomical-analyzer/clean_astronomical_analyzer.py",
+    "line": "20",
+    "symbol": "G",
+    "literal": "6.67e-11",
+    "expr": "'G': 6.67e-11,  # Gravitational constant"
+  },
+  {
+    "file": "./real-astronomical-analyzer/clean_astronomical_analyzer.py",
+    "line": "21",
+    "symbol": "M_sun",
+    "literal": "1.989e30",
+    "expr": "'solar_mass': 1.989e30  # kg"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Shift.py",
+    "line": "6",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Shift.py",
+    "line": "7",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Shift.py",
+    "line": "8",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Shift.py",
+    "line": "9",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Dynamic_Test.py",
+    "line": "5",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Dynamic_Test.py",
+    "line": "6",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Dynamic_Test.py",
+    "line": "7",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Dynamic_Test.py",
+    "line": "8",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Dynamic_Test.py",
+    "line": "11",
+    "symbol": "M_sun",
+    "literal": "1.989e30",
+    "expr": "1.989e30"
+  },
+  {
+    "file": "./notebooks/archive/Fluence_Model_Comparison_Annotated.ipynb",
+    "line": "125",
+    "symbol": "ICECUBE_FLUENCE_THRESHOLD",
+    "literal": "1e4",
+    "expr": "1e4"
+  },
+  {
+    "file": "./notebooks/archive/Fluence_Model_Comparison_Annotated.ipynb",
+    "line": "202",
+    "symbol": "CROSS_SECTION",
+    "literal": "1e-41",
+    "expr": "1e-41"
+  },
+  {
+    "file": "./notebooks/archive/Fluence_Model_Comparison_Annotated.ipynb",
+    "line": "203",
+    "symbol": "N_TARGETS",
+    "literal": "1e38",
+    "expr": "1e38"
+  },
+  {
+    "file": "./notebooks/archive/Fluence_Model_Comparison_Annotated.ipynb",
+    "line": "365",
+    "symbol": "ICECUBE_FLUENCE_THRESHOLD",
+    "literal": "1e-3",
+    "expr": "1e-3"
+  },
+  {
+    "file": "./notebooks/archive/Fluence_Model_Comparison_Annotated.ipynb",
+    "line": "754",
+    "symbol": "ICECUBE_THRESHOLD",
+    "literal": "1e-3",
+    "expr": "1e-3"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Energy Temperature 1.0.py",
+    "line": "5",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Energy Temperature 1.0.py",
+    "line": "6",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Energy Temperature 1.0.py",
+    "line": "7",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.6.py",
+    "line": "10",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.6.py",
+    "line": "11",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.6.py",
+    "line": "12",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.6.py",
+    "line": "13",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.6.py",
+    "line": "14",
+    "symbol": "sigma_SB",
+    "literal": "5.670374419e-8",
+    "expr": "5.670374419e-8"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "14",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "63",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "80",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "152",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "175",
+    "symbol": "c",
+    "literal": "3e8",
+    "expr": "3e8"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "199",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "202",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "203",
+    "symbol": "c",
+    "literal": "3e8",
+    "expr": "3e8"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "213",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "233",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "234",
+    "symbol": "V",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "277",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "278",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "279",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "280",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "291",
+    "symbol": "T_H_GW150914",
+    "literal": "1.2e-8",
+    "expr": "1.2e-8"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "292",
+    "symbol": "R_GW150914",
+    "literal": "1.83e5",
+    "expr": "1.83e5"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "310",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "311",
+    "symbol": "V",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "481",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "482",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "483",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "525",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "526",
+    "symbol": "T_CMB",
+    "literal": "2.725",
+    "expr": "2.725"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "96",
+    "symbol": "P0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "121",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "148",
+    "symbol": "N",
+    "literal": "500",
+    "expr": "500"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "181",
+    "symbol": "N",
+    "literal": "500",
+    "expr": "500"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "183",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "235",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "240",
+    "symbol": "D",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "286",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "288",
+    "symbol": "D",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "393",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "477",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "480",
+    "symbol": "N",
+    "literal": "500",
+    "expr": "500"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "547",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "548",
+    "symbol": "c",
+    "literal": "2.99792458e8",
+    "expr": "2.99792458e8"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "549",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "590",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "591",
+    "symbol": "c",
+    "literal": "2.99792458e8",
+    "expr": "2.99792458e8"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "592",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "865",
+    "symbol": "kappa",
+    "literal": "1313",
+    "expr": "1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "1401",
+    "symbol": "M_sun",
+    "literal": "1.9885e30",
+    "expr": "1.9885e30"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "1403",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "1854",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "1855",
+    "symbol": "c",
+    "literal": "2.99792458e8",
+    "expr": "2.99792458e8"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "1866",
+    "symbol": "sigma_SB",
+    "literal": "0.01",
+    "expr": "0.01"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "1914",
+    "symbol": "sigma_SB",
+    "literal": "0.01",
+    "expr": "0.01"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "1956",
+    "symbol": "sigma_SB",
+    "literal": "0.01",
+    "expr": "0.01"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "1986",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "1987",
+    "symbol": "c",
+    "literal": "2.99792458e8",
+    "expr": "2.99792458e8"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "1999",
+    "symbol": "sigma_SB",
+    "literal": "0.01",
+    "expr": "0.01"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "2045",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "2046",
+    "symbol": "c",
+    "literal": "2.99792458e8",
+    "expr": "2.99792458e8"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "2047",
+    "symbol": "sigma_SB",
+    "literal": "0.01",
+    "expr": "0.01"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Analysis.py",
+    "line": "8",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Analysis.py",
+    "line": "9",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Analysis.py",
+    "line": "10",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Analysis.py",
+    "line": "11",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./2025.05.10/estimate_fluence_from_magnitude.py",
+    "line": "10",
+    "symbol": "ESTIMATED_SN_ENERGY_JOULES",
+    "literal": "1e44",
+    "expr": "1e44"
+  },
+  {
+    "file": "./E3_Project/e3_engine/corrected_e3_parser.py",
+    "line": "468",
+    "symbol": "c",
+    "literal": "33.3",
+    "expr": "composition = {'B': 33.3, 'C': 33.3, 'N': 33.3}"
+  },
+  {
+    "file": "./comprehensive_e3_parser.py",
+    "line": "522",
+    "symbol": "c",
+    "literal": "33.3",
+    "expr": "composition = {'B': 33.3, 'C': 33.3, 'N': 33.3}"
+  },
+  {
+    "file": "./comprehensive_e3_parser.py",
+    "line": "526",
+    "symbol": "c",
+    "literal": "33.3",
+    "expr": "composition = {'B': 33.3, 'N': 33.3, 'C': 33.3}"
+  },
+  {
+    "file": "./corrected_comprehensive_parser.py",
+    "line": "468",
+    "symbol": "c",
+    "literal": "33.3",
+    "expr": "composition = {'B': 33.3, 'C': 33.3, 'N': 33.3}"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Saturation_Model_Vs_BH_Entropy.py",
+    "line": "8",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Saturation_Model_Vs_BH_Entropy.py",
+    "line": "9",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Saturation_Model_Vs_BH_Entropy.py",
+    "line": "10",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Saturation_Model_Vs_BH_Entropy.py",
+    "line": "11",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./byu_integration_fixed.py",
+    "line": "149",
+    "symbol": "A0",
+    "literal": "-4.377e-2",
+    "expr": "-4.377e-2"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "120",
+    "symbol": "ICECUBE_FLUENCE_THRESHOLD",
+    "literal": "1e4",
+    "expr": "1e4"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "196",
+    "symbol": "CROSS_SECTION",
+    "literal": "1e-41",
+    "expr": "1e-41"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "197",
+    "symbol": "N_TARGETS",
+    "literal": "1e38",
+    "expr": "1e38"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "358",
+    "symbol": "ICECUBE_FLUENCE_THRESHOLD",
+    "literal": "1e-3",
+    "expr": "1e-3"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "714",
+    "symbol": "ICECUBE_THRESHOLD",
+    "literal": "1e-3",
+    "expr": "1e-3"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "966",
+    "symbol": "DISTANCE_KPC",
+    "literal": "10",
+    "expr": "10"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "967",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "1046",
+    "symbol": "DISTANCE_KPC",
+    "literal": "10",
+    "expr": "10"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "1047",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "1261",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "1262",
+    "symbol": "DISTANCE_KPC",
+    "literal": "10",
+    "expr": "10"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "1263",
+    "symbol": "ERG_TO_J",
+    "literal": "1e-7",
+    "expr": "1e-7"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "1374",
+    "symbol": "ERG_TO_J",
+    "literal": "1e-7",
+    "expr": "1e-7"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "1375",
+    "symbol": "DISTANCE_KPC",
+    "literal": "10",
+    "expr": "10"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "1377",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "1442",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "1443",
+    "symbol": "ERG_TO_J",
+    "literal": "1e-7",
+    "expr": "1e-7"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "1595",
+    "symbol": "DISTANCE_KPC",
+    "literal": "10",
+    "expr": "10"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "1597",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "1598",
+    "symbol": "ERG_TO_J",
+    "literal": "1e-7",
+    "expr": "1e-7"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "2630",
+    "symbol": "NA",
+    "literal": "6.022e23",
+    "expr": "6.022e23"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "2647",
+    "symbol": "F_BH",
+    "literal": "1.08e2",
+    "expr": "1.08e2"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "2691",
+    "symbol": "NA",
+    "literal": "6.022e23",
+    "expr": "6.022e23"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "2700",
+    "symbol": "NA",
+    "literal": "6.022e23",
+    "expr": "6.022e23"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "2709",
+    "symbol": "F_BH",
+    "literal": "1.08e2",
+    "expr": "1.08e2"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "2758",
+    "symbol": "NA",
+    "literal": "6.022e23",
+    "expr": "6.022e23"
+  },
+  {
+    "file": "./E3_Project/e3_engine/mdqt_processor.py",
+    "line": "93",
+    "symbol": "k_B",
+    "literal": "1.381e-23",
+    "expr": "1.381e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod_1.py",
+    "line": "42",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./github_repos/bruno-collapse-unified/bruno_core_unified/computation/utils.py",
+    "line": "16",
+    "symbol": "BRUNO_CONSTANT_KAPPA",
+    "literal": "1340e-6",
+    "expr": "1340e-6"
+  },
+  {
+    "file": "./E3_Project_OLD_MESSY/scripts/simulation_proto1/bruno_simulate_entropy_snap.py",
+    "line": "12",
+    "symbol": "GRID_SIZE",
+    "literal": "128",
+    "expr": "128"
+  },
+  {
+    "file": "./E3_Project_OLD_MESSY/scripts/simulation_proto1/bruno_simulate_entropy_snap.py",
+    "line": "13",
+    "symbol": "INITIAL_ENTROPY",
+    "literal": "0.1",
+    "expr": "0.1"
+  },
+  {
+    "file": "./E3_Project_OLD_MESSY/scripts/simulation_proto1/bruno_simulate_entropy_snap.py",
+    "line": "14",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "0.001005",
+    "expr": "0.001005"
+  },
+  {
+    "file": "./E3_Project_OLD_MESSY/scripts/simulation_proto1/bruno_simulate_entropy_snap.py",
+    "line": "15",
+    "symbol": "EXPANSION_FACTOR",
+    "literal": "1.05",
+    "expr": "1.05"
+  },
+  {
+    "file": "./E3_Project_OLD_MESSY/scripts/simulation_proto1/bruno_simulate_entropy_snap.py",
+    "line": "16",
+    "symbol": "CONTRACTION_FACTOR",
+    "literal": "0.90",
+    "expr": "0.90"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Simulatation_Scripts/bruno_collapse_map_FIXED.py",
+    "line": "9",
+    "symbol": "M_sun",
+    "literal": "1.9885e30",
+    "expr": "1.9885e30"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Simulatation_Scripts/bruno_collapse_map_FIXED.py",
+    "line": "10",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./scr/Entropy Temp Testing Mod.py",
+    "line": "42",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./simple_bruno_test.py",
+    "line": "16",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./simple_bruno_test.py",
+    "line": "17",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./simple_bruno_test.py",
+    "line": "18",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./simple_bruno_test.py",
+    "line": "19",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./simple_bruno_test.py",
+    "line": "37",
+    "symbol": "M_sun",
+    "literal": "1.989e30",
+    "expr": "1.989e30"
+  },
+  {
+    "file": "./davp_superconductor_generator_clean.py",
+    "line": "394",
+    "symbol": "h",
+    "literal": "1",
+    "expr": "'H': 1, 'He': 2, 'Li': 3, 'Be': 4, 'B': 5, 'C': 6, 'N': 7, 'O': 8,"
+  },
+  {
+    "file": "./davp_superconductor_generator_clean.py",
+    "line": "394",
+    "symbol": "c",
+    "literal": "6",
+    "expr": "'H': 1, 'He': 2, 'Li': 3, 'Be': 4, 'B': 5, 'C': 6, 'N': 7, 'O': 8,"
+  },
+  {
+    "file": "./davp_superconductor_generator_clean.py",
+    "line": "415",
+    "symbol": "h",
+    "literal": "1.008",
+    "expr": "'H': 1.008, 'He': 4.003, 'Li': 6.94, 'Be': 9.012, 'B': 10.81, 'C': 12.01,"
+  },
+  {
+    "file": "./davp_superconductor_generator_clean.py",
+    "line": "415",
+    "symbol": "c",
+    "literal": "12.01",
+    "expr": "'H': 1.008, 'He': 4.003, 'Li': 6.94, 'Be': 9.012, 'B': 10.81, 'C': 12.01,"
+  },
+  {
+    "file": "./davp_superconductor_generator_clean.py",
+    "line": "591",
+    "symbol": "h",
+    "literal": "1",
+    "expr": "valence_electrons = {'H': 1, 'Li': 1, 'B': 3, 'C': 4, 'N': 5, 'O': 6,"
+  },
+  {
+    "file": "./davp_superconductor_generator_clean.py",
+    "line": "591",
+    "symbol": "c",
+    "literal": "4",
+    "expr": "valence_electrons = {'H': 1, 'Li': 1, 'B': 3, 'C': 4, 'N': 5, 'O': 6,"
+  },
+  {
+    "file": "./davp_superconductor_generator_clean.py",
+    "line": "670",
+    "symbol": "h",
+    "literal": "2.20",
+    "expr": "'H': 2.20, 'Li': 0.98, 'Be': 1.57, 'B': 2.04, 'C': 2.55, 'N': 3.04,"
+  },
+  {
+    "file": "./davp_superconductor_generator_clean.py",
+    "line": "670",
+    "symbol": "c",
+    "literal": "2.55",
+    "expr": "'H': 2.20, 'Li': 0.98, 'Be': 1.57, 'B': 2.04, 'C': 2.55, 'N': 3.04,"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Gravity_Relation.py",
+    "line": "5",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Gravity_Relation.py",
+    "line": "6",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Gravity_Relation.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Gravity_Relation.py",
+    "line": "8",
+    "symbol": "l_planck",
+    "literal": "1.616255e-35",
+    "expr": "1.616255e-35"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Gravity_Relation.py",
+    "line": "9",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./e3_inference_validator.py",
+    "line": "60",
+    "symbol": "h",
+    "literal": "11.11",
+    "expr": "composition={\"H\": 11.11, \"O\": 88.89},  # Mass percentages"
+  },
+  {
+    "file": "./e3_inference_validator.py",
+    "line": "81",
+    "symbol": "c",
+    "literal": "100.0",
+    "expr": "composition={\"C\": 100.0},"
+  },
+  {
+    "file": "./e3_inference_validator.py",
+    "line": "114",
+    "symbol": "h",
+    "literal": "100.0",
+    "expr": "composition={\"H\": 100.0},"
+  },
+  {
+    "file": "./e3_inference_validator.py",
+    "line": "185",
+    "symbol": "h",
+    "literal": "0.18",
+    "expr": "'H': 0.18,   # Hydrogen gas"
+  },
+  {
+    "file": "./e3_inference_validator.py",
+    "line": "188",
+    "symbol": "c",
+    "literal": "150",
+    "expr": "'C': 150,    # Carbon (graphite)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/deep_correlation_analysis.py",
+    "line": "12",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/deep_correlation_analysis.py",
+    "line": "13",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/deep_correlation_analysis.py",
+    "line": "14",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/deep_correlation_analysis.py",
+    "line": "15",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/deep_correlation_analysis.py",
+    "line": "16",
+    "symbol": "m_e",
+    "literal": "9.1093837015e-31",
+    "expr": "9.1093837015e-31"
+  },
+  {
+    "file": "./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py",
+    "line": "10",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py",
+    "line": "11",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py",
+    "line": "12",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py",
+    "line": "13",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py",
+    "line": "14",
+    "symbol": "sigma_SB",
+    "literal": "5.670374419e-8",
+    "expr": "5.670374419e-8"
+  },
+  {
+    "file": "./bruno-simulator-latest/bruno-analysis/plasma_data_parser.py",
+    "line": "6",
+    "symbol": "kappa",
+    "literal": "0.001005",
+    "expr": "0.001005"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Final/Bruno_collapse_tracker.py",
+    "line": "5",
+    "symbol": "kappa",
+    "literal": "1366",
+    "expr": "1366"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 2.0.py",
+    "line": "6",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 2.0.py",
+    "line": "7",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 2.0.py",
+    "line": "8",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod.py",
+    "line": "42",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Micro_System_Equation.py",
+    "line": "5",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Micro_System_Equation.py",
+    "line": "6",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Micro_System_Equation.py",
+    "line": "7",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Micro_System_Equation.py",
+    "line": "8",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Hubble_Tension.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Hubble_Tension.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Hubble_Tension.py",
+    "line": "6",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod_2.1.py",
+    "line": "47",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Evolution.py",
+    "line": "5",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Evolution.py",
+    "line": "6",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Evolution.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Evolution.py",
+    "line": "8",
+    "symbol": "l_planck",
+    "literal": "1.616255e-35",
+    "expr": "1.616255e-35"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Evolution.py",
+    "line": "9",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./test_bruno_constant.py",
+    "line": "15",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./test_bruno_constant.py",
+    "line": "16",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./test_bruno_constant.py",
+    "line": "17",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./test_bruno_constant.py",
+    "line": "18",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./test_bruno_constant.py",
+    "line": "38",
+    "symbol": "M_sun",
+    "literal": "1.989e30",
+    "expr": "1.989e30"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_to_Bh_Mass.py",
+    "line": "7",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_to_Bh_Mass.py",
+    "line": "8",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_to_Bh_Mass.py",
+    "line": "9",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_to_Bh_Mass.py",
+    "line": "10",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./E3_Project/e3_engine/comprehensive_e3_parser.py",
+    "line": "522",
+    "symbol": "c",
+    "literal": "33.3",
+    "expr": "composition = {'B': 33.3, 'C': 33.3, 'N': 33.3}"
+  },
+  {
+    "file": "./E3_Project/e3_engine/comprehensive_e3_parser.py",
+    "line": "526",
+    "symbol": "c",
+    "literal": "33.3",
+    "expr": "composition = {'B': 33.3, 'N': 33.3, 'C': 33.3}"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Gw150914_Entropy_Test.py",
+    "line": "7",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Gw150914_Entropy_Test.py",
+    "line": "8",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Gw150914_Entropy_Test.py",
+    "line": "9",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Gw150914_Entropy_Test.py",
+    "line": "10",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Gw150914_Entropy_Test.py",
+    "line": "11",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./E3_Project/notebooks/e3_demos/Project_Archipelago.ipynb",
+    "line": "205",
+    "symbol": "STD_TEMP",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./E3_Project/notebooks/e3_demos/Project_Archipelago.ipynb",
+    "line": "206",
+    "symbol": "STD_DENSITY",
+    "literal": "1.5e9",
+    "expr": "1.5e9"
+  },
+  {
+    "file": "./E3_Project/notebooks/e3_demos/Project_Archipelago.ipynb",
+    "line": "316",
+    "symbol": "STD_TEMP",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./E3_Project/notebooks/e3_demos/Project_Archipelago.ipynb",
+    "line": "317",
+    "symbol": "STD_DENSITY",
+    "literal": "1.5e9",
+    "expr": "1.5e9"
+  },
+  {
+    "file": "./E3_Project/notebooks/e3_demos/Project_Archipelago.ipynb",
+    "line": "437",
+    "symbol": "STD_TEMP",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./E3_Project/notebooks/e3_demos/Project_Archipelago.ipynb",
+    "line": "438",
+    "symbol": "STD_DENSITY",
+    "literal": "1.5e9",
+    "expr": "1.5e9"
+  },
+  {
+    "file": "./E3_Project/notebooks/e3_demos/Project_Archipelago.ipynb",
+    "line": "677",
+    "symbol": "STD_TEMP",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./E3_Project/notebooks/e3_demos/Project_Archipelago.ipynb",
+    "line": "678",
+    "symbol": "STD_DENSITY",
+    "literal": "1.5e9",
+    "expr": "1.5e9"
+  },
+  {
+    "file": "./E3_Project/notebooks/e3_demos/Project_Archipelago.ipynb",
+    "line": "802",
+    "symbol": "STD_TEMP",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./E3_Project/notebooks/e3_demos/Project_Archipelago.ipynb",
+    "line": "803",
+    "symbol": "STD_DENSITY",
+    "literal": "1.5e9",
+    "expr": "1.5e9"
+  },
+  {
+    "file": "./E3_Project/notebooks/e3_demos/Project_Archipelago.ipynb",
+    "line": "897",
+    "symbol": "STD_TEMP",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./E3_Project/notebooks/e3_demos/Project_Archipelago.ipynb",
+    "line": "898",
+    "symbol": "STD_DENSITY",
+    "literal": "1.5e9",
+    "expr": "1.5e9"
+  },
+  {
+    "file": "./E3_Project/notebooks/e3_demos/Project_Archipelago.ipynb",
+    "line": "998",
+    "symbol": "alpha",
+    "literal": "0.6",
+    "expr": "0.6)"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod_3.py",
+    "line": "10",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./e3_validation_test.py",
+    "line": "170",
+    "symbol": "h",
+    "literal": "1.008",
+    "expr": "'H': 1.008, 'He': 4.003, 'Li': 6.94, 'Be': 9.012, 'B': 10.81,"
+  },
+  {
+    "file": "./e3_validation_test.py",
+    "line": "171",
+    "symbol": "c",
+    "literal": "12.01",
+    "expr": "'C': 12.01, 'N': 14.01, 'O': 16.00, 'F': 19.00, 'Ne': 20.18,"
+  },
+  {
+    "file": "./e3_validation_test.py",
+    "line": "232",
+    "symbol": "h",
+    "literal": "1",
+    "expr": "'H': 1, 'He': 2, 'Li': 3, 'Be': 4, 'B': 5, 'C': 6, 'N': 7, 'O': 8, 'F': 9, 'Ne': 10,"
+  },
+  {
+    "file": "./e3_validation_test.py",
+    "line": "232",
+    "symbol": "c",
+    "literal": "6",
+    "expr": "'H': 1, 'He': 2, 'Li': 3, 'Be': 4, 'B': 5, 'C': 6, 'N': 7, 'O': 8, 'F': 9, 'Ne': 10,"
+  },
+  {
+    "file": "./e3_validation_test.py",
+    "line": "288",
+    "symbol": "h",
+    "literal": "1.008",
+    "expr": "'H': 1.008, 'Nb': 92.91, 'Pb': 207.2, 'Sn': 118.7, 'Y': 88.91, 'Ba': 137.3,"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Evaporation_Comparison.py",
+    "line": "9",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Evaporation_Comparison.py",
+    "line": "10",
+    "symbol": "hbar",
+    "literal": "1.0545718e-34",
+    "expr": "1.0545718e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Evaporation_Comparison.py",
+    "line": "11",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Evaporation_Comparison.py",
+    "line": "28",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Collapse Test 1.5.py",
+    "line": "10",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Collapse Test 1.5.py",
+    "line": "11",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Collapse Test 1.5.py",
+    "line": "12",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Collapse Test 1.5.py",
+    "line": "13",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Collapse Test 1.5.py",
+    "line": "14",
+    "symbol": "sigma_SB",
+    "literal": "5.670374419e-8",
+    "expr": "5.670374419e-8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Evaporation_Comparison_1.2.py",
+    "line": "9",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Evaporation_Comparison_1.2.py",
+    "line": "10",
+    "symbol": "hbar",
+    "literal": "1.0545718e-34",
+    "expr": "1.0545718e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Evaporation_Comparison_1.2.py",
+    "line": "11",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Evaporation_Comparison_1.2.py",
+    "line": "38",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Test.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Test.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Test.py",
+    "line": "6",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Test.py",
+    "line": "7",
+    "symbol": "H0",
+    "literal": "2.2e-18",
+    "expr": "2.2e-18"
+  },
+  {
+    "file": "./sim_results/bruno_simulate_entropy_birth.py",
+    "line": "11",
+    "symbol": "GRID_SIZE",
+    "literal": "128",
+    "expr": "128"
+  },
+  {
+    "file": "./sim_results/bruno_simulate_entropy_birth.py",
+    "line": "12",
+    "symbol": "INITIAL_ENTROPY",
+    "literal": "0.9",
+    "expr": "0.9"
+  },
+  {
+    "file": "./sim_results/bruno_simulate_entropy_birth.py",
+    "line": "13",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "0.001005",
+    "expr": "0.001005"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Cosmis_Entropy_Hubble_Test.py",
+    "line": "7",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Cosmis_Entropy_Hubble_Test.py",
+    "line": "8",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Cosmis_Entropy_Hubble_Test.py",
+    "line": "9",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Cosmis_Entropy_Hubble_Test.py",
+    "line": "10",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./Bruno_Entropy_Project/scripts/matching/match_grb_neutrino_events.py",
+    "line": "14",
+    "symbol": "TIME_WINDOW",
+    "literal": "86400",
+    "expr": "86400"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py",
+    "line": "11",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py",
+    "line": "12",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py",
+    "line": "13",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py",
+    "line": "14",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py",
+    "line": "15",
+    "symbol": "sigma_SB",
+    "literal": "5.670374419e-8",
+    "expr": "5.670374419e-8"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py",
+    "line": "52",
+    "symbol": "S_BH",
+    "literal": "7.009474410896821e54",
+    "expr": "7.009474410896821e54"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py",
+    "line": "60",
+    "symbol": "M_sun",
+    "literal": "1.98847e30",
+    "expr": "1.98847e30"
+  },
+  {
+    "file": "./notebooks/Bruno_Betelgeuse_Fluence.ipynb",
+    "line": "14",
+    "symbol": "ERG_TO_JOULE",
+    "literal": "1e-7",
+    "expr": "1e-7"
+  },
+  {
+    "file": "./notebooks/Bruno_Betelgeuse_Fluence.ipynb",
+    "line": "15",
+    "symbol": "DISTANCE_MPC",
+    "literal": "0.0002",
+    "expr": "0.0002"
+  },
+  {
+    "file": "./notebooks/Bruno_Betelgeuse_Fluence.ipynb",
+    "line": "17",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./notebooks/Betelgeuse_Entropy_audit/Bruno_Betelgeuse_Fluence.ipynb",
+    "line": "14",
+    "symbol": "ERG_TO_JOULE",
+    "literal": "1e-7",
+    "expr": "1e-7"
+  },
+  {
+    "file": "./notebooks/Betelgeuse_Entropy_audit/Bruno_Betelgeuse_Fluence.ipynb",
+    "line": "15",
+    "symbol": "DISTANCE_MPC",
+    "literal": "0.0002",
+    "expr": "0.0002"
+  },
+  {
+    "file": "./notebooks/Betelgeuse_Entropy_audit/Bruno_Betelgeuse_Fluence.ipynb",
+    "line": "17",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Modified_Bh_Equations.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Modified_Bh_Equations.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Modified_Bh_Equations.py",
+    "line": "6",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Modified_Bh_Equations.py",
+    "line": "7",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Correlation_Test_1.2.py",
+    "line": "8",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Correlation_Test_1.2.py",
+    "line": "9",
+    "symbol": "hbar",
+    "literal": "1.0545718e-34",
+    "expr": "1.0545718e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Correlation_Test_1.2.py",
+    "line": "10",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Hawking_Radiation_Comparison.py",
+    "line": "6",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Hawking_Radiation_Comparison.py",
+    "line": "7",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Hawking_Radiation_Comparison.py",
+    "line": "8",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Hawking_Radiation_Comparison.py",
+    "line": "9",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./universal_materials_parser.py",
+    "line": "645",
+    "symbol": "T",
+    "literal": "300",
+    "expr": "300"
+  },
+  {
+    "file": "./scr/Entropy Temp Testing Mod 3.1.py",
+    "line": "10",
+    "symbol": "S0",
+    "literal": "1.0",
+    "expr": "1.0"
+  },
+  {
+    "file": "./Bruno_Entropy_Project/scripts/bruno_registry_builder.py",
+    "line": "18",
+    "symbol": "BRUNO_THRESHOLD",
+    "literal": "1e-5",
+    "expr": "1e-5"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Model_Comparison.py",
+    "line": "6",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Model_Comparison.py",
+    "line": "7",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Model_Comparison.py",
+    "line": "8",
+    "symbol": "hbar",
+    "literal": "1.054571817e-34",
+    "expr": "1.054571817e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Model_Comparison.py",
+    "line": "9",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Perturbation_Test.py",
+    "line": "4",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Perturbation_Test.py",
+    "line": "5",
+    "symbol": "c",
+    "literal": "3.0e8",
+    "expr": "3.0e8"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Perturbation_Test.py",
+    "line": "6",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Perturbation_Test.py",
+    "line": "7",
+    "symbol": "H0",
+    "literal": "2.2e-18",
+    "expr": "2.2e-18"
+  },
+  {
+    "file": "./E3_Project/e3_engine/universal_materials_parser_fixed.py",
+    "line": "194",
+    "symbol": "c",
+    "literal": "100.0",
+    "expr": "composition = {'C': 100.0}"
+  },
+  {
+    "file": "./E3_Project/e3_engine/universal_materials_parser_fixed.py",
+    "line": "202",
+    "symbol": "c",
+    "literal": "33.3",
+    "expr": "composition = {'B': 33.3, 'C': 33.3, 'N': 33.3}  # Approximate"
+  },
+  {
+    "file": "./E3_Project/e3_engine/universal_materials_parser_fixed.py",
+    "line": "206",
+    "symbol": "c",
+    "literal": "33.3",
+    "expr": "composition = {'B': 33.3, 'N': 33.3, 'C': 33.3}  # Approximate"
+  },
+  {
+    "file": "./E3_Project/e3_engine/universal_materials_parser_fixed.py",
+    "line": "221",
+    "symbol": "c",
+    "literal": "1.0",
+    "expr": "composition = {'Fe': 95.0, 'C': 1.0, 'Cr': 2.0, 'Mn': 1.0, 'Other': 1.0}  # Typical steel"
+  },
+  {
+    "file": "./E3_Project/e3_engine/universal_materials_parser_fixed.py",
+    "line": "225",
+    "symbol": "c",
+    "literal": "100.0",
+    "expr": "composition = {'C': 100.0}"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.8.py",
+    "line": "11",
+    "symbol": "k_B",
+    "literal": "1.380649e-23",
+    "expr": "1.380649e-23"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.8.py",
+    "line": "12",
+    "symbol": "h",
+    "literal": "6.62607015e-34",
+    "expr": "6.62607015e-34"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.8.py",
+    "line": "13",
+    "symbol": "c",
+    "literal": "299792458",
+    "expr": "299792458"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.8.py",
+    "line": "14",
+    "symbol": "G",
+    "literal": "6.67430e-11",
+    "expr": "6.67430e-11"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.8.py",
+    "line": "15",
+    "symbol": "sigma_SB",
+    "literal": "5.670374419e-8",
+    "expr": "5.670374419e-8"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.8.py",
+    "line": "52",
+    "symbol": "S_BH",
+    "literal": "7.009474410896821e54",
+    "expr": "7.009474410896821e54"
+  },
+  {
+    "file": "./bruno-simulator-latest/nb04_gw_corrmap.ipynb",
+    "line": "27",
+    "symbol": "kappa",
+    "literal": "0.001005",
+    "expr": "0.001005"
+  },
+  {
+    "file": "./bruno-simulator-latest/nb04_gw_corrmap.ipynb",
+    "line": "292",
+    "symbol": "kappa",
+    "literal": "0.001005",
+    "expr": "0.001005"
+  }
+]

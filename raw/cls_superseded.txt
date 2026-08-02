@@ -1,0 +1,69 @@
+./2025.05.10/archive/bruno_registry_builder.py
+./2025.05.10/archive/nakazato_flux_integrator.py
+./2025.05.10/archive/plot_bruno_sky_map_alpha.py
+./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md
+./CLEAN_WORKSPACE/E3_project_rev1/README.md
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/README.md
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/bruno_core/README.md
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/docs/analysis/bruno_highlighted_events.md
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/docs/exports/bruno_entropy_export_structure.md
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/docs/theory/Bruno_model.tex
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/docs/theory/docs_theory_README.md
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/legacy_import/repo- 1/CHANGELOG_entropy-research.md
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/legacy_import/repo- 1/README_entropy-research.md
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/latex/Entropy_Collapse.tex
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/latex/Entropy_Collapse_Paper_2.1.tex
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/latex/LaTex/Entropy Collapse Paper Archive/Entropy Collapse Paper.TeX
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/latex/LaTex/Entropy Collapse Paper Archive/Entropy_Collapse_Paper_1.3.tex
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/latex/LaTex/Entropy Collapse Paper Archive/Entropy_Collapse_Paper_1.4.tex
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/latex/LaTex/Entropy Collapse Paper Archive/Entropy_Collapse_Paper_1.7.tex
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/latex/LaTex/Entropy Collapse Paper Archive/Entropy_Collapse_Paper_2.3.tex
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/latex/LaTex/Entropy Collapse Paper Archive/Entropy_Collapse_Paper_2.4.tex
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/latex/LaTex/Entropy Collapse Paper Archive/Entropy_Collapse_Paper_2.tex
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/latex/LaTex/Entropy Collapse Paper Final/Entropy_Collapse_Paper_Final.tex
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/latex/LaTex/Entropy Collapse Paper Final/README.md
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/overview/New folder/Entropy Collapse Paper.TeX
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/overview/New folder/Entropy Model Comparison.TeX
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/analysis/compare_luminosities.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/analysis/data_structure_audit.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/data_tools/make_data_manifest.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/data_tools/path_rewriter_from_manifest.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/data_tools/path_rewriter_with_backup.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/Entropy Collapse Test 1.5.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/bruno_registry_builder.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/compute_fluence_trigger.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/crossmatch_bruno_with_icecube.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/crossmatch_bruno_with_icecube_fixed.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/nakazato_flux_integrator.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Archive/script_header.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/matching/match_grb_neutrino_events.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/matching/match_grb_neutrino_events_wide.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/parsing/parse_supernova_filter.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/simulation/bruno_constant/bruno_sim_1_entropy_vs_radius.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/simulation/plot_bruno_sky_map.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/utilities/Append.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/utilities/astro_utils.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/utilities/data_loader.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/utilities/data_pipeline.md
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/utilities/generate_schema.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/utilities/path.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/utilities/registry/scripts_registry_README.md
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/utilities/validate_data_registry.py
+./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/utilities/validate_grb.py
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/report/latex/LaTex/Entropy Collapse Paper Archive/Entropy_Collapse_Paper_1.5.tex
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/simulation_proto1/bruno_simulate_entropy_snap.py
+./CLEAN_WORKSPACE/archived_research/bruno-unified-rev1/evolution_history/phase3_unified_framework/scripts/simulation_proto1/bruno_waveform_real_contrast.py
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/README.md
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/archive/structure.ipynb
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/legacy/legacy_home/Historical Entropy Audit.ipynb
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/legacy/legacy_home/Historical_Entropy_Audit_Rebuilt.ipynb
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/legacy/legacy_home/Historical_Entropy_Audit_Updated.ipynb
+./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/notebooks/legacy/legacy_home/fluence map engine.ipynb
+./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md
+./E3_CURRENT_PRODUCTION/bruno_framework/theory/bruno_threshold.py
+./E3_Project_OLD_MESSY/README.md
+./E3_Project_OLD_MESSY/final_cleanup.py
+./bruno-framework-clean/organized_research/astronomical_analysis/bruno_threshold.py
+./bruno-simulator-RESTRUCTURED/notebooks/e3_validation/ultracold_plasma_analysis.ipynb
+./github_repos/bruno-collapse-unified/bruno_core_unified/theory/bruno_threshold.py

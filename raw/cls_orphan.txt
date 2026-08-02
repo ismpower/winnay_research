@@ -1,0 +1,399 @@
+./2025.05.10/crossmatch_bruno_with_icecube_v2.py
+./2025.05.10/estimate_fluence_from_magnitude.py
+./2025.05.10/extract_json_from_zip.py
+./2025.05.10/parse_supernovae_registry.py
+./Bruno_Entropy_Project/datasets/catalogs/icecube_hese12yr/create_fits.py
+./Bruno_Entropy_Project/scripts/Bruno Parser Script.py
+./Bruno_Entropy_Project/scripts/analysis/compare_luminosities.py
+./Bruno_Entropy_Project/scripts/bruno_registry_builder.py
+./Bruno_Entropy_Project/scripts/check_icecube_overlap.py
+./Bruno_Entropy_Project/scripts/compute_fluence_trigger.py
+./Bruno_Entropy_Project/scripts/crossmatch_bruno_with_icecube_v2.py
+./Bruno_Entropy_Project/scripts/data_structure_audit.py
+./Bruno_Entropy_Project/scripts/estimate_fluence_from_magnitude.py
+./Bruno_Entropy_Project/scripts/extract_asassn_to_fluence.py
+./Bruno_Entropy_Project/scripts/extract_json_from_zip.py
+./Bruno_Entropy_Project/scripts/icecube_merge.py
+./Bruno_Entropy_Project/scripts/matching/match_grb_neutrino_events.py
+./Bruno_Entropy_Project/scripts/matching/match_grb_neutrino_events_wide.py
+./Bruno_Entropy_Project/scripts/nakazato_flux_integrator.py
+./Bruno_Entropy_Project/scripts/parse_supernova_filter.py
+./Bruno_Entropy_Project/scripts/parse_supernovae_registry.py
+./Bruno_Entropy_Project/scripts/plot_and_export_bruno_icecube.py
+./Bruno_Entropy_Project/scripts/plot_bruno_icecube.py
+./Bruno_Entropy_Project/scripts/plot_bruno_sky_map.py
+./Bruno_Entropy_Project/scripts/plot_bruno_sky_map_v2.py
+./Bruno_Entropy_Project/scripts/script_header.py
+./Bruno_Entropy_Project/scripts/test 1.py
+./Bruno_Entropy_Project/scripts/utilities/Append.py
+./Bruno_Entropy_Project/scripts/utilities/astro_utils.py
+./Bruno_Entropy_Project/scripts/utilities/data_loader.py
+./Bruno_Entropy_Project/scripts/utilities/generate_schema.py
+./Bruno_Entropy_Project/scripts/utilities/path.py
+./Bruno_Entropy_Project/scripts/utilities/validate_data_registry.py
+./Bruno_Entropy_Project/scripts/utilities/validate_grb.py
+./Bruno_Entropy_Project/scripts/verify_bruno_matches.py
+./CLEAN_E3_DATA/authoritative_sources/gamma_ray_bursts/create_bruno_catalog.py
+./CLEAN_E3_DATA/authoritative_sources/gamma_ray_bursts/parse_swift_catalog.py
+./CLEAN_WORKSPACE/analysis_tools/simple_bruno_test.py
+./CLEAN_WORKSPACE/analysis_tools/test_bruno_constant.py
+./CLEAN_WORKSPACE/bruno_framework/bruno_core/__init__.py
+./CLEAN_WORKSPACE/bruno_framework/bruno_core/registry_logger.py
+./CLEAN_WORKSPACE/scripts/comprehensive_matweb_solution.py
+./CLEAN_WORKSPACE/scripts/enhanced_matweb_scraper.py
+./CLEAN_WORKSPACE/scripts/simple_matweb_scraper.py
+./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py
+./CLEAN_WORKSPACE/validation_data/deep_correlation_analysis.py
+./E3_CURRENT_PRODUCTION/e3_engine/anomaly_hunter.py
+./E3_CURRENT_PRODUCTION/e3_engine/comprehensive_e3_parser.py
+./E3_CURRENT_PRODUCTION/e3_engine/core/__init__.py
+./E3_CURRENT_PRODUCTION/e3_engine/core/entropy_first_model.py
+./E3_CURRENT_PRODUCTION/e3_engine/core/registry_logger.py
+./E3_CURRENT_PRODUCTION/e3_engine/core/utils.py
+./E3_CURRENT_PRODUCTION/e3_engine/dataset_inspector.py
+./E3_CURRENT_PRODUCTION/e3_engine/davp_superconductor_generator_clean.py
+./E3_CURRENT_PRODUCTION/e3_engine/debugged_parser.py
+./E3_CURRENT_PRODUCTION/e3_engine/e3_data_validator.py
+./E3_CURRENT_PRODUCTION/e3_engine/e3_inference_validator.py
+./E3_CURRENT_PRODUCTION/e3_engine/e3_single_test.py
+./E3_CURRENT_PRODUCTION/e3_engine/final_enhanced_parcer.py
+./E3_CURRENT_PRODUCTION/e3_engine/final_enhanced_parser_2.py
+./E3_CURRENT_PRODUCTION/e3_engine/neural_physics_engine.py
+./E3_CURRENT_PRODUCTION/e3_engine/physics_validation.py
+./E3_CURRENT_PRODUCTION/e3_engine/universal_materials_parser_fixed.py
+./E3_CURRENT_PRODUCTION/find_mdqt_data.py
+./E3_CURRENT_PRODUCTION/find_superconductor_leads.py
+./E3_CURRENT_PRODUCTION/master_data_pipeline.py
+./E3_CURRENT_PRODUCTION/scripts/data_processing/General_Data_Validation_Script.py
+./E3_CURRENT_PRODUCTION/scripts/mdqt_parameter_sweep.py
+./E3_CURRENT_PRODUCTION/setup.py
+./E3_DAVP_Pipeline/bohm_velocity_validation.py
+./E3_DAVP_Pipeline/cyclotron_validation.py
+./E3_DAVP_Pipeline/enhanced_davp.py
+./E3_DAVP_Pipeline/ion_acoustic_validation.py
+./E3_DAVP_Pipeline/killian_real_data_test.py
+./E3_DAVP_Pipeline/physics_mechanism_discovery.py
+./E3_DAVP_Pipeline/plasma_frequency_fixed.py
+./E3_DAVP_Pipeline/plasma_frequency_validation.py
+./E3_DAVP_Pipeline/simple_davp.py
+./E3_DAVP_Pipeline/simple_test.py
+./E3_DAVP_Pipeline/test_davp_basic.py
+./E3_Project_REBUILT/E3_Engine/auto_setup_e3.py
+./E3_Project_REBUILT/E3_Engine/byu_integration_fixed.py
+./E3_Project_REBUILT/E3_Engine/run_e3_workflow.py
+./E3_Project_REBUILT/E3_Engine/simple_e3_training.py
+./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py
+./Entropy-Collapse-Research/Scripts/Simulatation_Scripts/bruno_collapse_map.py
+./Entropy-Collapse-Research/Scripts/Simulatation_Scripts/bruno_collapse_map_FIXED.py
+./PCB_V/C137B/apply_final_positions.py
+./PCB_V/C137B/eliminate_final_overlaps.py
+./PCB_V/C137B/fix_overlapping_placement.py
+./PCB_V/C137B/fix_pcb_positions.py
+./PCB_V/C137B/fix_placement_zones.py
+./PCB_V/C137B/pcb_position_workflow.py
+./PCB_V/C137B/sch_to_pcb_engine.py
+./PCB_V/C137B/update_final_positions.py
+./PCB_V/C137B/update_pcb_positions.py
+./PCB_V/C137B/update_positions_final.py
+./PCB_V/C137B/verify_final.py
+./PCB_V/VALIS_NODE/C137A-test/create_clean_pcb.py
+./PCB_V/VALIS_NODE/C137A-test/create_complete_c137a.py
+./PCB_V/VALIS_NODE/C137A-test/create_full_c137a.py
+./PCB_V/VALIS_NODE/C137A-test/create_pin_netlist.py
+./PCB_V/VALIS_NODE/C137A-test/create_production_pcb.py
+./PCB_V/VALIS_NODE/C137A-test/create_valid_pcb.py
+./PCB_V/VALIS_NODE/C137A-test/fix_drc_violations.py
+./PCB_V/VALIS_NODE/C137A-test/fix_kicad_syntax.py
+./PCB_V/VALIS_NODE/C137A-test/fix_netlist_format.py
+./PCB_V/VALIS_NODE/C137A-test/fix_pcb_netlist.py
+./PCB_V/VALIS_NODE/C137A-test/fix_placement_overlap.py
+./PCB_V/VALIS_NODE/C137A-test/generate_complete_pcb.py
+./PCB_V/VALIS_NODE/C137A-test/generate_kicad_netlist.py
+./PCB_V/VALIS_NODE/C137A-test/json_to_positions_csv.py
+./PCB_V/VALIS_NODE/C137A-test/prepare_for_routing.py
+./PCB_V/VALIS_NODE/C137A-test/split_grouped_positions.py
+./PCB_V/VALIS_NODE/C137A-test/validate_design.py
+./PCB_V/ethic_lab_projects/PCV_Project/C-137A_Source/Clean_KiCad_Generator.py
+./PCB_V/ethic_lab_projects/PCV_Project/C-137A_Source/DEEPER/KiCad_Schematic_Extraction_Tools.py
+./PCB_V/ethic_lab_projects/PCV_Project/C-137A_Source/DEEPER/run_c137a_recovery.py
+./PCB_V/ethic_lab_projects/PCV_Project/C-137A_Source/Fixed_Final_C137A_Generator.py
+./PCB_V/ethic_lab_projects/PCV_Project/C-137A_Source/KiCad_File_Merger.py
+./PCB_V/ethic_lab_projects/PCV_Project/C-137A_Source/Structure_Adapter.py
+./PCB_V/ethic_lab_projects/PCV_Project/C-137A_Source/generate_positions_csv.py
+./PCB_V/ethic_lab_projects/PCV_Project/C-137A_Source/scripts/Final_C137A_Generator.py
+./PCB_V/ethic_lab_projects/PCV_Project/C-137A_Source/scripts/Fixed_KiCad_Extraction_Tools.py
+./PCB_V/ethic_lab_projects/PCV_Project/C-137A_Source/scripts/Version_Files_Extractor.py
+./PCB_V/ethic_lab_projects/PCV_Project/C-137A_Source/scripts/consolidation_script.py
+./PCB_V/ethic_lab_projects/PCV_Project/C-137A_Source/scripts/extraction-script.py
+./PCB_V/ethic_lab_projects/PCV_Project/C-137A_Source/scripts/fix_schematic_structure.py
+./PCB_V/ethic_lab_projects/PCV_Project/C-137A_Source/scripts/generate_positions_csv1 (2).py
+./PCB_V/ethic_lab_projects/PCV_Project/C-137A_Source/scripts/placement_diagnostics.py
+./PCB_V/ethic_lab_projects/PCV_Project/api_router.py
+./PCB_V/ethic_lab_projects/PCV_Project/api_router_v2.py
+./PCB_V/ethic_lab_projects/PCV_Project/api_router_v3.py
+./PCB_V/ethic_lab_projects/PCV_Project/c132_workflow.py
+./PCB_V/ethic_lab_projects/PCV_Project/c132_workflow_0.py
+./PCB_V/ethic_lab_projects/PCV_Project/e3_pcb_fix_setup.py
+./PCB_V/ethic_lab_projects/PCV_Project/e3_pcb_setup.py
+./PCB_V/ethic_lab_projects/PCV_Project/e3_pcb_setup_v4.py
+./PCB_V/ethic_lab_projects/PCV_Project/erc_debug.py
+./PCB_V/ethic_lab_projects/PCV_Project/generate_dsn.py
+./PCB_V/ethic_lab_projects/PCV_Project/generate_dsn_1.py
+./PCB_V/ethic_lab_projects/PCV_Project/generate_dsn_2.py
+./PCB_V/ethic_lab_projects/PCV_Project/generate_positions_csv copy.py
+./PCB_V/ethic_lab_projects/PCV_Project/generate_positions_csv.py
+./PCB_V/ethic_lab_projects/PCV_Project/import_ses_to_kicad.py
+./PCB_V/ethic_lab_projects/PCV_Project/import_ses_to_kicad_1.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_diagnostic.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/bom_parser.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/bom_parser_1.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/drc_parser.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/erc_parser.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/erc_parser_1.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/output_generator.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/pcv.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/pcv_1.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/pcv_2.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/pcv_3.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/pcv_x.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/pick_place.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/placement_engine.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/placement_engine_1.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/placement_engine_2.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/position_parser.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/schematic_parser.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/schematic_parser3.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/schematic_parser_1.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/schematic_parser_4.py
+./PCB_V/ethic_lab_projects/PCV_Project/pcv_tool/schematic_parser_x.py
+./PCB_V/ethic_lab_projects/PCV_Project/position_inspect.py
+./PCB_V/ethic_lab_projects/PCV_Project/route_with_client.py
+./PCB_V/ethic_lab_projects/PCV_Project/route_with_client_1.py
+./PCB_V/ethic_lab_projects/PCV_Project/schematic_debug.py
+./PCB_V/ethic_lab_projects/PCV_Project/update_kicad_pcb.py
+./PCB_V/ethic_lab_projects/PCV_Project/update_workflow.py
+./PCB_V/ethic_lab_projects/e3_pcb_fix_setup.py
+./PCB_V/ethic_lab_projects/e3_pcb_setup_with_pcv.py
+./bruno-fluence-app/analyze_supernova_data.py
+./bruno-fluence-app/bruno-fluence-app/data/test/sample_gw_event.py
+./bruno-fluence-app/bruno-fluence-app/health_check.py
+./bruno-framework-clean/Entropy_Hypothesis_History/Hypothesis/Blackhole 0k Model.TeX
+./bruno-framework-clean/Entropy_Hypothesis_History/Hypothesis/Entropy Blackhole Model.TeX
+./bruno-framework-clean/Entropy_Hypothesis_History/Hypothesis/Entropy Gravity Paper.TeX
+./bruno-framework-clean/Entropy_Hypothesis_History/Hypothesis/Entropy Model Comparison 1.1.TeX
+./bruno-framework-clean/Entropy_Hypothesis_History/Hypothesis/Entropy Model Comparison 5.TeX
+./bruno-framework-clean/Entropy_Hypothesis_History/Hypothesis/Entropy Model Comparison.TeX
+./bruno-framework-clean/Entropy_Hypothesis_History/Hypothesis/Entropy Project Summary.TeX
+./bruno-framework-clean/Entropy_Hypothesis_History/Hypothesis/Entropy Saturation Horizon vs Hubble Tension.TeX
+./bruno-framework-clean/Entropy_Hypothesis_History/Hypothesis/Entropy_Project_Summary_UPDATED.TeX
+./bruno-framework-clean/Entropy_Hypothesis_History/Hypothesis/Pre-Recombination.TeX
+./bruno-framework-clean/Entropy_Hypothesis_History/Hypothesis/Unified Abstract Summary.TeX
+./bruno-framework-clean/LaTex/Entropy Collapse Paper 1.0/Part 1.TeX
+./bruno-framework-clean/LaTex/Entropy Collapse Paper 1.0/Part 2.TeX
+./bruno-framework-clean/LaTex/Entropy Collapse Paper 1.0/Part 3.TeX
+./bruno-framework-clean/LaTex/Entropy Collapse Paper 1.0/Part 4.TeX
+./bruno-framework-clean/LaTex/Entropy Collapse Paper 1.0/Part 5.TeX
+./bruno-framework-clean/LaTex/Entropy Collapse Paper 1.0/Part 6.TeX
+./bruno-framework-clean/LaTex/Entropy Collapse Paper 1.0/Part 7.TeX
+./bruno-framework-clean/LaTex/Entropy Collapse Paper.TeX
+./bruno-framework-clean/Scripts/Bose_Einstein_Entropy.py
+./bruno-framework-clean/Scripts/Cosmis_Entropy_Hubble_Test.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Bruno Constant.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.1.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.2.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.3.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.4.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.6.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.7.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.8.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.2.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Energy Temperature 1.0.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Energy Template.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 1.0.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 1.1.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 2.0.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 2.1.py
+./bruno-framework-clean/Scripts/Entropy Collapse Test/Temperature from Entropy 3.py
+./bruno-framework-clean/Scripts/Gw150914_Entropy_Test.py
+./bruno-framework-clean/Scripts/Hawking_Radiation_Comparison.py
+./bruno-framework-clean/Scripts/Hubble_Constant_Check.py
+./bruno-framework-clean/Scripts/Micro_System_Equation.py
+./bruno-framework-clean/Scripts/Modified_Bh_Equations.py
+./bruno-framework-clean/Scripts/Modified_Entropy_Test.py
+./bruno-framework-clean/Scripts/Negative_Entropy_Calc.py
+./bruno-framework-clean/Scripts/Obervational_Dark_Matter.py
+./bruno-framework-clean/Scripts/Planck_Entropy_Analysis.py
+./bruno-framework-clean/Scripts/Planck_Scale_Entropy.py
+./bruno-framework-clean/Scripts/Primordial_BH_Constraints.py
+./bruno-framework-clean/Scripts/Saturated_Bh_Entropy_Model.py
+./bruno-framework-clean/Scripts/Saturation_Model_Vs_BH_Entropy.py
+./bruno-framework-clean/Scripts/Second_Equation_Test.py
+./bruno-framework-clean/Scripts/Standard_Blackhole_Model.py
+./bruno-framework-clean/Scripts/Standard_Blackhole_QM.py
+./bruno-framework-clean/Scripts/Superconductivity_Entropy.py
+./bruno-framework-clean/Scripts/Third_Equation_Entropy.py
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Comparison.py
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Evolution.py
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Fixed.py
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Graph.py
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Observation.py
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Plots.py
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Shift.py
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Model_Comparison.py
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Temp_Reversal.py
+./bruno-framework-clean/organized_research/black_holes/Blackhole_Transision.py
+./bruno-framework-clean/organized_research/cosmology/Cosmological_Entropy_Test.py
+./bruno-framework-clean/organized_research/quantum_mechanics/Quantum_Entropy_Correction.py
+./bruno-framework-clean/organized_research/quantum_mechanics/Quantum_Entropy_Eq.py
+./bruno-framework-clean/organized_research/quantum_mechanics/Quantum_Entropy_Eqs.py
+./bruno-framework-clean/organized_research/quantum_mechanics/Quantum_Entropy_Test.py
+./bruno-framework-clean/organized_research/quantum_mechanics/Quantum_Lock_Entropy.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_Model.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_Obs.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Blackhole_QM.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Correlation_Test.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Correlation_Test_1.1.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Correlation_Test_1.2.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Correlation_Test_1.3.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Correlation_Test_1.4.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Dark_Energy_Comparison.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Dynamic_Test.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Epoch_Analysis.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Equations.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Evaporation_Comparison.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Evaporation_Comparison_1.1.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Evaporation_Comparison_1.2.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Expension_Analysis.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Gravity_Eq.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Gravity_Relation.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Horizon_Function_Test.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Horizon_Table.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Hubble_Comparison.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Hubble_Tension.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Hubble_Test.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Model_Convergence.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_No_Spacetime.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Perturbation_Test.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Predictive_Model.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Predictive_Model_1.1.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Predictive_Test.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_RData_Model.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_RData_Model_Test_1.1.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_RData_Model_Test_1.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Saturation_Function.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Saturation_Function_1.1.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Saturation_Function_1.2.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Saturation_Horizon.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Analysis.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Test.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Shift.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod_1.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod_2.1.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod_2.3.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod_2.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod_3.1.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod_3.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temp_Testing_Mod_4.0.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Adjustment.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Correlatio.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Correlation.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Fix.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_Temperature_Testing.py
+./bruno-framework-clean/organized_research/thermodynamics/Entropy_to_Bh_Mass.py
+./bruno-framework-clean/pre_corruption_analyzer.py
+./bruno-new-dataset/fix_validator.py
+./bruno-new-dataset/grb_predictor.py
+./bruno-new-dataset/scripts/bruno_batse_analyzer.py
+./bruno-new-dataset/scripts/bruno_dataset_builder.py
+./bruno-new-dataset/sn_grb_validator.py
+./bruno-real-analyzer/data_corruption_detector.py
+./bruno-real-analyzer/real_analysis_demo.py
+./bruno-real-analyzer/real_data_validator.py
+./bruno-real-analyzer/simple_validator.py
+./bruno-simulator-RESTRUCTURED/bruno_framework/historical_scripts/core_development/Bruno_Constant_Extraction.py
+./bruno-simulator-RESTRUCTURED/bruno_framework/historical_scripts/core_development/Bruno_collapse_tracker.py
+./bruno-simulator-latest/bruno-analysis/PSFVJA20-74/sneak.py
+./bruno-simulator-latest/bruno-analysis/extract_cf230_data.py
+./bruno-simulator-latest/bruno-analysis/extract_eps_signals.py
+./bruno-simulator-latest/bruno-analysis/plasma_data_parser.py
+./bruno-simulator-latest/bruno-analysis/ukaea_data_extract.py
+./bruno-simulator-latest/bruno-analysis/ukaea_downloads/link_extract.py
+./bruno-simulator-latest/bruno-analysis/ukaea_downloads/link_extract_part2.py
+./bruno-simulator-latest/bruno_sim_1_entropy_vs_radius.py
+./bruno-simulator-latest/scripts/can_ingest.py
+./bruno-simulator-latest/scripts/core_collapse_sim.py
+./bruno-simulator-latest/scripts/download_latest_gw_dual_csv.py
+./bruno-simulator-latest/scripts/download_latest_gw_event.py
+./bruno-simulator-latest/scripts/eos_tools.py
+./bruno-simulator-latest/scripts/feature_extract.py
+./bruno_sim_1_entropy_vs_radius.py
+./comprehensive_e3_parser.py
+./corrected_comprehensive_parser.py
+./crossmatch_bruno_with_icecube.py
+./csv_parser_strategy.py
+./dataset_format_converter.py
+./dataset_inspector.py
+./debugged_parser.py
+./dual_machine_comparator.py
+./dual_machine_file_mapper.py
+./e3_data_validator.py
+./e3_deployment_demo.py
+./e3_inference_validator.py
+./e3_inspector.py
+./e3_single_test.py
+./e3_superconductor_trainer_v2.py
+./e3_validation_test.py
+./enhanced_e3_parser.py
+./extract_asassn_to_fluence.py
+./final_enhanced_parser.py
+./find_duplicates.py
+./fixed_anomaly_parser.py
+./github_repos/bruno-collapse-simulator/bruno_framework/historical_scripts/core_development/Bruno_collapse_tracker.py
+./github_repos/bruno-collapse-unified/bruno_core_unified/computation/utils.py
+./github_repos/bruno-collapse-unified/computational_development/bruno_framework/__init__.py
+./github_repos/bruno-collapse-unified/computational_development/bruno_framework/registry_logger.py
+./github_repos/bruno-collapse-unified/computational_development/validation_tools/test 1.py
+./github_repos/bruno-collapse-unified/data_and_results/experimental_data/raw/oconnor/explore.py
+./large_superconductor_dataset_generator.py
+./large_superconductor_generator.py
+./local_notebook_dependency_checker.py
+./materials_project_superconductor_scraper.py
+./matweb_element_scraper.py
+./notebooks/BRUNO_GRCHOMBO_SIMULATION/LIGO data extract.py
+./notebooks/readData.py
+./real-astronomical-analyzer/clean_astronomical_analyzer.py
+./run_e3_workflow.py
+./scr/Cosmis Entropy Hubble Test.py
+./scr/Entropy Temp Testing Mod 1.py
+./scr/Entropy Temp Testing Mod 2.1.py
+./scr/Entropy Temp Testing Mod 2.3.py
+./scr/Entropy Temp Testing Mod 2.py
+./scr/Entropy Temp Testing Mod 3.1.py
+./scr/Entropy Temp Testing Mod 3.py
+./scr/Entropy Temp Testing Mod 4.0.py
+./scr/Entropy Temp Testing Mod.py
+./scr/Modified Bh Equations.py
+./sim_results/animate_entropy_collapse.py
+./sim_results/bruno_entropy_reverse_fit.py
+./sim_results/bruno_gw_sim.py
+./sim_results/bruno_simulate_entropy_birth.py
+./sim_results/bruno_simulate_entropy_snap.py
+./sim_results/bruno_simulate_entropy_timestamped.py
+./sim_results/bruno_universe.py
+./sim_results/bruno_waveform_real_contrast.py
+./sim_results/bruno_waveform_to_entropy_anim.py
+./sim_results/visualize_collapse_timestamp_animation.py
+./sim_results/visualize_entropy_slices.py
+./simple_e3_training.py
+./sne19901999 extract.py
+./snewpy-models-presn-master/models/Patton_2017/readData.py
+./superconductor_data_importer.py
+./superconductor_data_schema.py
+./timestamp_comparator.py
+./unified_e3_integration_BK.py
+./universal_materials_parser.py

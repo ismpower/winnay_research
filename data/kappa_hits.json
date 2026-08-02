@@ -1,0 +1,908 @@
+[
+  {
+    "file": "./entropy-collapse-transient-engine.ipynb",
+    "line": "32",
+    "literal": "1366.0",
+    "context": "kappa = 1366.0        # K\u207b\u00b9"
+  },
+  {
+    "file": "./Bruno_model_sim_upd.tex",
+    "line": "91",
+    "literal": "1366",
+    "context": "\\item $\\kappa \\approx 1366\\, \\text{K}^{-1}$ is the \\textbf{Bruno Constant}"
+  },
+  {
+    "file": "./Bruno_model_sim_upd.tex",
+    "line": "212",
+    "literal": "1366",
+    "context": "\\item $\\kappa$ is the Bruno Constant $\\sim 1366\\,\\text{K}^{-1}$"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py",
+    "line": "21",
+    "literal": "1366.0",
+    "context": "kappa_validated = 1366.0  # K\u207b\u00b9 (GW150914 black hole calibration)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py",
+    "line": "163",
+    "literal": "1366",
+    "context": "print(\"\u2713 Bruno constant validated: \u03ba = 1366 K\u207b\u00b9\")"
+  },
+  {
+    "file": "./Bruno_model_sim_final.tex",
+    "line": "101",
+    "literal": "1366",
+    "context": "\\item $\\kappa \\approx 1366\\, \\text{K}^{-1}$ is the \\textbf{Bruno Constant}"
+  },
+  {
+    "file": "./Bruno_model_sim_final.tex",
+    "line": "254",
+    "literal": "1366",
+    "context": "\\item $\\kappa$ is the Bruno Constant $\\sim 1366\\,\\text{K}^{-1}$"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "14",
+    "literal": "1366",
+    "context": "kappa = 1366  # Bruno Constant in K^-1"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "63",
+    "literal": "1366",
+    "context": "kappa = 1366  # K^-1"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "80",
+    "literal": "1366",
+    "context": "kappa = 1366  # Bruno Constant in K^-1"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "152",
+    "literal": "1366",
+    "context": "kappa = 1366  # K^-1"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "213",
+    "literal": "1366",
+    "context": "kappa = 1366"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "233",
+    "literal": "1313",
+    "context": "kappa = 1313        # Bruno Constant (1/K)"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "310",
+    "literal": "1313",
+    "context": "kappa = 1313        # Bruno constant"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "525",
+    "literal": "1313",
+    "context": "kappa = 1313               # Bruno constant (1/K)"
+  },
+  {
+    "file": "./COHERENT_E3_PROJECT_PLAN.md",
+    "line": "10",
+    "literal": "1366",
+    "context": "- **Inconsistent Bruno constant values**: \u03ba = 1366 vs \u03ba = 1340 \u00b1 60"
+  },
+  {
+    "file": "./github_repos/bruno-collapse-simulator/README.md",
+    "line": "108",
+    "literal": "1366",
+    "context": "- **\u03ba = 1366 K\u207b\u00b9** - GW150914 black hole calibration"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "5",
+    "literal": "1366",
+    "context": "kappa = 1366  # Bruno Constant in K^-1"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "45",
+    "literal": "1366",
+    "context": "kappa = 1366  # K^-1"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "57",
+    "literal": "1366",
+    "context": "kappa = 1366  # Bruno Constant in K^-1"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "118",
+    "literal": "1366",
+    "context": "kappa = 1366  # K^-1"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "166",
+    "literal": "1366",
+    "context": "kappa = 1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "182",
+    "literal": "1313",
+    "context": "kappa = 1313        # Bruno Constant (1/K)"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "244",
+    "literal": "1313",
+    "context": "kappa = 1313        # Bruno constant"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "419",
+    "literal": "1313",
+    "context": "kappa = 1313               # Bruno constant (1/K)"
+  },
+  {
+    "file": "./bruno-simulator-RESTRUCTURED/README.md",
+    "line": "107",
+    "literal": "1366",
+    "context": "- **\u03ba = 1366 K\u207b\u00b9** - GW150914 black hole calibration"
+  },
+  {
+    "file": "./bruno-fluence-app/bruno_fluence_analyzer.py",
+    "line": "29",
+    "literal": "1366.0",
+    "context": "def __init__(self, bruno_constant: float = 1366.0):"
+  },
+  {
+    "file": "./bruno-fluence-app/bruno_fluence_analyzer.py",
+    "line": "97",
+    "literal": "1366.0",
+    "context": "analyzer = BrunoFluenceAnalyzer(bruno_constant=1366.0)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/README.md",
+    "line": "10",
+    "literal": "1366",
+    "context": "**Key Achievement**: \u03ba = 1366 K\u207b\u00b9 discovery through LIGO GW150914 calibration"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/README.md",
+    "line": "39",
+    "literal": "1313",
+    "context": "\u2502   \u2514\u2500\u2500 constant_value_evolution.md # From 1313 to 1366 K\u207b\u00b9"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/README.md",
+    "line": "39",
+    "literal": "1366",
+    "context": "\u2502   \u2514\u2500\u2500 constant_value_evolution.md # From 1313 to 1366 K\u207b\u00b9"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/README.md",
+    "line": "102",
+    "literal": "1313",
+    "context": "- **Bruno Constant**: Initial \u03ba \u2248 1313 K\u207b\u00b9 theoretical value"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/README.md",
+    "line": "107",
+    "literal": "1366",
+    "context": "- **Calibration Breakthrough**: \u03ba = 1366 K\u207b\u00b9 observational refinement"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/README.md",
+    "line": "132",
+    "literal": "1313",
+    "context": "- **Constants Refined**: \u03ba value accuracy improvement (1313 \u2192 1366 K\u207b\u00b9)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-simulator_rev1/README.md",
+    "line": "132",
+    "literal": "1366",
+    "context": "- **Constants Refined**: \u03ba value accuracy improvement (1313 \u2192 1366 K\u207b\u00b9)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "9",
+    "literal": "1366",
+    "context": "This session represents the continuation of an extensive multi-phase research and development effort focused on the E3 Engine (Elemental Embedding Engine) and Bruno Framework. The primary objective was to systematically "
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "11",
+    "literal": "1366",
+    "context": "**Key Achievement**: Successfully identified and corrected 12 files containing Bruno constant inconsistencies, ensuring uniform adoption of \u03ba = 1366 K\u207b\u00b9 throughout the workspace."
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "46",
+    "literal": "1313",
+    "context": "- **User Concern**: \"woha. why 1313 k-2 ?! havent we confirmed the 1366 ???\""
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "46",
+    "literal": "1366",
+    "context": "- **User Concern**: \"woha. why 1313 k-2 ?! havent we confirmed the 1366 ???\""
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "51",
+    "literal": "1366",
+    "context": "- **Comprehensive Analysis**: Created detailed analysis showing \u03ba = 1366 K\u207b\u00b9 (GW150914) is correct"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "78",
+    "literal": "1366",
+    "context": "1. `/workspaces/E3_Engine/E3_Project_REBUILT/TECHNICAL_README.md` - Line 29: \u03ba = 1366 K\u207b\u00b9 \u2705"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "79",
+    "literal": "1366",
+    "context": "2. `/workspaces/E3_Engine/E3_CURRENT_PRODUCTION/README.md` - Line 29: \u03ba = 1366 K\u207b\u00b9 \u2705"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "80",
+    "literal": "1366",
+    "context": "3. `/workspaces/E3_Engine/E3_Project/README.md` - Line 29: \u03ba = 1366 K\u207b\u00b9 \u2705"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "89",
+    "literal": "1366",
+    "context": "**After**: `- **\u03ba = 1366 K\u207b\u00b9** - GW150914 black hole calibration`"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "95",
+    "literal": "1366",
+    "context": "**After**: `Analysis reveals an empirical scaling relationship characterized by the Bruno Constant (\u03ba = 1366 K\u207b\u00b9)`"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "101",
+    "literal": "1366",
+    "context": "**After**: `- **\u03ba = 1366 K\u207b\u00b9** - GW150914 black hole calibration`"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "107",
+    "literal": "1366",
+    "context": "**After**: `- **Bruno Constant (\u03ba)**: Universal scaling relationship (\u03ba = 1366 K\u207b\u00b9)`"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "117",
+    "literal": "1366",
+    "context": "**Search Pattern 3**: `\u03ba = 1366 K\u207b\u00b9`"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "168",
+    "literal": "1366",
+    "context": "- `\u03ba = 1366 K\u207b\u00b9` (GW150914 black hole calibration)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "171",
+    "literal": "1366",
+    "context": "The Bruno constant \u03ba = 1366 K\u207b\u00b9 is derived from GW150914 gravitational wave event analysis:"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "174",
+    "literal": "1366",
+    "context": "Solving for \u03ba: \u03ba = 3 / (R \u00b7 T) = 3 / (1.83 \u00d7 10\u2075 m \u00d7 1.2 \u00d7 10\u207b\u2078 K) \u2248 1366 K\u207b\u00b9"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "186",
+    "literal": "1366",
+    "context": "1. **Bruno Constant** (\u03ba = 1366 K\u207b\u00b9) \u2192 **E3 Engine Calculations** \u2192 **Materials Validation**"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "204",
+    "literal": "1366",
+    "context": "- Comprehensive analysis of \u03ba = 1366 K\u207b\u00b9 derivation"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "228",
+    "literal": "1313",
+    "context": "1. **Initial Confusion**: \"woha. why 1313 k-2 ?! havent we confirmed the 1366 ???\""
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "228",
+    "literal": "1366",
+    "context": "1. **Initial Confusion**: \"woha. why 1313 k-2 ?! havent we confirmed the 1366 ???\""
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "247",
+    "literal": "1366",
+    "context": "3. **Consistency Checking**: Confirmed uniform adoption of \u03ba = 1366 K\u207b\u00b9"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/COMPLETE_SESSION_ARCHIVE.md",
+    "line": "257",
+    "literal": "1366",
+    "context": "- **40 Correct References**: \u03ba = 1366 K\u207b\u00b9 consistently used across workspace"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "10",
+    "literal": "1366",
+    "context": "kappa = 1366  # Bruno Constant in K^-1"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "54",
+    "literal": "1366",
+    "context": "kappa = 1366  # K^-1"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "68",
+    "literal": "1366",
+    "context": "kappa = 1366  # Bruno Constant in K^-1"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "130",
+    "literal": "1366",
+    "context": "kappa = 1366  # K^-1"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "179",
+    "literal": "1366",
+    "context": "kappa = 1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "197",
+    "literal": "1313",
+    "context": "kappa = 1313        # Bruno Constant (1/K)"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "260",
+    "literal": "1313",
+    "context": "kappa = 1313        # Bruno constant"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "438",
+    "literal": "1313",
+    "context": "kappa = 1313               # Bruno constant (1/K)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/ALL_PROBLEMATIC_REFERENCES.md",
+    "line": "39",
+    "literal": "1366",
+    "context": "1366 K\u207b\u00b9"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/ALL_PROBLEMATIC_REFERENCES.md",
+    "line": "43",
+    "literal": "1366",
+    "context": "- **\u03ba = 1366 K\u207b\u00b9** is from validated GW150914 black hole calibration"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/ALL_PROBLEMATIC_REFERENCES.md",
+    "line": "69",
+    "literal": "1366",
+    "context": "- **\u03ba = 1366 K\u207b\u00b9** (GW150914 calibration)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/E3_project_rev1/README.md",
+    "line": "29",
+    "literal": "1366",
+    "context": "- **Bruno Constant (\u03ba)**: **\u03ba = 1366 K\u207b\u00b9** (GW150914 black hole calibration)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/E3_project_rev1/README.md",
+    "line": "54",
+    "literal": "1366",
+    "context": "\u2502   \u2514\u2500\u2500 bruno_threshold.py         # Bruno constant calculations (\u03ba=1366)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/E3_project_rev1/README.md",
+    "line": "107",
+    "literal": "1366",
+    "context": "- **\u03ba = 1366 K\u207b\u00b9**: GW150914 gravitational wave calibration"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/E3_project_rev1/README.md",
+    "line": "127",
+    "literal": "1366",
+    "context": "- **Bruno Constant Derivation**: \u03ba = 1366 K\u207b\u00b9 from GW150914 calibration"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/E3_project_rev1/README.md",
+    "line": "242",
+    "literal": "1366",
+    "context": "- \u2705 **Bruno Framework**: Validated \u03ba = 1366 K\u207b\u00b9 across all materials"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md",
+    "line": "7",
+    "literal": "1366",
+    "context": "The **Bruno Collapse Framework** presents a revolutionary entropy-first approach to understanding gravitational phenomena, from laboratory physics to cosmic-scale events. Built around the **Bruno Constant (\u03ba = 1366 K\u207b\u00b9)*"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md",
+    "line": "13",
+    "literal": "1366",
+    "context": "### **Bruno Constant: \u03ba = 1366 K\u207b\u00b9**"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md",
+    "line": "23",
+    "literal": "1366",
+    "context": "\u03ba = 3/(R\u00b7T) = 3/(1.83\u00d710\u2075 \u00d7 1.2\u00d710\u207b\u2078) \u2248 1366 K\u207b\u00b9"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md",
+    "line": "89",
+    "literal": "1313",
+    "context": "\u03ba = 3/(l_planck\u00b7T_planck) \u2248 1313 K\u207b\u00b9 (theoretical)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md",
+    "line": "95",
+    "literal": "1366",
+    "context": "\u03ba_observed = 1366 K\u207b\u00b9  # 4% higher than theoretical"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md",
+    "line": "123",
+    "literal": "1366",
+    "context": "- **GW150914**: Primary calibration source (\u03ba = 1366 K\u207b\u00b9)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md",
+    "line": "231",
+    "literal": "1366",
+    "context": "- **Observational Calibration**: LIGO GW150914 validated (\u03ba = 1366 K\u207b\u00b9)"
+  },
+  {
+    "file": "./Bruno_Entropy_Project/scripts/nakazato_flux_integrator.py",
+    "line": "8",
+    "literal": "1366",
+    "context": "KAPPA = 1366  # Bruno Constant (K\u207b\u00b9)"
+  },
+  {
+    "file": "./E3_Project/README.md",
+    "line": "29",
+    "literal": "1366",
+    "context": "- **Bruno Constant (\u03ba)**: Universal scaling relationship (\u03ba = 1366 K\u207b\u00b9)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md",
+    "line": "8",
+    "literal": "1366",
+    "context": "- **Thermodynamic \u03ba**: 1366 K\u207b\u00b9 \u2705 (Correct)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md",
+    "line": "12",
+    "literal": "1366",
+    "context": "- **All repos**: \u03ba = 1366 K\u207b\u00b9 (Corrected consistently)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md",
+    "line": "20",
+    "literal": "1366",
+    "context": "**Correct**: Should be \u03ba = 1366 K\u207b\u00b9 (GW150914 calibration)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md",
+    "line": "29",
+    "literal": "1366",
+    "context": "**Issue**: Need to clarify which event provides the \u03ba = 1366 K\u207b\u00b9 calibration"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md",
+    "line": "43",
+    "literal": "1366",
+    "context": "<span class=\"font-mono text-slate-900\">1366 K\u207b\u00b9</span>"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md",
+    "line": "58",
+    "literal": "1366",
+    "context": "- Bruno constant: \u03ba = 1366 K\u207b\u00b9 \u2705"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md",
+    "line": "63",
+    "literal": "1366",
+    "context": "- Bruno constant: \u03ba = 1366 K\u207b\u00b9 \u2705"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/WEBSITE_REPO_DISCREPANCY_REPORT.md",
+    "line": "83",
+    "literal": "1366",
+    "context": "**Priority Fix**: Update website line 473 to show consistent \u03ba = 1366 K\u207b\u00b9 value and remove erroneous s\u207b\u00b9 units."
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "14",
+    "literal": "1366",
+    "context": "kappa = 1366  # Bruno Constant in K^-1"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "63",
+    "literal": "1366",
+    "context": "kappa = 1366  # K^-1"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "80",
+    "literal": "1366",
+    "context": "kappa = 1366  # Bruno Constant in K^-1"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "152",
+    "literal": "1366",
+    "context": "kappa = 1366  # K^-1"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "213",
+    "literal": "1366",
+    "context": "kappa = 1366"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "233",
+    "literal": "1313",
+    "context": "kappa = 1313        # Bruno Constant (1/K)"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "310",
+    "literal": "1313",
+    "context": "kappa = 1313        # Bruno constant"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "525",
+    "literal": "1313",
+    "context": "kappa = 1313               # Bruno constant (1/K)"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "121",
+    "literal": "1313",
+    "context": "kappa = 1313  # 1/K"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "183",
+    "literal": "1313",
+    "context": "kappa = 1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "235",
+    "literal": "1313",
+    "context": "kappa = 1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "286",
+    "literal": "1313",
+    "context": "kappa = 1313             # Bruno constant"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "393",
+    "literal": "1313",
+    "context": "kappa = 1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "477",
+    "literal": "1313",
+    "context": "kappa = 1313"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "865",
+    "literal": "1313",
+    "context": "kappa = 1313"
+  },
+  {
+    "file": "./Bruno_model_sim_upd_cleaned.tex",
+    "line": "99",
+    "literal": "1366",
+    "context": "\\item $\\kappa \\approx 1366\\, \\text{K}^{-1}$ is the \\textbf{Bruno Constant}"
+  },
+  {
+    "file": "./Bruno_model_sim_upd_cleaned.tex",
+    "line": "251",
+    "literal": "1366",
+    "context": "\\item $\\kappa$ is the Bruno Constant $\\sim 1366\\,\\text{K}^{-1}$"
+  },
+  {
+    "file": "./simple_bruno_test.py",
+    "line": "32",
+    "literal": "1313",
+    "context": "print(f\"   Claimed in documentation: 1313 K\u207b\u00b9\")"
+  },
+  {
+    "file": "./simple_bruno_test.py",
+    "line": "33",
+    "literal": "1313",
+    "context": "print(f\"   \u274c MISMATCH: {abs(kappa_planck - 1313):.1f} K\u207b\u00b9 difference!\")"
+  },
+  {
+    "file": "./simple_bruno_test.py",
+    "line": "58",
+    "literal": "1366",
+    "context": "print(f\"   Claimed final \u03ba: 1366 K\u207b\u00b9\")"
+  },
+  {
+    "file": "./simple_bruno_test.py",
+    "line": "176",
+    "literal": "1313",
+    "context": "print(f\"     - 1313 K\u207b\u00b9 (claimed Planck derivation)\")"
+  },
+  {
+    "file": "./simple_bruno_test.py",
+    "line": "177",
+    "literal": "1366",
+    "context": "print(f\"     - 1366 K\u207b\u00b9 (claimed GW150914 derivation)\")"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/docs/theory/Bruno_model.tex",
+    "line": "89",
+    "literal": "1366",
+    "context": "\\item $\\kappa \\approx 1366\\, \\text{K}^{-1}$ is the \\textbf{Bruno Constant}"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/docs/theory/Bruno_model.tex",
+    "line": "208",
+    "literal": "1366",
+    "context": "\\item $\\kappa$ is the Bruno Constant $\\sim 1366\\,\\text{K}^{-1}$"
+  },
+  {
+    "file": "./notebooks/BrunoGPT.ipynb",
+    "line": "51",
+    "literal": "1366",
+    "context": "\"constant\": \"\u03b2_B = \u03ba \u00b7 T with \u03ba \u2248 1366 K\u207b\u00b9\","
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/deep_correlation_analysis.py",
+    "line": "19",
+    "literal": "1366.0",
+    "context": "kappa_validated = 1366.0  # K\u207b\u00b9 (GW150914 black hole calibration)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/deep_correlation_analysis.py",
+    "line": "181",
+    "literal": "1313",
+    "context": "print(\"\u2713 Bruno threshold validation: \u03ba = 1313 K\u207b\u00b9 functional\")"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/legacy_import/Final/Bruno_collapse_tracker.py",
+    "line": "5",
+    "literal": "1366",
+    "context": "kappa = 1366  # Bruno constant (from GW150914)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/latex/Entropy_Collapse.tex",
+    "line": "101",
+    "literal": "1366",
+    "context": "\\item $\\kappa \\approx 1366\\, \\text{K}^{-1}$ is the \\textbf{Bruno Constant}"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/report/latex/Entropy_Collapse.tex",
+    "line": "254",
+    "literal": "1366",
+    "context": "\\item $\\kappa$ is the Bruno Constant $\\sim 1366\\,\\text{K}^{-1}$"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/REPOSITORY_ANALYSIS_AND_CORRECTIONS.md",
+    "line": "18",
+    "literal": "1366",
+    "context": "- Should reference \u03ba = 1366 K\u207b\u00b9 from GW150914 calibration"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/REPOSITORY_ANALYSIS_AND_CORRECTIONS.md",
+    "line": "59",
+    "literal": "1366",
+    "context": "- **Validated value**: \u03ba = 1366 K\u207b\u00b9 (from GW150914 calibration)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/REPOSITORY_ANALYSIS_AND_CORRECTIONS.md",
+    "line": "85",
+    "literal": "1366",
+    "context": "- Update Bruno constant to \u03ba = 1366 K\u207b\u00b9"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/REPOSITORY_ANALYSIS_AND_CORRECTIONS.md",
+    "line": "118",
+    "literal": "1366",
+    "context": "1. **Bruno Constant**: Update all references to \u03ba = 1366 K\u207b\u00b9"
+  },
+  {
+    "file": "./test_bruno_constant.py",
+    "line": "33",
+    "literal": "1313",
+    "context": "print(f\"Claimed value in notes: 1313 K\u207b\u00b9\")"
+  },
+  {
+    "file": "./test_bruno_constant.py",
+    "line": "34",
+    "literal": "1313",
+    "context": "print(f\"Discrepancy: {abs(kappa_planck - 1313):.1f} K\u207b\u00b9\")"
+  },
+  {
+    "file": "./test_bruno_constant.py",
+    "line": "57",
+    "literal": "1366",
+    "context": "print(f\"Claimed in notes: 1366 K\u207b\u00b9\")"
+  },
+  {
+    "file": "./test_bruno_constant.py",
+    "line": "159",
+    "literal": "1313",
+    "context": "print(f\"1. Planck derivation gives \u03ba = {kappa_planck:.1f} K\u207b\u00b9 (claimed: 1313)\")"
+  },
+  {
+    "file": "./test_bruno_constant.py",
+    "line": "160",
+    "literal": "1366",
+    "context": "print(f\"2. GW150914 derivation gives \u03ba = {kappa_gw:.1f} K\u207b\u00b9 (claimed: 1366)\")"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md",
+    "line": "14",
+    "literal": "1366",
+    "context": "Thermodynamic \u03ba:     1366 K\u207b\u00b9"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md",
+    "line": "27",
+    "literal": "1366",
+    "context": "Solving for \u03ba: \u03ba = 3 / (R \u00b7 T) = 3 / (1.83 \u00d7 10\u2075 m \u00d7 1.2 \u00d7 10\u207b\u2078 K) \u2248 1366 K\u207b\u00b9"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md",
+    "line": "32",
+    "literal": "1366.0",
+    "context": "Bruno constant \u03ba = 1366.0 K\u207b\u00b9"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md",
+    "line": "33",
+    "literal": "1366",
+    "context": "All calculations using \u03ba = 1366 K\u207b\u00b9 work perfectly"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md",
+    "line": "53",
+    "literal": "1366",
+    "context": "- **GW150914 calculation**: \u03ba = 1366 K\u207b\u00b9"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md",
+    "line": "86",
+    "literal": "1366",
+    "context": "\u03ba = 1366 K\u207b\u00b9"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md",
+    "line": "96",
+    "literal": "1313",
+    "context": "\u03ba = 1313 K\u207b\u00b9                        (Theoretical Planck value, superseded)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md",
+    "line": "110",
+    "literal": "1366",
+    "context": "<span class=\"font-mono text-slate-900\">1366 K\u207b\u00b9</span>"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md",
+    "line": "116",
+    "literal": "1366",
+    "context": "\u03ba = 1366 K\u207b\u00b9 (GW150914 calibration)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md",
+    "line": "122",
+    "literal": "1366",
+    "context": "- Standardize on `\u03ba = 1366 K\u207b\u00b9` throughout"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md",
+    "line": "130",
+    "literal": "1366",
+    "context": "\u2705 **\u03ba = 1366 K\u207b\u00b9** (GW150914 observational calibration)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/BRUNO_CONSTANT_FINAL_ANALYSIS.md",
+    "line": "133",
+    "literal": "1366",
+    "context": "**The website should be updated to remove the laboratory constant line and use \u03ba = 1366 K\u207b\u00b9 consistently throughout.**"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/BRUNO_E3_VALIDATION_REPORT.md",
+    "line": "12",
+    "literal": "1366",
+    "context": "- **\u03ba = 1366 K\u207b\u00b9** confirmed across all materials (GW150914 calibration)"
+  },
+  {
+    "file": "./github_repos/bruno-collapse-simulator/notebooks/e3_validation/calibration_bridge_gw170817.ipynb",
+    "line": "184",
+    "literal": "1366",
+    "context": "kappa_theory = 1366  # K^-1"
+  },
+  {
+    "file": "./github_repos/bruno-collapse-simulator/notebooks/e3_validation/calibration_bridge_gw170817.ipynb",
+    "line": "203",
+    "literal": "1366",
+    "context": "\u03b2_B = 1366 \u00d7 T"
+  },
+  {
+    "file": "./github_repos/bruno-collapse-simulator/notebooks/e3_validation/calibration_bridge_gw170817.ipynb",
+    "line": "208",
+    "literal": "1366",
+    "context": "The constants (1366 vs. 0.001) showed a fundamental mismatch, indicating the need for a physical transfer function to connect the two regimes."
+  },
+  {
+    "file": "./github_repos/bruno-collapse-simulator/notebooks/e3_validation/calibration_bridge_gw170817.ipynb",
+    "line": "259",
+    "literal": "1366",
+    "context": "\u03b2_B = 1366 * (4.04e-39 * Total_GW_Fluence)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/REPOSITORY_COHERENCE_SUMMARY.md",
+    "line": "16",
+    "literal": "1366",
+    "context": "- **Bruno Constant**: Fixed to \u03ba = 1366 K\u207b\u00b9 (GW150914 calibration)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/REPOSITORY_COHERENCE_SUMMARY.md",
+    "line": "31",
+    "literal": "1366",
+    "context": "- **Bruno Constant**: \u03ba = 1366 K\u207b\u00b9 with proper GW150914 derivation"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/REPOSITORY_COHERENCE_SUMMARY.md",
+    "line": "56",
+    "literal": "1366",
+    "context": "1. **Bruno Constant**: \u03ba = 1366 K\u207b\u00b9 (corrected from 1340 \u00b1 60 \u00d7 10\u207b\u2076)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/REPOSITORY_COHERENCE_SUMMARY.md",
+    "line": "79",
+    "literal": "1366",
+    "context": "- \u2705 **Bruno Constant**: \u03ba = 1366 K\u207b\u00b9 (GW150914 calibration)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/REPOSITORY_COHERENCE_SUMMARY.md",
+    "line": "123",
+    "literal": "1366",
+    "context": "\u2705 **Corrected Bruno constant to \u03ba = 1366 K\u207b\u00b9**"
+  }
+]

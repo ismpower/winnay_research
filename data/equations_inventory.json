@@ -1,0 +1,728 @@
+[
+  {
+    "file": "./notebooks/archive/Historical_Entropy_Audit.ipynb",
+    "line": "1425",
+    "symbol": "c",
+    "rhs": "299_792_458"
+  },
+  {
+    "file": "./notebooks/archive/Historical_Entropy_Audit.ipynb",
+    "line": "1443",
+    "symbol": "c",
+    "rhs": "299_792_458"
+  },
+  {
+    "file": "./notebooks/archive/Historical_Entropy_Audit.ipynb",
+    "line": "1458",
+    "symbol": "c",
+    "rhs": "299_792_458"
+  },
+  {
+    "file": "./notebooks/archive/Historical_Entropy_Audit.ipynb",
+    "line": "1484",
+    "symbol": "c",
+    "rhs": "299_792_458"
+  },
+  {
+    "file": "./notebooks/archive/Historical_Entropy_Audit.ipynb",
+    "line": "1747",
+    "symbol": "c",
+    "rhs": "filtered[\"Fluence (J/m\u00b2)\"],"
+  },
+  {
+    "file": "./notebooks/archive/Historical_Entropy_Audit.ipynb",
+    "line": "1790",
+    "symbol": "c",
+    "rhs": "df[\"log_fluence\"], cmap=\"inferno\","
+  },
+  {
+    "file": "./notebooks/archive/Historical_Entropy_Audit.ipynb",
+    "line": "1849",
+    "symbol": "c",
+    "rhs": "df[\"log_fluence\"], cmap=\"inferno\","
+  },
+  {
+    "file": "./bruno-simulator-latest/bruno_sim_1_entropy_vs_radius.py",
+    "line": "11",
+    "symbol": "l_planck",
+    "rhs": "(hbar * G / c**3)**0.5"
+  },
+  {
+    "file": "./bruno-simulator-latest/bruno_sim_1_entropy_vs_radius.py",
+    "line": "58",
+    "symbol": "kappa",
+    "rhs": "S_volume / S_surface"
+  },
+  {
+    "file": "./bruno-simulator-latest/bruno_sim_1_entropy_vs_radius.py",
+    "line": "66",
+    "symbol": "kappa",
+    "rhs": "xp.asnumpy(K_bruno)"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "1440",
+    "symbol": "c",
+    "rhs": "299_792_458"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "1458",
+    "symbol": "c",
+    "rhs": "299_792_458"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "1473",
+    "symbol": "c",
+    "rhs": "299_792_458"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "1499",
+    "symbol": "c",
+    "rhs": "299_792_458"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "1762",
+    "symbol": "c",
+    "rhs": "filtered[\"Fluence (J/m\u00b2)\"],"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "1829",
+    "symbol": "c",
+    "rhs": "df[\"log_fluence\"], cmap=\"inferno\","
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "1888",
+    "symbol": "c",
+    "rhs": "df[\"log_fluence\"], cmap=\"inferno\","
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "2585",
+    "symbol": "alpha",
+    "rhs": "0.6,"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "2586",
+    "symbol": "c",
+    "rhs": "colors[cls],"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "2620",
+    "symbol": "c",
+    "rhs": "np.where(batse[\"duration_class\"] == \"short\", \"blue\", \"orange\"),"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "2621",
+    "symbol": "alpha",
+    "rhs": "0.6,"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "2668",
+    "symbol": "c",
+    "rhs": "np.where(batse[\"duration_class\"] == \"short\", \"blue\", \"orange\"),"
+  },
+  {
+    "file": "./notebooks/Bruno_timeline_analysis.ipynb",
+    "line": "3260",
+    "symbol": "c",
+    "rhs": "np.log10(df[\"fluence_total_J_m2\"].values),"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Comparison.py",
+    "line": "5",
+    "symbol": "M_sun",
+    "rhs": "np.logspace(0, 8, 100)"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py",
+    "line": "9",
+    "symbol": "M_sun",
+    "rhs": "np.logspace(0, 8, 100)"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Scaling_Post_Equilibrium.py",
+    "line": "17",
+    "symbol": "alpha",
+    "rhs": "np.ones_like(M_solar)"
+  },
+  {
+    "file": "./entropy-collapse-transient-engine.ipynb",
+    "line": "35",
+    "symbol": "l_planck",
+    "rhs": "np.sqrt(hbar * G / c**3)"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py",
+    "line": "23",
+    "symbol": "t_planck",
+    "rhs": "(h * c**5 / G)**0.5 / k_B"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 2.1.py",
+    "line": "58",
+    "symbol": "r_s",
+    "rhs": "2 * G * mass_bh / c**2"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/thermodynamics/Entropy_Saturation_Horizon.py",
+    "line": "18",
+    "symbol": "t_planck",
+    "rhs": "9.78 / (H0_planck / 100)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py",
+    "line": "25",
+    "symbol": "l_planck",
+    "rhs": "math.sqrt(h_bar * G / (c**3))"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py",
+    "line": "26",
+    "symbol": "t_planck",
+    "rhs": "math.sqrt(h_bar * G / (c**5))"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/validation_data/bruno_materials_validation.py",
+    "line": "27",
+    "symbol": "t_planck",
+    "rhs": "math.sqrt(h_bar * c**5 / (G * k_B**2))"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "283",
+    "symbol": "l_planck",
+    "rhs": "math.sqrt(hbar * G / c**3)"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "284",
+    "symbol": "t_planck",
+    "rhs": "math.sqrt(hbar * c**5 / G) / k_B"
+  },
+  {
+    "file": "./notebooks/archive/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "497",
+    "symbol": "kappa",
+    "rhs": "3 / (R * T)"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.2.py",
+    "line": "18",
+    "symbol": "S_BH",
+    "rhs": "(k_B * area * c**3) / (4 * G * hbar)"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.2.py",
+    "line": "35",
+    "symbol": "S_BH",
+    "rhs": "black_hole_entropy(mass_ns)"
+  },
+  {
+    "file": "./bruno-simulator-latest/bruno-analysis/PSFVJA20-74/analyze_tokamak_data.ipynb",
+    "line": "67",
+    "symbol": "beta",
+    "rhs": "pd.read_csv(\"beta_n_trace.csv\")"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py",
+    "line": "21",
+    "symbol": "t_planck",
+    "rhs": "(h * c**5 / G)**0.5 / k_B"
+  },
+  {
+    "file": "./notebooks/bruno_event_classifier.ipynb",
+    "line": "118",
+    "symbol": "sigma_SB",
+    "rhs": "cross_section_cm2 * 1e-4"
+  },
+  {
+    "file": "./notebooks/bruno_event_classifier.ipynb",
+    "line": "127",
+    "symbol": "sigma_SB",
+    "rhs": "cross_section_cm2 * 1e-4"
+  },
+  {
+    "file": "./bruno_sim_1_entropy_vs_radius.py",
+    "line": "12",
+    "symbol": "l_planck",
+    "rhs": "np.sqrt(hbar * G / c**3)"
+  },
+  {
+    "file": "./bruno_sim_1_entropy_vs_radius.py",
+    "line": "20",
+    "symbol": "kappa",
+    "rhs": "S_volume / S_surface"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "224",
+    "symbol": "l_planck",
+    "rhs": "math.sqrt(hbar * G / c**3)"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "225",
+    "symbol": "t_planck",
+    "rhs": "math.sqrt(hbar * c**5 / G) / k_B"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/SCHOLARGPT_TEST1.ipynb",
+    "line": "398",
+    "symbol": "kappa",
+    "rhs": "3 / (R * T)"
+  },
+  {
+    "file": "./bruno-fluence-app/analyze_supernova_data.py",
+    "line": "92",
+    "symbol": "alpha",
+    "rhs": "0.5, s=1, color='green')"
+  },
+  {
+    "file": "./bruno-fluence-app/analyze_supernova_data.py",
+    "line": "122",
+    "symbol": "alpha",
+    "rhs": "0.3, s=1, color='blue', label='Normal Events')"
+  },
+  {
+    "file": "./bruno-framework-clean/organized_research/black_holes/Blackhole_Entropy_Fixed.py",
+    "line": "21",
+    "symbol": "r_s",
+    "rhs": "(2 * G * mass) / c**2"
+  },
+  {
+    "file": "./byu_unp_integration.py",
+    "line": "199",
+    "symbol": "eta",
+    "rhs": "time_points"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Saturated_Bh_Entropy_Model.py",
+    "line": "22",
+    "symbol": "S_BH",
+    "rhs": "hawking_entropy(A_values)"
+  },
+  {
+    "file": "./E3_DAVP_Pipeline/davp_pipeline.py",
+    "line": "608",
+    "symbol": "gamma",
+    "rhs": "(e**2) / (4.0 * np.pi * epsilon_0 * a * k_B * temperature)"
+  },
+  {
+    "file": "./E3_DAVP_Pipeline/davp_pipeline.py",
+    "line": "637",
+    "symbol": "gamma",
+    "rhs": "self._calculate_coulomb_coupling(local_temp, local_density)"
+  },
+  {
+    "file": "./2025.05.10/plot_bruno_sky_map.py",
+    "line": "33",
+    "symbol": "alpha",
+    "rhs": "0.6, edgecolors='k', label='Supernovae')"
+  },
+  {
+    "file": "./E3_Project_REBUILT/E3_Engine/e3_byu_training.py",
+    "line": "89",
+    "symbol": "h",
+    "rhs": "self.element_embedding(x.float())"
+  },
+  {
+    "file": "./E3_Project_REBUILT/E3_Engine/e3_byu_training.py",
+    "line": "92",
+    "symbol": "h",
+    "rhs": "torch.relu(self.conv1(h, edge_index))"
+  },
+  {
+    "file": "./E3_Project_REBUILT/E3_Engine/e3_byu_training.py",
+    "line": "93",
+    "symbol": "h",
+    "rhs": "torch.relu(self.conv2(h, edge_index))"
+  },
+  {
+    "file": "./E3_Project_REBUILT/E3_Engine/e3_byu_training.py",
+    "line": "94",
+    "symbol": "h",
+    "rhs": "self.conv3(h, edge_index)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/simulation/bruno_constant/bruno_sim_1_entropy_vs_radius.py",
+    "line": "11",
+    "symbol": "l_planck",
+    "rhs": "np.sqrt(hbar * G / c**3)"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-backup/scripts/simulation/bruno_constant/bruno_sim_1_entropy_vs_radius.py",
+    "line": "19",
+    "symbol": "kappa",
+    "rhs": "S_volume / S_surface"
+  },
+  {
+    "file": "./E3_Project_REBUILT/E3_Engine/e3_byu_validation.py",
+    "line": "375",
+    "symbol": "alpha",
+    "rhs": "0.7, label='E3 Predicted')"
+  },
+  {
+    "file": "./E3_DAVP_Pipeline/physics_mechanism_discovery.py",
+    "line": "34",
+    "symbol": "gamma",
+    "rhs": "(self.e**2) / (4.0 * np.pi * self.epsilon_0 * a * self.k_B * temperature)"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Primordial_BH_Constraints.py",
+    "line": "13",
+    "symbol": "M_sun",
+    "rhs": "np.logspace(0, 6, 100)"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "239",
+    "symbol": "l_planck",
+    "rhs": "math.sqrt(hbar * G / c**3)"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "240",
+    "symbol": "t_planck",
+    "rhs": "math.sqrt(hbar * c**5 / G) / k_B"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_FROM_SCRIPT_REBUILT.ipynb",
+    "line": "416",
+    "symbol": "kappa",
+    "rhs": "3 / (R * T)"
+  },
+  {
+    "file": "./e3_byu_validation.py",
+    "line": "375",
+    "symbol": "alpha",
+    "rhs": "0.7, label='E3 Predicted')"
+  },
+  {
+    "file": "./scr/Cosmis Entropy Hubble Test.py",
+    "line": "17",
+    "symbol": "t_planck",
+    "rhs": "1 / H0_planck"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md",
+    "line": "84",
+    "symbol": "l_planck",
+    "rhs": "sqrt(\u0127\u00b7G/c\u00b3) \u2248 1.616\u00d710\u207b\u00b3\u2075 m"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/bruno-collapse-unified_rev1/README.md",
+    "line": "85",
+    "symbol": "t_planck",
+    "rhs": "sqrt(\u0127\u00b7c\u2075/G)/k_B \u2248 1.417\u00d710\u00b3\u00b2 K"
+  },
+  {
+    "file": "./bruno-framework-clean/Entropy_Notebook/Entropy Simulation.ipynb",
+    "line": "99",
+    "symbol": "T_H",
+    "rhs": "\\frac{\\hbar c^3}{8 \\pi G k_B M}"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.7.py",
+    "line": "22",
+    "symbol": "t_planck",
+    "rhs": "(h * c**5 / G)**0.5 / k_B"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Bruno Constant.py",
+    "line": "22",
+    "symbol": "t_planck",
+    "rhs": "(h * c**5 / G)**0.5 / k_B"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.1.py",
+    "line": "17",
+    "symbol": "S_BH",
+    "rhs": "(k_B * area * c**3) / (4 * G * hbar)"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.1.py",
+    "line": "34",
+    "symbol": "S_BH",
+    "rhs": "black_hole_entropy(mass_ns)"
+  },
+  {
+    "file": "./e3_byu_training.py",
+    "line": "89",
+    "symbol": "h",
+    "rhs": "self.element_embedding(x.float())"
+  },
+  {
+    "file": "./e3_byu_training.py",
+    "line": "92",
+    "symbol": "h",
+    "rhs": "torch.relu(self.conv1(h, edge_index))"
+  },
+  {
+    "file": "./e3_byu_training.py",
+    "line": "93",
+    "symbol": "h",
+    "rhs": "torch.relu(self.conv2(h, edge_index))"
+  },
+  {
+    "file": "./e3_byu_training.py",
+    "line": "94",
+    "symbol": "h",
+    "rhs": "self.conv3(h, edge_index)"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.6.py",
+    "line": "21",
+    "symbol": "t_planck",
+    "rhs": "(h * c**5 / G)**0.5 / k_B"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "283",
+    "symbol": "l_planck",
+    "rhs": "math.sqrt(hbar * G / c**3)"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "284",
+    "symbol": "t_planck",
+    "rhs": "math.sqrt(hbar * c**5 / G) / k_B"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_COLLAPSE_MASTER.ipynb",
+    "line": "497",
+    "symbol": "kappa",
+    "rhs": "3 / (R * T)"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "553",
+    "symbol": "r_s",
+    "rhs": "2 * G * mass_ns / c**2"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "594",
+    "symbol": "r_s",
+    "rhs": "2 * G * mass_ns / c**2"
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "1312",
+    "symbol": "c",
+    "rhs": "plt.contourf("
+  },
+  {
+    "file": "./notebooks/BRUNO_GRCHOMBO_SIMULATION/BRUNO_GRCHOMBO_SIMULATION.ipynb",
+    "line": "1341",
+    "symbol": "c",
+    "rhs": "plt.contourf("
+  },
+  {
+    "file": "./notebooks/Bruno_Visibility_Model.ipynb",
+    "line": "1417",
+    "symbol": "c",
+    "rhs": "299_792_458"
+  },
+  {
+    "file": "./notebooks/Bruno_Visibility_Model.ipynb",
+    "line": "1435",
+    "symbol": "c",
+    "rhs": "299_792_458"
+  },
+  {
+    "file": "./notebooks/Bruno_Visibility_Model.ipynb",
+    "line": "1450",
+    "symbol": "c",
+    "rhs": "299_792_458"
+  },
+  {
+    "file": "./notebooks/Bruno_Visibility_Model.ipynb",
+    "line": "1476",
+    "symbol": "c",
+    "rhs": "299_792_458"
+  },
+  {
+    "file": "./notebooks/Bruno_Visibility_Model.ipynb",
+    "line": "1739",
+    "symbol": "c",
+    "rhs": "filtered[\"Fluence (J/m\u00b2)\"],"
+  },
+  {
+    "file": "./notebooks/Bruno_Visibility_Model.ipynb",
+    "line": "1782",
+    "symbol": "c",
+    "rhs": "df[\"log_fluence\"], cmap=\"inferno\","
+  },
+  {
+    "file": "./notebooks/Bruno_Visibility_Model.ipynb",
+    "line": "1841",
+    "symbol": "c",
+    "rhs": "df[\"log_fluence\"], cmap=\"inferno\","
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Saturation_Model_Vs_BH_Entropy.py",
+    "line": "32",
+    "symbol": "S_BH",
+    "rhs": "S_bh_coeff * A / kB"
+  },
+  {
+    "file": "./byu_integration_fixed.py",
+    "line": "155",
+    "symbol": "eta",
+    "rhs": "time_points"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "2638",
+    "symbol": "sigma_SB",
+    "rhs": "cross_section_cm2 * 1e-4"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "2695",
+    "symbol": "sigma_SB",
+    "rhs": "cross_section_cm2 * 1e-4"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "2704",
+    "symbol": "sigma_SB",
+    "rhs": "cross_section_cm2 * 1e-4"
+  },
+  {
+    "file": "./notebooks/Fluence_Model_Comparison.ipynb",
+    "line": "2762",
+    "symbol": "sigma_SB",
+    "rhs": "cross_section_cm2 * 1e-4"
+  },
+  {
+    "file": "./bruno-real-analyzer/data_corruption_detector.py",
+    "line": "332",
+    "symbol": "alpha",
+    "rhs": "0.5, s=1, color='red')"
+  },
+  {
+    "file": "./bruno-real-analyzer/data_corruption_detector.py",
+    "line": "344",
+    "symbol": "alpha",
+    "rhs": "0.3, s=1, color='red')"
+  },
+  {
+    "file": "./simple_bruno_test.py",
+    "line": "22",
+    "symbol": "l_planck",
+    "rhs": "(h_bar * G / c**3)**0.5"
+  },
+  {
+    "file": "./simple_bruno_test.py",
+    "line": "23",
+    "symbol": "t_planck",
+    "rhs": "(h_bar * c**5 / G)**0.5 / k_B"
+  },
+  {
+    "file": "./simple_bruno_test.py",
+    "line": "41",
+    "symbol": "r_s",
+    "rhs": "2 * G * M_bh / c**2"
+  },
+  {
+    "file": "./simple_bruno_test.py",
+    "line": "47",
+    "symbol": "T_H",
+    "rhs": "h_bar * c**3 / (8 * math.pi * G * M_bh * k_B)"
+  },
+  {
+    "file": "./davp_superconductor_generator_clean.py",
+    "line": "515",
+    "symbol": "c",
+    "rhs": "float(lattice[2]) if len(lattice) > 2 else a"
+  },
+  {
+    "file": "./Entropy-Collapse-Research/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py",
+    "line": "21",
+    "symbol": "t_planck",
+    "rhs": "(h * c**5 / G)**0.5 / k_B"
+  },
+  {
+    "file": "./test_bruno_constant.py",
+    "line": "21",
+    "symbol": "l_planck",
+    "rhs": "np.sqrt(h_bar * G / c**3)"
+  },
+  {
+    "file": "./test_bruno_constant.py",
+    "line": "22",
+    "symbol": "t_planck",
+    "rhs": "np.sqrt(h_bar * c**5 / G) / k_B"
+  },
+  {
+    "file": "./test_bruno_constant.py",
+    "line": "41",
+    "symbol": "T_H",
+    "rhs": "h_bar * c**3 / (8 * np.pi * G * M_gw150914 * k_B)"
+  },
+  {
+    "file": "./e3_validation_test.py",
+    "line": "393",
+    "symbol": "kappa",
+    "rhs": "results[\"bruno_analysis\"]"
+  },
+  {
+    "file": "./CLEAN_WORKSPACE/archived_research/bruno-collapse-unified/scripts/legacy_import/Archive/Entropy Collapse Test 1.5.py",
+    "line": "21",
+    "symbol": "t_planck",
+    "rhs": "(h * c**5 / G)**0.5 / k_B"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Cosmis_Entropy_Hubble_Test.py",
+    "line": "17",
+    "symbol": "t_planck",
+    "rhs": "1 / H0_planck"
+  },
+  {
+    "file": "./github_repos/bruno-collapse-simulator/notebooks/e3_validation/calibration_bridge_gw170817.ipynb",
+    "line": "175",
+    "symbol": "alpha",
+    "rhs": "peak_kilonova_temp / total_gw_fluence"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py",
+    "line": "22",
+    "symbol": "t_planck",
+    "rhs": "(h * c**5 / G)**0.5 / k_B"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.9.py",
+    "line": "62",
+    "symbol": "r_s",
+    "rhs": "2 * G * mass_bh / c**2"
+  },
+  {
+    "file": "./2025.05.10/plot_bruno_sky_map_v2.py",
+    "line": "40",
+    "symbol": "c",
+    "rhs": "is_positive.map({True: 'red', False: 'blue'}),"
+  },
+  {
+    "file": "./2025.05.10/plot_bruno_sky_map_v2.py",
+    "line": "41",
+    "symbol": "alpha",
+    "rhs": "0.6, edgecolors='k', label='Supernovae')"
+  },
+  {
+    "file": "./bruno-framework-clean/Scripts/Entropy Collapse Test/Entropy Collapse Test 1.8.py",
+    "line": "22",
+    "symbol": "t_planck",
+    "rhs": "(h * c**5 / G)**0.5 / k_B"
+  }
+]
