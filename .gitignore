@@ -15,10 +15,7 @@ __pycache__/
 # Large regeneratable raw sweep output
 # (these come straight from the corpus scan and can be reproduced
 #  by re-running scripts/ against the corpus at any time)
-raw/*.gz
-raw/all_files.txt.gz
-raw/core_code.txt.gz
-raw/signal_all.txt.gz
+**/raw/*.gz
 
 # Session-local scratch paths referenced in README (never actually in the zip,
 # but ignore just in case a future run drops them here)
