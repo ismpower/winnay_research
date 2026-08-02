@@ -39,6 +39,12 @@ Five findings, in order of consequence.
    (`Entropy-Collapse-Research-main`, 111 `.py` files) is **hollow — every file
    zero bytes**.
 
+6. **The only pipeline ever run against real observational data (204 real
+   LIGO events) used neither audited κ candidate.** It chains an
+   admitted-empirical `1e23` strain-to-temperature scale factor to
+   κ = 0.001005 — a value imported from an unrelated context — producing
+   collapse-point counts with no stated derivation. See §6.
+
 ---
 
 ## 1. Constant-by-constant table
@@ -467,6 +473,82 @@ single letters confirm the sweep's blind spot is real.
   forms. Case-sensitive re-sweep found `KAPPA = 1366` (2 files) and
   `BRUNO_CONSTANT_KAPPA = 1340e-6` (1 file).
 - **Directory names are not evidence.** See §3.6.
+
+---
+
+## 6. Addendum — the only pipeline run against real observational data used neither audited κ candidate
+
+Found via `Bruno-Unified-Research` (a separate bundle covering
+`bruno-collapse-unified` + `bruno-collapse-simulator`, ~1.3 GB uncompressed,
+545 MB zipped). 91% of its authored code (472/518 files) is byte-identical to
+what's already covered above; this section documents the part that wasn't.
+
+### 6.1 What was found
+
+`bruno-collapse-simulator/notebooks/e3_core/nb04_gw_corrmap.ipynb` and
+`nb05_GW_Batch_AutoRun.ipynb` are the only code in either corpus that was run
+against real gravitational-wave strain data — 204 real LIGO events (150914,
+190413, 190421, 200114, and 200 others), producing
+`bruno_collapse_summary.csv` and one `*_bruno_betaB.png` plot per event.
+
+The computation:
+
+```python
+kappa = 0.001005  # Entropy collapse threshold factor (dimensionless)
+
+# NOTE: The 1e23 scale factor is empirical; refine based on future calibration
+T_h1 = cp.abs(strain_h1) * 1e23
+T_l1 = cp.abs(strain_l1) * 1e23
+
+beta_h1 = kappa * T_h1   # β_B = κ × T
+beta_l1 = kappa * T_l1
+# collapse flagged wherever β_B >= 1
+```
+
+Sample notebook output: *"β_B computed for both detectors using kappa =
+0.001005 — H1 collapse points detected: 16378, L1 collapse points detected:
+16378."*
+
+### 6.2 Why this doesn't hold up
+
+Two chained, undeclared scale factors, neither derived:
+
+1. **`1e23` strain-to-temperature conversion.** Raw GW strain is a
+   dimensionless ratio, O(10⁻²¹). Multiplying by `1e23` produces a number in
+   a temperature-like range, but the notebook's own comment admits it is
+   *empirical* and awaiting *future calibration* — i.e., chosen to land in a
+   plausible-looking range, not derived from physics.
+2. **`kappa = 0.001005`.** This is the value documented in §1.5 above as the
+   "Chajar Constant" — a dimensionless Planck-temperature tangency multiplier
+   from an unrelated origin file (`Bruno Constant.py`,
+   `Entropy-Collapse-Research` repo). Nothing in either notebook derives or
+   justifies applying it to gravitational-wave strain. It is neither of the
+   two values (1313, 1366) that received all prior scrutiny.
+
+The reported collapse counts (e.g. 16,378) are therefore the number of time
+samples where `κ × (|strain| × 1e23) ≥ 1` — a threshold crossing of a product
+of two unexplained numbers, not a physical measurement. It carries the
+precision and framing of a detection count without the derivation to support
+that framing.
+
+### 6.3 Why this outranks the 1313/1366 dispute in one respect
+
+Findings 1–5 concern which candidate κ value, if any, is defensible. This
+finding shows that the one place the framework was actually run against real
+observational data used **none of the audited candidates** — a third,
+unrelated value, chained to an admittedly-empirical scale factor. Any claim
+that the framework has been "tested against real GW events" should be read
+as: tested using this pipeline, with this undocumented scaling, not as
+validation of κ = 1313 or 1366.
+
+### 6.4 Recommendation
+
+- Do not cite `bruno_collapse_summary.csv` or the 204 `*_bruno_betaB.png`
+  plots as validation evidence until both the `1e23` conversion and the
+  choice of κ = 0.001005 in this context have a stated derivation.
+- If revisited, treat as a new derivation task, not a bug fix — there is no
+  "correct" version of this calculation on file anywhere in either corpus;
+  the scale factor is admitted-empirical from the start.
 
 ---
 
