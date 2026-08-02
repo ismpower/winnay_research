@@ -29,8 +29,20 @@ winnay_research/
 │                                 canonical constants/equations module once the
 │                                 dimensional-analysis blocker (task 1) is resolved.
 │
-└── docs/                        not yet created. Will hold DIMENSIONAL_ANALYSIS.md
-                                  and any other living reasoning docs.
+├── docs/                        not yet created. Will hold DIMENSIONAL_ANALYSIS.md
+│                                 and any other living reasoning docs.
+│
+└── reference/                   Ground-truth lookup data, sourced externally
+                                  (CODATA, IUPAC/CIAAW, GWOSC/GCN/TNS) — not
+                                  reconstructed from memory. e3_core/ and any
+                                  new derivation should cross-check against
+                                  these before a value is trusted.
+    ├── known_physics_reference.json     46 constants/equations, exact/
+    │                                     measured/derived only
+    ├── periodic_table_reference.json    all 118 elements, keyed by symbol
+    └── recent_events_reference.json     verified recent GW/GRB/SN/neutrino
+                                          events, with known_gap fields
+                                          where a full pull wasn't possible
 ```
 
 Future audit passes (e.g. once the two private repos are accessible, or a
@@ -41,6 +53,7 @@ never overwrite `2026-08-02_initial/`.
 
 1. `bruno_e3_restart_plan.json` — the ordered plan, task 1 is blocking
 2. `audits/2026-08-02_initial/BRUNO_E3_FULL_AUDIT.md` — full findings
+3. `reference/` — ground-truth data to check any new derivation against
 
 ## Headline findings from the initial audit
 

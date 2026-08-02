@@ -1,0 +1,97 @@
+{
+  "purpose": "Reference set of established, textbook-standard physics constants and equations relevant to the Bruno constant / E3 engine research domain. Every entry is a concrete, real-valued relationship - no inequalities, no order-of-magnitude-only estimates, no unresolved measurement disputes. Used to cross-check any new derivation before it enters e3_core/.",
+  "usage_note": "status field meanings: 'exact' = fixed by 2019 SI redefinition, not measured, cannot drift; 'measured' = best current experimental value with a defined uncertainty, source cited; 'derived' = follows algebraically from exact/measured constants, should be computed in code, never hardcoded.",
+  "categories": [
+    {
+      "category": "Fundamental constants",
+      "entries": [
+        {"id": "c", "name": "Speed of light in vacuum", "symbol": "c", "value": 299792458, "units": "m/s", "status": "exact", "source": "2019 SI redefinition"},
+        {"id": "h", "name": "Planck constant", "symbol": "h", "value": 6.62607015e-34, "units": "J*s", "status": "exact", "source": "2019 SI redefinition"},
+        {"id": "hbar", "name": "Reduced Planck constant", "symbol": "hbar", "formula": "hbar = h / (2*pi)", "value": 1.054571817e-34, "units": "J*s", "status": "derived", "source": "from h"},
+        {"id": "k_B", "name": "Boltzmann constant", "symbol": "k_B", "value": 1.380649e-23, "units": "J/K", "status": "exact", "source": "2019 SI redefinition"},
+        {"id": "e", "name": "Elementary charge", "symbol": "e", "value": 1.602176634e-19, "units": "C", "status": "exact", "source": "2019 SI redefinition"},
+        {"id": "N_A", "name": "Avogadro constant", "symbol": "N_A", "value": 6.02214076e23, "units": "1/mol", "status": "exact", "source": "2019 SI redefinition"},
+        {"id": "G", "name": "Newtonian gravitational constant", "symbol": "G", "value": 6.6743e-11, "units": "m^3 / (kg s^2)", "status": "measured", "source": "CODATA 2018", "relative_uncertainty": 2.2e-5},
+        {"id": "epsilon_0", "name": "Vacuum electric permittivity", "symbol": "epsilon_0", "formula": "epsilon_0 = e^2 / (2*alpha*h*c)", "value": 8.8541878128e-12, "units": "F/m", "status": "derived", "source": "from e, alpha, h, c"},
+        {"id": "m_e", "name": "Electron mass", "symbol": "m_e", "value": 9.1093837015e-31, "units": "kg", "status": "measured", "source": "CODATA 2018"},
+        {"id": "m_p", "name": "Proton mass", "symbol": "m_p", "value": 1.67262192369e-27, "units": "kg", "status": "measured", "source": "CODATA 2018"},
+        {"id": "sigma_SB", "name": "Stefan-Boltzmann constant", "symbol": "sigma", "formula": "sigma = (2*pi^5*k_B^4) / (15*h^3*c^2)", "value": 5.670374419e-8, "units": "W / (m^2 K^4)", "status": "derived", "source": "from k_B, h, c"},
+        {"id": "alpha_fs", "name": "Fine-structure constant", "symbol": "alpha", "formula": "alpha = e^2 / (4*pi*epsilon_0*hbar*c)", "value": 0.0072973525693, "units": "dimensionless", "status": "measured", "source": "CODATA 2018"},
+        {"id": "M_sun", "name": "Nominal solar mass", "symbol": "M_sun", "value": 1.98847e30, "units": "kg", "status": "measured", "source": "IAU nominal value, 2015 resolution B3"}
+      ]
+    },
+    {
+      "category": "Planck units",
+      "entries": [
+        {"id": "l_planck", "name": "Planck length", "symbol": "l_P", "formula": "l_P = sqrt(hbar*G/c^3)", "value": 1.616255e-35, "units": "m", "status": "derived"},
+        {"id": "t_planck", "name": "Planck time", "symbol": "t_P", "formula": "t_P = sqrt(hbar*G/c^5)", "value": 5.391247e-44, "units": "s", "status": "derived"},
+        {"id": "m_planck", "name": "Planck mass", "symbol": "m_P", "formula": "m_P = sqrt(hbar*c/G)", "value": 2.176434e-8, "units": "kg", "status": "derived"},
+        {"id": "T_planck", "name": "Planck temperature", "symbol": "T_P", "formula": "T_P = sqrt(hbar*c^5/G) / k_B", "value": 1.416784e32, "units": "K", "status": "derived"},
+        {"id": "E_planck", "name": "Planck energy", "symbol": "E_P", "formula": "E_P = sqrt(hbar*c^5/G)", "value": 1.9561e9, "units": "J", "status": "derived"}
+      ]
+    },
+    {
+      "category": "Black hole thermodynamics (Schwarzschild: non-rotating, uncharged)",
+      "entries": [
+        {"id": "schwarzschild_radius", "name": "Schwarzschild radius", "symbol": "R_s", "formula": "R_s = 2*G*M / c^2", "units": "m", "status": "derived", "variables": {"M": "mass, kg"}},
+        {"id": "hawking_temperature", "name": "Hawking temperature", "symbol": "T_H", "formula": "T_H = hbar*c^3 / (8*pi*G*M*k_B)", "units": "K", "status": "derived", "variables": {"M": "mass, kg"}},
+        {"id": "horizon_area", "name": "Event horizon area", "symbol": "A", "formula": "A = 4*pi*R_s^2 = 16*pi*(G*M/c^2)^2", "units": "m^2", "status": "derived"},
+        {"id": "bekenstein_hawking_entropy", "name": "Bekenstein-Hawking entropy", "symbol": "S_BH", "formula": "S_BH = k_B*c^3*A / (4*G*hbar)", "units": "J/K", "status": "derived"},
+        {"id": "surface_gravity", "name": "Surface gravity", "symbol": "kappa_sg", "formula": "kappa_sg = c^4 / (4*G*M)", "units": "m/s^2", "status": "derived"},
+        {"id": "hawking_evaporation_time", "name": "Black hole evaporation time", "symbol": "t_evap", "formula": "t_evap = (5120*pi*G^2*M^3) / (hbar*c^4)", "units": "s", "status": "derived"},
+        {"id": "isco_radius", "name": "Innermost stable circular orbit radius", "symbol": "r_isco", "formula": "r_isco = 6*G*M / c^2 = 3*R_s", "units": "m", "status": "derived"},
+        {"id": "photon_sphere_radius", "name": "Photon sphere radius", "symbol": "r_ph", "formula": "r_ph = 3*G*M / c^2 = 1.5*R_s", "units": "m", "status": "derived"}
+      ]
+    },
+    {
+      "category": "Blackbody radiation",
+      "entries": [
+        {"id": "stefan_boltzmann_law", "name": "Stefan-Boltzmann law", "formula": "P = sigma * A * T^4", "units": "W", "status": "derived", "variables": {"A": "radiating surface area, m^2", "T": "temperature, K"}},
+        {"id": "radiation_constant", "name": "Radiation density constant", "symbol": "a_rad", "formula": "a_rad = 4*sigma / c", "value": 7.5657e-16, "units": "J / (m^3 K^4)", "status": "derived"},
+        {"id": "wien_displacement_law", "name": "Wien's displacement law", "formula": "lambda_max * T = b", "value_b": 2.897771955e-3, "units": "m*K", "status": "measured", "source": "CODATA 2018"},
+        {"id": "planck_law_spectral_radiance", "name": "Planck's law, spectral radiance of a blackbody", "formula": "B(nu,T) = (2*h*nu^3/c^2) * 1/(exp(h*nu/(k_B*T)) - 1)", "units": "W / (m^2 sr Hz)", "status": "derived"}
+      ]
+    },
+    {
+      "category": "Quantum mechanics",
+      "entries": [
+        {"id": "de_broglie_wavelength", "name": "de Broglie wavelength", "symbol": "lambda", "formula": "lambda = h / p", "units": "m", "status": "derived", "variables": {"p": "momentum, kg m/s"}},
+        {"id": "compton_wavelength", "name": "Compton wavelength", "symbol": "lambda_C", "formula": "lambda_C = h / (m*c)", "units": "m", "status": "derived", "variables": {"m": "particle rest mass, kg"}},
+        {"id": "bohr_radius", "name": "Bohr radius", "symbol": "a_0", "formula": "a_0 = 4*pi*epsilon_0*hbar^2 / (m_e*e^2)", "value": 5.29177210903e-11, "units": "m", "status": "derived"}
+      ]
+    },
+    {
+      "category": "Special and general relativity",
+      "entries": [
+        {"id": "mass_energy_equivalence", "name": "Mass-energy equivalence", "formula": "E = m*c^2", "status": "derived"},
+        {"id": "lorentz_factor", "name": "Lorentz factor", "symbol": "gamma", "formula": "gamma = 1 / sqrt(1 - v^2/c^2)", "status": "derived", "variables": {"v": "relative velocity, m/s"}},
+        {"id": "time_dilation", "name": "Special-relativistic time dilation", "formula": "Delta_t = gamma * Delta_t0", "status": "derived"},
+        {"id": "relativistic_energy_momentum", "name": "Relativistic energy-momentum relation", "formula": "E^2 = (p*c)^2 + (m*c^2)^2", "status": "derived"},
+        {"id": "gravitational_redshift", "name": "Gravitational redshift, Schwarzschild metric", "formula": "1 + z = 1 / sqrt(1 - 2*G*M/(r*c^2))", "status": "derived", "variables": {"M": "central mass, kg", "r": "radial coordinate of emission, m"}}
+      ]
+    },
+    {
+      "category": "Gravitational waves",
+      "entries": [
+        {"id": "chirp_mass", "name": "Chirp mass of a compact binary", "symbol": "M_chirp", "formula": "M_chirp = (m1*m2)^(3/5) / (m1+m2)^(1/5)", "units": "kg", "status": "derived"},
+        {"id": "gw_inspiral_frequency_evolution", "name": "Inspiral GW frequency chirp rate, leading Newtonian order", "formula": "df/dt = (96/5) * pi^(8/3) * (G*M_chirp/c^3)^(5/3) * f^(11/3)", "status": "derived"}
+      ]
+    },
+    {
+      "category": "Cosmology",
+      "entries": [
+        {"id": "hubble_law", "name": "Hubble's law", "formula": "v = H0 * d", "status": "derived", "H0_value": 67.4, "H0_units": "km/s/Mpc", "H0_status": "measured", "H0_source": "Planck 2018 (CMB-based)"},
+        {"id": "critical_density", "name": "Critical density of the universe", "symbol": "rho_c", "formula": "rho_c = 3*H0^2 / (8*pi*G)", "units": "kg/m^3", "status": "derived"},
+        {"id": "friedmann_equation_first", "name": "First Friedmann equation", "formula": "H^2 = (8*pi*G/3)*rho - k*c^2/a^2 + (Lambda*c^2)/3", "status": "derived", "variables": {"rho": "energy density", "k": "spatial curvature", "a": "scale factor", "Lambda": "cosmological constant"}},
+        {"id": "cmb_temperature_today", "name": "Cosmic microwave background temperature, present day", "value": 2.7255, "units": "K", "status": "measured", "source": "COBE/FIRAS"}
+      ]
+    },
+    {
+      "category": "Plasma physics",
+      "entries": [
+        {"id": "coulomb_coupling_parameter", "name": "Coulomb coupling parameter", "symbol": "Gamma", "formula": "Gamma = e^2 / (4*pi*epsilon_0*a*k_B*T)", "status": "derived", "variables": {"a": "Wigner-Seitz radius, m", "T": "temperature, K"}},
+        {"id": "debye_length", "name": "Debye length", "symbol": "lambda_D", "formula": "lambda_D = sqrt(epsilon_0*k_B*T / (n*e^2))", "units": "m", "status": "derived", "variables": {"n": "charge carrier number density, 1/m^3", "T": "temperature, K"}}
+      ]
+    }
+  ]
+}
