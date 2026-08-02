@@ -1,0 +1,81 @@
+{
+  "project": "Bruno Constant / E3 Engine — Research Restart",
+  "context": "Restart following a full corpus audit (winnay_research repo) that found the governing equation is dimensionally inconsistent, kappa exists as 6 different values across the corpus, a 12x arithmetic error in Hawking temperature, and the only pipeline run against real observational data used an undeclared, unrelated constant. Restarting with a local LLM to reduce fabrication risk.",
+  "source_repo": "https://github.com/ismpower/winnay_research",
+  "reference_doc": "BRUNO_E3_FULL_AUDIT.md",
+  "standing_rule": "No constant or equation counts as established unless it is computed in code with an assertion/test, not stated only in a comment, README, or LLM chat response.",
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Resolve the dimensional inconsistency in beta_B",
+      "status": "not_started",
+      "blocking": true,
+      "blocks": [2, 3, 4, 5],
+      "category": "physics",
+      "description": "beta_B = A/V = 3/R = kappa*T does not balance dimensionally: [3/R] = length^-1, [kappa*T] = dimensionless. No value of kappa is meaningful until this is resolved.",
+      "deliverable": "A written derivation showing either (a) beta_B is not dimensionless, (b) 3/R carries a hidden length scale, or (c) kappa is not K^-1. Must survive manual hand-check, not just LLM output.",
+      "depends_on": []
+    },
+    {
+      "id": 2,
+      "title": "Rename the six kappa values into distinct symbols",
+      "status": "not_started",
+      "blocking": false,
+      "blocks": [3],
+      "category": "cleanup",
+      "description": "Six different values currently share the name kappa: 1313 (Planck route), 1366 (GW route, refuted), 0.001005 (Chajar/tangency constant, dimensionless), 1340e-6 (kappa_lab, unverified), 1.23456789e-23 (placeholder, to be deleted), 1.0e-23 (unrelated toy model). Each real quantity needs its own name before further reuse.",
+      "deliverable": "Naming decision recorded in e3_core/constants.py comments or a short NOTATION.md",
+      "depends_on": [1]
+    },
+    {
+      "id": 3,
+      "title": "Build e3_core/constants.py as single source of truth",
+      "status": "not_started",
+      "blocking": false,
+      "blocks": [6],
+      "category": "engineering",
+      "description": "Derive Planck units (l_P, m_P, T_P, t_P) from hbar, c, G, k_B in one place rather than hardcoding. Attach an assert/test comparing each derived value against an independently computed reference value.",
+      "deliverable": "e3_core/constants.py + a test file that fails loudly if any derived constant drifts",
+      "depends_on": [1, 2]
+    },
+    {
+      "id": 4,
+      "title": "Re-derive or discard the real-data GW pipeline (kappa=0.001005 x 1e23 strain scaling)",
+      "status": "not_started",
+      "blocking": false,
+      "blocks": [],
+      "category": "physics",
+      "description": "The only code run against real observational data (204 LIGO events, nb04_gw_corrmap.ipynb / nb05_GW_Batch_AutoRun.ipynb) chains an admitted-empirical 1e23 strain-to-temperature scale factor to kappa=0.001005, a value imported from an unrelated Planck-tangency context. No stated derivation connects either factor to gravitational-wave physics. Treat as a new research question, not a bug fix -- there is no correct version to recover.",
+      "deliverable": "Either a real physical derivation linking GW strain to an entropy/temperature proxy, or a note in the repo marking bruno_collapse_summary.csv and the 204 *_bruno_betaB.png plots as exploratory/non-validating",
+      "depends_on": [1]
+    },
+    {
+      "id": 5,
+      "title": "Chase down kappa_lab = 1340 +/- 60 x 10^-6 K^-1 s^-1, or drop it",
+      "status": "not_started",
+      "blocking": false,
+      "blocks": [],
+      "category": "physics",
+      "description": "The only value in the corpus framed as an actual experimental measurement, with no recorded method or source. If it came from a real bench experiment, it may be the most valuable single data point in the corpus. If the source can't be located, drop it rather than let it keep circulating as unexplained evidence.",
+      "deliverable": "Either a recovered derivation/experimental record, or removal from all documents that cite it as validated",
+      "depends_on": [1]
+    },
+    {
+      "id": 6,
+      "title": "Mechanical corpus cleanup",
+      "status": "not_started",
+      "blocking": false,
+      "blocks": [],
+      "category": "cleanup",
+      "description": "Low-risk, no physics judgment required. Safe to delegate to local LLM as a batch job once tasks 1-3 are settled. Includes: delete Entropy-Collapse-Research-main (hollow, all zero-byte files), delete davp_env and bruno_env virtualenvs (~40GB, rebuild from requirements.txt), remove all 32 bruno_constant=1.23456789e-23 placeholder sites, retract/delete BRUNO_CONSTANT_FINAL_ANALYSIS.md, normalize line endings before any future deduplication pass.",
+      "deliverable": "Cleaned corpus, confirmed via re-run of classify.py showing zero placeholder hits",
+      "depends_on": [1, 2, 3]
+    }
+  ],
+  "open_gaps_not_yet_actionable": [
+    "The two private repos (Bruno-Unified-Research, Entropy-Collapse-Research as standalone GitHub repos) have not been audited -- access needed",
+    "git log -S 1366 across all repos would date the 1313/1366 revision definitively -- not yet run",
+    "94,443 dataset JSONs in Bruno_Entropy_Project/datasets were excluded from the audit as bulk data -- unknown if any encode model parameters",
+    ".dat/.csv files (43,955 + 1,884) were never swept for embedded constants"
+  ]
+}
