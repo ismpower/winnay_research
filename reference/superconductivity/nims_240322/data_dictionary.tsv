@@ -1,0 +1,84 @@
+field	meaning	origin
+source_line_number	One-based line in 20240322_MDR_OAndM.txt	extraction metadata
+extraction_evidence_status	Dataset membership; not independent paper verification	extraction metadata
+num	data number	verbatim NIMS source field
+refno	reference number	verbatim NIMS source field
+commt	comment	verbatim NIMS source field
+name	common formula of materials	verbatim NIMS source field
+element	chemical formula	verbatim NIMS source field
+shape	shape	verbatim NIMS source field
+year	publication year of reference	verbatim NIMS source field
+str1	*crystal structure, symmetry	verbatim NIMS source field
+str3	common name of structure	verbatim NIMS source field
+spaceg	space group	verbatim NIMS source field
+tblno	international table number	verbatim NIMS source field
+ulat	unit of lattice constant	verbatim NIMS source field
+lata	lattice constant a	verbatim NIMS source field
+latb	lattice constant b	verbatim NIMS source field
+latc	lattice constant c	verbatim NIMS source field
+utc	unit of Tc	verbatim NIMS source field
+t1	transition temperature (R = 0)	verbatim NIMS source field
+t2	transition temperature (mid point)	verbatim NIMS source field
+t3	transition temperature (R = 100%)	verbatim NIMS source field
+tcsus	Tc from susceptibility measurement	verbatim NIMS source field
+tcn	lowest temperature for measurement (not superconducting)	verbatim NIMS source field
+tcwidth	transition width for resistive transition	verbatim NIMS source field
+tc	Tc (of this sample) recommended	verbatim NIMS source field
+tcfig	figure number for Tc(p, x, etc)	verbatim NIMS source field
+tcmeth	tc measurement method	verbatim NIMS source field
+udtcdp	unit of DTCDP	verbatim NIMS source field
+dtcdp	slope at P = 0 in Tc vs P plot 	verbatim NIMS source field
+pmax	maximum pressure applied	verbatim NIMS source field
+isotope	alpha in Tc = A * M^(-alpha), isotope effect	verbatim NIMS source field
+isoel	isotope element	verbatim NIMS source field
+isorat	exchange ratio of isotope(%)	verbatim NIMS source field
+dtc	DTC = Tc - Tc0 for isotope element	verbatim NIMS source field
+vols	volume fraction of Meissner effect(%)	verbatim NIMS source field
+uhc1	unit of Hc1	verbatim NIMS source field
+mhc1	method of Hc1 derivation	verbatim NIMS source field
+hc1zero	Hc1 at 0 K for poly crystal	verbatim NIMS source field
+uhc2	unit of Hc2	verbatim NIMS source field
+mhc2	method of Hc2 derivation	verbatim NIMS source field
+hc2zero	Hc2 at 0 K for poly crystal	verbatim NIMS source field
+udhc2dt	unit of dHc2/dT	verbatim NIMS source field
+mdhc2dt	method of dHc2/dT derivation	verbatim NIMS source field
+dhc2dt	-slope in Hc2 vs T at Tc for poly crystal	verbatim NIMS source field
+ucohere	unit of COHERE	verbatim NIMS source field
+mcohere	method of COHERE derivation	verbatim NIMS source field
+cohere	coherence length at 0 K for poly crystal	verbatim NIMS source field
+upenet	unit of PENET	verbatim NIMS source field
+mpenet	method of PENET derivation	verbatim NIMS source field
+penet	penetration depth at 0 K for poly crystal	verbatim NIMS source field
+ugap	unit of energy gap	verbatim NIMS source field
+gap	energy gap at 0 K , delta(0)	verbatim NIMS source field
+gapene	normarized energy gap at 0 K , 2delta(0)/kTc	verbatim NIMS source field
+gapmeth	method of measuring energy gap	verbatim NIMS source field
+jche	Jc at 4.2 K, H = 0 T	verbatim NIMS source field
+jc77	Jc at T = 77 K, H = 0 T	verbatim NIMS source field
+spheat	graph number of specific heat	verbatim NIMS source field
+ujump	unit of SPJUMP	verbatim NIMS source field
+spjump	specific heat jump at Tc (delta-C)	verbatim NIMS source field
+ugamma	unit of GAMMA	verbatim NIMS source field
+gamma	coefficient of electronic specific heat	verbatim NIMS source field
+gamcom	comment for derivation of GAMMA	verbatim NIMS source field
+debyet	Debye temperature	verbatim NIMS source field
+mdebye	method for derivation of Debye temperature	verbatim NIMS source field
+ures	unit of resistivity	verbatim NIMS source field
+reshe	resistivity at 4.2 K for poly crystal	verbatim NIMS source field
+res77	resistivity at 77 K for poly crystal	verbatim NIMS source field
+resn	resistivity at normal-T for poly crystal	verbatim NIMS source field
+nort	normal temperature	verbatim NIMS source field
+resrt	resistivity at RT for poly crystal	verbatim NIMS source field
+ucarr	unit of carrier density	verbatim NIMS source field
+carrier	carrier density at 300 K	verbatim NIMS source field
+rawmat	raw materials	verbatim NIMS source field
+method	*preparation method	verbatim NIMS source field
+prepcmt	preparation comments	verbatim NIMS source field
+title	title of reference	verbatim NIMS source field
+month	month of reference	verbatim NIMS source field
+keyword	keyword	verbatim NIMS source field
+institute	institute	verbatim NIMS source field
+journal	journal	verbatim NIMS source field
+author	author	verbatim NIMS source field
+sample	sample	verbatim NIMS source field
+comments	comments	verbatim NIMS source field

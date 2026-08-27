@@ -1,0 +1,67 @@
+{
+  "retrieved_date": "2026-08-26",
+  "derived_files": [
+    {
+      "path": "data/Phillips_1959_Table_II.tsv",
+      "sha256": "36225a1f5b5647758a00eb051b82731400a897daf2ed421a2f1d476ddb97fa69",
+      "rows_excluding_header": 149,
+      "derivation": "Manual transcription of Table II, printed page 681, followed by a second check against the 300-DPI page rendering and PDF text extraction.",
+      "transformations": "Printed decimal strings preserved; no sorting, averaging, unit conversion, interpolation, or imputation."
+    }
+  ],
+  "files": [
+    {
+      "path": "../../../data/raw/niobium_heat_capacity/shen_1965/Shen_1965_UCRL_16117.pdf",
+      "sha256": "fd508c1c913953952347a9885173f5b994d7df59da36153924c7c32265336b3b",
+      "bytes": 4013075,
+      "pages": 101,
+      "report_number": "UCRL-16117",
+      "official_record": "https://escholarship.org/uc/item/0t19k8j8",
+      "host_role": "official University of California open repository"
+    },
+    {
+      "path": "data/MSP151067.dat",
+      "sha256": "2035a2d28b12703010793eef79fdc87390d107ba8bd3d30a62f610740eb173b4",
+      "bytes": 1808,
+      "source_container": "data/raw/nims_supercon/240322/extracted/data.zip",
+      "source_member": "dat/MSP151067.dat",
+      "relationship": "associated data for NIMS record 151067"
+    },
+    {
+      "path": "papers/Phillips_1959_aluminum_heat_capacity.pdf",
+      "sha256": "23fc4faaf535d096f1151eedcb96e75532ac7ca536f75c7841d83cc64f472df7",
+      "bytes": 1260765,
+      "pages": 11,
+      "doi": "10.1103/PhysRev.114.676",
+      "download_url": "https://chair.itp.ac.ru/biblio/papers/ClassicPapersSeminar/Phillips1959.pdf",
+      "host_role": "third-party scholarly mirror"
+    },
+    {
+      "path": "papers/Gubin_et_al_2005_niobium_thin_films.pdf",
+      "sha256": "0f8cca866f713ca024e40a7efda0523a4f1a8c8eecb05f8a94868b6013bab04a",
+      "bytes": 112528,
+      "pages": 8,
+      "doi": "10.1103/PhysRevB.72.064503",
+      "download_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevB.72.064503/fulltext",
+      "host_role": "publisher archival full text"
+    },
+    {
+      "path": "papers/Decker_et_al_1958_lead_critical_field.pdf",
+      "sha256": "f63079b91ddf7a1a8db78c92a1174f6713ba289a0618d20731da9a2929ff0e90",
+      "bytes": 1062188,
+      "pages": 11,
+      "doi": "10.1103/PhysRev.112.1888",
+      "download_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRev.112.1888/fulltext",
+      "host_role": "publisher archival full text"
+    },
+    {
+      "path": "papers/Suresh_Tallon_2007_lead_thermodynamics.pdf",
+      "sha256": "6c8942c1b862df5df7ed86def3e600d0cd450add603fc22fbac7d46f4fa06263",
+      "bytes": 169759,
+      "pages": 5,
+      "doi": "10.1103/PhysRevB.75.174502",
+      "download_url": "https://arxiv.org/pdf/0704.2077",
+      "host_role": "author preprint repository"
+    }
+  ]
+}

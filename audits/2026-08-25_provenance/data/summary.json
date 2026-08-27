@@ -1,0 +1,31 @@
+{
+  "generated_utc": "2026-08-25T19:21:25.748473+00:00",
+  "legacy_root": "/home/winnay/Documents/Codex/E3_Engine",
+  "artifact_count": 5122,
+  "notebook_count": 212,
+  "media_count": 1013,
+  "claim_count": 5922,
+  "duplicate_content_groups": 1033,
+  "git_roots_scanned": [],
+  "git_event_count": 0,
+  "skipped_directories": [
+    ".git",
+    ".ipynb_checkpoints",
+    ".venv",
+    "Kato_2017",
+    "Patton_2017",
+    "Yoshida_2016",
+    "__pycache__",
+    "bruno_env",
+    "datasets",
+    "davp_env",
+    "node_modules",
+    "site-packages",
+    "sne-1990-1999-master",
+    "sne-2000-2004-master",
+    "sne-2005-2009-master",
+    "sne-2010-2014-master",
+    "snewpy-models-presn-master",
+    "snfluxes-public-master"
+  ]
+}

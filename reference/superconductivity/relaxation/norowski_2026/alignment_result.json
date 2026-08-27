@@ -1,0 +1,85 @@
+{
+  "classification": "exploratory_alignment_not_confirmation",
+  "normalization": {
+    "phillips_Tc_K": 1.163,
+    "phillips_crossover_K": 0.5882529230512992,
+    "target_reduced_temperature_T_over_Tc": 0.5058064686597585,
+    "norowski_Tc_K": 1.3,
+    "mapped_target_temperature_K": 0.6575484092576861
+  },
+  "author_reported_boundary": {
+    "temperature_K": 0.7,
+    "reduced_temperature_T_over_Tc": 0.5384615384615384,
+    "absolute_difference_from_mapped_target_K": 0.04245159074231386,
+    "note": "The paper states an approximate regime boundary; it does not report a fitted breakpoint uncertainty."
+  },
+  "interpolation": {
+    "method": "linear between adjacent published worksheet values",
+    "electron_phonon_bracket_K": [
+      0.65,
+      0.66
+    ],
+    "samples": [
+      {
+        "length_um": 37,
+        "tau_us_at_target": 0.0660526325627969,
+        "electron_phonon_reference_us": 0.11847997099927941,
+        "tau_ratio_measured_to_reference": 0.5575004112990426,
+        "interpolation_bracket_K": [
+          0.65,
+          0.66
+        ]
+      },
+      {
+        "length_um": 40,
+        "tau_us_at_target": 0.05958667736738323,
+        "electron_phonon_reference_us": 0.11847997099927941,
+        "tau_ratio_measured_to_reference": 0.5029261643535146,
+        "interpolation_bracket_K": [
+          0.645,
+          0.66
+        ]
+      },
+      {
+        "length_um": 90,
+        "tau_us_at_target": 0.1049031055405705,
+        "electron_phonon_reference_us": 0.11847997099927941,
+        "tau_ratio_measured_to_reference": 0.8854079272285483,
+        "interpolation_bracket_K": [
+          0.65,
+          0.66
+        ]
+      },
+      {
+        "length_um": 180,
+        "tau_us_at_target": 0.1099600623197318,
+        "electron_phonon_reference_us": 0.11847997099927941,
+        "tau_ratio_measured_to_reference": 0.9280898821320657,
+        "interpolation_bracket_K": [
+          0.65,
+          0.675
+        ]
+      },
+      {
+        "length_um": 200,
+        "tau_us_at_target": 0.08744756855264997,
+        "electron_phonon_reference_us": 0.11847997099927941,
+        "tau_ratio_measured_to_reference": 0.7380789159138283,
+        "interpolation_bracket_K": [
+          0.6500000000000001,
+          0.6600000000000001
+        ]
+      },
+      {
+        "length_um": 800,
+        "tau_us_at_target": 0.10162837812459105,
+        "electron_phonon_reference_us": 0.11847997099927941,
+        "tau_ratio_measured_to_reference": 0.8577684250548065,
+        "interpolation_bracket_K": [
+          0.65,
+          0.6599999999999999
+        ]
+      }
+    ]
+  }
+}

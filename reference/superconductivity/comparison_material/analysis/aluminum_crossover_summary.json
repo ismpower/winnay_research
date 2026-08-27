@@ -1,0 +1,23 @@
+{
+  "input": "reference/superconductivity/comparison_material/data/MSP151067.dat",
+  "source_figure_id": "MSP151067",
+  "paper_doi": "10.1103/PhysRev.114.676",
+  "states_confirmed_from_paper_figure_4": {
+    "0_gauss_below_Tc": "superconducting",
+    "300_gauss": "normal"
+  },
+  "Tc_K": 1.163,
+  "analysis_range_K": [
+    0.236,
+    1.16
+  ],
+  "range_rule": "Shared measured range, ending at the last zero-gauss point below Tc; no extrapolation.",
+  "interpolation": "Piecewise linear between adjacent measured points.",
+  "crossover_temperature_K": 0.575065138721351,
+  "crossover_reduced_temperature_T_over_Tc": 0.4944670152376191,
+  "crossover_definition": "Piecewise-linear root of C_zero_gauss - C_300_gauss.",
+  "physical_interpretation_boundary": "Heat-capacity equality, not the superconducting phase-transition temperature.",
+  "partial_entropy_difference_at_crossover_mJ_per_mol_K": -0.24394482672164988,
+  "partial_entropy_difference_at_upper_bound_mJ_per_mol_K": 0.32876828399939306,
+  "entropy_warning": "Partial integral starts at 0.236 K, so it is not absolute S_s-S_n and must not be expected to vanish at Tc."
+}

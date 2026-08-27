@@ -1,0 +1,550 @@
+series_kind	length_um	temperature_K	tau_us	source_container	source_book	source_x_column	source_y_column	source_row_zero_based
+measured	37	0.3	0.4048628954132081	spreadsheet	wire37um	A	B	0
+measured	37	0.31	0.3623502689295997	spreadsheet	wire37um	A	B	1
+measured	37	0.32	0.33976726396183937	spreadsheet	wire37um	A	B	2
+measured	37	0.33	0.3199019045804206	spreadsheet	wire37um	A	B	3
+measured	37	0.34	0.3105560712245046	spreadsheet	wire37um	A	B	4
+measured	37	0.35	0.2808260025848898	spreadsheet	wire37um	A	B	5
+measured	37	0.36	0.26888028242626777	spreadsheet	wire37um	A	B	6
+measured	37	0.37	0.25514141790183126	spreadsheet	wire37um	A	B	7
+measured	37	0.38	0.23747607063264276	spreadsheet	wire37um	A	B	8
+measured	37	0.39	0.2206903047668694	spreadsheet	wire37um	A	B	9
+measured	37	0.4	0.21937498900884708	spreadsheet	wire37um	A	B	10
+measured	37	0.41	0.19963512265784125	spreadsheet	wire37um	A	B	11
+measured	37	0.42	0.1937561904088592	spreadsheet	wire37um	A	B	12
+measured	37	0.43	0.18035861111806	spreadsheet	wire37um	A	B	13
+measured	37	0.44	0.16607859810024436	spreadsheet	wire37um	A	B	14
+measured	37	0.45	0.16148305750508818	spreadsheet	wire37um	A	B	15
+measured	37	0.46	0.1553253294806539	spreadsheet	wire37um	A	B	16
+measured	37	0.47	0.14261580311938382	spreadsheet	wire37um	A	B	17
+measured	37	0.48	0.13557186410772235	spreadsheet	wire37um	A	B	18
+measured	37	0.49	0.12967293898925886	spreadsheet	wire37um	A	B	19
+measured	37	0.5	0.12622543342198939	spreadsheet	wire37um	A	B	20
+measured	37	0.51	0.11972598042297318	spreadsheet	wire37um	A	B	21
+measured	37	0.52	0.11505342102739616	spreadsheet	wire37um	A	B	22
+measured	37	0.53	0.11362480020664407	spreadsheet	wire37um	A	B	23
+measured	37	0.54	0.10334127037215302	spreadsheet	wire37um	A	B	24
+measured	37	0.55	0.10240277229043482	spreadsheet	wire37um	A	B	25
+measured	37	0.56	0.09521427881396284	spreadsheet	wire37um	A	B	26
+measured	37	0.57	0.09343159321351242	spreadsheet	wire37um	A	B	27
+measured	37	0.58	0.08510644592952656	spreadsheet	wire37um	A	B	28
+measured	37	0.59	0.08599522698586468	spreadsheet	wire37um	A	B	29
+measured	37	0.6	0.08365050878081769	spreadsheet	wire37um	A	B	30
+measured	37	0.61	0.07427525660775347	spreadsheet	wire37um	A	B	31
+measured	37	0.62	0.07521186962895786	spreadsheet	wire37um	A	B	32
+measured	37	0.63	0.07453930374256801	spreadsheet	wire37um	A	B	33
+measured	37	0.64	0.07209261401687361	spreadsheet	wire37um	A	B	34
+measured	37	0.65	0.06525704061743982	spreadsheet	wire37um	A	B	35
+measured	37	0.66	0.0663110268524164	spreadsheet	wire37um	A	B	36
+measured	37	0.67	0.06269584415023433	spreadsheet	wire37um	A	B	37
+measured	37	0.68	0.06099010065435177	spreadsheet	wire37um	A	B	38
+measured	37	0.7	0.056294165440843126	spreadsheet	wire37um	A	B	40
+measured	37	0.71	0.05543658037488688	spreadsheet	wire37um	A	B	41
+measured	37	0.72	0.050705426459374855	spreadsheet	wire37um	A	B	42
+measured	37	0.73	0.05152581509630045	spreadsheet	wire37um	A	B	43
+measured	37	0.74	0.054015059391147084	spreadsheet	wire37um	A	B	44
+measured	37	0.75	0.050698115647639624	spreadsheet	wire37um	A	B	45
+measured	37	0.76	0.05343718361907677	spreadsheet	wire37um	A	B	46
+measured	37	0.77	0.0447162285934237	spreadsheet	wire37um	A	B	47
+measured	37	0.78	0.04450691929165646	spreadsheet	wire37um	A	B	48
+measured	37	0.79	0.04140816827650239	spreadsheet	wire37um	A	B	49
+measured	37	0.8	0.04659329770475703	spreadsheet	wire37um	A	B	50
+measured	37	0.81	0.03929459097217844	spreadsheet	wire37um	A	B	51
+measured	37	0.82	0.04170220403653625	spreadsheet	wire37um	A	B	52
+measured	37	0.83	0.04154074364398642	spreadsheet	wire37um	A	B	53
+measured	37	0.84	0.040370442402382384	spreadsheet	wire37um	A	B	54
+measured	37	0.85	0.03856228335852456	spreadsheet	wire37um	A	B	55
+measured	37	0.86	0.037483731248375396	spreadsheet	wire37um	A	B	56
+measured	37	0.87	0.03713333713672177	spreadsheet	wire37um	A	B	57
+measured	37	0.88	0.03753172742497433	spreadsheet	wire37um	A	B	58
+measured	37	0.89	0.043108636614284525	spreadsheet	wire37um	A	B	59
+measured	37	0.9	0.04315433761933848	spreadsheet	wire37um	A	B	60
+measured	37	0.91	0.03551458682632252	spreadsheet	wire37um	A	B	61
+measured	37	0.92	0.03590420404237408	spreadsheet	wire37um	A	B	62
+measured	37	0.93	0.03902169533490869	spreadsheet	wire37um	A	B	63
+measured	37	0.94	0.03321532994302584	spreadsheet	wire37um	A	B	64
+measured	37	0.95	0.032632711357970336	spreadsheet	wire37um	A	B	65
+measured	37	0.96	0.029343362586687054	spreadsheet	wire37um	A	B	66
+measured	37	0.97	0.028571697840225247	spreadsheet	wire37um	A	B	67
+measured	37	0.98	0.028558922722250874	spreadsheet	wire37um	A	B	68
+measured	37	0.99	0.027141309076424206	spreadsheet	wire37um	A	B	69
+measured	37	1.0	0.028782361997015667	spreadsheet	wire37um	A	B	70
+measured	37	1.01	0.030083866557827924	spreadsheet	wire37um	A	B	71
+measured	37	1.02	0.033341846860288654	spreadsheet	wire37um	A	B	72
+measured	37	1.03	0.030129659963675073	spreadsheet	wire37um	A	B	73
+measured	37	1.04	0.033729079540450686	spreadsheet	wire37um	A	B	74
+measured	37	1.05	0.029404594888705712	spreadsheet	wire37um	A	B	75
+measured	37	1.06	0.033221769664487616	spreadsheet	wire37um	A	B	76
+measured	37	1.07	0.03238184044663643	spreadsheet	wire37um	A	B	77
+measured	37	1.08	0.030054897707239594	spreadsheet	wire37um	A	B	78
+measured	37	1.09	0.030070212698822242	spreadsheet	wire37um	A	B	79
+measured	37	1.1	0.030564162167477794	spreadsheet	wire37um	A	B	80
+measured	37	1.11	0.029267099506371377	spreadsheet	wire37um	A	B	81
+measured	37	1.12	0.03022511556651004	spreadsheet	wire37um	A	B	82
+measured	37	1.2	0.0	spreadsheet	wire37um	A	B	90
+measured	37	1.21	0.0	spreadsheet	wire37um	A	B	91
+measured	37	1.22	0.0	spreadsheet	wire37um	A	B	92
+measured	37	1.23	0.0	spreadsheet	wire37um	A	B	93
+measured	37	1.24	0.0	spreadsheet	wire37um	A	B	94
+measured	37	1.25	0.0	spreadsheet	wire37um	A	B	95
+measured	37	1.26	0.0	spreadsheet	wire37um	A	B	96
+measured	37	1.27	0.0	spreadsheet	wire37um	A	B	97
+measured	37	1.28	0.0	spreadsheet	wire37um	A	B	98
+measured	37	1.29	0.0	spreadsheet	wire37um	A	B	99
+measured	37	1.3	0.0	spreadsheet	wire37um	A	B	100
+measured	40	0.3	0.7329681419177382	spreadsheet	A40umwire	A	B	0
+measured	40	0.315	0.6686400124941279	spreadsheet	A40umwire	A	B	1
+measured	40	0.33	0.5942520520303256	spreadsheet	A40umwire	A	B	2
+measured	40	0.345	0.5104500140054256	spreadsheet	A40umwire	A	B	3
+measured	40	0.36	0.4466719251016378	spreadsheet	A40umwire	A	B	4
+measured	40	0.375	0.36509321274650014	spreadsheet	A40umwire	A	B	5
+measured	40	0.39	0.33115422940419115	spreadsheet	A40umwire	A	B	6
+measured	40	0.405	0.28499431560583033	spreadsheet	A40umwire	A	B	7
+measured	40	0.42	0.2327491172886183	spreadsheet	A40umwire	A	B	8
+measured	40	0.435	0.21751057338360172	spreadsheet	A40umwire	A	B	9
+measured	40	0.45	0.20319429080528234	spreadsheet	A40umwire	A	B	10
+measured	40	0.465	0.19148906379493846	spreadsheet	A40umwire	A	B	11
+measured	40	0.48	0.17465922063347566	spreadsheet	A40umwire	A	B	12
+measured	40	0.495	0.15975627942566564	spreadsheet	A40umwire	A	B	13
+measured	40	0.51	0.14309525024952252	spreadsheet	A40umwire	A	B	14
+measured	40	0.525	0.1141343247098692	spreadsheet	A40umwire	A	B	15
+measured	40	0.54	0.10510754615045234	spreadsheet	A40umwire	A	B	16
+measured	40	0.555	0.09748070611654631	spreadsheet	A40umwire	A	B	17
+measured	40	0.57	0.08937144041969086	spreadsheet	A40umwire	A	B	18
+measured	40	0.585	0.08257350615080931	spreadsheet	A40umwire	A	B	19
+measured	40	0.6	0.0781729528956647	spreadsheet	A40umwire	A	B	20
+measured	40	0.63	0.0719370619674971	spreadsheet	A40umwire	A	B	21
+measured	40	0.645	0.062337790001099604	spreadsheet	A40umwire	A	B	22
+measured	40	0.66	0.05904919073259319	spreadsheet	A40umwire	A	B	23
+measured	40	0.675	0.05458169420461408	spreadsheet	A40umwire	A	B	24
+measured	40	0.69	0.05183460836404564	spreadsheet	A40umwire	A	B	25
+measured	40	0.705	0.04738085431589486	spreadsheet	A40umwire	A	B	26
+measured	40	0.72	0.046530775542774364	spreadsheet	A40umwire	A	B	27
+measured	40	0.735	0.04430371600942808	spreadsheet	A40umwire	A	B	28
+measured	40	0.75	0.043735895421736705	spreadsheet	A40umwire	A	B	29
+measured	40	0.765	0.03951296106732937	spreadsheet	A40umwire	A	B	30
+measured	40	0.78	0.0385421859488299	spreadsheet	A40umwire	A	B	31
+measured	40	0.795	0.03722153327482736	spreadsheet	A40umwire	A	B	32
+measured	40	0.81	0.034927724253528046	spreadsheet	A40umwire	A	B	33
+measured	40	0.825	0.032968525086888904	spreadsheet	A40umwire	A	B	34
+measured	40	0.84	0.03531618717744103	spreadsheet	A40umwire	A	B	35
+measured	40	0.855	0.03422294950676524	spreadsheet	A40umwire	A	B	36
+measured	40	0.87	0.026736913867178937	spreadsheet	A40umwire	A	B	37
+measured	40	0.885	0.023324280664118457	spreadsheet	A40umwire	A	B	38
+measured	40	0.9	0.023944292074022974	spreadsheet	A40umwire	A	B	39
+measured	40	0.915	0.023371720430145813	spreadsheet	A40umwire	A	B	40
+measured	40	0.93	0.024778327211162344	spreadsheet	A40umwire	A	B	41
+measured	40	0.945	0.025974792241491705	spreadsheet	A40umwire	A	B	42
+measured	40	0.96	0.02772695470104196	spreadsheet	A40umwire	A	B	43
+measured	40	0.975	0.025439288999527087	spreadsheet	A40umwire	A	B	44
+measured	40	0.99	0.019232301506866074	spreadsheet	A40umwire	A	B	45
+measured	40	1.005	0.017224800291960145	spreadsheet	A40umwire	A	B	46
+measured	40	1.02	0.017621906859440525	spreadsheet	A40umwire	A	B	47
+measured	40	1.035	0.018275103238119657	spreadsheet	A40umwire	A	B	48
+measured	40	1.05	0.019716026627524884	spreadsheet	A40umwire	A	B	49
+measured	40	1.065	0.019575206632000113	spreadsheet	A40umwire	A	B	50
+measured	40	1.08	0.020410838939467567	spreadsheet	A40umwire	A	B	51
+measured	40	1.095	0.01755186465363355	spreadsheet	A40umwire	A	B	52
+measured	40	1.11	0.0182715623377824	spreadsheet	A40umwire	A	B	53
+measured	40	1.125	0.017936243700262013	spreadsheet	A40umwire	A	B	54
+measured	40	1.1400000000000001	0.019845208020100293	spreadsheet	A40umwire	A	B	55
+measured	40	1.155	0.021898101645558596	spreadsheet	A40umwire	A	B	56
+measured	40	1.17	0.020271210180457935	spreadsheet	A40umwire	A	B	57
+measured	40	1.185	0.024194469647323774	spreadsheet	A40umwire	A	B	58
+measured	40	1.2	0.019823772011170377	spreadsheet	A40umwire	A	B	59
+measured	90	0.3	1.4052379803078165	workbook	A90umwire	A	B	0
+measured	90	0.31	1.3016215049552238	workbook	A90umwire	A	B	1
+measured	90	0.32	1.1648074629732812	workbook	A90umwire	A	B	2
+measured	90	0.33	1.061912558851866	workbook	A90umwire	A	B	3
+measured	90	0.34	0.9855701184134994	workbook	A90umwire	A	B	4
+measured	90	0.35	0.9071698446744533	workbook	A90umwire	A	B	5
+measured	90	0.36	0.8261862549653151	workbook	A90umwire	A	B	6
+measured	90	0.37	0.7473236335972009	workbook	A90umwire	A	B	7
+measured	90	0.38	0.680779668304924	workbook	A90umwire	A	B	8
+measured	90	0.39	0.6280566178915433	workbook	A90umwire	A	B	9
+measured	90	0.4	0.5728141152997189	workbook	A90umwire	A	B	10
+measured	90	0.41	0.5200596034878501	workbook	A90umwire	A	B	11
+measured	90	0.42	0.4787728429947626	workbook	A90umwire	A	B	12
+measured	90	0.43	0.4479574876415593	workbook	A90umwire	A	B	13
+measured	90	0.44	0.41016699924697186	workbook	A90umwire	A	B	14
+measured	90	0.45	0.37801828183779335	workbook	A90umwire	A	B	15
+measured	90	0.46	0.345046132812993	workbook	A90umwire	A	B	16
+measured	90	0.47	0.32131607879130897	workbook	A90umwire	A	B	17
+measured	90	0.48	0.2940403507232789	workbook	A90umwire	A	B	18
+measured	90	0.49	0.2726781196971461	workbook	A90umwire	A	B	19
+measured	90	0.5	0.2432405529246567	workbook	A90umwire	A	B	20
+measured	90	0.51	0.22454095027986376	workbook	A90umwire	A	B	21
+measured	90	0.52	0.21417364732151187	workbook	A90umwire	A	B	22
+measured	90	0.53	0.20006161637900008	workbook	A90umwire	A	B	23
+measured	90	0.54	0.19106453211628394	workbook	A90umwire	A	B	24
+measured	90	0.55	0.17927011544001586	workbook	A90umwire	A	B	25
+measured	90	0.56	0.17425227420872222	workbook	A90umwire	A	B	26
+measured	90	0.57	0.16684429991459318	workbook	A90umwire	A	B	27
+measured	90	0.58	0.16437695258959256	workbook	A90umwire	A	B	28
+measured	90	0.59	0.15703692999601485	workbook	A90umwire	A	B	29
+measured	90	0.6	0.15287577170537878	workbook	A90umwire	A	B	30
+measured	90	0.61	0.14643337864110467	workbook	A90umwire	A	B	31
+measured	90	0.62	0.14035175722109297	workbook	A90umwire	A	B	32
+measured	90	0.63	0.13157185308677138	workbook	A90umwire	A	B	33
+measured	90	0.64	0.12238354111932587	workbook	A90umwire	A	B	34
+measured	90	0.65	0.11147475990096802	workbook	A90umwire	A	B	35
+measured	90	0.66	0.10276874763261357	workbook	A90umwire	A	B	36
+measured	90	0.67	0.0950069889593432	workbook	A90umwire	A	B	37
+measured	90	0.68	0.08676290325690464	workbook	A90umwire	A	B	38
+measured	90	0.69	0.07914839522011917	workbook	A90umwire	A	B	39
+measured	90	0.7	0.07583762562146543	workbook	A90umwire	A	B	40
+measured	90	0.71	0.07125896485943928	workbook	A90umwire	A	B	41
+measured	90	0.72	0.0696873689602431	workbook	A90umwire	A	B	42
+measured	90	0.73	0.06699238128031308	workbook	A90umwire	A	B	43
+measured	90	0.74	0.06638905122902256	workbook	A90umwire	A	B	44
+measured	90	0.75	0.06389400387751046	workbook	A90umwire	A	B	45
+measured	90	0.76	0.0627531769635578	workbook	A90umwire	A	B	46
+measured	90	0.77	0.06273100382579558	workbook	A90umwire	A	B	47
+measured	90	0.78	0.06044414042929253	workbook	A90umwire	A	B	48
+measured	90	0.79	0.05905363029821128	workbook	A90umwire	A	B	49
+measured	90	0.8	0.05683866638902621	workbook	A90umwire	A	B	50
+measured	90	0.81	0.053659970720956025	workbook	A90umwire	A	B	51
+measured	90	0.82	0.05615782225038172	workbook	A90umwire	A	B	52
+measured	90	0.83	0.060762585170448795	workbook	A90umwire	A	B	53
+measured	90	0.84	0.05334982551831192	workbook	A90umwire	A	B	54
+measured	90	0.85	0.0536879879576525	workbook	A90umwire	A	B	55
+measured	90	0.86	0.0500720549185192	workbook	A90umwire	A	B	56
+measured	90	0.87	0.04944878837988859	workbook	A90umwire	A	B	57
+measured	90	0.88	0.05025845795378296	workbook	A90umwire	A	B	58
+measured	90	0.89	0.04691172915599187	workbook	A90umwire	A	B	59
+measured	90	0.9	0.046891475117036424	workbook	A90umwire	A	B	60
+measured	90	0.91	0.04891070149393598	workbook	A90umwire	A	B	61
+measured	90	0.92	0.0403488871852765	workbook	A90umwire	A	B	62
+measured	90	0.93	0.04195717640311474	workbook	A90umwire	A	B	63
+measured	90	0.94	0.0527769345956136	workbook	A90umwire	A	B	64
+measured	90	0.95	0.04867791688736368	workbook	A90umwire	A	B	65
+measured	90	0.96	0.035201369981073906	workbook	A90umwire	A	B	66
+measured	90	0.97	0.04376969669185674	workbook	A90umwire	A	B	67
+measured	90	0.98	0.04243318286469194	workbook	A90umwire	A	B	68
+measured	90	0.99	0.04023162468966475	workbook	A90umwire	A	B	69
+measured	90	1.0	0.03439588879627179	workbook	A90umwire	A	B	70
+measured	90	1.01	0.04694573740768775	workbook	A90umwire	A	B	71
+measured	90	1.02	0.04501819830647917	workbook	A90umwire	A	B	72
+measured	90	1.03	0.037987693170126915	workbook	A90umwire	A	B	73
+measured	90	1.04	0.03681849260662579	workbook	A90umwire	A	B	74
+measured	90	1.05	0.030165600078338906	workbook	A90umwire	A	B	75
+measured	90	1.06	0.040948013826799044	workbook	A90umwire	A	B	76
+measured	90	1.07	0.04117549911878981	workbook	A90umwire	A	B	77
+measured	90	1.08	0.050153698975391466	workbook	A90umwire	A	B	78
+measured	90	1.09	0.04041704659060545	workbook	A90umwire	A	B	79
+measured	90	1.11	0.047619674262860213	workbook	A90umwire	A	B	81
+measured	90	1.1400000000000001	0.038581520201438846	workbook	A90umwire	A	B	84
+measured	180	1.1	0.0385329	spreadsheet	A180umwire	A	B	0
+measured	180	1.075	0.0412615	spreadsheet	A180umwire	A	B	1
+measured	180	1.05	0.0409114	spreadsheet	A180umwire	A	B	2
+measured	180	1.025	0.0392617	spreadsheet	A180umwire	A	B	3
+measured	180	1.0	0.0407155	spreadsheet	A180umwire	A	B	4
+measured	180	0.975	0.0423394	spreadsheet	A180umwire	A	B	5
+measured	180	0.95	0.0435952	spreadsheet	A180umwire	A	B	6
+measured	180	0.925	0.045475	spreadsheet	A180umwire	A	B	7
+measured	180	0.9	0.0484172	spreadsheet	A180umwire	A	B	8
+measured	180	0.875	0.0495314	spreadsheet	A180umwire	A	B	9
+measured	180	0.85	0.0528731	spreadsheet	A180umwire	A	B	10
+measured	180	0.825	0.0582772	spreadsheet	A180umwire	A	B	11
+measured	180	0.8	0.0622783	spreadsheet	A180umwire	A	B	12
+measured	180	0.775	0.0678946	spreadsheet	A180umwire	A	B	13
+measured	180	0.75	0.0753515	spreadsheet	A180umwire	A	B	14
+measured	180	0.725	0.0808256	spreadsheet	A180umwire	A	B	15
+measured	180	0.7	0.09113515	spreadsheet	A180umwire	A	B	16
+measured	180	0.675	0.10060949999999999	spreadsheet	A180umwire	A	B	17
+measured	180	0.65	0.1140045	spreadsheet	A180umwire	A	B	18
+measured	180	0.625	0.12659800000000002	spreadsheet	A180umwire	A	B	19
+measured	180	0.6	0.14234733333333333	spreadsheet	A180umwire	A	B	20
+measured	180	0.575	0.16664266666666666	spreadsheet	A180umwire	A	B	21
+measured	180	0.55	0.19003	spreadsheet	A180umwire	A	B	22
+measured	180	0.525	0.22082	spreadsheet	A180umwire	A	B	23
+measured	180	0.5	0.2603273333333333	spreadsheet	A180umwire	A	B	24
+measured	180	0.475	0.30933	spreadsheet	A180umwire	A	B	25
+measured	180	0.45	0.360964	spreadsheet	A180umwire	A	B	26
+measured	180	0.425	0.44351	spreadsheet	A180umwire	A	B	27
+measured	180	0.4	0.54769125	spreadsheet	A180umwire	A	B	28
+measured	180	0.375	0.6502586666666667	spreadsheet	A180umwire	A	B	29
+measured	180	0.35	0.7584386666666667	spreadsheet	A180umwire	A	B	30
+measured	180	0.325	0.871376	spreadsheet	A180umwire	A	B	31
+measured	200	0.3	1.7839777970092423	spreadsheet	A200umwire	A	H	0
+measured	200	0.31	1.6238529781807285	spreadsheet	A200umwire	A	H	1
+measured	200	0.32	1.4882662139621505	spreadsheet	A200umwire	A	H	2
+measured	200	0.32999999999999996	1.3365895457907917	spreadsheet	A200umwire	A	H	3
+measured	200	0.33999999999999997	1.186355316132907	spreadsheet	A200umwire	A	H	4
+measured	200	0.35	1.0858569492851435	spreadsheet	A200umwire	A	H	5
+measured	200	0.36	0.9554586325108931	spreadsheet	A200umwire	A	H	6
+measured	200	0.37	0.8624764340087698	spreadsheet	A200umwire	A	H	7
+measured	200	0.38	0.7948397541026329	spreadsheet	A200umwire	A	H	8
+measured	200	0.39	0.6837137789913355	spreadsheet	A200umwire	A	H	9
+measured	200	0.4	0.6151646438808824	spreadsheet	A200umwire	A	H	10
+measured	200	0.41	0.5656413210929615	spreadsheet	A200umwire	A	H	11
+measured	200	0.42	0.5160396780343637	spreadsheet	A200umwire	A	H	12
+measured	200	0.43	0.45568516329691156	spreadsheet	A200umwire	A	H	13
+measured	200	0.44	0.41207040340325507	spreadsheet	A200umwire	A	H	14
+measured	200	0.44999999999999996	0.3798101535345907	spreadsheet	A200umwire	A	H	15
+measured	200	0.45999999999999996	0.34897301417575893	spreadsheet	A200umwire	A	H	16
+measured	200	0.47	0.31580746124265446	spreadsheet	A200umwire	A	H	17
+measured	200	0.48	0.28596609332223044	spreadsheet	A200umwire	A	H	18
+measured	200	0.49	0.26436984778743805	spreadsheet	A200umwire	A	H	19
+measured	200	0.5	0.24481296583646375	spreadsheet	A200umwire	A	H	20
+measured	200	0.51	0.22970504792591828	spreadsheet	A200umwire	A	H	21
+measured	200	0.52	0.21748543684962185	spreadsheet	A200umwire	A	H	22
+measured	200	0.53	0.1896675816357413	spreadsheet	A200umwire	A	H	23
+measured	200	0.54	0.18011355071298585	spreadsheet	A200umwire	A	H	24
+measured	200	0.55	0.17036920816786158	spreadsheet	A200umwire	A	H	25
+measured	200	0.56	0.15697599675144813	spreadsheet	A200umwire	A	H	26
+measured	200	0.5700000000000001	0.159758030457097	spreadsheet	A200umwire	A	H	27
+measured	200	0.5800000000000001	0.14379155746364883	spreadsheet	A200umwire	A	H	28
+measured	200	0.5900000000000001	0.13204372718974533	spreadsheet	A200umwire	A	H	29
+measured	200	0.6000000000000001	0.12213517764967746	spreadsheet	A200umwire	A	H	30
+measured	200	0.6100000000000001	0.11482683443950534	spreadsheet	A200umwire	A	H	31
+measured	200	0.6200000000000001	0.11398212557835143	spreadsheet	A200umwire	A	H	32
+measured	200	0.6300000000000001	0.10590315005067036	spreadsheet	A200umwire	A	H	33
+measured	200	0.6400000000000001	0.09889632307961325	spreadsheet	A200umwire	A	H	34
+measured	200	0.6500000000000001	0.09103782745368293	spreadsheet	A200umwire	A	H	35
+measured	200	0.6600000000000001	0.08628151552295756	spreadsheet	A200umwire	A	H	36
+measured	200	0.6700000000000002	0.08126611010996995	spreadsheet	A200umwire	A	H	37
+measured	200	0.6900000000000002	0.07177752974522274	spreadsheet	A200umwire	A	H	39
+measured	200	0.7000000000000002	0.06967584201044161	spreadsheet	A200umwire	A	H	40
+measured	200	0.7100000000000002	0.06734117222736019	spreadsheet	A200umwire	A	H	41
+measured	200	0.7200000000000002	0.0635041393782264	spreadsheet	A200umwire	A	H	42
+measured	200	0.7300000000000002	0.062284029102124376	spreadsheet	A200umwire	A	H	43
+measured	200	0.7400000000000002	0.05889419109307338	spreadsheet	A200umwire	A	H	44
+measured	200	0.7500000000000002	0.05927921305087617	spreadsheet	A200umwire	A	H	45
+measured	200	0.7600000000000002	0.055478086255342306	spreadsheet	A200umwire	A	H	46
+measured	200	0.7700000000000002	0.0555848374975604	spreadsheet	A200umwire	A	H	47
+measured	200	0.7800000000000002	0.04986429694183772	spreadsheet	A200umwire	A	H	48
+measured	200	0.7900000000000003	0.05008925297579306	spreadsheet	A200umwire	A	H	49
+measured	200	0.8000000000000003	0.047109757987050686	spreadsheet	A200umwire	A	H	50
+measured	200	0.8100000000000003	0.04585385643382286	spreadsheet	A200umwire	A	H	51
+measured	200	0.8200000000000003	0.044514502611609434	spreadsheet	A200umwire	A	H	52
+measured	200	0.8300000000000003	0.04362425555240183	spreadsheet	A200umwire	A	H	53
+measured	200	0.8400000000000003	0.04476037936279631	spreadsheet	A200umwire	A	H	54
+measured	200	0.8500000000000003	0.042828932627471755	spreadsheet	A200umwire	A	H	55
+measured	200	0.8600000000000003	0.0405245429612537	spreadsheet	A200umwire	A	H	56
+measured	200	0.8700000000000003	0.041939846491925635	spreadsheet	A200umwire	A	H	57
+measured	200	0.8800000000000003	0.03884942228451244	spreadsheet	A200umwire	A	H	58
+measured	200	0.8900000000000003	0.04157419997764094	spreadsheet	A200umwire	A	H	59
+measured	200	0.9000000000000004	0.03964073144039569	spreadsheet	A200umwire	A	H	60
+measured	200	0.9100000000000004	0.037169073816117344	spreadsheet	A200umwire	A	H	61
+measured	200	0.9200000000000004	0.03710655343783013	spreadsheet	A200umwire	A	H	62
+measured	200	0.9300000000000004	0.036453545782686655	spreadsheet	A200umwire	A	H	63
+measured	200	0.9400000000000004	0.03604995871987483	spreadsheet	A200umwire	A	H	64
+measured	200	0.9500000000000004	0.035727310921089994	spreadsheet	A200umwire	A	H	65
+measured	200	0.9600000000000004	0.035599104475952464	spreadsheet	A200umwire	A	H	66
+measured	200	0.9700000000000004	0.03537409462844519	spreadsheet	A200umwire	A	H	67
+measured	200	0.9800000000000004	0.03508421311267269	spreadsheet	A200umwire	A	H	68
+measured	200	0.9900000000000004	0.03404160949724939	spreadsheet	A200umwire	A	H	69
+measured	200	1.0000000000000004	0.03199618108404675	spreadsheet	A200umwire	A	H	70
+measured	200	1.0100000000000005	0.034135295798498264	spreadsheet	A200umwire	A	H	71
+measured	200	1.0200000000000005	0.03388509215271992	spreadsheet	A200umwire	A	H	72
+measured	200	1.0300000000000005	0.03261789184223029	spreadsheet	A200umwire	A	H	73
+measured	200	1.0400000000000005	0.0290008522563646	spreadsheet	A200umwire	A	H	74
+measured	200	1.0500000000000005	0.031731440824522804	spreadsheet	A200umwire	A	H	75
+measured	200	1.0600000000000005	0.030691336442515114	spreadsheet	A200umwire	A	H	76
+measured	200	1.0700000000000005	0.031068140915176456	spreadsheet	A200umwire	A	H	77
+measured	200	1.0800000000000005	0.03331428174410217	spreadsheet	A200umwire	A	H	78
+measured	200	1.0900000000000005	0.031390528550728804	spreadsheet	A200umwire	A	H	79
+measured	200	1.1000000000000005	0.02777153836319535	spreadsheet	A200umwire	A	H	80
+measured	200	1.1100000000000005	0.027655818793440243	spreadsheet	A200umwire	A	H	81
+measured	200	1.1200000000000006	0.02945003448874705	spreadsheet	A200umwire	A	H	82
+measured	200	1.1300000000000006	0.02872352911338872	spreadsheet	A200umwire	A	H	83
+measured	200	1.1400000000000006	0.027877110597912078	spreadsheet	A200umwire	A	H	84
+measured	200	1.1500000000000006	0.027285085020090413	spreadsheet	A200umwire	A	H	85
+measured	200	1.1600000000000006	0.028438948979827985	spreadsheet	A200umwire	A	H	86
+measured	200	1.1700000000000006	0.02926449941205527	spreadsheet	A200umwire	A	H	87
+measured	200	1.1800000000000006	0.028026247534686452	spreadsheet	A200umwire	A	H	88
+measured	200	1.1900000000000006	0.028185624725489137	spreadsheet	A200umwire	A	H	89
+measured	200	1.2000000000000006	0.028437496625771632	spreadsheet	A200umwire	A	H	90
+measured	200	1.2100000000000006	0.029256444528427128	spreadsheet	A200umwire	A	H	91
+measured	200	1.2200000000000006	0.02736383518088292	spreadsheet	A200umwire	A	H	92
+measured	200	1.2300000000000006	0.030040852636887775	spreadsheet	A200umwire	A	H	93
+measured	200	1.2400000000000007	0.029222674371071983	spreadsheet	A200umwire	A	H	94
+measured	200	1.2500000000000007	0.029175162046476612	spreadsheet	A200umwire	A	H	95
+measured	200	1.2600000000000007	0.031041480252019974	spreadsheet	A200umwire	A	H	96
+measured	800	0.3	3.9542586422717223	spreadsheet	Joonas800umwi	A	B	0
+measured	800	0.31	3.3455659860283324	spreadsheet	Joonas800umwi	A	B	1
+measured	800	0.32	2.798570094796342	spreadsheet	Joonas800umwi	A	B	2
+measured	800	0.32999999999999996	2.3781106389537245	spreadsheet	Joonas800umwi	A	B	3
+measured	800	0.33999999999999997	1.968629771079753	spreadsheet	Joonas800umwi	A	B	4
+measured	800	0.35	1.6435683946426258	spreadsheet	Joonas800umwi	A	B	5
+measured	800	0.36	1.4203539802181175	spreadsheet	Joonas800umwi	A	B	6
+measured	800	0.37	1.2188542935251923	spreadsheet	Joonas800umwi	A	B	7
+measured	800	0.38	1.0753614856189448	spreadsheet	Joonas800umwi	A	B	8
+measured	800	0.39	0.9359269196087233	spreadsheet	Joonas800umwi	A	B	9
+measured	800	0.4	0.8019973561798979	spreadsheet	Joonas800umwi	A	B	10
+measured	800	0.41	0.7078497932374571	spreadsheet	Joonas800umwi	A	B	11
+measured	800	0.42	0.6321242356950323	spreadsheet	Joonas800umwi	A	B	12
+measured	800	0.43	0.5714128012069961	spreadsheet	Joonas800umwi	A	B	13
+measured	800	0.44	0.49767090133450537	spreadsheet	Joonas800umwi	A	B	14
+measured	800	0.44999999999999996	0.45609393266738285	spreadsheet	Joonas800umwi	A	B	15
+measured	800	0.45999999999999996	0.4115908732454385	spreadsheet	Joonas800umwi	A	B	16
+measured	800	0.47	0.36610337199588444	spreadsheet	Joonas800umwi	A	B	17
+measured	800	0.48	0.3352072647348789	spreadsheet	Joonas800umwi	A	B	18
+measured	800	0.49	0.30246041814179436	spreadsheet	Joonas800umwi	A	B	19
+measured	800	0.5	0.28553730842085656	spreadsheet	Joonas800umwi	A	B	20
+measured	800	0.51	0.2610798547397521	spreadsheet	Joonas800umwi	A	B	21
+measured	800	0.52	0.2412218215751399	spreadsheet	Joonas800umwi	A	B	22
+measured	800	0.53	0.21192344813880068	spreadsheet	Joonas800umwi	A	B	23
+measured	800	0.54	0.20671074199417575	spreadsheet	Joonas800umwi	A	B	24
+measured	800	0.55	0.19189657004046173	spreadsheet	Joonas800umwi	A	B	25
+measured	800	0.56	0.18059129404516552	spreadsheet	Joonas800umwi	A	B	26
+measured	800	0.5700000000000001	0.16909310298476088	spreadsheet	Joonas800umwi	A	B	27
+measured	800	0.5800000000000001	0.15778482176492617	spreadsheet	Joonas800umwi	A	B	28
+measured	800	0.59	0.1466196801297675	spreadsheet	Joonas800umwi	A	B	29
+measured	800	0.6	0.13922431143724995	spreadsheet	Joonas800umwi	A	B	30
+measured	800	0.61	0.1322947891183251	spreadsheet	Joonas800umwi	A	B	31
+measured	800	0.62	0.12041110179994075	spreadsheet	Joonas800umwi	A	B	32
+measured	800	0.63	0.11953303780533	spreadsheet	Joonas800umwi	A	B	33
+measured	800	0.64	0.11028763433781283	spreadsheet	Joonas800umwi	A	B	34
+measured	800	0.65	0.10538297282181416	spreadsheet	Joonas800umwi	A	B	35
+measured	800	0.6599999999999999	0.10040895171478423	spreadsheet	Joonas800umwi	A	B	36
+measured	800	0.6699999999999999	0.09734615970683112	spreadsheet	Joonas800umwi	A	B	37
+measured	800	0.6799999999999999	0.0910901447673043	spreadsheet	Joonas800umwi	A	B	38
+measured	800	0.69	0.0875519194185661	spreadsheet	Joonas800umwi	A	B	39
+measured	800	0.7	0.081	spreadsheet	Joonas800umwi	A	B	40
+measured	800	0.71	0.077	spreadsheet	Joonas800umwi	A	B	41
+measured	800	0.72	0.074	spreadsheet	Joonas800umwi	A	B	42
+measured	800	0.73	0.07	spreadsheet	Joonas800umwi	A	B	43
+measured	800	0.74	0.068	spreadsheet	Joonas800umwi	A	B	44
+measured	800	0.75	0.063	spreadsheet	Joonas800umwi	A	B	45
+measured	800	0.76	0.059	spreadsheet	Joonas800umwi	A	B	46
+measured	800	0.77	0.059	spreadsheet	Joonas800umwi	A	B	47
+measured	800	0.78	0.058	spreadsheet	Joonas800umwi	A	B	48
+measured	800	0.79	0.051	spreadsheet	Joonas800umwi	A	B	49
+measured	800	0.8	0.055	spreadsheet	Joonas800umwi	A	B	50
+measured	800	0.81	0.054	spreadsheet	Joonas800umwi	A	B	51
+measured	800	0.8200000000000001	0.053	spreadsheet	Joonas800umwi	A	B	52
+measured	800	0.8300000000000001	0.047	spreadsheet	Joonas800umwi	A	B	53
+measured	800	0.8400000000000001	0.05	spreadsheet	Joonas800umwi	A	B	54
+measured	800	0.8500000000000001	0.052	spreadsheet	Joonas800umwi	A	B	55
+measured	800	0.8600000000000001	0.051	spreadsheet	Joonas800umwi	A	B	56
+measured	800	0.8700000000000001	0.05	spreadsheet	Joonas800umwi	A	B	57
+measured	800	0.8800000000000001	0.046	spreadsheet	Joonas800umwi	A	B	58
+measured	800	0.8900000000000001	0.046	spreadsheet	Joonas800umwi	A	B	59
+measured	800	0.9000000000000001	0.045	spreadsheet	Joonas800umwi	A	B	60
+measured	800	0.9100000000000001	0.043	spreadsheet	Joonas800umwi	A	B	61
+measured	800	0.9200000000000002	0.044	spreadsheet	Joonas800umwi	A	B	62
+measured	800	0.9300000000000002	0.05	spreadsheet	Joonas800umwi	A	B	63
+measured	800	0.9400000000000002	0.042	spreadsheet	Joonas800umwi	A	B	64
+measured	800	0.9500000000000002	0.038	spreadsheet	Joonas800umwi	A	B	65
+measured	800	0.9600000000000002	0.045	spreadsheet	Joonas800umwi	A	B	66
+measured	800	0.9700000000000002	0.039	spreadsheet	Joonas800umwi	A	B	67
+measured	800	0.9800000000000002	0.046	spreadsheet	Joonas800umwi	A	B	68
+measured	800	0.9900000000000002	0.039	spreadsheet	Joonas800umwi	A	B	69
+measured	800	1.0000000000000002	0.04	spreadsheet	Joonas800umwi	A	B	70
+measured	800	1.0100000000000002	0.04	spreadsheet	Joonas800umwi	A	B	71
+measured	800	1.0200000000000002	0.038	spreadsheet	Joonas800umwi	A	B	72
+measured	800	1.0300000000000002	0.032	spreadsheet	Joonas800umwi	A	B	73
+measured	800	1.0400000000000003	0.034	spreadsheet	Joonas800umwi	A	B	74
+measured	800	1.0500000000000003	0.038	spreadsheet	Joonas800umwi	A	B	75
+measured	800	1.0600000000000003	0.039	spreadsheet	Joonas800umwi	A	B	76
+measured	800	1.0700000000000003	0.038	spreadsheet	Joonas800umwi	A	B	77
+measured	800	1.0800000000000003	0.05	spreadsheet	Joonas800umwi	A	B	78
+measured	800	1.0900000000000003	0.044	spreadsheet	Joonas800umwi	A	B	79
+measured	800	1.1000000000000003	0.043	spreadsheet	Joonas800umwi	A	B	80
+measured	800	1.1100000000000003	0.04	spreadsheet	Joonas800umwi	A	B	81
+measured	800	1.1200000000000003	0.032	spreadsheet	Joonas800umwi	A	B	82
+measured	800	1.1300000000000003	0.042	spreadsheet	Joonas800umwi	A	B	83
+measured	800	1.1400000000000003	0.05	spreadsheet	Joonas800umwi	A	B	84
+electron_phonon_reference		0.2	1222.7729108593217	spreadsheet	electronphono	A	B	0
+electron_phonon_reference		0.21000000000000002	974.9054038038696	spreadsheet	electronphono	A	B	1
+electron_phonon_reference		0.22	722.5772998236775	spreadsheet	electronphono	A	B	2
+electron_phonon_reference		0.23	497.5813638895002	spreadsheet	electronphono	A	B	3
+electron_phonon_reference		0.24000000000000002	325.7621335092578	spreadsheet	electronphono	A	B	4
+electron_phonon_reference		0.25	208.90841792958145	spreadsheet	electronphono	A	B	5
+electron_phonon_reference		0.26	134.3137132493835	spreadsheet	electronphono	A	B	6
+electron_phonon_reference		0.27	87.76205618050315	spreadsheet	electronphono	A	B	7
+electron_phonon_reference		0.28	58.65029134996741	spreadsheet	electronphono	A	B	8
+electron_phonon_reference		0.29000000000000004	40.16913003857262	spreadsheet	electronphono	A	B	9
+electron_phonon_reference		0.30000000000000004	28.189143263182878	spreadsheet	electronphono	A	B	10
+electron_phonon_reference		0.31	20.24384818978839	spreadsheet	electronphono	A	B	11
+electron_phonon_reference		0.32	14.852577325649289	spreadsheet	electronphono	A	B	12
+electron_phonon_reference		0.33	11.113299973033602	spreadsheet	electronphono	A	B	13
+electron_phonon_reference		0.34	8.465957006861585	spreadsheet	electronphono	A	B	14
+electron_phonon_reference		0.35	6.55560559394059	spreadsheet	electronphono	A	B	15
+electron_phonon_reference		0.36	5.152611059078313	spreadsheet	electronphono	A	B	16
+electron_phonon_reference		0.37	4.105408207248844	spreadsheet	electronphono	A	B	17
+electron_phonon_reference		0.38	3.312038628890556	spreadsheet	electronphono	A	B	18
+electron_phonon_reference		0.39	2.7026749295792967	spreadsheet	electronphono	A	B	19
+electron_phonon_reference		0.4	2.228686216746581	spreadsheet	electronphono	A	B	20
+electron_phonon_reference		0.41000000000000003	1.855669304295158	spreadsheet	electronphono	A	B	21
+electron_phonon_reference		0.42000000000000004	1.558928197766702	spreadsheet	electronphono	A	B	22
+electron_phonon_reference		0.43000000000000005	1.3204922367709442	spreadsheet	electronphono	A	B	23
+electron_phonon_reference		0.44	1.1271173101122356	spreadsheet	electronphono	A	B	24
+electron_phonon_reference		0.45	0.9689264274393651	spreadsheet	electronphono	A	B	25
+electron_phonon_reference		0.46	0.8384715679733095	spreadsheet	electronphono	A	B	26
+electron_phonon_reference		0.4700000000000001	0.7300776574500808	spreadsheet	electronphono	A	B	27
+electron_phonon_reference		0.48000000000000004	0.6393783782472628	spreadsheet	electronphono	A	B	28
+electron_phonon_reference		0.49	0.562983488337486	spreadsheet	electronphono	A	B	29
+electron_phonon_reference		0.5	0.49823794130986726	spreadsheet	electronphono	A	B	30
+electron_phonon_reference		0.51	0.4430455847757723	spreadsheet	electronphono	A	B	31
+electron_phonon_reference		0.52	0.39573884769439666	spreadsheet	electronphono	A	B	32
+electron_phonon_reference		0.53	0.3549815826092904	spreadsheet	electronphono	A	B	33
+electron_phonon_reference		0.54	0.31969581108089	spreadsheet	electronphono	A	B	34
+electron_phonon_reference		0.55	0.28900630364069185	spreadsheet	electronphono	A	B	35
+electron_phonon_reference		0.56	0.26219806498015585	spreadsheet	electronphono	A	B	36
+electron_phonon_reference		0.5700000000000001	0.23868361675071456	spreadsheet	electronphono	A	B	37
+electron_phonon_reference		0.5800000000000001	0.21797759592647786	spreadsheet	electronphono	A	B	38
+electron_phonon_reference		0.5900000000000001	0.19967690436749183	spreadsheet	electronphono	A	B	39
+electron_phonon_reference		0.6000000000000001	0.1834450967241024	spreadsheet	electronphono	A	B	40
+electron_phonon_reference		0.6100000000000001	0.16900002526276287	spreadsheet	electronphono	A	B	41
+electron_phonon_reference		0.62	0.15610400519409134	spreadsheet	electronphono	A	B	42
+electron_phonon_reference		0.63	0.14455594198114244	spreadsheet	electronphono	A	B	43
+electron_phonon_reference		0.64	0.134184995582809	spreadsheet	electronphono	A	B	44
+electron_phonon_reference		0.65	0.12484545532006287	spreadsheet	electronphono	A	B	45
+electron_phonon_reference		0.66	0.1164125734989005	spreadsheet	electronphono	A	B	46
+electron_phonon_reference		0.67	0.10877916288892146	spreadsheet	electronphono	A	B	47
+electron_phonon_reference		0.6799999999999999	0.10185280496828758	spreadsheet	electronphono	A	B	48
+electron_phonon_reference		0.69	0.09555354974633126	spreadsheet	electronphono	A	B	49
+electron_phonon_reference		0.7	0.08981201255178196	spreadsheet	electronphono	A	B	50
+electron_phonon_reference		0.71	0.08456779287171828	spreadsheet	electronphono	A	B	51
+electron_phonon_reference		0.72	0.07976815601276847	spreadsheet	electronphono	A	B	52
+electron_phonon_reference		0.73	0.07536692952061863	spreadsheet	electronphono	A	B	53
+electron_phonon_reference		0.74	0.07132357618179337	spreadsheet	electronphono	A	B	54
+electron_phonon_reference		0.75	0.06760241274602956	spreadsheet	electronphono	A	B	55
+electron_phonon_reference		0.76	0.06417194919348158	spreadsheet	electronphono	A	B	56
+electron_phonon_reference		0.77	0.061004328228518576	spreadsheet	electronphono	A	B	57
+electron_phonon_reference		0.78	0.058074848239531615	spreadsheet	electronphono	A	B	58
+electron_phonon_reference		0.79	0.055361556323428956	spreadsheet	electronphono	A	B	59
+electron_phonon_reference		0.8	0.05284489971659371	spreadsheet	electronphono	A	B	60
+electron_phonon_reference		0.81	0.05050742679398352	spreadsheet	electronphono	A	B	61
+electron_phonon_reference		0.8200000000000001	0.04833352970853881	spreadsheet	electronphono	A	B	62
+electron_phonon_reference		0.8300000000000001	0.04630922235947958	spreadsheet	electronphono	A	B	63
+electron_phonon_reference		0.8400000000000001	0.04442194838466722	spreadsheet	electronphono	A	B	64
+electron_phonon_reference		0.8500000000000001	0.04266041469785183	spreadsheet	electronphono	A	B	65
+electron_phonon_reference		0.8600000000000001	0.04101444691137121	spreadsheet	electronphono	A	B	66
+electron_phonon_reference		0.8700000000000001	0.03947486353064867	spreadsheet	electronphono	A	B	67
+electron_phonon_reference		0.8800000000000001	0.038033366122576115	spreadsheet	electronphono	A	B	68
+electron_phonon_reference		0.8900000000000001	0.03668244355758361	spreadsheet	electronphono	A	B	69
+electron_phonon_reference		0.9000000000000001	0.035415288112255736	spreadsheet	electronphono	A	B	70
+electron_phonon_reference		0.9099999999999999	0.03422572214291138	spreadsheet	electronphono	A	B	71
+electron_phonon_reference		0.9199999999999999	0.03310813384451415	spreadsheet	electronphono	A	B	72
+electron_phonon_reference		0.9299999999999999	0.03205742107025633	spreadsheet	electronphono	A	B	73
+electron_phonon_reference		0.94	0.031068942176859488	spreadsheet	electronphono	A	B	74
+electron_phonon_reference		0.95	0.030138473302131468	spreadsheet	electronphono	A	B	75
+electron_phonon_reference		0.96	0.029262171328430484	spreadsheet	electronphono	A	B	76
+electron_phonon_reference		0.97	0.02843654207714947	spreadsheet	electronphono	A	B	77
+electron_phonon_reference		0.98	0.027658413539765878	spreadsheet	electronphono	A	B	78
+electron_phonon_reference		0.99	0.02692491367812471	spreadsheet	electronphono	A	B	79
+electron_phonon_reference		1.0	0.026233453006132473	spreadsheet	electronphono	A	B	80
+electron_phonon_reference		1.01	0.02558171190385454	spreadsheet	electronphono	A	B	81
+electron_phonon_reference		1.02	0.02496763294544242	spreadsheet	electronphono	A	B	82
+electron_phonon_reference		1.03	0.024389418865766628	spreadsheet	electronphono	A	B	83
+electron_phonon_reference		1.04	0.023845536811075006	spreadsheet	electronphono	A	B	84
+electron_phonon_reference		1.05	0.02333473022777928	spreadsheet	electronphono	A	B	85
+electron_phonon_reference		1.06	0.022856039856885977	spreadsheet	electronphono	A	B	86
+electron_phonon_reference		1.07	0.0224088363971991	spreadsheet	electronphono	A	B	87
+electron_phonon_reference		1.08	0.021992867941772166	spreadsheet	electronphono	A	B	88
+electron_phonon_reference		1.09	0.021608327092850592	spreadsheet	electronphono	A	B	89
+electron_phonon_reference		1.1	0.021255944181048973	spreadsheet	electronphono	A	B	90
+electron_phonon_reference		1.11	0.020937116473840705	spreadsheet	electronphono	A	B	91
+electron_phonon_reference		1.12	0.020654087362923432	spreadsheet	electronphono	A	B	92
+electron_phonon_reference		1.1300000000000003	0.02041019692183151	spreadsheet	electronphono	A	B	93
+electron_phonon_reference		1.1400000000000001	0.020210236342304205	spreadsheet	electronphono	A	B	94
+electron_phonon_reference		1.1500000000000001	0.02006095750857204	spreadsheet	electronphono	A	B	95
+electron_phonon_reference		1.16	0.01997182061493914	spreadsheet	electronphono	A	B	96
+electron_phonon_reference		1.17	0.01995611791877695	spreadsheet	electronphono	A	B	97
+electron_phonon_reference		1.18	0.020032712837834445	spreadsheet	electronphono	A	B	98
+electron_phonon_reference		1.19	0.020228824342809777	spreadsheet	electronphono	A	B	99
+electron_phonon_reference		1.2	0.020584667502512612	spreadsheet	electronphono	A	B	100

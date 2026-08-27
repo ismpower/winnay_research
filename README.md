@@ -25,12 +25,12 @@ winnay_research/
 │       ├── reports/                 value tables, folder audit, recompute transcript
 │       └── scripts/                 9 scripts, fully reproducible
 │
-├── e3_core/                     MUTABLE — not yet created. Will hold the single
-│                                 canonical constants/equations module once the
-│                                 dimensional-analysis blocker (task 1) is resolved.
+├── e3_core/                     MUTABLE — tested restart equations. Currently
+│                                 contains geometry and entropy-capacity identities;
+│                                 no legacy Bruno value is accepted.
 │
-├── docs/                        not yet created. Will hold DIMENSIONAL_ANALYSIS.md
-│                                 and any other living reasoning docs.
+├── docs/                        living derivations, notation, and a hypothesis
+│                                 log that preserves ideas without promoting them.
 │
 └── reference/                   Ground-truth lookup data, sourced externally
                                   (CODATA, IUPAC/CIAAW, GWOSC/GCN/TNS) — not
@@ -74,3 +74,28 @@ never overwrite `2026-08-02_initial/`.
 
 Full detail, method, and recomputation transcripts:
 `audits/2026-08-02_initial/BRUNO_E3_FULL_AUDIT.md`.
+
+## Run the clean-core tests
+
+```bash
+python3 -m unittest discover -s e3_core/tests -v
+```
+
+The current core is dependency-free and contains no accepted numerical Bruno
+constant. Every implemented relationship is an explicit geometric or density
+identity documented under `docs/`.
+
+## Current empirical cross-check
+
+The superconductivity reference now includes a source-faithful aluminum
+heat-capacity crossover and a separate quasiparticle-relaxation dataset. The
+first exploratory comparison is normalized by each sample's measured `Tc`;
+it is explicitly recorded as a possible alignment, not a validation of E3.
+
+```bash
+python3 scripts/analyze_aluminum_table_ii.py
+python3 scripts/analyze_aluminum_relaxation_alignment.py
+```
+
+See `reference/superconductivity/relaxation/norowski_2026/README.md` for the
+interpretation boundary and provenance.

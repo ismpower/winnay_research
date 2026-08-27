@@ -1,0 +1,35 @@
+{
+  "dataset": "NIMS MDR SuperCon Datasheet Ver.240322",
+  "dataset_doi": "https://doi.org/10.48505/nims.4487",
+  "dataset_record": "https://mdr.nims.go.jp/datasets/650c4826-f0ca-42e8-8dd9-94025a5307ce",
+  "source_archive_sha256": "764cbf86cc225e857276cba79f9a03514b7002bfa6dea20ccd760b2005cb3a15",
+  "source_table": "20240322_MDR_OAndM.txt",
+  "source_total_observations": 33458,
+  "source_total_fields": 191,
+  "selection_rule": {
+    "source_field": "element",
+    "exact_values": [
+      "Al1",
+      "Sn1",
+      "Pb1",
+      "Nb1",
+      "Hg1"
+    ],
+    "note": "Selection metadata chosen for the first E3 reference audit; not a NIMS classification field."
+  },
+  "selected_observations": 71,
+  "selected_counts_by_formula": {
+    "Al1": 10,
+    "Sn1": 19,
+    "Pb1": 17,
+    "Nb1": 19,
+    "Hg1": 6
+  },
+  "distinct_reference_rows": 52,
+  "transformations": [
+    "Selected rows by exact element-field match.",
+    "Copied selected source strings verbatim.",
+    "Added source_line_number and extraction_evidence_status metadata.",
+    "Did not impute blanks, parse numbers, convert units, average values, or select consensus values."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "source": "Y. L. Shen, UCRL-16117 (1965), Figure 11",
+  "source_pdf_page_1_based": 35,
+  "observable": "Cs = Cn, reduced to Ces/(gamma*Tc) = T/Tc",
+  "required_assumption": "superconducting and normal lattice heat capacities are equal",
+  "graphical_assessment": {
+    "method": "conservative visual sign-change bracket; no invented point values",
+    "Tc_over_T_bracket": [
+      1.55,
+      1.65
+    ],
+    "T_over_Tc_bracket": [
+      0.6060606060606061,
+      0.6451612903225806
+    ],
+    "bracket_midpoint_T_over_Tc": 0.6256109481915934,
+    "half_bracket_width_T_over_Tc": 0.019550342130987275,
+    "precision_warning": "Midpoint is a locator, not a measured best-fit estimate."
+  },
+  "published_exponential_fit_sensitivity": {
+    "equation": "Ces/(gamma*Tc) = 7.0 exp(-1.46 Tc/T)",
+    "published_validity_Tc_over_T": [
+      2.0,
+      6.0
+    ],
+    "extrapolated_equality_T_over_Tc": 0.5904138592440049,
+    "extrapolated_equality_Tc_over_T": 1.6937271785598824,
+    "root_inside_published_validity": false,
+    "acceptance": "Rejected as a measured crossover because the root is outside fit validity."
+  },
+  "comparison": {
+    "aluminum_table_ii_T_over_Tc": 0.5058064687,
+    "niobium_graphical_bracket_contains_aluminum_value": false
+  }
+}

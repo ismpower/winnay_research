@@ -1,0 +1,32 @@
+repository,path,commit,author_date,subject
+Entropy-Collapse-Research,Entropy_Hypothesis_History/Hypothesis/Entropy_Project_Summary_UPDATED.TeX,eab1f342cb46300a14fb53ab52574f848946b049,2025-03-27T01:37:20-04:00,New Repo first drop
+Entropy-Collapse-Research,Entropy_Hypothesis_History/Hypothesis/LaTeX TimeStamp.png,eab1f342cb46300a14fb53ab52574f848946b049,2025-03-27T01:37:20-04:00,New Repo first drop
+Entropy-Collapse-Research,Figures/Figures Datas/Figure_Waves_Timeline.csv,eab1f342cb46300a14fb53ab52574f848946b049,2025-03-27T01:37:20-04:00,New Repo first drop
+Entropy-Collapse-Research,Scripts/Entropy Collapse Test/Bruno Constant.py,eab1f342cb46300a14fb53ab52574f848946b049,2025-03-27T01:37:20-04:00,New Repo first drop
+Entropy-Collapse-Research,Scripts/Entropy Collapse Test/Entropy Collapse Test 1.5.py,eab1f342cb46300a14fb53ab52574f848946b049,2025-03-27T01:37:20-04:00,New Repo first drop
+Bruno_Entropy_Project,data/notes/Bruno Constant Note.txt,7c69c215c6074f7b3ec7b00596ad31d716e8897e,2025-04-11T12:54:16-04:00,Initial commit: Full Bruno Entropy Project
+Bruno_Entropy_Project,data/registry/bruno_events_registry.csv,7c69c215c6074f7b3ec7b00596ad31d716e8897e,2025-04-11T12:54:16-04:00,Initial commit: Full Bruno Entropy Project
+Bruno_Entropy_Project,notebooks/Bruno_timeline_analysis.ipynb,7c69c215c6074f7b3ec7b00596ad31d716e8897e,2025-04-11T12:54:16-04:00,Initial commit: Full Bruno Entropy Project
+Bruno_Entropy_Project,notebooks/Fluence_Model_Comparison.ipynb,7c69c215c6074f7b3ec7b00596ad31d716e8897e,2025-04-11T12:54:16-04:00,Initial commit: Full Bruno Entropy Project
+Bruno_Entropy_Project,notebooks/Fluence_Model_Comparison.ipynb,e13ba03f93790b6139f803db3f037760d7bb636d,2025-04-13T02:45:02-04:00,Notebook update
+CLEAN_WORKSPACE/archived_research/bruno-collapse-unified,scripts/legacy_import/Final/Bruno_Constant_Extraction.py,012a27b6238fe3d51e22ac9238038d7019dd54ec,2025-05-18T01:46:06-04:00,Initial import of unified Bruno Collapse project
+CLEAN_WORKSPACE/archived_research/bruno-collapse-unified,docs/theory/bruno_constant_derivation.json,07cc35dfb909da1eed914d858d6c24607d04a27b,2025-05-18T10:51:02-04:00,"Finalize infrastructure sync: notebook registry, manifest, theory files, and backup-safe rewriter"
+E3_CURRENT_PRODUCTION,README.md,8f5fa49040622d2b7d85c04a9428571d4c0f2dd0,2025-07-29T11:41:30-04:00,Initial commit: E3 Engine - Physics-Informed GNN for Entropic Relaxation
+E3_CURRENT_PRODUCTION,bruno_framework/applications/fluence_engine.py,8f5fa49040622d2b7d85c04a9428571d4c0f2dd0,2025-07-29T11:41:30-04:00,Initial commit: E3 Engine - Physics-Informed GNN for Entropic Relaxation
+E3_CURRENT_PRODUCTION,bruno_framework/theory/bruno_threshold.py,8f5fa49040622d2b7d85c04a9428571d4c0f2dd0,2025-07-29T11:41:30-04:00,Initial commit: E3 Engine - Physics-Informed GNN for Entropic Relaxation
+E3_CURRENT_PRODUCTION,e3_engine/core/__init__.py,8f5fa49040622d2b7d85c04a9428571d4c0f2dd0,2025-07-29T11:41:30-04:00,Initial commit: E3 Engine - Physics-Informed GNN for Entropic Relaxation
+E3_CURRENT_PRODUCTION,e3_engine/core/entropy_first_model.py,8f5fa49040622d2b7d85c04a9428571d4c0f2dd0,2025-07-29T11:41:30-04:00,Initial commit: E3 Engine - Physics-Informed GNN for Entropic Relaxation
+E3_CURRENT_PRODUCTION,e3_engine/core/registry_logger.py,8f5fa49040622d2b7d85c04a9428571d4c0f2dd0,2025-07-29T11:41:30-04:00,Initial commit: E3 Engine - Physics-Informed GNN for Entropic Relaxation
+E3_CURRENT_PRODUCTION,e3_engine/core/utils.py,8f5fa49040622d2b7d85c04a9428571d4c0f2dd0,2025-07-29T11:41:30-04:00,Initial commit: E3 Engine - Physics-Informed GNN for Entropic Relaxation
+E3_CURRENT_PRODUCTION,README.md,f2bafdeefab354db768820f2c4af83cd5e5da16e,2025-07-29T11:50:27-04:00,Add development history documentation
+E3_CURRENT_PRODUCTION,README.md,f79b9ccc535ec6695a1d6131eae6e3c17d4ea26f,2025-07-29T16:11:56-04:00,Update README: Honor Bruno's legacy and true 6-month development story
+E3_CURRENT_PRODUCTION,e3_engine/anomaly_hunter.py,ecbaffeca238ed22e2f6b08de0c8f7f0a5f3f51e,2025-07-30T23:11:07-04:00,🚀 DAVP Pipeline v1.0: Complete Implementation + Physics Validation
+E3_CURRENT_PRODUCTION,e3_engine/davp_utils.py,ecbaffeca238ed22e2f6b08de0c8f7f0a5f3f51e,2025-07-30T23:11:07-04:00,🚀 DAVP Pipeline v1.0: Complete Implementation + Physics Validation
+E3_CURRENT_PRODUCTION,e3_engine/neural_physics_engine.py,ecbaffeca238ed22e2f6b08de0c8f7f0a5f3f51e,2025-07-30T23:11:07-04:00,🚀 DAVP Pipeline v1.0: Complete Implementation + Physics Validation
+E3_CURRENT_PRODUCTION,e3_engine/physics_validation.py,ecbaffeca238ed22e2f6b08de0c8f7f0a5f3f51e,2025-07-30T23:11:07-04:00,🚀 DAVP Pipeline v1.0: Complete Implementation + Physics Validation
+E3_CURRENT_PRODUCTION,e3_engine/__pycache__/mdqt_processor.cpython-310.pyc,a393148dbaec938d0f01023b604bf1de5cb0450b,2025-07-31T00:05:48-04:00,🚀 E3 Engine v1.0: Production MDQT Integration + Real UNP Anomaly Detection
+E3_CURRENT_PRODUCTION,e3_engine/mdqt_processor.py,a393148dbaec938d0f01023b604bf1de5cb0450b,2025-07-31T00:05:48-04:00,🚀 E3 Engine v1.0: Production MDQT Integration + Real UNP Anomaly Detection
+E3_CURRENT_PRODUCTION,e3_engine/davp_superconductor_analysis.csv,33b16bcf731e711340f5cd0787ca43db466742df,2025-08-01T19:35:48-04:00,Add DAVP-compliant superconductor dataset generator and E3 normalization parameters
+E3_CURRENT_PRODUCTION,e3_engine/davp_superconductor_dataset.json,33b16bcf731e711340f5cd0787ca43db466742df,2025-08-01T19:35:48-04:00,Add DAVP-compliant superconductor dataset generator and E3 normalization parameters
+E3_CURRENT_PRODUCTION,e3_engine/davp_superconductor_generator_clean.py,33b16bcf731e711340f5cd0787ca43db466742df,2025-08-01T19:35:48-04:00,Add DAVP-compliant superconductor dataset generator and E3 normalization parameters
+E3_CURRENT_PRODUCTION,e3_engine/e3_normalization_params.json,33b16bcf731e711340f5cd0787ca43db466742df,2025-08-01T19:35:48-04:00,Add DAVP-compliant superconductor dataset generator and E3 normalization parameters

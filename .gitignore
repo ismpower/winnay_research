@@ -23,5 +23,12 @@ scratchpad/
 tmp/
 /tmp/
 
+# Codex's local, frequently changing project/session notes
+/codex_session.ini
+
+# Downloaded third-party datasets are preserved locally but not committed.
+# Track their source, version, checksum, and layout in data/provenance/.
+/data/raw/
+
 # Local corpus path if anyone ever runs scripts/ inside this repo by mistake
 E3_Engine/

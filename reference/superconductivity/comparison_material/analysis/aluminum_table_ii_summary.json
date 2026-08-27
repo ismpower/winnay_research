@@ -1,0 +1,25 @@
+{
+  "input": "reference/superconductivity/comparison_material/data/Phillips_1959_Table_II.tsv",
+  "paper_doi": "10.1103/PhysRev.114.676",
+  "source_table": "Table II, printed page 681",
+  "source_pairs_total": 149,
+  "analysis_normal_pairs": 57,
+  "analysis_superconducting_pairs": 58,
+  "Tc_K": 1.163,
+  "analysis_range_K": [
+    0.1718,
+    1.1526
+  ],
+  "selection": "Normal and superconducting points with a shared measured temperature range; liquid-helium normal points above the range are excluded.",
+  "interpolation": "Piecewise linear through all selected printed points after sorting by temperature; no averaging or extrapolation.",
+  "crossover_bracket_K": [
+    0.5803,
+    0.5908
+  ],
+  "crossover_temperature_K": 0.5882529230512992,
+  "crossover_T_over_Tc": 0.5058064686597585,
+  "partial_delta_S_at_crossover_mJ_per_mol_K": -0.34089855203642677,
+  "partial_delta_S_at_upper_bound_mJ_per_mol_K": 0.20901977765613025,
+  "entropy_warning": "Both entropy integrals start at 0.1718 K and are offset partial integrals, not absolute S_s-S_n.",
+  "precision_warning": "Reported decimals are computational outputs, not experimental significant figures; experimental uncertainty is not propagated here."
+}

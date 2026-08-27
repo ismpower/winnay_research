@@ -8,13 +8,20 @@
     {
       "id": 1,
       "title": "Resolve the dimensional inconsistency in beta_B",
-      "status": "not_started",
+      "status": "in_progress",
       "blocking": true,
       "blocks": [2, 3, 4, 5],
       "category": "physics",
       "description": "beta_B = A/V = 3/R = kappa*T does not balance dimensionally: [3/R] = length^-1, [kappa*T] = dimensionless. No value of kappa is meaningful until this is resolved.",
       "deliverable": "A written derivation showing either (a) beta_B is not dimensionless, (b) 3/R carries a hidden length scale, or (c) kappa is not K^-1. Must survive manual hand-check, not just LLM output.",
-      "depends_on": []
+      "depends_on": [],
+      "progress": [
+        "2026-08-25: Established that beta_geom = A/V = 3/R has units m^-1",
+        "2026-08-25: Separated beta_geom, normalized beta_tilde, surface capacity, volumetric capacity, decay rate, temperature coefficient, and fluence cut",
+        "2026-08-25: Added executable tests for geometry, entropy-density cancellation, normalization, and scale conversion",
+        "2026-08-26: Added an exploratory, provenance-preserving comparison between the Phillips aluminum heat-capacity crossover and Norowski et al. quasiparticle relaxation; normalized by sample Tc and explicitly not treated as confirmation"
+      ],
+      "remaining": "Choose and justify the physical meaning of beta_B and any reference length or boundary capacity before accepting a numerical coefficient"
     },
     {
       "id": 2,
