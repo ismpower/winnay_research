@@ -83,7 +83,8 @@ python3 -m unittest discover -s e3_core/tests -v
 
 The current core is dependency-free and contains no accepted numerical Bruno
 constant. Every implemented relationship is an explicit geometric or density
-identity documented under `docs/`.
+identity, or established baseline physics (weak-coupling BCS,
+`e3_core/bcs.py`), documented under `docs/`.
 
 ## Current empirical cross-check
 

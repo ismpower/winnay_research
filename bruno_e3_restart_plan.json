@@ -117,11 +117,15 @@
     {
       "id": 8,
       "title": "Add a BCS baseline for superconductivity comparisons",
-      "status": "not_started",
+      "status": "in_progress",
       "blocking": false,
       "blocks": [9],
       "category": "physics",
-      "description": "Weak-coupling BCS theory predicts the C_s = C_n crossing near T/Tc = 0.515 (exploratory scipy calculation, 2026-11-03, not yet in the repo); Phillips aluminium Table II gives 0.506. Every superconductivity comparison must report the BCS prediction alongside the data, so that only departures from BCS can count as E3 evidence.",
+      "progress": [
+        "2026-11-03: Added e3_core/bcs.py (standard library only) and docs/BCS_BASELINE.md. Tests check Delta(0)/(k_B Tc) = pi exp(-gamma_E), the jump 12/(7 zeta(3)), the slope of Delta^2 at Tc, the entropy balance, the condensation energy and C = T dS/dT. Weak-coupling crossover t* = 0.5147917502752, matching an independent scipy Matsubara-sum implementation to 1e-13. Nine deliberately introduced errors were each caught by the tests."
+      ],
+      "remaining": "Report the BCS crossover alongside the aluminium and niobium analyses",
+      "description": "Weak-coupling BCS theory predicts the C_s = C_n crossing at T/Tc = 0.51479 (e3_core/bcs.py); Phillips aluminium Table II gives 0.506. Every superconductivity comparison must report the BCS prediction alongside the data, so that only departures from BCS can count as E3 evidence.",
       "deliverable": "e3_core/bcs.py with tests against textbook weak-coupling values (Delta(0)/(k_B Tc) = 1.764, Delta C/(gamma Tc) = 1.43 at Tc), and the BCS crossover reported in the aluminium and niobium analyses",
       "depends_on": []
     },
