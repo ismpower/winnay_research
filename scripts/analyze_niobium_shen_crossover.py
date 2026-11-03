@@ -7,7 +7,11 @@ import argparse
 import csv
 import json
 import math
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from e3_core import bcs  # noqa: E402
 
 
 TC_OVER_T_GRAPHICAL_BRACKET = (1.55, 1.65)
@@ -37,6 +41,7 @@ def analyze(output_dir: Path) -> dict:
     graphical_half_width = (reduced_high - reduced_low) / 2.0
 
     fit_root = bisection_root()
+    bcs_t = bcs.heat_capacity_crossover()
     fit_root_tc_over_t = 1.0 / fit_root
     fit_root_is_valid = (
         FIT_TC_OVER_T_VALIDITY[0]
@@ -94,6 +99,11 @@ def analyze(output_dir: Path) -> dict:
             "niobium_graphical_bracket_contains_aluminum_value": (
                 reduced_low <= 0.5058064687 <= reduced_high
             ),
+            "bcs_weak_coupling_T_over_Tc": bcs_t,
+            "niobium_graphical_bracket_contains_bcs_value": (
+                reduced_low <= bcs_t <= reduced_high
+            ),
+            "bcs_note": "Weak-coupling BCS (e3_core.bcs; docs/BCS_BASELINE.md). Strong-coupling corrections are not modelled, so a niobium value outside the weak-coupling prediction is not by itself evidence for new physics.",
         },
     }
     (output_dir / "shen_crossover_summary.json").write_text(

@@ -30,6 +30,9 @@
   },
   "comparison": {
     "aluminum_table_ii_T_over_Tc": 0.5058064687,
-    "niobium_graphical_bracket_contains_aluminum_value": false
+    "niobium_graphical_bracket_contains_aluminum_value": false,
+    "bcs_weak_coupling_T_over_Tc": 0.5147917502752536,
+    "niobium_graphical_bracket_contains_bcs_value": false,
+    "bcs_note": "Weak-coupling BCS (e3_core.bcs; docs/BCS_BASELINE.md). Strong-coupling corrections are not modelled, so a niobium value outside the weak-coupling prediction is not by itself evidence for new physics."
   }
 }

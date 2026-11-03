@@ -116,6 +116,27 @@ low-temperature negative contribution matters. A valid entropy-balance test
 must use the more precise Table II data and an explicitly justified treatment
 of the unmeasured interval down to zero.
 
+## Weak-coupling BCS baseline
+
+`e3_core/bcs.py` gives the weak-coupling BCS crossover `t* = 0.5147917503`
+(`docs/BCS_BASELINE.md`). At `Tc = 1.163 K` this is `0.5987 K`. The Table II
+summary records the comparison under `bcs_weak_coupling_baseline`:
+
+```text
+measured T_cross/Tc - t*            = -0.0090
+BCS temperature in sign-change bracket (0.5803-0.5908 K): no
+interpolated (C_s - C_n)/C_n at 0.5987 K = +0.0182
+Phillips' stated point precision         = about 0.02
+```
+
+The BCS temperature lies just outside the bracket where the interpolated
+difference changes sign. However, the measured `C_s` and `C_n` there differ by
+only 1.8%, which is within the stated precision of a single point; a difference
+of two such points is less precise still. **These data do not resolve a
+departure from weak-coupling BCS.** The crossover is therefore an expected
+BCS feature, not an E3 signature. A formal uncertainty propagation, including
+the temperature scale, would be needed to say more.
+
 ## Additional cue reported by the experiment
 
 Phillips reports that the superconducting electronic heat capacity did not

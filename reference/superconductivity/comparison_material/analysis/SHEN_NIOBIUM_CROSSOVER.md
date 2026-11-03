@@ -73,3 +73,19 @@ as either a measurement or a valid fit-derived crossover.
   therefore made first in reduced temperature.
 - This result is a figure-derived cue. A numerical calorimetry table would
   supersede it.
+
+## Weak-coupling BCS baseline
+
+The weak-coupling BCS crossover is `t* = 0.5147917503` (`e3_core/bcs.py`,
+`docs/BCS_BASELINE.md`). The niobium graphical bracket `0.606 <= T/Tc <= 0.645`
+lies above it and does not contain it; the summary records this under
+`comparison`.
+
+Niobium is not a weak-coupling superconductor, and strong-coupling corrections
+are not modelled in this repository. A simple strong-coupling approximation
+that only enlarges the gap (the alpha model, explored outside the repository on
+2026-11-03) moves the crossover upward but did not reach the bracket for
+`Delta(0)/(k_B Tc)` up to 2.0. The offset is therefore not explained here.
+Before it is treated as a cue, it needs a tabulated source rather than a
+figure, a check of the lattice-subtraction assumption, and Shen's two-gap
+interpretation taken into account.

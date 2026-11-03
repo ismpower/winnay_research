@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
-"""Curate Norowski et al. Fig. 2 data and compare reduced temperatures."""
+"""Curate Norowski et al. Fig. 2 data and compare reduced temperatures.
+
+If the gitignored raw extraction is present, the curated table is rebuilt from
+it first. Otherwise the committed curated table is used, which preserves every
+value exactly (floats are written with round-trip precision).
+"""
 
 import csv
 import json
+import sys
 from collections import defaultdict
 from pathlib import Path
 
@@ -25,6 +31,7 @@ SERIES = (
     ("spreadsheet", "Joonas800umwi", "A", "B", 800),
 )
 THEORY = ("spreadsheet", "electronphono", "A", "B")
+CURATED = OUT / "fig2_relaxation_curves.tsv"
 
 
 def load_columns():
@@ -54,7 +61,29 @@ def interpolate(points, target):
     return value, lower, upper
 
 
-def main():
+def load_curated():
+    """Return measured series and the reference curve from the committed table.
+
+    Points are (source_row_zero_based, temperature_K, tau_us), in file order,
+    which is the order the curation step wrote them.
+    """
+    measured = {length_um: [] for *_, length_um in SERIES}
+    theory_points = []
+    with CURATED.open(newline="", encoding="utf-8") as handle:
+        for row in csv.DictReader(handle, delimiter="\t"):
+            point = (int(row["source_row_zero_based"]), float(row["temperature_K"]), float(row["tau_us"]))
+            if row["series_kind"] == "measured":
+                measured[int(row["length_um"])].append(point)
+            elif row["series_kind"] == "electron_phonon_reference":
+                theory_points.append(point)
+            else:
+                raise ValueError(f"Unknown series kind {row['series_kind']!r}")
+    if not theory_points or any(not points for points in measured.values()):
+        raise ValueError("Curated table is missing a series")
+    return measured, theory_points
+
+
+def curate_from_raw():
     columns = load_columns()
     OUT.mkdir(parents=True, exist_ok=True)
 
@@ -95,10 +124,19 @@ def main():
     )
 
     fieldnames = list(curated[0])
-    with (OUT / "fig2_relaxation_curves.tsv").open("w", newline="", encoding="utf-8") as handle:
+    with CURATED.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames, delimiter="\t")
         writer.writeheader()
         writer.writerows(curated)
+
+
+def main():
+    if RAW.exists():
+        curate_from_raw()
+        print(f"Rebuilt {CURATED.relative_to(ROOT)} from raw extraction", file=sys.stderr)
+    else:
+        print(f"Raw extraction not found; using committed {CURATED.relative_to(ROOT)}", file=sys.stderr)
+    measured, theory_points = load_curated()
 
     reduced_target = PHILLIPS_CROSSOVER_K / PHILLIPS_TC_K
     target_K = reduced_target * NOROWSKI_TC_K
