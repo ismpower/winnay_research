@@ -62,13 +62,16 @@
     {
       "id": 2,
       "title": "Rename the six kappa values into distinct symbols",
-      "status": "not_started",
+      "status": "done",
       "blocking": false,
       "blocks": [3, 6],
       "category": "cleanup",
       "description": "Six different values currently share the name kappa: 1313 (Planck route), 1366 (GW route, refuted), 0.001005 (Chajar/tangency constant, dimensionless), 1340e-6 (kappa_lab, unverified), 1.23456789e-23 (placeholder, to be deleted), 1.0e-23 (unrelated toy model). Each real quantity needs its own name before further reuse.",
       "deliverable": "Naming decision recorded in e3_core/constants.py comments or a short NOTATION.md",
-      "depends_on": [1]
+      "depends_on": [1],
+      "progress": [
+        "2026-11-03: Naming decision recorded in docs/NOTATION.md under 'Legacy kappa values'. 3/(l_P T_P) -> kappa_T^Pl and 3/(R_s T_H) -> kappa_T^GW (one coefficient role in m^-1 K^-1, evaluated on two (R, T) pairs; their ratio is exactly 4 pi). The literals 1313 and 1366 are retired in favour of the expressions. 0.001005 -> chi_tan (dimensionless; its GW-pipeline reuse is a separate role, task 4). 1340e-6 -> kappa_lab (stated units K^-1 s^-1, unsourced, task 5). 1.23456789e-23 and 1.0e-23 are retired."
+      ]
     },
     {
       "id": 3,
