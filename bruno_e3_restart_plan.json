@@ -8,9 +8,9 @@
     {
       "id": 1,
       "title": "Resolve the dimensional inconsistency in beta_B",
-      "status": "in_progress",
-      "blocking": true,
-      "blocks": [2, 3, 4, 5],
+      "status": "done",
+      "blocking": false,
+      "blocks": [2, 3, 4, 5, 6, 7],
       "category": "physics",
       "description": "beta_B = A/V = 3/R = kappa*T does not balance dimensionally: [3/R] = length^-1, [kappa*T] = dimensionless. No value of kappa is meaningful until this is resolved.",
       "deliverable": "A written derivation showing either (a) beta_B is not dimensionless, (b) 3/R carries a hidden length scale, or (c) kappa is not K^-1. Must survive manual hand-check, not just LLM output.",
@@ -19,16 +19,52 @@
         "2026-08-25: Established that beta_geom = A/V = 3/R has units m^-1",
         "2026-08-25: Separated beta_geom, normalized beta_tilde, surface capacity, volumetric capacity, decay rate, temperature coefficient, and fluence cut",
         "2026-08-25: Added executable tests for geometry, entropy-density cancellation, normalization, and scale conversion",
-        "2026-08-26: Added an exploratory, provenance-preserving comparison between the Phillips aluminum heat-capacity crossover and Norowski et al. quasiparticle relaxation; normalized by sample Tc and explicitly not treated as confirmation"
+        "2026-08-26: Added an exploratory, provenance-preserving comparison between the Phillips aluminum heat-capacity crossover and Norowski et al. quasiparticle relaxation; normalized by sample Tc and explicitly not treated as confirmation",
+        "2026-11-03: Closed as resolved by outcomes (a) and (c) jointly; the remaining modelling question moved to task 7"
       ],
-      "remaining": "Choose and justify the physical meaning of beta_B and any reference length or boundary capacity before accepting a numerical coefficient"
+      "resolution": {
+        "outcome": "(a) and (c) jointly; (b) is available only as an explicit, declared choice",
+        "statement": "With beta_B defined as A/V for a sphere, A/V = 3/R exactly and [beta_B] = L^-1, so beta_B is not dimensionless (a). For beta_B = kappa_T * T to be dimensionally homogeneous, [kappa_T] = L^-1 Theta^-1, i.e. m^-1 K^-1 in SI, not K^-1 (c). A K^-1 coefficient exists only after multiplying by a declared reference length L_0, giving beta_tilde = L_0 * A/V = 3 L_0 / R (b). No value of L_0 follows from the geometry.",
+        "hand_check": "[A] = L^2, [V] = L^3, so [A/V] = L^-1. [T] = Theta. kappa_T * T = A/V requires [kappa_T] = L^-1 / Theta.",
+        "derivation_doc": "docs/DIMENSIONAL_ANALYSIS.md, sections 1, 3 and 4",
+        "code_evidence": "e3_core/geometry.py (surface_to_volume, normalized_surface_to_volume, temperature_coefficient) and e3_core/tests/test_geometry.py: A/V equals 3/R, the coefficient's numeric value changes with the length unit, and the normalized ratio is scale invariant"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Choose and justify the physical meaning of beta_B: reference length L_0 and boundary capacity sigma_crit",
+      "status": "not_started",
+      "blocking": true,
+      "blocks": [9],
+      "category": "physics",
+      "description": "Task 1 settled the dimensions, not the physics. Before any numerical coefficient is accepted, decide what length L_0 normalizes A/V and what surface capacity sigma_crit enters eta_S = S/(sigma_crit A), each with a physical argument stated before any data are compared.",
+      "deliverable": "A derivation in docs/ fixing L_0 and sigma_crit (or rejecting the beta_B construction), with each choice implemented and tested in e3_core/",
+      "depends_on": [1],
+      "leads": [
+        {
+          "statement": "Both legacy kappa routes reduce to k_B/(hbar c) times a pure number, with G and the black-hole mass cancelling: l_P * T_P = hbar c / k_B, so 3/(l_P T_P) = 3 k_B/(hbar c) = 1310.1097... m^-1 K^-1; R_s * T_H = hbar c/(4 pi k_B) for every mass, so 3/(R_s T_H) = 12 pi k_B/(hbar c) = 16463.32... m^-1 K^-1.",
+          "status": "algebraic identity; already recomputed in audits/2026-08-02_initial/reports/RECOMPUTE.md; checked numerically to floating-point equality on 2026-11-03; code test pending in task 3"
+        },
+        {
+          "statement": "Therefore the legacy condition 3/R = kappa T with kappa = 3 k_B/(hbar c) is equivalent to R = hbar c/(k_B T): the region radius equals the thermal photon length scale (the inverse of the thermal photon wavenumber k_B T/(hbar c)). This is not the Wien peak wavelength (b = 2.8978e-3 m K differs from hbar c/k_B = 2.2899e-3 m K). It is a candidate for L_0, not an established result.",
+          "status": "candidate interpretation"
+        },
+        {
+          "statement": "For massive particles the analogous scale is the thermal de Broglie wavelength lambda_th = h/sqrt(2 pi m k_B T), which governs the onset of quantum degeneracy in laser-cooled gases (n lambda_th^3 of order 2.6 for an ideal Bose gas). It may connect the cosmic and laboratory regimes.",
+          "status": "speculative; no derivation yet"
+        },
+        {
+          "statement": "If sigma_crit is the Bekenstein-Hawking capacity k_B/(4 l_P^2) = 1.32e46 J K^-1 m^-2, then eta_S is about 1e-46 for the Phillips aluminium sample at 1 K and about 3e-43 for 200 J/K in a 1 L sphere. eta_S = 1 cannot be tested in the laboratory under that choice, so a laboratory test needs a different, independently justified sigma_crit.",
+          "status": "order-of-magnitude calculation, 2026-11-03; not yet in code"
+        }
+      ]
     },
     {
       "id": 2,
       "title": "Rename the six kappa values into distinct symbols",
       "status": "not_started",
       "blocking": false,
-      "blocks": [3],
+      "blocks": [3, 6],
       "category": "cleanup",
       "description": "Six different values currently share the name kappa: 1313 (Planck route), 1366 (GW route, refuted), 0.001005 (Chajar/tangency constant, dimensionless), 1340e-6 (kappa_lab, unverified), 1.23456789e-23 (placeholder, to be deleted), 1.0e-23 (unrelated toy model). Each real quantity needs its own name before further reuse.",
       "deliverable": "Naming decision recorded in e3_core/constants.py comments or a short NOTATION.md",
@@ -77,6 +113,28 @@
       "description": "Low-risk, no physics judgment required. Safe to delegate to local LLM as a batch job once tasks 1-3 are settled. Includes: delete Entropy-Collapse-Research-main (hollow, all zero-byte files), delete davp_env and bruno_env virtualenvs (~40GB, rebuild from requirements.txt), remove all 32 bruno_constant=1.23456789e-23 placeholder sites, retract/delete BRUNO_CONSTANT_FINAL_ANALYSIS.md, normalize line endings before any future deduplication pass.",
       "deliverable": "Cleaned corpus, confirmed via re-run of classify.py showing zero placeholder hits",
       "depends_on": [1, 2, 3]
+    },
+    {
+      "id": 8,
+      "title": "Add a BCS baseline for superconductivity comparisons",
+      "status": "not_started",
+      "blocking": false,
+      "blocks": [9],
+      "category": "physics",
+      "description": "Weak-coupling BCS theory predicts the C_s = C_n crossing near T/Tc = 0.515 (exploratory scipy calculation, 2026-11-03, not yet in the repo); Phillips aluminium Table II gives 0.506. Every superconductivity comparison must report the BCS prediction alongside the data, so that only departures from BCS can count as E3 evidence.",
+      "deliverable": "e3_core/bcs.py with tests against textbook weak-coupling values (Delta(0)/(k_B Tc) = 1.764, Delta C/(gamma Tc) = 1.43 at Tc), and the BCS crossover reported in the aluminium and niobium analyses",
+      "depends_on": []
+    },
+    {
+      "id": 9,
+      "title": "Write one pre-registered, falsifiable E3 prediction",
+      "status": "not_started",
+      "blocking": false,
+      "blocks": [],
+      "category": "physics",
+      "description": "Before analysing any further datasets, state one quantitative E3 prediction that differs from the established baseline (for example BCS), fix the data and selection used to test it, and state the result that would falsify it. Comparisons made after looking at the data stay labelled exploratory.",
+      "deliverable": "A dated prediction document committed before the test data are analysed, plus the analysis script that tests it",
+      "depends_on": [7, 8]
     }
   ],
   "open_gaps_not_yet_actionable": [
