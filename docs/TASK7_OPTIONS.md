@@ -139,3 +139,39 @@ chosen on its own merits first.
    single fixed capacity covers black holes and laboratory matter.
 5. **Then task 9:** pre-register one prediction (for example the
    size-dependence test in 3.1, if (iii) is chosen) before analysing new data.
+
+## 5. Researcher responses (2026-11-07)
+
+Recorded as given; nothing below is yet a final choice.
+
+1. **L_0:** "a combination". Which options combine has not been specified.
+   (A + D reproduces the black-hole case exactly; see section 2.)
+2. **sigma_crit:** agreed that sigma_crit and its prefactor must be fixed by an
+   argument, not fitted. No capacity chosen yet.
+3. **S_system:** "none of the named". In the researcher's model, electrons
+   "come far after" and nuclear spin is an emergent phenomenon of the rise of
+   entropy. S_system is therefore intended to be more fundamental than any
+   particle species, and is not yet operationally defined.
+4. **Scope:** a constant must apply in every regime, but only within the
+   observable universe ("in our universe"). Anything beyond it is speculation.
+
+### Consequences (mathematical, not choices)
+
+- **3 needs a measurement rule before eta_S can be evaluated.** The species-free
+  quantity that experiments can measure is the calorimetric entropy,
+  `S(T) = S(T_0) + int_{T_0}^{T} C/T' dT'`, which counts every degree of
+  freedom without naming it. An absolute value of S needs a reference, either
+  the third law (integrating down through nuclear ordering at microkelvin
+  temperatures) or a model.
+- **With total entropy the aluminium coincidence of section 3.1 disappears.**
+  Total entropy at 0.2 K includes the nuclear-spin term `k_B ln 6` per atom,
+  6.2e7 times the lattice threshold, so eta_S stays far above 1. Section 3.1
+  survives only under an S that leaves out degrees of freedom that are fully
+  disordered and unchanging, for example "the entropy that changes over the
+  measured range". That would be a definition to argue for, not one to adopt
+  because it produces the coincidence.
+- **Scope 4 still includes black holes and laboratory matter**, since both are
+  in our universe. Section 3 shows that no single fixed sigma_crit puts both
+  near eta_S = 1, so a law of this form needs sigma_crit to vary with a stated
+  rule (and that rule then carries the physics), or a different observable.
+
