@@ -251,3 +251,42 @@ present decisions:
 particular, the aluminium size-dependence prediction is available only if (iii)
 is adopted on its own merits.
 
+### 6.4 Decision: atomic spacing as a third length (2026-11-07)
+
+The researcher adds the mean atomic spacing as a third reference length, which
+settles 6.3:
+
+```text
+a          = n^(-1/3)                          (crystal-structure independent)
+sigma_crit = k_B/a^2                           one k_B per surface site
+eta_S      = S_act/(sigma_crit A) = (S_act/(N k_B)) / (3a/R)    for V = N a^3
+```
+
+Implemented as `e3_core.scales.mean_atomic_spacing` and `lattice_capacity_ratio`
+(tested). The decided framework now has three lengths:
+
+| Length | Ratio | Role |
+|---|---|---|
+| `lambda_gamma(T)/(4 pi)` | `x` | thermal / Hawking scale (A) |
+| `R_s = 2GM/c^2` | `y` | horizon (D) |
+| `a = n^(-1/3)` | `z = 3a/R` | boundary capacity; `eta_S = (S_act/(N k_B))/z` |
+
+Caveats:
+
+- **The prefactor 1 is a heuristic argument, not a derivation.** On real
+  aluminium crystal faces the surface site density is 0.79 (fcc 100 face) or
+  0.92 (fcc 111 face) times `1/a^2`, using a room-temperature lattice constant
+  of 4.0495 Å (handbook value, assumed). Both factors lie inside the reported
+  `f = 0.25` to `4` band, which moves the aluminium crossing only between 0.161 K
+  and 0.225 K (section 3.1).
+- Section 3.1's warnings still apply: the coincidence with the Phillips anomaly
+  was found after the fact, and it depends on the active-entropy definition and
+  the BCS extrapolation below 0.1718 K.
+- The claim that aluminium's nuclear spins are frozen in zero field inside the
+  Phillips window still needs a cited source.
+- Still open, but not blocking task 9: how `x`, `y` and `z` combine for systems
+  away from the black-hole point.
+
+Task 9 (pre-registration) can now start. The candidate prediction is the size
+dependence of section 3.1.
+

@@ -35,6 +35,12 @@
       "eta_thermal_photon": 4.5476279944173056e+17,
       "eta_lattice": 5642.3330489835735,
       "lattice_threshold_entropy_per_atom_over_k_B": 2.8776691821999078e-08,
+      "eta_lattice_check_via_lattice_capacity_ratio": 5642.333048983553,
+      "surface_site_density_relative_to_1_over_a2": {
+        "fcc_100_face": 0.7934656639445138,
+        "fcc_111_face": 0.9162152293421805,
+        "note": "real crystal faces change the prefactor of sigma_crit by these factors; both lie inside the f = 0.25-4 sensitivity band"
+      },
       "normal_state_temperature_where_eta_lattice_is_1_K": 0.00017723165068750176,
       "assumptions": {
         "molar_mass_g_per_mol": 26.9815,

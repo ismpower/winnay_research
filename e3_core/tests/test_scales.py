@@ -152,3 +152,27 @@ class CombinedLengthTests(unittest.TestCase):
         self.assertAlmostEqual(
             scales.horizon_compactness(1.0e30, 2.0) / scales.horizon_compactness(1.0e30, 1.0), 0.5, places=15
         )
+
+
+class LatticeLengthTests(unittest.TestCase):
+    """Third length: sigma_crit = k_B/a^2 with a = n^(-1/3)."""
+
+    def test_mean_spacing_cubes_to_volume_per_atom(self):
+        n = 6.0e28
+        self.assertAlmostEqual(scales.mean_atomic_spacing(n) ** 3 * n, 1.0, places=14)
+
+    def test_ratio_matches_direct_entropy_over_capacity(self):
+        a, radius, s_per_atom = 2.55e-10, 0.0266, 4.0e-8
+        n_atoms = sphere_volume(radius) / a**3
+        entropy = s_per_atom * n_atoms * k.BOLTZMANN_CONSTANT_J_PER_K
+        direct = entropy / (scales.one_kb_per_area(a) * sphere_area(radius))
+        self.assertLess(rel_diff(scales.lattice_capacity_ratio(s_per_atom, a, radius), direct), 1.0e-13)
+
+    def test_unit_ratio_at_three_spacings_over_radius(self):
+        a, radius = 2.55e-10, 0.0266
+        self.assertAlmostEqual(scales.lattice_capacity_ratio(3.0 * a / radius, a, radius), 1.0, places=14)
+
+    def test_invalid_entropy_fails_loudly(self):
+        for bad in (-1.0, math.nan, math.inf):
+            with self.assertRaises(ValueError):
+                scales.lattice_capacity_ratio(bad, 2.55e-10, 0.0266)

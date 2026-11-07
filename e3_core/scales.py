@@ -92,3 +92,27 @@ def horizon_compactness(mass_kg: float, radius_m: float) -> float:
     from .constants import schwarzschild_radius
 
     return schwarzschild_radius(mass_kg) / _require_positive(radius_m, "radius_m")
+
+
+# ---------------------------------------------------------------------------
+# Third length: mean atomic spacing (docs/TASK7_OPTIONS.md, section 6.4)
+# ---------------------------------------------------------------------------
+
+def mean_atomic_spacing(number_density_per_m3: float) -> float:
+    """Return a = n^(-1/3) in metres, independent of crystal structure."""
+    return _require_positive(number_density_per_m3, "number_density_per_m3") ** (-1.0 / 3.0)
+
+
+def lattice_capacity_ratio(
+    active_entropy_per_atom_over_k_b: float, spacing_m: float, radius_m: float
+) -> float:
+    """Return eta_S for sigma_crit = k_B/a^2 on a sphere of radius R with V = N a^3.
+
+    eta_S = S_act/(sigma_crit A) = (S_act/(N k_B)) / (3 a/R). The active entropy
+    and its measurement window must be stated (docs/TASK7_OPTIONS.md, 6.2).
+    """
+    if not math.isfinite(active_entropy_per_atom_over_k_b) or active_entropy_per_atom_over_k_b < 0.0:
+        raise ValueError("active entropy per atom must be finite and nonnegative")
+    spacing_m = _require_positive(spacing_m, "spacing_m")
+    radius_m = _require_positive(radius_m, "radius_m")
+    return active_entropy_per_atom_over_k_b / (3.0 * spacing_m / radius_m)

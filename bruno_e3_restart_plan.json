@@ -33,8 +33,8 @@
     {
       "id": 7,
       "title": "Choose and justify the physical meaning of beta_B: reference length L_0 and boundary capacity sigma_crit",
-      "status": "in_progress",
-      "blocking": true,
+      "status": "done",
+      "blocking": false,
       "blocks": [9],
       "category": "physics",
       "description": "Task 1 settled the dimensions, not the physics. Before any numerical coefficient is accepted, decide what length L_0 normalizes A/V and what surface capacity sigma_crit enters eta_S = S/(sigma_crit A), each with a physical argument stated before any data are compared.",
@@ -43,9 +43,14 @@
       "progress": [
         "2026-11-07: Options set out for the researcher's decision in docs/TASK7_OPTIONS.md, backed by e3_core/scales.py (14 tests) and scripts/task7_candidate_scales.py -> docs/task7_candidate_scales.json. Key results: (R1) any R*T condition calibrated at the Planck point is G-free and equals hbar c/k_B, so the legacy routes mean R = lambda_gamma(T) or lambda_gamma(T)/(4 pi), and the Hawking-route condition lacks the mass condition needed to identify a horizon; (R2) eta_S depends on the prefactor of sigma_crit, which must be argued, not fitted; no single fixed sigma_crit puts both black holes and laboratory matter near eta_S = 1. Post-hoc observation, not evidence: sigma_crit = k_B/a^2 puts eta_S = 1 for superconducting Phillips aluminium at 0.191 K (0.161-0.225 K for f from 0.25 to 4), near his 0.17 K anomaly, but only if nuclear-spin entropy is excluded; it implies a falsifiable size dependence.",
         "2026-11-07: Researcher responses recorded in docs/TASK7_OPTIONS.md section 5: L_0 is a combination (components unspecified); sigma_crit must be argued, not fitted; S_system is none of the named species, being more fundamental (not yet operationally defined); scope is all regimes within the observable universe.",
-        "2026-11-07: Decided L_0 = A + D, represented as x = hbar c/(4 pi k_B T R) and y = R_s/R (e3_core.scales; every black hole is at (1, 1), tested). Laboratory matter has y of order 1e-26, so A + D alone makes no laboratory prediction. Decided S_system = active entropy, defined over subsystems with non-negligible heat capacity in the measurement window (docs/TASK7_OPTIONS.md section 6.2); eta_S claims must quote their window."
+        "2026-11-07: Decided L_0 = A + D, represented as x = hbar c/(4 pi k_B T R) and y = R_s/R (e3_core.scales; every black hole is at (1, 1), tested). Laboratory matter has y of order 1e-26, so A + D alone makes no laboratory prediction. Decided S_system = active entropy, defined over subsystems with non-negligible heat capacity in the measurement window (docs/TASK7_OPTIONS.md section 6.2); eta_S claims must quote their window.",
+        "2026-11-07: Decided the mean atomic spacing a = n^(-1/3) as a third length, with sigma_crit = k_B/a^2 and eta_S = (S_act/(N k_B))/(3a/R) (e3_core.scales, tested). On real Al crystal faces the prefactor is 0.79-0.92, inside the reported f = 0.25-4 band. Task 7 is closed and task 9 is unblocked."
       ],
-      "remaining": "Open: an argued sigma_crit (docs/TASK7_OPTIONS.md section 6.3). Capacity (iii) is the only one with a laboratory crossing, but it adds the atomic spacing as a third length outside A + D. Also open: how x and y combine for systems away from (1, 1).",
+      "open_questions": [
+        "How x, y and z combine for systems away from the black-hole point (not blocking task 9)",
+        "Cite a source confirming that aluminium nuclear spins are frozen (fully disordered, negligible heat capacity) in zero field over 0.17-1.2 K",
+        "The prefactor 1 in sigma_crit = k_B/a^2 rests on a heuristic argument, not a derivation"
+      ],
       "leads": [
         {
           "statement": "Both legacy kappa routes reduce to k_B/(hbar c) times a pure number, with G and the black-hole mass cancelling: l_P * T_P = hbar c / k_B, so 3/(l_P T_P) = 3 k_B/(hbar c) = 1310.1097... m^-1 K^-1; R_s * T_H = hbar c/(4 pi k_B) for every mass, so 3/(R_s T_H) = 12 pi k_B/(hbar c) = 16463.32... m^-1 K^-1.",

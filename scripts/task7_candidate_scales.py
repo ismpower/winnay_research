@@ -39,6 +39,7 @@ AL_NUCLEAR_SPIN = 2.5              # Al-27, the only stable isotope
 # Assumptions (standard handbook values, not from this repository's sources):
 AL_MOLAR_MASS_G_PER_MOL = 26.9815
 AL_DENSITY_KG_PER_M3 = 2700.0
+AL_FCC_LATTICE_CONSTANT_M = 4.0495e-10  # room temperature, handbook value
 
 
 def capacities(entropy: float, area: float, temperature: float, spacing: float | None) -> dict:
@@ -83,7 +84,7 @@ def aluminium_sample(temperature: float) -> dict:
     volume = AL_SAMPLE_MASS_G * 1.0e-3 / AL_DENSITY_KG_PER_M3
     radius = (3.0 * volume / (4.0 * math.pi)) ** (1.0 / 3.0)
     atoms = moles * k.AVOGADRO_CONSTANT_PER_MOL
-    spacing = (volume / atoms) ** (1.0 / 3.0)
+    spacing = scales.mean_atomic_spacing(atoms / volume)
     area = sphere_area(radius)
     entropy = AL_GAMMA_J_PER_MOL_K2 * moles * temperature  # normal-state electronic, S = gamma T
     gas_constant = k.AVOGADRO_CONSTANT_PER_MOL * k.BOLTZMANN_CONSTANT_J_PER_K
@@ -96,6 +97,14 @@ def aluminium_sample(temperature: float) -> dict:
         "radius_over_thermal_photon_length": radius / scales.thermal_photon_length(temperature),
         **capacities(entropy, area, temperature, spacing),
         "lattice_threshold_entropy_per_atom_over_k_B": lattice_threshold_per_atom,
+        "eta_lattice_check_via_lattice_capacity_ratio": scales.lattice_capacity_ratio(
+            entropy / (atoms * k.BOLTZMANN_CONSTANT_J_PER_K), spacing, radius
+        ),
+        "surface_site_density_relative_to_1_over_a2": {
+            "fcc_100_face": (2.0 / AL_FCC_LATTICE_CONSTANT_M**2) * spacing**2,
+            "fcc_111_face": (4.0 / (math.sqrt(3.0) * AL_FCC_LATTICE_CONSTANT_M**2)) * spacing**2,
+            "note": "real crystal faces change the prefactor of sigma_crit by these factors; both lie inside the f = 0.25-4 sensitivity band",
+        },
         "normal_state_temperature_where_eta_lattice_is_1_K": lattice_threshold_per_atom * gas_constant / AL_GAMMA_J_PER_MOL_K2,
         "assumptions": {
             "molar_mass_g_per_mol": AL_MOLAR_MASS_G_PER_MOL,
