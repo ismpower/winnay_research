@@ -149,13 +149,16 @@
     {
       "id": 9,
       "title": "Write one pre-registered, falsifiable E3 prediction",
-      "status": "not_started",
+      "status": "in_progress",
       "blocking": false,
       "blocks": [],
       "category": "physics",
       "description": "Before analysing any further datasets, state one quantitative E3 prediction that differs from the established baseline (for example BCS), fix the data and selection used to test it, and state the result that would falsify it. Comparisons made after looking at the data stay labelled exploratory.",
       "deliverable": "A dated prediction document committed before the test data are analysed, plus the analysis script that tests it",
-      "depends_on": [7, 8]
+      "depends_on": [7, 8],
+      "progress": [
+        "2026-11-07: Drafted docs/PREREGISTRATION_P1.md (not yet registered). It sets blind data-selection criteria, the operational observable T_dep against a BCS + Debye baseline, single-sample bands and a prefactor-free two-sample prediction, falsifiers F1-F4 (F4 targets the surface-adsorption confound) and a calculated bound on nuclear-spin entropy (at most 2e-3 of the threshold at 1 mT, so zero-field data are required). Code is in e3_core/prediction_p1.py (16 tests; eight deliberately introduced errors were each caught). Awaiting researcher confirmation of R1 (sign: excess), R2 (minimum effect size for F1) and R3 (3u threshold, f band 0.25-4)."
+      ]
     }
   ],
   "open_gaps_not_yet_actionable": [

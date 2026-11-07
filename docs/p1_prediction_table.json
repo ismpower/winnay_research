@@ -1,0 +1,61 @@
+{
+  "generated_by": "scripts/p1_prediction_table.py",
+  "parameters": {
+    "mean_atomic_spacing_m": 2.550647683949836e-10,
+    "gamma": 0.00135,
+    "tc_k": 1.163,
+    "debye_k": 427.7
+  },
+  "single_sample_bands": [
+    {
+      "A_over_V_relative_to_phillips_sphere": 0.1,
+      "A_over_V_per_m": 11.282111599763002,
+      "equivalent_sphere_radius_m": 0.26590766927558307,
+      "threshold_entropy_per_atom_over_k_B": 2.877669182199908e-09,
+      "T_star_K_prefactor_0.25": 0.08971642862466003,
+      "T_star_K_prefactor_1": 0.13665793071445115,
+      "T_star_K_prefactor_4": 0.17144634807956205
+    },
+    {
+      "A_over_V_relative_to_phillips_sphere": 1.0,
+      "A_over_V_per_m": 112.82111599763,
+      "equivalent_sphere_radius_m": 0.026590766927558313,
+      "threshold_entropy_per_atom_over_k_B": 2.8776691821999078e-08,
+      "T_star_K_prefactor_0.25": 0.16094458489422825,
+      "T_star_K_prefactor_1": 0.19143345811175022,
+      "T_star_K_prefactor_4": 0.22535919161419055
+    },
+    {
+      "A_over_V_relative_to_phillips_sphere": 10.0,
+      "A_over_V_per_m": 1128.2111599763,
+      "equivalent_sphere_radius_m": 0.0026590766927558312,
+      "threshold_entropy_per_atom_over_k_B": 2.8776691821999074e-07,
+      "T_star_K_prefactor_0.25": 0.21302293440039677,
+      "T_star_K_prefactor_1": 0.2530875680984829,
+      "T_star_K_prefactor_4": 0.30910802358586476
+    },
+    {
+      "A_over_V_relative_to_phillips_sphere": 100.0,
+      "A_over_V_per_m": 11282.111599763,
+      "equivalent_sphere_radius_m": 0.0002659076692755831,
+      "threshold_entropy_per_atom_over_k_B": 2.8776691821999076e-06,
+      "T_star_K_prefactor_0.25": 0.2876753953869391,
+      "T_star_K_prefactor_1": 0.3610712119504602,
+      "T_star_K_prefactor_4": 0.4807172343749746
+    },
+    {
+      "A_over_V_relative_to_phillips_sphere": 1000.0,
+      "A_over_V_per_m": 112821.11599763,
+      "equivalent_sphere_radius_m": 2.6590766927558313e-05,
+      "threshold_entropy_per_atom_over_k_B": 2.8776691821999075e-05,
+      "T_star_K_prefactor_0.25": 0.4326958141608591,
+      "T_star_K_prefactor_1": 0.608209080609246,
+      "T_star_K_prefactor_4": 0.9547108797365926
+    }
+  ],
+  "two_sample_example": {
+    "description": "If sample 1 (Phillips A/V) departs at T1, sample 2 with 4x the A/V is predicted to depart at T2, whatever the prefactor",
+    "T1_K": 0.19143345811175022,
+    "T2_K": 0.2253591916141905
+  }
+}
