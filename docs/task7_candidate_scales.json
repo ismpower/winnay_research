@@ -1,0 +1,64 @@
+{
+  "generated_by": "scripts/task7_candidate_scales.py",
+  "thermal_photon_length_m": {
+    "1 K": 0.0022898845206107345,
+    "2.7255 K (CMB)": 0.0008401704350066905,
+    "300 K": 7.632948402035783e-06
+  },
+  "hbar_c_over_k_B_m_K": 0.0022898845206107345,
+  "hawking_product_hbar_c_over_4pi_k_B_m_K": 0.00018222322028240676,
+  "photon_gas_unit_ratio_radius_over_photon_length": 3.4195899479289,
+  "systems": [
+    {
+      "system": "Schwarzschild black hole, 10 solar masses",
+      "radius_m": 29533.393820668785,
+      "temperature_K": 6.170073828591918e-09,
+      "radius_over_thermal_photon_length": 0.07957747154594766,
+      "eta_bekenstein_hawking": 1.0,
+      "eta_thermal_photon": 1.3181555849391244e+80
+    },
+    {
+      "system": "Blackbody cavity, R = 1 cm, 1 K",
+      "radius_m": 0.01,
+      "temperature_K": 1.0,
+      "radius_over_thermal_photon_length": 4.3670324463929315,
+      "eta_bekenstein_hawking": 2.5448664221387348e-64,
+      "eta_thermal_photon": 1.2770631897072504
+    },
+    {
+      "system": "Phillips aluminium sample as an equal-volume sphere, normal-state electrons, 1 K",
+      "radius_m": 0.026590766927558313,
+      "temperature_K": 1.0,
+      "mean_atomic_spacing_m": 2.550647683949836e-10,
+      "radius_over_thermal_photon_length": 11.612274194711922,
+      "eta_bekenstein_hawking": 9.062281237644706e-47,
+      "eta_thermal_photon": 4.5476279944173056e+17,
+      "eta_lattice": 5642.3330489835735,
+      "lattice_threshold_entropy_per_atom_over_k_B": 2.8776691821999078e-08,
+      "normal_state_temperature_where_eta_lattice_is_1_K": 0.00017723165068750176,
+      "assumptions": {
+        "molar_mass_g_per_mol": 26.9815,
+        "density_kg_per_m3": 2700.0,
+        "geometry": "sample treated as a sphere of equal volume",
+        "entropy": "normal-state electronic entropy gamma*T only; lattice entropy neglected (Debye 427.7 K)"
+      }
+    }
+  ],
+  "aluminium_superconducting_lattice_crossing": {
+    "model": "zero-field weak-coupling BCS electronic entropy + Debye phonon entropy; nuclear spins excluded",
+    "crossing_temperature_K_by_factor": {
+      "0.1": 0.13665793071445115,
+      "0.25": 0.16094458489422825,
+      "0.5": 0.17629279971560197,
+      "1": 0.19143345811175022,
+      "2": 0.20750817500732677,
+      "4": 0.22535919161419055,
+      "10": 0.2530875680984829
+    },
+    "factor_meaning": "f multiplies the threshold: sigma prefactor (k_B/a^2 -> f k_B/a^2) times the sample's A/V relative to a sphere; for a geometrically similar sample, f = R_sphere/R_sample (size dependence)",
+    "phonon_to_electron_entropy_at_f1": 0.3206898702061336,
+    "nuclear_spin_entropy_over_threshold": 62264261.65700877,
+    "phillips_reported_anomaly": "measured C_s near 0.17 K about 4x the exponential extrapolation (ALUMINUM_CROSSOVER.md)",
+    "status": "post hoc: found after the anomaly was known; not evidence"
+  }
+}
