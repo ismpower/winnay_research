@@ -157,8 +157,10 @@
       "deliverable": "A dated prediction document committed before the test data are analysed, plus the analysis script that tests it",
       "depends_on": [7, 8],
       "progress": [
-        "2026-11-07: Drafted docs/PREREGISTRATION_P1.md (not yet registered). It sets blind data-selection criteria, the operational observable T_dep against a BCS + Debye baseline, single-sample bands and a prefactor-free two-sample prediction, falsifiers F1-F4 (F4 targets the surface-adsorption confound) and a calculated bound on nuclear-spin entropy (at most 2e-3 of the threshold at 1 mT, so zero-field data are required). Code is in e3_core/prediction_p1.py (16 tests; eight deliberately introduced errors were each caught). Awaiting researcher confirmation of R1 (sign: excess), R2 (minimum effect size for F1) and R3 (3u threshold, f band 0.25-4)."
-      ]
+        "2026-11-07: Drafted docs/PREREGISTRATION_P1.md (not yet registered). It sets blind data-selection criteria, the operational observable T_dep against a BCS + Debye baseline, single-sample bands and a prefactor-free two-sample prediction, falsifiers F1-F4 (F4 targets the surface-adsorption confound) and a calculated bound on nuclear-spin entropy (at most 2e-3 of the threshold at 1 mT, so zero-field data are required). Code is in e3_core/prediction_p1.py (16 tests; eight deliberately introduced errors were each caught). Awaiting researcher confirmation of R1 (sign: excess), R2 (minimum effect size for F1) and R3 (3u threshold, f band 0.25-4).",
+        "2026-11-07: R1, R2 and R3 confirmed by the researcher; P1 is REGISTERED (git tag p1-registered). Frozen input hashes are recorded in section 6 of docs/PREREGISTRATION_P1.md."
+      ],
+      "remaining": "Blind screening of candidate studies on their methods sections, then commit docs/PREREGISTRATION_P1_ADDENDUM_1.md listing the qualifying datasets before any analysis"
     }
   ],
   "open_gaps_not_yet_actionable": [

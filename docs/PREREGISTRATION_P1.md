@@ -1,9 +1,11 @@
 # Pre-registration P1: lattice-capacity crossing in superconducting aluminium
 
-**Status: DRAFT, not registered.** This becomes registered when the researcher
-confirms the items marked **[confirm]** and the confirming commit is pushed. That
-commit's timestamp is the registration time. After registration this file is
-never edited. Corrections go in a dated addendum file.
+**Status: REGISTERED, 2026-11-07.** The researcher confirmed R1, R2 and R3 on
+2026-11-07. The registration time is the timestamp of the commit tagged
+`p1-registered` on branch `claude/dreamy-mccarthy-yhsr5i`. **This file is not
+edited after registration.** Corrections go in dated addendum files
+(`docs/PREREGISTRATION_P1_ADDENDUM_<n>.md`), which may not change the
+hypothesis, the criteria or the falsifiers.
 
 **Blindness statement.** Up to the time this draft was written, no aluminium
 heat-capacity dataset other than Phillips (1959) has been searched for, opened
@@ -31,7 +33,7 @@ s_th = a * (A/V)                 (equals 3a/R for a sphere)
 `S_act(T*)/(N k_B) = f * s_th`, the measured heat capacity exceeds the no-E3
 baseline. `f` is the unknown O(1) prefactor of `sigma_crit`.
 
-- **[confirm R1]** The sign is an **excess** of heat capacity below `T*`, as in
+- **[confirmed R1, 2026-11-07]** The sign is an **excess** of heat capacity below `T*`, as in
   the anomaly that motivated P1. E3 has not yet derived this sign; registering
   it is a researcher choice.
 
@@ -109,7 +111,7 @@ predicted bracket for sample 2 is `partner_crossing_temperature` applied to each
 end. Example: a Phillips-size sample departing at 0.1914 K implies 0.2254 K for a
 sample with 4 times the `A/V`.
 
-- **[confirm R3]** Significance threshold `3 u`, and the prefactor band
+- **[confirmed R3, 2026-11-07]** Significance threshold `3 u`, and the prefactor band
   `f` from 0.25 to 4.
 
 ## 4. Falsification and support criteria (point 3)
@@ -128,7 +130,7 @@ P1 is **falsified** by any of:
   adsorbed films) predicts exactly that collapse, and it would explain the size
   scaling without E3.
 
-- **[confirm R2]** F1 assumes that the E3 excess, if real, is large enough to be
+- **[confirmed R2, 2026-11-07]** F1 assumes that the E3 excess, if real, is large enough to be
   seen at `3 u <= 0.6`, i.e. at least about 60% of the baseline. E3 does not
   predict the size of the effect. Without this assumption an absent excess
   cannot falsify P1. A smaller assumed size requires smaller `u` in inclusion
@@ -150,3 +152,33 @@ examined before any stronger claim.
 | Post-hoc origin | Phillips (1959) is excluded. Only new, blindly selected data count. |
 | Surface confound | Exchange-gas exclusion plus falsifier F4. |
 | How x, y and z combine away from the black-hole point | Not needed for P1; remains open (plan task 7). |
+
+## 6. Frozen inputs (SHA-256 at registration)
+
+The analysis of qualifying data must use these exact files. If any hash
+differs, the difference must be explained in an addendum before results are
+reported.
+
+| File | SHA-256 |
+|---|---|
+| `e3_core/prediction_p1.py` | `5d1d68fa152471f7eb1ed2bb9a3724ad461f5d5ef4c26b7534b723feba9651d5` |
+| `e3_core/bcs.py` | `fb3778260c9b61212f2a6f905e5c142378b5b69a4795c981b1010e584f92ec93` |
+| `e3_core/constants.py` | `be9de8f89b9c6b0d2c377c20b959826aee45fad2c3f8807c8dba1a3019659798` |
+| `e3_core/scales.py` | `e25a96c8bfb8ae16359ab0dd97b935b5db9590b180c4aa97d029bbfcd852fc1f` |
+| `e3_core/geometry.py` | `4683d9962bcd41218c45f17a4383b3d534f532b810738738d8770643f836d235` |
+| `e3_core/tests/test_prediction_p1.py` | `eac9c15d05dc8e61c9b1df8e764faa08d0551f24f671e041d583aba9583b49c5` |
+| `scripts/p1_prediction_table.py` | `6b74072555664bf14beb0b09b7c5b3aa081aff46a5d8bf19eac72572e0a6fc9c` |
+| `docs/p1_prediction_table.json` | `039a30339d1c2b8c371c001314a7c007c09d8984f0b31f769371ad085d3aee91` |
+| `docs/task7_candidate_scales.json` | `aff8e0b2fdb47cdf49146b7d438c2e1da1236e5df93ff6996f99f7b32ee9ead3` |
+
+Check with `sha256sum <file>`. At registration all 80 tests in `e3_core/tests`
+passed, and `scripts/p1_prediction_table.py` reproduced its JSON byte for byte.
+
+## 7. Next steps after registration
+
+1. Screen candidate studies on their methods sections only (section 2,
+   Procedure) and commit `docs/PREREGISTRATION_P1_ADDENDUM_1.md` listing the
+   qualifying datasets and declaring any dataset the researcher has already
+   seen.
+2. Only then extract the data and compute `T_dep` with the frozen code.
+
