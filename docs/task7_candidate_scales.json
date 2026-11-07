@@ -60,5 +60,22 @@
     "nuclear_spin_entropy_over_threshold": 62264261.65700877,
     "phillips_reported_anomaly": "measured C_s near 0.17 K about 4x the exponential extrapolation (ALUMINUM_CROSSOVER.md)",
     "status": "post hoc: found after the anomaly was known; not evidence"
-  }
+  },
+  "combined_a_d_ratios": [
+    {
+      "system": "Schwarzschild black hole, 10 solar masses",
+      "x_hawking_scale_ratio": 1.0000000000000002,
+      "y_horizon_compactness": 1.0
+    },
+    {
+      "system": "Phillips aluminium sample, 1 K",
+      "x_hawking_scale_ratio": 0.0068528756909810315,
+      "y_horizon_compactness": 1.1877045321237697e-26
+    },
+    {
+      "system": "Sun (assumed nominal radius and effective temperature)",
+      "x_hawking_scale_ratio": 4.5379049136310845e-17,
+      "y_horizon_compactness": 4.245133508792408e-06
+    }
+  ]
 }

@@ -175,3 +175,79 @@ Recorded as given; nothing below is yet a final choice.
   near eta_S = 1, so a law of this form needs sigma_crit to vary with a stated
   rule (and that rule then carries the physics), or a different observable.
 
+## 6. Decisions (2026-11-07)
+
+### 6.1 L_0 = A + D
+
+The combination is represented as two dimensionless ratios
+(`e3_core.scales.hawking_scale_ratio`, `horizon_compactness`; tested):
+
+```text
+x = lambda_gamma(T)/(4 pi R) = hbar c/(4 pi k_B T R)     option A, Hawking normalization
+y = R_s/R               = 2 G M/(R c^2)                 option D
+```
+
+| System | x | y |
+|---|---|---|
+| any Schwarzschild black hole (checked for 1e20 to 1e40 kg) | 1 | 1 |
+| Phillips aluminium sample, 1 K | 6.9e-3 | 1.2e-26 |
+| Sun (assumed nominal radius 6.957e8 m, T_eff 5772 K) | 4.5e-17 | 4.2e-6 |
+
+Consequences:
+
+- The joint condition `x = y = 1` is satisfied by every Schwarzschild horizon,
+  and it adds nothing to general relativity plus Hawking radiation. Any new E3
+  content has to say something about systems away from `(1, 1)`, for example a
+  law along a path toward it. It has not yet been stated how x and y combine
+  for such systems.
+- Laboratory matter has `y` of order 1e-26. **A + D alone makes no laboratory
+  prediction.** The aluminium test of section 3.1 comes from capacity (iii),
+  which uses the atomic spacing `a`, a third length outside A + D. Using it
+  requires a separate decision (6.3).
+
+### 6.2 S_system = the entropy that changes over the measured range ("active entropy")
+
+Precise form. Write the entropy as a sum over weakly coupled subsystems,
+`S = sum_i S_i`. For a measurement window `W = [T_min, T_max]`:
+
+- subsystem `i` is **active** if its heat capacity `C_i` is non-negligible
+  somewhere in `W`;
+- it is **frozen** if `C_i` is negligible throughout `W`, so its entropy is
+  constant there (fully ordered or fully disordered);
+- `S_act(T) = sum over active i of int_0^T C_i/T' dT'`.
+
+Since frozen subsystems contribute nothing to the measured heat capacity,
+`S_act(T) = S_act(T_min) + int_{T_min}^{T} C_measured/T' dT'`. The first term
+requires extrapolating the active subsystems below `T_min` with a stated model.
+
+Consequences:
+
+- **eta_S depends on the window** whenever a subsystem orders inside it. For
+  example, measuring aluminium down to microkelvin temperatures would make its
+  nuclear spins active. Every eta_S claim must therefore quote its window.
+- For Phillips aluminium (`W` = 0.1718-1.1526 K, Table II), the active
+  subsystems are electrons and phonons. The nuclear spins are expected to be
+  frozen (fully disordered) in zero field, because their level splittings in
+  cubic aluminium lie far below `W`; this should be checked against a source
+  before it is relied on.
+- `S_act(T_min)` comes from the low-temperature model, here weak-coupling BCS.
+  The Phillips anomaly sits at the bottom of `W`. If the anomaly is real, its
+  extra entropy also enters `S_act` and moves any crossing. The model
+  dependence is therefore largest exactly where the coincidence lies.
+
+### 6.3 Still open
+
+**sigma_crit** must be fixed by an argument (agreed in section 5). Under the
+present decisions:
+
+- capacity (i), Bekenstein-Hawking, is natural for the D side but gives
+  laboratory eta_S of 1e-64 to 1e-46;
+- capacity (ii), one `k_B` per thermal-photon area, is natural for the A side but
+  gives condensed-matter eta_S far above 1;
+- capacity (iii), one `k_B` per surface site, is the only one with a laboratory
+  crossing, but it brings in the atomic spacing as a third length.
+
+**Task 9 (pre-registration) cannot start** until sigma_crit is chosen. In
+particular, the aluminium size-dependence prediction is available only if (iii)
+is adopted on its own merits.
+

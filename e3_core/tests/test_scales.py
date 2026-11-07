@@ -128,3 +128,27 @@ class InputValidationTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class CombinedLengthTests(unittest.TestCase):
+    """L_0 = A + D: x = hbar c/(4 pi k_B T R), y = R_s/R."""
+
+    def test_every_black_hole_sits_at_one_one(self):
+        for mass in (1.0e20, 1.0e30, 1.0e40):
+            radius = k.schwarzschild_radius(mass)
+            temperature = k.hawking_temperature(mass)
+            self.assertAlmostEqual(scales.hawking_scale_ratio(radius, temperature), 1.0, places=14)
+            self.assertAlmostEqual(scales.horizon_compactness(mass, radius), 1.0, places=14)
+
+    def test_x_equals_one_is_the_legacy_hawking_route(self):
+        mass, t = REF["M_sun"]["value"], 1.0
+        radius = 3.0 / (k.kappa_t_hawking_route_per_m_k(mass) * t)
+        self.assertAlmostEqual(scales.hawking_scale_ratio(radius, t), 1.0, places=13)
+
+    def test_ratios_scale_inversely_with_radius(self):
+        self.assertAlmostEqual(
+            scales.hawking_scale_ratio(2.0, 1.0) / scales.hawking_scale_ratio(1.0, 1.0), 0.5, places=15
+        )
+        self.assertAlmostEqual(
+            scales.horizon_compactness(1.0e30, 2.0) / scales.horizon_compactness(1.0e30, 1.0), 0.5, places=15
+        )

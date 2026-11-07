@@ -72,3 +72,23 @@ def sphere_photon_gas_capacity_ratio(radius_m: float, temperature_k: float) -> f
     entropy = photon_gas_entropy(temperature_k, sphere_volume(radius_m))
     area = 4.0 * math.pi * radius_m**2
     return entropy / (one_kb_per_area(thermal_photon_length(temperature_k)) * area)
+
+
+# ---------------------------------------------------------------------------
+# Combined reference lengths A + D (docs/TASK7_OPTIONS.md, section 6)
+# ---------------------------------------------------------------------------
+
+def hawking_scale_ratio(radius_m: float, temperature_k: float) -> float:
+    """Return x = lambda_gamma(T)/(4 pi R) = hbar c/(4 pi k_B T R), dimensionless.
+
+    x = 1 is the legacy Hawking-route condition R T = hbar c/(4 pi k_B).
+    """
+    radius_m = _require_positive(radius_m, "radius_m")
+    return thermal_photon_length(temperature_k) / (4.0 * math.pi * radius_m)
+
+
+def horizon_compactness(mass_kg: float, radius_m: float) -> float:
+    """Return y = R_s/R = 2 G M/(R c^2), dimensionless. y = 1 is a horizon."""
+    from .constants import schwarzschild_radius
+
+    return schwarzschild_radius(mass_kg) / _require_positive(radius_m, "radius_m")

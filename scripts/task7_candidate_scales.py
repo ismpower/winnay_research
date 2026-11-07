@@ -140,6 +140,31 @@ def aluminium_superconducting_lattice_crossing(threshold_per_atom: float) -> dic
     }
 
 
+# Assumptions for the Sun (IAU 2015 nominal radius, nominal effective temperature):
+SUN_RADIUS_M = 6.957e8
+SUN_EFFECTIVE_TEMPERATURE_K = 5772.0
+
+
+def combined_a_d_ratios(systems: list[dict]) -> list[dict]:
+    """x = hbar c/(4 pi k_B T R) (option A), y = R_s/R (option D); (1, 1) is a horizon."""
+    al_mass = AL_SAMPLE_MASS_G * 1.0e-3
+    bh_mass = 10.0 * REFERENCE["M_sun"]["value"]
+    sun_mass = REFERENCE["M_sun"]["value"]
+    rows = [
+        ("Schwarzschild black hole, 10 solar masses", bh_mass, systems[0]["radius_m"], systems[0]["temperature_K"]),
+        ("Phillips aluminium sample, 1 K", al_mass, systems[2]["radius_m"], 1.0),
+        ("Sun (assumed nominal radius and effective temperature)", sun_mass, SUN_RADIUS_M, SUN_EFFECTIVE_TEMPERATURE_K),
+    ]
+    return [
+        {
+            "system": name,
+            "x_hawking_scale_ratio": scales.hawking_scale_ratio(radius, temperature),
+            "y_horizon_compactness": scales.horizon_compactness(mass, radius),
+        }
+        for name, mass, radius, temperature in rows
+    ]
+
+
 def main() -> None:
     result = {
         "generated_by": "scripts/task7_candidate_scales.py",
@@ -157,11 +182,13 @@ def main() -> None:
             aluminium_sample(1.0),
         ],
         "aluminium_superconducting_lattice_crossing": None,
+        "combined_a_d_ratios": None,
     }
     al = result["systems"][2]
     result["aluminium_superconducting_lattice_crossing"] = aluminium_superconducting_lattice_crossing(
         al["lattice_threshold_entropy_per_atom_over_k_B"]
     )
+    result["combined_a_d_ratios"] = combined_a_d_ratios(result["systems"])
     OUTPUT.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2))
 
