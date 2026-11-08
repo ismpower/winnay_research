@@ -1,9 +1,12 @@
 # Pre-registration P2: lattice-capacity crossing in insulating single crystals
 
-**Status: DRAFT, not registered.** It becomes registered when the researcher
-confirms the items marked **[confirm]** and the confirming commit is pushed. That
-commit's timestamp is the registration time. After registration this file is
-never edited. Corrections go in dated addenda.
+**Status: REGISTERED, 2026-11-08.** The researcher confirmed R1-P2 to R4-P2 on
+2026-11-08 ("All tests are good tests"). The registration time is the timestamp
+of the commit that set this status line (find it with
+`git log -S "REGISTERED, 2026-11-08" -- docs/PREREGISTRATION_P2.md`). **This file
+is not edited after registration.** Corrections go in dated addenda
+(`docs/PREREGISTRATION_P2_ADDENDUM_<n>.md`), which may not change the
+hypothesis, the criteria or the falsifiers.
 
 **Blindness statement.**
 
@@ -38,8 +41,8 @@ the cube root, f = 0.25 to 4 changes `T*` only by factors of 0.63 to 1.59.
 **Registered claim P2.** Below `T*`, the measured heat capacity exceeds the
 Debye baseline `C = A T^3`.
 
-- **[confirm R1-P2]** The sign is an **excess** below `T*`, the same as P1.
-- **[confirm R4-P2] Scope commitment.** Phonon entropy is part of `S_act` in
+- **[confirmed R1-P2, 2026-11-08]** The sign is an **excess** below `T*`, the same as P1.
+- **[confirmed R4-P2, 2026-11-08] Scope commitment.** Phonon entropy is part of `S_act` in
   the registered P1 as well (about 32% at the aluminium crossing). P2 therefore
   tests the same framework, not a new one. **A falsification of P2 counts
   against the lattice-capacity framework as registered.** It cannot be escaped
@@ -110,7 +113,7 @@ same material whose `A/V` differ by a factor of at least 8,
 whatever `f` is. (The ratio is 8 rather than 4 because the cube root halves the
 shift.)
 
-- **[confirm R3-P2]** Significance threshold `3u`, prefactor band 0.25-4, pair
+- **[confirmed R3-P2, 2026-11-08]** Significance threshold `3u`, prefactor band 0.25-4, pair
   ratio at least 8.
 
 ## 4. Falsification and support
@@ -125,7 +128,7 @@ P2 is **falsified** by any of:
 - **F4 (surface explanation).** The excess per unit area, `(C - C_base)(V/A)`,
   coincides within uncertainties across crystals of different `A/V`.
 
-- **[confirm R2-P2]** F1 assumes the E3 excess, if real, is at least about 60% of
+- **[confirmed R2-P2, 2026-11-08]** F1 assumes the E3 excess, if real, is at least about 60% of
   the baseline (seen at `3u <= 0.6`), the same assumption as P1.
 
 **Supported, not proven,** if every qualifying dataset meets the single-sample
@@ -143,3 +146,29 @@ examined.
 | Defect two-level systems | Single crystals only; examined before any support claim |
 | Grain boundaries as surfaces | Excluded (single crystals) |
 | Assistant's prior | Declared in the blindness statement |
+
+## 6. Frozen inputs (SHA-256 at registration)
+
+| File | SHA-256 |
+|---|---|
+| `e3_core/prediction_p2.py` | `b80d7918bebcb00f9c3f4965424cc83abb8476491ac2728b33bf23f31ba5bfb5` |
+| `e3_core/prediction_p1.py` (departure rule, threshold) | `5d1d68fa152471f7eb1ed2bb9a3724ad461f5d5ef4c26b7534b723feba9651d5` |
+| `e3_core/constants.py` | `be9de8f89b9c6b0d2c377c20b959826aee45fad2c3f8807c8dba1a3019659798` |
+| `e3_core/scales.py` | `e25a96c8bfb8ae16359ab0dd97b935b5db9590b180c4aa97d029bbfcd852fc1f` |
+| `e3_core/geometry.py` | `4683d9962bcd41218c45f17a4383b3d534f532b810738738d8770643f836d235` |
+| `e3_core/bcs.py` (imported via prediction_p1) | `fb3778260c9b61212f2a6f905e5c142378b5b69a4795c981b1010e584f92ec93` |
+| `e3_core/tests/test_prediction_p2.py` | `22f6d7afb1b358d41b5c451925be8509cf38ef6c42d806791a31f6179d44c7bd` |
+| `scripts/p2_prediction_table.py` | `6c7ff0d5008b25ad059496adcca275da928aaba8c8372842f94ed369b062bb5f` |
+| `docs/p2_prediction_table.json` | `bcdf88b9b84824df9db83cedaefa9ba9dda8ba5cf8ca6748bc90609b3525a6f7` |
+
+At registration all 92 tests in `e3_core/tests` passed and the prediction table
+reproduced byte for byte. The P1 files listed carry their P1-registration hashes.
+
+## 7. Next steps after registration
+
+1. The researcher declares previously seen crystal heat-capacity data in
+   `docs/PREREGISTRATION_P2_ADDENDUM_1.md`.
+2. Blind, methods-only screening (`docs/P1_SEARCH_BRIEF.md`, extended to
+   detector-crystal calorimetry), with the qualifying list committed in an
+   addendum before analysis.
+

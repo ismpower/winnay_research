@@ -176,8 +176,10 @@
       "deliverable": "Registered docs/PREREGISTRATION_P2.md with frozen code, then a blind search",
       "depends_on": [7],
       "progress": [
-        "2026-11-08: Drafted docs/PREREGISTRATION_P2.md (not registered). Code in e3_core/prediction_p2.py (12 tests; eight deliberately introduced errors were each caught). The baseline Theta_D must come from sound velocities or a fit window above the band. A nuclear rule excludes sapphire. Scope commitment R4-P2: a P2 falsification counts against the framework as registered. The assistant's prior that crystals follow Debye T^3 is declared. Awaiting confirmation of R1-P2 to R4-P2."
-      ]
+        "2026-11-08: Drafted docs/PREREGISTRATION_P2.md (not registered). Code in e3_core/prediction_p2.py (12 tests; eight deliberately introduced errors were each caught). The baseline Theta_D must come from sound velocities or a fit window above the band. A nuclear rule excludes sapphire. Scope commitment R4-P2: a P2 falsification counts against the framework as registered. The assistant's prior that crystals follow Debye T^3 is declared. Awaiting confirmation of R1-P2 to R4-P2.",
+        "2026-11-08: R1-P2 to R4-P2 confirmed by the researcher; P2 REGISTERED. Frozen hashes are in section 6 of the document."
+      ],
+      "remaining": "Researcher declaration of previously seen crystal data (P2 addendum 1), then a blind methods-only search"
     }
   ],
   "open_gaps_not_yet_actionable": [
