@@ -57,7 +57,7 @@ the band is 0.055 K. The S1-S3 shift is at least 0.18 K.
 
 | Item | Requirement | Reason |
 |---|---|---|
-| Temperature range | 0.15 K to 1.3 K for every sample | covers all windows, plus Tc |
+| Temperature range | at minimum each sample's own window (S1 0.176-0.356 K, S2 0.221-0.494 K, S3 0.323-0.929 K) plus Tc; extend to 0.15-1.3 K where the instrument resolves it | registered criterion 8; the same range for all samples also keeps the operator blind (at 0.15 K the heat capacities are 1.4e-9, 5.5e-10 and 5.5e-11 J/K, so S3 is not resolvable there) |
 | Point spacing | at most 14 mK between 0.15 and 0.95 K | a quarter of the smallest F3 shift |
 | Uncertainty | target at most 5% per point; registered limit at most 20% below T*(0.25) | F1 needs at most 20% |
 | Field, superconducting runs | at most 1 mT, measured in situ (for example with a fluxgate) or bounded by shielding (mu-metal plus a superconducting shield); cool through Tc inside the shield | criterion 3; nuclear term at most 2.3e-4 of the baseline |
