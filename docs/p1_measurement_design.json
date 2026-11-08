@@ -1,0 +1,120 @@
+{
+  "generated_by": "scripts/p1_measurement_design.py",
+  "planning_values": {
+    "gamma": 0.00135,
+    "tc_k": 1.163,
+    "debye_k": 427.7,
+    "source": "Phillips (1959); replace with values measured on the samples"
+  },
+  "samples": {
+    "S1_block": {
+      "description": "cube 4 x 4 x 4 mm",
+      "mass_mg": 172.8,
+      "moles": 0.006404388191909272,
+      "area_over_volume_per_m": 1500.0,
+      "threshold_entropy_per_atom_over_k_B": 3.8259715259247534e-07,
+      "predicted_T_star_K": {
+        "prefactor_0.25": 0.22037154277498833,
+        "prefactor_1": 0.26297463022215095,
+        "prefactor_4": 0.3236485124436269
+      },
+      "required_window_K": [
+        0.17629723421999066,
+        0.35601336368798964
+      ],
+      "baseline_heat_capacity_J_per_K": {
+        "at_window_bottom": 6.2400221865090494e-09,
+        "at_T_star_prefactor_1": 1.4899090340503303e-07,
+        "at_window_top": 7.878064480144061e-07
+      },
+      "nuclear_zeeman_heat_capacity_over_baseline_at_window_bottom": {
+        "zero_field_limit_1_mT": 0.00022738129710802907
+      }
+    },
+    "S2_plate": {
+      "description": "plate 10 x 10 x 0.25 mm",
+      "mass_mg": 67.5,
+      "moles": 0.002501714137464559,
+      "area_over_volume_per_m": 8400.0,
+      "threshold_entropy_per_atom_over_k_B": 2.142544054517862e-06,
+      "predicted_T_star_K": {
+        "prefactor_0.25": 0.27561565979086955,
+        "prefactor_1": 0.3426091384681875,
+        "prefactor_4": 0.44949954253862345
+      },
+      "required_window_K": [
+        0.22049252783269566,
+        0.49444949679248584
+      ],
+      "baseline_heat_capacity_J_per_K": {
+        "at_window_bottom": 1.663676432550365e-08,
+        "at_T_star_prefactor_1": 2.565508852408815e-07,
+        "at_window_top": 1.125399226104075e-06
+      },
+      "nuclear_zeeman_heat_capacity_over_baseline_at_window_bottom": {
+        "zero_field_limit_1_mT": 2.129782670018089e-05
+      }
+    },
+    "S3_foil": {
+      "description": "foil 10 x 10 x 0.025 mm (every dimension >= 10 um)",
+      "mass_mg": 6.75,
+      "moles": 0.0002501714137464559,
+      "area_over_volume_per_m": 80400.00000000001,
+      "threshold_entropy_per_atom_over_k_B": 2.0507207378956688e-05,
+      "predicted_T_star_K": {
+        "prefactor_0.25": 0.40330199081277207,
+        "prefactor_1": 0.5547216748050328,
+        "prefactor_4": 0.8448599425471106
+      },
+      "required_window_K": [
+        0.3226415926502177,
+        0.9293459368018218
+      ],
+      "baseline_heat_capacity_J_per_K": {
+        "at_window_bottom": 1.9002910422763328e-08,
+        "at_T_star_prefactor_1": 1.625076793223105e-07,
+        "at_window_top": 6.053092830793536e-07
+      },
+      "nuclear_zeeman_heat_capacity_over_baseline_at_window_bottom": {
+        "zero_field_limit_1_mT": 8.708253830962085e-07
+      }
+    }
+  },
+  "area_over_volume_ratios_to_S1": {
+    "S1_block": 1.0,
+    "S2_plate": 5.6,
+    "S3_foil": 53.60000000000001
+  },
+  "pair_predictions": {
+    "prefactor_0.25": {
+      "T1_K": 0.22037154277498833,
+      "T_S2_plate_K": 0.27561565979086955,
+      "shift_S2_plate_K": 0.05524411701588122,
+      "T_S3_foil_K": 0.40330199081277207,
+      "shift_S3_foil_K": 0.18293044803778374
+    },
+    "prefactor_1": {
+      "T1_K": 0.26297463022215095,
+      "T_S2_plate_K": 0.3426091384681875,
+      "shift_S2_plate_K": 0.07963450824603657,
+      "T_S3_foil_K": 0.5547216748050328,
+      "shift_S3_foil_K": 0.2917470445828818
+    },
+    "prefactor_4": {
+      "T1_K": 0.3236485124436269,
+      "T_S2_plate_K": 0.44949954253862345,
+      "shift_S2_plate_K": 0.12585103009499654,
+      "T_S3_foil_K": 0.8448599425471106,
+      "shift_S3_foil_K": 0.5212114301034837
+    },
+    "smallest_S1_S2_shift_K": 0.05524411701588122,
+    "required_point_spacing_K": 0.013811029253970306
+  },
+  "partner_function_consistency_K": 1.1102230246251565e-16,
+  "normal_state_field_T": 0.02,
+  "normal_state_nuclear_over_electronic_heat_capacity": {
+    "0.1 K": 0.0020402361444014803,
+    "0.2 K": 0.0002550295220691726,
+    "0.4 K": 3.187869038423995e-05
+  }
+}
