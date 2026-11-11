@@ -8,9 +8,9 @@
     {
       "id": 1,
       "title": "Resolve the dimensional inconsistency in beta_B",
-      "status": "in_progress",
-      "blocking": true,
-      "blocks": [2, 3, 4, 5],
+      "status": "done",
+      "blocking": false,
+      "blocks": [2, 3, 4, 5, 6, 7],
       "category": "physics",
       "description": "beta_B = A/V = 3/R = kappa*T does not balance dimensionally: [3/R] = length^-1, [kappa*T] = dimensionless. No value of kappa is meaningful until this is resolved.",
       "deliverable": "A written derivation showing either (a) beta_B is not dimensionless, (b) 3/R carries a hidden length scale, or (c) kappa is not K^-1. Must survive manual hand-check, not just LLM output.",
@@ -19,31 +19,84 @@
         "2026-08-25: Established that beta_geom = A/V = 3/R has units m^-1",
         "2026-08-25: Separated beta_geom, normalized beta_tilde, surface capacity, volumetric capacity, decay rate, temperature coefficient, and fluence cut",
         "2026-08-25: Added executable tests for geometry, entropy-density cancellation, normalization, and scale conversion",
-        "2026-08-26: Added an exploratory, provenance-preserving comparison between the Phillips aluminum heat-capacity crossover and Norowski et al. quasiparticle relaxation; normalized by sample Tc and explicitly not treated as confirmation"
+        "2026-08-26: Added an exploratory, provenance-preserving comparison between the Phillips aluminum heat-capacity crossover and Norowski et al. quasiparticle relaxation; normalized by sample Tc and explicitly not treated as confirmation",
+        "2026-11-03: Closed as resolved by outcomes (a) and (c) jointly; the remaining modelling question moved to task 7"
       ],
-      "remaining": "Choose and justify the physical meaning of beta_B and any reference length or boundary capacity before accepting a numerical coefficient"
+      "resolution": {
+        "outcome": "(a) and (c) jointly; (b) is available only as an explicit, declared choice",
+        "statement": "With beta_B defined as A/V for a sphere, A/V = 3/R exactly and [beta_B] = L^-1, so beta_B is not dimensionless (a). For beta_B = kappa_T * T to be dimensionally homogeneous, [kappa_T] = L^-1 Theta^-1, i.e. m^-1 K^-1 in SI, not K^-1 (c). A K^-1 coefficient exists only after multiplying by a declared reference length L_0, giving beta_tilde = L_0 * A/V = 3 L_0 / R (b). No value of L_0 follows from the geometry.",
+        "hand_check": "[A] = L^2, [V] = L^3, so [A/V] = L^-1. [T] = Theta. kappa_T * T = A/V requires [kappa_T] = L^-1 / Theta.",
+        "derivation_doc": "docs/DIMENSIONAL_ANALYSIS.md, sections 1, 3 and 4",
+        "code_evidence": "e3_core/geometry.py (surface_to_volume, normalized_surface_to_volume, temperature_coefficient) and e3_core/tests/test_geometry.py: A/V equals 3/R, the coefficient's numeric value changes with the length unit, and the normalized ratio is scale invariant"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Choose and justify the physical meaning of beta_B: reference length L_0 and boundary capacity sigma_crit",
+      "status": "done",
+      "blocking": false,
+      "blocks": [9, 10],
+      "category": "physics",
+      "description": "Task 1 settled the dimensions, not the physics. Before any numerical coefficient is accepted, decide what length L_0 normalizes A/V and what surface capacity sigma_crit enters eta_S = S/(sigma_crit A), each with a physical argument stated before any data are compared.",
+      "deliverable": "A derivation in docs/ fixing L_0 and sigma_crit (or rejecting the beta_B construction), with each choice implemented and tested in e3_core/",
+      "depends_on": [1],
+      "progress": [
+        "2026-11-07: Options set out for the researcher's decision in docs/TASK7_OPTIONS.md, backed by e3_core/scales.py (14 tests) and scripts/task7_candidate_scales.py -> docs/task7_candidate_scales.json. Key results: (R1) any R*T condition calibrated at the Planck point is G-free and equals hbar c/k_B, so the legacy routes mean R = lambda_gamma(T) or lambda_gamma(T)/(4 pi), and the Hawking-route condition lacks the mass condition needed to identify a horizon; (R2) eta_S depends on the prefactor of sigma_crit, which must be argued, not fitted; no single fixed sigma_crit puts both black holes and laboratory matter near eta_S = 1. Post-hoc observation, not evidence: sigma_crit = k_B/a^2 puts eta_S = 1 for superconducting Phillips aluminium at 0.191 K (0.161-0.225 K for f from 0.25 to 4), near his 0.17 K anomaly, but only if nuclear-spin entropy is excluded; it implies a falsifiable size dependence.",
+        "2026-11-07: Researcher responses recorded in docs/TASK7_OPTIONS.md section 5: L_0 is a combination (components unspecified); sigma_crit must be argued, not fitted; S_system is none of the named species, being more fundamental (not yet operationally defined); scope is all regimes within the observable universe.",
+        "2026-11-07: Decided L_0 = A + D, represented as x = hbar c/(4 pi k_B T R) and y = R_s/R (e3_core.scales; every black hole is at (1, 1), tested). Laboratory matter has y of order 1e-26, so A + D alone makes no laboratory prediction. Decided S_system = active entropy, defined over subsystems with non-negligible heat capacity in the measurement window (docs/TASK7_OPTIONS.md section 6.2); eta_S claims must quote their window.",
+        "2026-11-07: Decided the mean atomic spacing a = n^(-1/3) as a third length, with sigma_crit = k_B/a^2 and eta_S = (S_act/(N k_B))/(3a/R) (e3_core.scales, tested). On real Al crystal faces the prefactor is 0.79-0.92, inside the reported f = 0.25-4 band. Task 7 is closed and task 9 is unblocked."
+      ],
+      "open_questions": [
+        "How x, y and z combine for systems away from the black-hole point (not blocking task 9)",
+        "Cite a source confirming that aluminium nuclear spins are frozen (fully disordered, negligible heat capacity) in zero field over 0.17-1.2 K",
+        "The prefactor 1 in sigma_crit = k_B/a^2 rests on a heuristic argument, not a derivation"
+      ],
+      "leads": [
+        {
+          "statement": "Both legacy kappa routes reduce to k_B/(hbar c) times a pure number, with G and the black-hole mass cancelling: l_P * T_P = hbar c / k_B, so 3/(l_P T_P) = 3 k_B/(hbar c) = 1310.1097... m^-1 K^-1; R_s * T_H = hbar c/(4 pi k_B) for every mass, so 3/(R_s T_H) = 12 pi k_B/(hbar c) = 16463.32... m^-1 K^-1.",
+          "status": "algebraic identity; tested in e3_core/tests/test_constants.py, including that G and the mass cancel"
+        },
+        {
+          "statement": "Therefore the legacy condition 3/R = kappa T with kappa = 3 k_B/(hbar c) is equivalent to R = hbar c/(k_B T): the region radius equals the thermal photon length scale (the inverse of the thermal photon wavenumber k_B T/(hbar c)). This is not the Wien peak wavelength (b = 2.8978e-3 m K differs from hbar c/k_B = 2.2899e-3 m K). It is a candidate for L_0, not an established result.",
+          "status": "candidate interpretation; the equivalence is tested in e3_core/tests/test_scales.py; see docs/TASK7_OPTIONS.md option A"
+        },
+        {
+          "statement": "For massive particles the analogous scale is the thermal de Broglie wavelength lambda_th = h/sqrt(2 pi m k_B T), which governs the onset of quantum degeneracy in laser-cooled gases (n lambda_th^3 of order 2.6 for an ideal Bose gas). It may connect the cosmic and laboratory regimes.",
+          "status": "speculative; no derivation yet"
+        },
+        {
+          "statement": "If sigma_crit is the Bekenstein-Hawking capacity k_B/(4 l_P^2) = 1.32e46 J K^-1 m^-2, then eta_S is about 1e-46 for the Phillips aluminium sample at 1 K and about 3e-43 for 200 J/K in a 1 L sphere. eta_S = 1 cannot be tested in the laboratory under that choice, so a laboratory test needs a different, independently justified sigma_crit.",
+          "status": "sigma value computed in e3_core.constants.bekenstein_hawking_surface_entropy_density and tested; the eta_S estimates are order-of-magnitude calculations, 2026-11-03, not yet in code"
+        }
+      ]
     },
     {
       "id": 2,
       "title": "Rename the six kappa values into distinct symbols",
-      "status": "not_started",
+      "status": "done",
       "blocking": false,
-      "blocks": [3],
+      "blocks": [3, 6],
       "category": "cleanup",
       "description": "Six different values currently share the name kappa: 1313 (Planck route), 1366 (GW route, refuted), 0.001005 (Chajar/tangency constant, dimensionless), 1340e-6 (kappa_lab, unverified), 1.23456789e-23 (placeholder, to be deleted), 1.0e-23 (unrelated toy model). Each real quantity needs its own name before further reuse.",
       "deliverable": "Naming decision recorded in e3_core/constants.py comments or a short NOTATION.md",
-      "depends_on": [1]
+      "depends_on": [1],
+      "progress": [
+        "2026-11-03: Naming decision recorded in docs/NOTATION.md under 'Legacy kappa values'. 3/(l_P T_P) -> kappa_T^Pl and 3/(R_s T_H) -> kappa_T^GW (one coefficient role in m^-1 K^-1, evaluated on two (R, T) pairs; their ratio is exactly 4 pi). The literals 1313 and 1366 are retired in favour of the expressions. 0.001005 -> chi_tan (dimensionless; its GW-pipeline reuse is a separate role, task 4). 1340e-6 -> kappa_lab (stated units K^-1 s^-1, unsourced, task 5). 1.23456789e-23 and 1.0e-23 are retired."
+      ]
     },
     {
       "id": 3,
       "title": "Build e3_core/constants.py as single source of truth",
-      "status": "not_started",
+      "status": "done",
       "blocking": false,
       "blocks": [6],
       "category": "engineering",
       "description": "Derive Planck units (l_P, m_P, T_P, t_P) from hbar, c, G, k_B in one place rather than hardcoding. Attach an assert/test comparing each derived value against an independently computed reference value.",
       "deliverable": "e3_core/constants.py + a test file that fails loudly if any derived constant drifts",
-      "depends_on": [1, 2]
+      "depends_on": [1, 2],
+      "progress": [
+        "2026-11-03: Added e3_core/constants.py (exact 2019 SI constants, CODATA 2018 G; Planck units, R_s, T_H, k_B/(4 l_P^2) and both legacy kappa_T routes computed from them) and e3_core/tests/test_constants.py (17 tests). Tests check agreement with reference/known_physics_reference.json to its printed precision, the identities l_P T_P = hbar c/k_B and R_s T_H = hbar c/(4 pi k_B), that G cancels in both kappa_T routes, and the exact 4 pi ratio. Ten deliberately introduced errors were each caught by the tests."
+      ]
     },
     {
       "id": 4,
@@ -77,12 +130,63 @@
       "description": "Low-risk, no physics judgment required. Safe to delegate to local LLM as a batch job once tasks 1-3 are settled. Includes: delete Entropy-Collapse-Research-main (hollow, all zero-byte files), delete davp_env and bruno_env virtualenvs (~40GB, rebuild from requirements.txt), remove all 32 bruno_constant=1.23456789e-23 placeholder sites, retract/delete BRUNO_CONSTANT_FINAL_ANALYSIS.md, normalize line endings before any future deduplication pass.",
       "deliverable": "Cleaned corpus, confirmed via re-run of classify.py showing zero placeholder hits",
       "depends_on": [1, 2, 3]
+    },
+    {
+      "id": 8,
+      "title": "Add a BCS baseline for superconductivity comparisons",
+      "status": "done",
+      "blocking": false,
+      "blocks": [9],
+      "category": "physics",
+      "progress": [
+        "2026-11-03: Added e3_core/bcs.py (standard library only) and docs/BCS_BASELINE.md. Tests check Delta(0)/(k_B Tc) = pi exp(-gamma_E), the jump 12/(7 zeta(3)), the slope of Delta^2 at Tc, the entropy balance, the condensation energy and C = T dS/dT. Weak-coupling crossover t* = 0.5147917502752, matching an independent scipy Matsubara-sum implementation to 1e-13. Nine deliberately introduced errors were each caught by the tests.",
+        "2026-11-03: Aluminium and niobium summaries now report the BCS crossover. Aluminium: measured minus BCS = -0.0090 in T/Tc, and at the BCS temperature the measured (C_s-C_n)/C_n = +1.8%, within the paper's ~2% point precision, so no departure from weak-coupling BCS is resolved. Niobium: the graphical bracket 0.606-0.645 lies above BCS. An exploratory alpha-model check (not in the repo) moves the crossover upward only to about 0.552 at Delta(0)/(k_B Tc) = 2.0, so the offset is not explained."
+      ],
+      "description": "Weak-coupling BCS theory predicts the C_s = C_n crossing at T/Tc = 0.51479 (e3_core/bcs.py); Phillips aluminium Table II gives 0.506. Every superconductivity comparison must report the BCS prediction alongside the data, so that only departures from BCS can count as E3 evidence.",
+      "deliverable": "e3_core/bcs.py with tests against textbook weak-coupling values (Delta(0)/(k_B Tc) = 1.764, Delta C/(gamma Tc) = 1.43 at Tc), and the BCS crossover reported in the aluminium and niobium analyses",
+      "depends_on": []
+    },
+    {
+      "id": 9,
+      "title": "Write one pre-registered, falsifiable E3 prediction",
+      "status": "in_progress",
+      "blocking": false,
+      "blocks": [],
+      "category": "physics",
+      "description": "Before analysing any further datasets, state one quantitative E3 prediction that differs from the established baseline (for example BCS), fix the data and selection used to test it, and state the result that would falsify it. Comparisons made after looking at the data stay labelled exploratory.",
+      "deliverable": "A dated prediction document committed before the test data are analysed, plus the analysis script that tests it",
+      "depends_on": [7, 8],
+      "progress": [
+        "2026-11-07: Drafted docs/PREREGISTRATION_P1.md (not yet registered). It sets blind data-selection criteria, the operational observable T_dep against a BCS + Debye baseline, single-sample bands and a prefactor-free two-sample prediction, falsifiers F1-F4 (F4 targets the surface-adsorption confound) and a calculated bound on nuclear-spin entropy (at most 2e-3 of the threshold at 1 mT, so zero-field data are required). Code is in e3_core/prediction_p1.py (16 tests; eight deliberately introduced errors were each caught). Awaiting researcher confirmation of R1 (sign: excess), R2 (minimum effect size for F1) and R3 (3u threshold, f band 0.25-4).",
+        "2026-11-07: R1, R2 and R3 confirmed by the researcher; P1 is REGISTERED (git tag p1-registered). Frozen input hashes are recorded in section 6 of docs/PREREGISTRATION_P1.md.",
+        "2026-11-08: First blinded screening (addendum 1): 8 candidates, none qualifies (C1 fails on data format, uncertainties and residual field; C2 and C4 were not accessible because of publisher bot checks). Exposures through search summaries are logged; none concerns a qualifying dataset.",
+        "2026-11-08: Measurement design proposed in docs/P1_MEASUREMENT_DESIGN.md (numbers from scripts/p1_measurement_design.py using the frozen P1 code): three samples from one lot of 5N Al with A/V ratios 1 : 5.6 : 53.6; required window 0.15-1.3 K; point spacing at most 14 mK; field at most 1 mT; blinded operator. The main feasibility risk is resolving about 6e-9 J/K near 0.18 K."
+      ],
+      "remaining": "No qualifying dataset found in the first screen (docs/PREREGISTRATION_P1_ADDENDUM_1.md). Next: a wider methods-only search (ideally with library access to pre-digital literature) or a new measurement designed to the registered criteria; plus the researcher's declaration of aluminium datasets already seen"
+    }
+,
+    {
+      "id": 10,
+      "title": "Pre-register P2: lattice-capacity crossing in insulating single crystals",
+      "status": "in_progress",
+      "blocking": false,
+      "blocks": [],
+      "category": "physics",
+      "description": "The decided framework puts eta_S = 1 in every solid, not only superconductors: in an insulating crystal the active entropy is the phonon entropy, so T* = Theta_D (5 f a (A/V)/(4 pi^4))^(1/3), with no BCS model and only cube-root dependence on the prefactor. Detector crystals (Si, Ge, TeO2) are well characterised at these temperatures.",
+      "deliverable": "Registered docs/PREREGISTRATION_P2.md with frozen code, then a blind search",
+      "depends_on": [7],
+      "progress": [
+        "2026-11-08: Drafted docs/PREREGISTRATION_P2.md (not registered). Code in e3_core/prediction_p2.py (12 tests; eight deliberately introduced errors were each caught). The baseline Theta_D must come from sound velocities or a fit window above the band. A nuclear rule excludes sapphire. Scope commitment R4-P2: a P2 falsification counts against the framework as registered. The assistant's prior that crystals follow Debye T^3 is declared. Awaiting confirmation of R1-P2 to R4-P2.",
+        "2026-11-08: R1-P2 to R4-P2 confirmed by the researcher; P2 REGISTERED. Frozen hashes are in section 6 of the document."
+      ],
+      "remaining": "Researcher declaration of previously seen crystal data (P2 addendum 1), then a blind methods-only search"
     }
   ],
   "open_gaps_not_yet_actionable": [
     "The two private repos (Bruno-Unified-Research, Entropy-Collapse-Research as standalone GitHub repos) have not been audited -- access needed",
     "git log -S 1366 across all repos would date the 1313/1366 revision definitively -- not yet run",
     "94,443 dataset JSONs in Bruno_Entropy_Project/datasets were excluded from the audit as bulk data -- unknown if any encode model parameters",
-    ".dat/.csv files (43,955 + 1,884) were never swept for embedded constants"
+    ".dat/.csv files (43,955 + 1,884) were never swept for embedded constants",
+    "reference/known_physics_reference.json mixes vintages: M_sun (IAU 2015 nominal) was derived with CODATA 2014 G = 6.67408e-11, but G is CODATA 2018 = 6.67430e-11. G*M_sun computed from the two is therefore off by about 3e-5, which exceeds G's own 2.2e-5 uncertainty (quantified in test_constants.py). Solar-mass work should use the nominal parameter (GM)_sun = 1.3271244e20 m^3 s^-2 directly."
   ]
 }

@@ -1,0 +1,234 @@
+{
+  "generated_by": "scripts/p2_prediction_table.py",
+  "inputs": "approximate handbook values, illustration only",
+  "rows": [
+    {
+      "material": "Si",
+      "cube_edge_m": 0.001,
+      "mean_atomic_spacing_m": 2.7151533047433973e-10,
+      "debye_K_approx": 645.0,
+      "T_star_K": {
+        "prefactor_0.25": 1.119330730184659,
+        "prefactor_1": 1.7768267785954603,
+        "prefactor_4": 2.8205366975077006
+      },
+      "required_window_K": [
+        0.8954645841477271,
+        3.102590367258471
+      ],
+      "fallback_fit_window_K": [
+        4.230805046261551,
+        12.9
+      ]
+    },
+    {
+      "material": "Si",
+      "cube_edge_m": 0.01,
+      "mean_atomic_spacing_m": 2.7151533047433973e-10,
+      "debye_K_approx": 645.0,
+      "T_star_K": {
+        "prefactor_0.25": 0.5195473018344751,
+        "prefactor_1": 0.8247299334792855,
+        "prefactor_4": 1.3091771639946808
+      },
+      "required_window_K": [
+        0.4156378414675801,
+        1.440094880394149
+      ],
+      "fallback_fit_window_K": [
+        1.963765745992021,
+        12.9
+      ]
+    },
+    {
+      "material": "Si",
+      "cube_edge_m": 0.05,
+      "mean_atomic_spacing_m": 2.7151533047433973e-10,
+      "debye_K_approx": 645.0,
+      "T_star_K": {
+        "prefactor_0.25": 0.3038331052809279,
+        "prefactor_1": 0.4823049909457096,
+        "prefactor_4": 0.7656114499967323
+      },
+      "required_window_K": [
+        0.2430664842247423,
+        0.8421725949964055
+      ],
+      "fallback_fit_window_K": [
+        1.1484171749950984,
+        12.9
+      ]
+    },
+    {
+      "material": "Ge",
+      "cube_edge_m": 0.001,
+      "mean_atomic_spacing_m": 2.829672832590359e-10,
+      "debye_K_approx": 374.0,
+      "T_star_K": {
+        "prefactor_0.25": 0.6580379454085197,
+        "prefactor_1": 1.0445701267764766,
+        "prefactor_4": 1.6581517180995344
+      },
+      "required_window_K": [
+        0.5264303563268158,
+        1.823966889909488
+      ],
+      "fallback_fit_window_K": [
+        2.4872275771493015,
+        7.48
+      ]
+    },
+    {
+      "material": "Ge",
+      "cube_edge_m": 0.01,
+      "mean_atomic_spacing_m": 2.829672832590359e-10,
+      "debye_K_approx": 374.0,
+      "T_star_K": {
+        "prefactor_0.25": 0.305434157950168,
+        "prefactor_1": 0.4848465036371179,
+        "prefactor_4": 0.7696458499166643
+      },
+      "required_window_K": [
+        0.2443473263601344,
+        0.8466104349083308
+      ],
+      "fallback_fit_window_K": [
+        1.1544687748749964,
+        7.48
+      ]
+    },
+    {
+      "material": "Ge",
+      "cube_edge_m": 0.05,
+      "mean_atomic_spacing_m": 2.829672832590359e-10,
+      "debye_K_approx": 374.0,
+      "T_star_K": {
+        "prefactor_0.25": 0.1786189791404803,
+        "prefactor_1": 0.28353995538908433,
+        "prefactor_4": 0.4500916234596488
+      },
+      "required_window_K": [
+        0.14289518331238424,
+        0.49510078580561373
+      ],
+      "fallback_fit_window_K": [
+        0.6751374351894732,
+        7.48
+      ]
+    },
+    {
+      "material": "diamond",
+      "cube_edge_m": 0.001,
+      "mean_atomic_spacing_m": 1.7836144346794631e-10,
+      "debye_K_approx": 2230.0,
+      "T_star_K": {
+        "prefactor_0.25": 3.3641275191404314,
+        "prefactor_1": 5.34021956283869,
+        "prefactor_4": 8.477070151791294
+      },
+      "required_window_K": [
+        2.6913020153123455,
+        9.324777166970424
+      ],
+      "fallback_fit_window_K": [
+        12.71560522768694,
+        44.6
+      ]
+    },
+    {
+      "material": "diamond",
+      "cube_edge_m": 0.01,
+      "mean_atomic_spacing_m": 1.7836144346794631e-10,
+      "debye_K_approx": 2230.0,
+      "T_star_K": {
+        "prefactor_0.25": 1.5614896727691687,
+        "prefactor_1": 2.478710349191258,
+        "prefactor_4": 3.934707415830666
+      },
+      "required_window_K": [
+        1.249191738215335,
+        4.328178157413733
+      ],
+      "fallback_fit_window_K": [
+        5.902061123745999,
+        44.6
+      ]
+    },
+    {
+      "material": "diamond",
+      "cube_edge_m": 0.05,
+      "mean_atomic_spacing_m": 1.7836144346794631e-10,
+      "debye_K_approx": 2230.0,
+      "T_star_K": {
+        "prefactor_0.25": 0.9131647002426506,
+        "prefactor_1": 1.449558605785409,
+        "prefactor_4": 2.301030855713315
+      },
+      "required_window_K": [
+        0.7305317601941206,
+        2.5311339412846463
+      ],
+      "fallback_fit_window_K": [
+        3.4515462835699724,
+        44.6
+      ]
+    },
+    {
+      "material": "TeO2",
+      "cube_edge_m": 0.001,
+      "mean_atomic_spacing_m": 2.4482442670898436e-10,
+      "debye_K_approx": 230.0,
+      "T_star_K": {
+        "prefactor_0.25": 0.385608571026117,
+        "prefactor_1": 0.6121154512948123,
+        "prefactor_4": 0.9716727113113742
+      },
+      "required_window_K": [
+        0.3084868568208936,
+        1.0688399824425117
+      ],
+      "fallback_fit_window_K": [
+        1.4575090669670614,
+        4.6000000000000005
+      ]
+    },
+    {
+      "material": "TeO2",
+      "cube_edge_m": 0.01,
+      "mean_atomic_spacing_m": 2.4482442670898436e-10,
+      "debye_K_approx": 230.0,
+      "T_star_K": {
+        "prefactor_0.25": 0.1789836437420205,
+        "prefactor_1": 0.2841188243611848,
+        "prefactor_4": 0.4510105206749128
+      },
+      "required_window_K": [
+        0.1431869149936164,
+        0.49611157274240414
+      ],
+      "fallback_fit_window_K": [
+        0.6765157810123692,
+        4.6000000000000005
+      ]
+    },
+    {
+      "material": "TeO2",
+      "cube_edge_m": 0.05,
+      "mean_atomic_spacing_m": 2.4482442670898436e-10,
+      "debye_K_approx": 230.0,
+      "T_star_K": {
+        "prefactor_0.25": 0.10467026983032804,
+        "prefactor_1": 0.166153696438458,
+        "prefactor_4": 0.2637525525148131
+      },
+      "required_window_K": [
+        0.08373621586426244,
+        0.29012780776629443
+      ],
+      "fallback_fit_window_K": [
+        0.39562882877221967,
+        4.6000000000000005
+      ]
+    }
+  ]
+}

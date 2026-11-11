@@ -21,5 +21,16 @@
   "partial_delta_S_at_crossover_mJ_per_mol_K": -0.34089855203642677,
   "partial_delta_S_at_upper_bound_mJ_per_mol_K": 0.20901977765613025,
   "entropy_warning": "Both entropy integrals start at 0.1718 K and are offset partial integrals, not absolute S_s-S_n.",
-  "precision_warning": "Reported decimals are computational outputs, not experimental significant figures; experimental uncertainty is not propagated here."
+  "precision_warning": "Reported decimals are computational outputs, not experimental significant figures; experimental uncertainty is not propagated here.",
+  "bcs_weak_coupling_baseline": {
+    "model": "weak-coupling BCS, e3_core.bcs.heat_capacity_crossover (see docs/BCS_BASELINE.md)",
+    "crossover_T_over_Tc": 0.5147917502752536,
+    "crossover_temperature_K_at_this_Tc": 0.5987028055701199,
+    "measured_minus_bcs_T_over_Tc": -0.008985281615495055,
+    "bcs_temperature_inside_measured_sign_change_bracket": false,
+    "measured_relative_delta_C_at_bcs_crossover": 0.01823328993573008,
+    "stated_point_precision": 0.02,
+    "measured_delta_C_within_stated_precision_at_bcs_crossover": true,
+    "interpretation": "At the BCS crossover temperature the interpolated (C_s-C_n)/C_n is compared with the paper's stated point precision. If it lies within that precision, these data do not resolve a departure from weak-coupling BCS. Uncertainty is not formally propagated."
+  }
 }

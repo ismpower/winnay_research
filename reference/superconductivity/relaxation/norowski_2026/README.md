@@ -22,5 +22,10 @@ and the calculated ratios. Rebuild both with:
 python3 scripts/analyze_aluminum_relaxation_alignment.py
 ```
 
+If the gitignored raw extraction is absent, as in a fresh clone, the script reads the
+committed `fig2_relaxation_curves.tsv` instead and reproduces `alignment_result.json`
+byte for byte. If the raw extraction is present, the script first rebuilds the curated
+table from it.
+
 The script never digitizes plotted pixels. It reads a lossless long-form extraction of
 the Origin project from the gitignored raw-data directory.

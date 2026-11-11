@@ -83,7 +83,10 @@ python3 -m unittest discover -s e3_core/tests -v
 
 The current core is dependency-free and contains no accepted numerical Bruno
 constant. Every implemented relationship is an explicit geometric or density
-identity documented under `docs/`.
+identity, or established baseline physics (weak-coupling BCS,
+`e3_core/bcs.py`), documented under `docs/`. `e3_core/constants.py` is the single
+source of physical constants: exact SI values plus CODATA 2018 G, with Planck
+units and black-hole relations computed rather than hardcoded.
 
 ## Current empirical cross-check
 
@@ -93,9 +96,17 @@ first exploratory comparison is normalized by each sample's measured `Tc`;
 it is explicitly recorded as a possible alignment, not a validation of E3.
 
 ```bash
-python3 scripts/analyze_aluminum_table_ii.py
+python3 scripts/analyze_aluminum_table_ii.py \
+  --input reference/superconductivity/comparison_material/data/Phillips_1959_Table_II.tsv \
+  --output reference/superconductivity/comparison_material/analysis
+python3 scripts/analyze_niobium_shen_crossover.py \
+  --output reference/superconductivity/comparison_material/analysis
 python3 scripts/analyze_aluminum_relaxation_alignment.py
 ```
+
+Each command regenerates committed outputs in place; `git diff` should then be
+empty. The aluminium and niobium summaries include the weak-coupling BCS
+crossover from `e3_core/bcs.py` as the baseline any E3 claim must beat.
 
 See `reference/superconductivity/relaxation/norowski_2026/README.md` for the
 interpretation boundary and provenance.

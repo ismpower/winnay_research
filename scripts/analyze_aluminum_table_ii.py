@@ -8,10 +8,17 @@ import bisect
 import csv
 import json
 import math
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from e3_core import bcs  # noqa: E402
 
 
 TC_K = 1.163
+# Phillips (1959): about 2% precision for heat-input/temperature-rise data in the
+# adiabatic-demagnetization region (normal state, and superconducting above 0.4 K).
+STATED_POINT_PRECISION = 0.02
 
 
 def interpolate(points: list[tuple[float, float]], temperature: float) -> float:
@@ -110,6 +117,22 @@ def analyze(input_path: Path, output_dir: Path) -> dict:
         if curve[index - 1]["delta_C_mJ_per_mol_K"]
         * curve[index]["delta_C_mJ_per_mol_K"] < 0
     )
+    bcs_t = bcs.heat_capacity_crossover()
+    bcs_temperature = bcs_t * TC_K
+    bcs_cs = interpolate(superconducting, bcs_temperature)
+    bcs_cn = interpolate(normal, bcs_temperature)
+    bcs_relative_delta = (bcs_cs - bcs_cn) / bcs_cn
+    bcs_comparison = {
+        "model": "weak-coupling BCS, e3_core.bcs.heat_capacity_crossover (see docs/BCS_BASELINE.md)",
+        "crossover_T_over_Tc": bcs_t,
+        "crossover_temperature_K_at_this_Tc": bcs_temperature,
+        "measured_minus_bcs_T_over_Tc": root / TC_K - bcs_t,
+        "bcs_temperature_inside_measured_sign_change_bracket": bracket[0] <= bcs_temperature <= bracket[1],
+        "measured_relative_delta_C_at_bcs_crossover": bcs_relative_delta,
+        "stated_point_precision": STATED_POINT_PRECISION,
+        "measured_delta_C_within_stated_precision_at_bcs_crossover": abs(bcs_relative_delta) <= STATED_POINT_PRECISION,
+        "interpretation": "At the BCS crossover temperature the interpolated (C_s-C_n)/C_n is compared with the paper's stated point precision. If it lies within that precision, these data do not resolve a departure from weak-coupling BCS. Uncertainty is not formally propagated.",
+    }
     summary = {
         "input": str(input_path),
         "paper_doi": "10.1103/PhysRev.114.676",
@@ -128,6 +151,7 @@ def analyze(input_path: Path, output_dir: Path) -> dict:
         "partial_delta_S_at_upper_bound_mJ_per_mol_K": cumulative,
         "entropy_warning": "Both entropy integrals start at 0.1718 K and are offset partial integrals, not absolute S_s-S_n.",
         "precision_warning": "Reported decimals are computational outputs, not experimental significant figures; experimental uncertainty is not propagated here.",
+        "bcs_weak_coupling_baseline": bcs_comparison,
     }
 
     output_dir.mkdir(parents=True, exist_ok=True)
