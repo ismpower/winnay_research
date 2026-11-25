@@ -160,7 +160,8 @@
         "2026-11-07: Drafted docs/PREREGISTRATION_P1.md (not yet registered). It sets blind data-selection criteria, the operational observable T_dep against a BCS + Debye baseline, single-sample bands and a prefactor-free two-sample prediction, falsifiers F1-F4 (F4 targets the surface-adsorption confound) and a calculated bound on nuclear-spin entropy (at most 2e-3 of the threshold at 1 mT, so zero-field data are required). Code is in e3_core/prediction_p1.py (16 tests; eight deliberately introduced errors were each caught). Awaiting researcher confirmation of R1 (sign: excess), R2 (minimum effect size for F1) and R3 (3u threshold, f band 0.25-4).",
         "2026-11-07: R1, R2 and R3 confirmed by the researcher; P1 is REGISTERED (git tag p1-registered). Frozen input hashes are recorded in section 6 of docs/PREREGISTRATION_P1.md.",
         "2026-11-08: First blinded screening (addendum 1): 8 candidates, none qualifies (C1 fails on data format, uncertainties and residual field; C2 and C4 were not accessible because of publisher bot checks). Exposures through search summaries are logged; none concerns a qualifying dataset.",
-        "2026-11-08: Measurement design proposed in docs/P1_MEASUREMENT_DESIGN.md (numbers from scripts/p1_measurement_design.py using the frozen P1 code): three samples from one lot of 5N Al with A/V ratios 1 : 5.6 : 53.6; required window 0.15-1.3 K; point spacing at most 14 mK; field at most 1 mT; blinded operator. The main feasibility risk is resolving about 6e-9 J/K near 0.18 K."
+        "2026-11-08: Measurement design proposed in docs/P1_MEASUREMENT_DESIGN.md (numbers from scripts/p1_measurement_design.py using the frozen P1 code): three samples from one lot of 5N Al with A/V ratios 1 : 5.6 : 53.6; required window 0.15-1.3 K; point spacing at most 14 mK; field at most 1 mT; blinded operator. The main feasibility risk is resolving about 6e-9 J/K near 0.18 K.",
+        "2026-11-25: Researcher declaration recorded in addendum 2: no Al heat-capacity data other than Phillips (and its NIMS copy) recalled; unsure about other NIMS SuperCon Al records; Norowski relaxation declared as related exposure."
       ],
       "remaining": "No qualifying dataset found in the first screen (docs/PREREGISTRATION_P1_ADDENDUM_1.md). Next: a wider methods-only search (ideally with library access to pre-digital literature) or a new measurement designed to the registered criteria; plus the researcher's declaration of aluminium datasets already seen"
     }
@@ -177,7 +178,8 @@
       "depends_on": [7],
       "progress": [
         "2026-11-08: Drafted docs/PREREGISTRATION_P2.md (not registered). Code in e3_core/prediction_p2.py (12 tests; eight deliberately introduced errors were each caught). The baseline Theta_D must come from sound velocities or a fit window above the band. A nuclear rule excludes sapphire. Scope commitment R4-P2: a P2 falsification counts against the framework as registered. The assistant's prior that crystals follow Debye T^3 is declared. Awaiting confirmation of R1-P2 to R4-P2.",
-        "2026-11-08: R1-P2 to R4-P2 confirmed by the researcher; P2 REGISTERED. Frozen hashes are in section 6 of the document."
+        "2026-11-08: R1-P2 to R4-P2 confirmed by the researcher; P2 REGISTERED. Frozen hashes are in section 6 of the document.",
+        "2026-11-25: Researcher declaration recorded (addendum 1: non-specific prior exposure; old-corpus debye_test_data.json presumed seen; recognition check by reference before any data are opened). First blinded screening (addendum 2): 15 candidates, none qualifies. Barucci et al. 2001 (TeO2, relaxation calorimetry to 60 mK) passes every check possible from public records but is closed access; obtaining its full text is the next step. Triage by scripts/p2_screening_triage.py."
       ],
       "remaining": "Researcher declaration of previously seen crystal data (P2 addendum 1), then a blind methods-only search"
     }
